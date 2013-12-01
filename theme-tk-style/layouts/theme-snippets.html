@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{ page.title }} - 俺式4.0 tkNotes</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="copyright" content="tatsuya-koyama.com 2002-2013 All Rights Reserved" />
+
+  {{# stylesheets.load }}
+    style.css
+  {{/ stylesheets.load }}
+
+</head>
+
+<body>
+
+  note theme.<br/>
+
+  <hr>
+
+  notes.all:<br/>
+  <ul>
+  {{# notes.all }}
+    <li><a href="{{url}}">{{title}}</a></li>
+  {{/ notes.all }}
+  </ul>
+
+  <hr>
+
+  categories.all:<br/>
+  <ul>
+    {{# notes.categories.all }}
+    <li>
+      Category: <a href="{{ url }}">{{ name }} <span>{{ count }}</span></a>
+      <ul>
+        {{# notes?to_notes }}
+        <li><a href="{{ url }}">{{ title }}</a></li>
+        {{/ notes?to_notes }}
+      </ul>
+    </li>
+    {{/ notes.categories.all }}
+  </ul>
+
+  <hr>
+
+  tags.all:<br/>
+  <ul>
+    {{# notes.tags.all }}
+    <li>
+      Tag: <a href="{{ url }}">{{ name }} <span>{{ count }}</span></a>
+      <ul>
+        {{# notes?to_notes }}
+        <li><a href="{{ url }}">{{ title }}</a></li>
+        {{/ notes?to_notes }}
+      </ul>
+    </li>
+    {{/ notes.tags.all }}
+  </ul>
+
+  <hr>
+
+  table of contents:<br/>
+  <div id="outline-pane"></div>
+  <div id="novel">
+    <ul id="toc-container">
+    </ul>
+
+    <hr>
+
+    content:<br/>
+    {{{ content }}}
+
+  </div> <!-- end novel -->
+
+  {{# javascripts.load }}
+    https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js
+    table-of-contents.js
+  {{/ javascripts.load }}
+
+  <script>
+    $(function(){
+      TocNew.init('#toc-container', '#novel');
+    })
+  </script>
+
+  </body>
+</html>

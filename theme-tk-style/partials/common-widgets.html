@@ -1,0 +1,36 @@
+
+  {{# javascripts.load }}
+    https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js
+    table-of-contents.js
+    jquery.easing.1.3.js
+    bootstrap.min.js
+  {{/ javascripts.load }}
+
+  <script>
+    $(function(){
+      $("#nav-toggle").click(function(){
+        $("#left-pane").slideToggle('fast')
+      });
+
+      TocNew.init('#toc-container', '#novel');
+    })
+  </script>
+
+
+  <script type="text/javascript">
+  // smooth scrool on click in-page link
+  $(function(){
+      // #で始まるアンカーをクリックした場合に処理
+      $('a[href^=#toc]').click(function() {
+          var speed    = 400; // msec
+          var href     = $(this).attr("href");
+          var target   = $(href == "#" || href == "" ? 'html' : href);
+          var position = target.offset().top - 50;
+          $('body,html').animate({scrollTop:position}, speed, 'swing');
+          return false;
+      });
+  });
+  </script>
+
+  {{{ widgets.google_prettify }}}
+

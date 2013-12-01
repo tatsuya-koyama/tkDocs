@@ -1,0 +1,14 @@
+title : 俺式4.0 tkNotes
+tagline: Blog Tagline
+author :
+  name : Tatsuya Koyama
+  email : info@tatsuya-koyama.com
+  github : tatsuya-koyama
+  twitter : tatsuya_koyama
+
+navigation :
+  - archive
+  - tags
+  - categories
+  - pages
+  - about

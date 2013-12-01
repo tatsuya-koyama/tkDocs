@@ -1,0 +1,146 @@
+$dark: #607848; /*DARK GREEN  #607848 */
+$medium: #789048; /*GREEN     #789048 */
+$light: #F0F0D8; /*YELLOW     #F0F0D8 */
+
+/* documentation section -------------------------------------- */
+#main-content.docs {
+  h1 {
+    margin:20px 0;
+    padding:5px 0;
+
+    color:#221F26;
+
+    &:first-child {
+      margin-top:0;
+      padding-top:0;
+    }
+  }
+
+  h2 {
+    border-top:3px solid #F0F0D8;
+    padding-top:10px;
+    margin-top:20px;
+    margin-bottom:10px;
+    color:#607848;
+  }
+}
+
+#main-content.edge {
+  h2 {
+    margin:40px 0 40px 0;
+    font-size:30px;
+    color:#221F26;
+    text-align:center;
+  }
+
+  h3 {
+    border-top:3px solid #F0F0D8;
+    padding-top:10px;
+    margin-top:20px;
+    margin-bottom:10px;
+    color:#607848;
+  }
+}
+
+table td.module {
+  width:120px;
+  font-weight:bold;
+  color:#604848;
+  vertical-align:top;
+
+  ul li{ 
+    color:#444;
+    font-weight:normal;
+  }
+}
+
+
+#toc {
+  list-style:none;
+  margin:0; padding:0;
+  font-size: 14px;
+  a {
+    color:$light;
+    text-decoration:none;
+    &.brand {
+      color: #F0F0D8;
+      text-decoration: none;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  & > li { 
+    border-bottom:1px solid $dark;
+    border-right:1px solid $dark;
+    border:0;
+
+    &.active {
+      & > a { 
+        &:before {
+          content: "* ";
+        }
+      }
+    }
+
+    & > a {
+      display:block;
+      padding:3px 30px;
+      color:$light;
+      i.icon { 
+        opacity:0.8;
+      }
+    }
+    & > a.heading { 
+      display: block;
+      padding:5px 10px;
+      background-color:$medium;
+      color:$light;
+      font-weight: normal;
+      text-decoration: none;
+      margin-bottom: 1px;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+
+ul.nest {
+  font-size: 14px;
+  padding:15px 10px 10px 10px;
+  margin:0;
+  list-style:none;
+  li { 
+    list-style:none;
+    &.sub {  margin-left:30px}
+
+    strong { 
+      padding:1px 8px;
+      display:block;
+    }
+
+    a {
+      text-decoration: underline;
+      color:$dark;
+      line-height: 1.5em;
+      &:hover {
+        color:$medium;
+      }
+    }
+  }
+}
+
+blockquote {
+  margin:20px 0; 
+  padding:20px; 
+  font-weight:bold; 
+  border-top:1px solid #ccc; 
+  border-bottom:1px solid #ccc;
+  background-color:#eee;
+  font-size: 1em;
+}
+
