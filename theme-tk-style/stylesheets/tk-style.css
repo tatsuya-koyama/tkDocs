@@ -194,13 +194,30 @@ h4{
     padding-left : 0.5em;
 }
 
+hr {
+    margin: 3.0em;
+    border: 2px solid #ccc;
+}
+
 /*----- outline list ------------------------------------------------------*/
+ul {
+    margin: 1.6em 0 1.6em 3.0em;
+}
+ul ul       { margin: 0 0 0 3.0em; }
+ul ul ul    { margin: 0 0 0 3.0em; }
+ul ul ul ul { margin: 0 0 0 3.0em; }
+
+li {
+    line-height: 160%;
+}
+
+#outline-pane ul {margin-left: 1.0em;}
 #outline-pane li {
     font-size: 90%;
     line-height: 120%;
     margin-bottom: 0.5em;
     list-style: none;
-    margin-left: -10px;
+    margin-left: 0px;
     padding-right: 9px;
 }
 
@@ -210,12 +227,13 @@ h4{
 #outline-pane li.sub { margin-left: 20px; }
 
 
+#left-pane ul {margin-left: 0.5em;}
 #left-pane li {
     font-size: 90%;
     line-height: 120%;
     margin-bottom: 0.5em;
     list-style: none;
-    margin-left: -30px;
+    margin-left: 0px;
 }
 
 #left-pane ul a:link,
