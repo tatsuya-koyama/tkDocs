@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+#left-pane {
+    background-color: #648;
+    border-right: 1px solid #648;
+}
+
+#outline-pane {
+    background-color: #ddd0dd;
+    border-right: 1px solid #ddd0dd;
+}
+
+/*----- outline list ------------------------------------------------------*/
+#outline-pane ul a:link,
+#outline-pane ul a:visited{ color: #527; text-decoration: none; }
+#outline-pane ul a:hover{ color: #749; text-decoration: underline; }
+
+#left-pane ul a:link,
+#left-pane ul a:visited{ color: #ece; text-decoration: none; }
+#left-pane ul a:hover{ color: #c7c; text-decoration: underline; }
+
