@@ -194,9 +194,14 @@ h4{
     padding-left : 0.5em;
 }
 
+/* hr { */
+/*     margin: 2.0em; */
+/*     border: 2px dotted #ccc; */
+/* } */
 hr {
-    margin: 3.0em;
-    border: 2px solid #ccc;
+    margin: 2.0em 5% 2.0em 5%;
+    background-color: #fdfdfd;
+    border-top: 2px dotted #aaa;
 }
 
 /*----- outline list ------------------------------------------------------*/

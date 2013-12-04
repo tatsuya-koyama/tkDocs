@@ -62,6 +62,7 @@ tags: [reference, Game-Development]
 - [ゲーマーでなくても仕組みぐらいは知っておきたいアルゴリズムx40](http://zapanet.info/blog/item/1145)
 - [Perspective correction](http://en.wikipedia.org/wiki/Texture_mapping#Perspective_correctness)
 - [shadertoy](https://www.shadertoy.com/)
+- [スクエニ村田氏ら、門外不出の「FF」開発ノウハウを一挙公開「『ファイナルファンタジー XII』解体新書」](http://game.watch.impress.co.jp/docs/20060902/cedec_ff.htm)
 
 
 ## Tutorial
@@ -93,7 +94,7 @@ tags: [reference, Game-Development]
 
 ## あとで分類する
 
-- [Insomniac](http://www.insomniacgames.com/home/)
+- [Insomniac](http://www.insomniacgames.com/)
 - [angry video game nerd](http://cinemassacre.com/)
 
 
