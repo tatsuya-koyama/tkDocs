@@ -3,7 +3,8 @@ title: 'krewFramework を作るときに考えたこと'
 date: '2013-12-03'
 description:
 categories: []
-tags: [krewFramework]
+tags: [anything, krewFramework]
+position: 4
 ---
 
 # krewFramework を作るときに考えたこと

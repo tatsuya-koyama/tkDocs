@@ -3,10 +3,13 @@ title: 'Markdown の遊び場'
 date: '2013-12-02'
 description:
 categories: []
-tags: [Markdown]
+tags: [anything, Markdown]
+position: 3
 ---
 
-# Markdown でドキュメンテーション
+# Markdown の遊び場
+
+## Markdown でメモとドキュメンテーションを
 
 このサイトのコンテンツは Markdown で記述して、
 [ruhoh](http://ruhoh.com/) で静的ページに変換している。
@@ -14,8 +17,9 @@ tags: [Markdown]
 
 ## 見出しレベル２
 
-こんな感じになる。アウトラインは自動で H2 レベルと H3 レベルが左のカラムに表示されるようになっている。
-（これは ruhoh の機能にはなかったので、単に JavaScript でがんばっているだけ）
+こんな感じになる。アウトラインは自動で H2 レベルと H3 レベルが左のカラムに表示されるようにしてある。
+（これは ruhoh の機能にはなかったので、単に JavaScript でがんばっているだけ。
+  拡張 Markdown なら Table of Contents を生成できるものもあるようだが）
 
 ### 見出しレベル３
 
@@ -44,6 +48,9 @@ _これ_ とか *これ* が斜体で、
 __これ__ とか **これ** が強調。
 
 ---
+_____
+***
+- - - - -
 
 こうやると水平線が引ける。（書き方は亜種がいっぱいある）
 
@@ -113,7 +120,26 @@ Markdown との相性がいい。例えば ActionScript3.0 のコード：
 
 ## 画像埋め込み
 
-後でためす
+URL 指定。ruhoh では { { urls.media } } で media ディレクトリ以下に置いたファイルを引ける。
+
+Markdown で画像を入れるならこうだ：
+
+    ![alt_text]({{urls.media}}/img.jpg)
+
+画像にリンクを貼りたい場合は、これ自体をリンクの構文で囲んでやればできる：
+
+    [ ![alt_text](画像パス) ](飛び先 URL)
+
+だがこの辺は見た目を整えるために css を指定したくなる。
+かと言ってデフォルトの img にスタイルを適用させると他の場所にも影響が出て厄介だ。
+結局画像に関しては直接タグを書く方が無難だろう。
+
+    <img class="photo" src="{{urls.media}}/mew.jpg" />
+
+<img class="photo" src="{{urls.media}}/mew.jpg" />
+
+> 【注】画像は実家の猫。マジかわいい
+
 
 ## テーブル
 
@@ -149,6 +175,31 @@ item1|item2|item3
 - ruhoh の Markdown のパーサを入れ替えるという解決策もありそうだが
   セットアップ手順増えるしめんどい。
 - 諦めてテーブルタグ書くのがいいかな
+
+
+<table class="mystyle">
+    <tr class="head">
+        <td>item1</td>
+        <td>item2</td>
+        <td>item3</td>
+    </tr>
+    <tr class="color1">
+        <td class="left">item4</td>
+        <td>item5</td>
+        <td>item6 is semi-long text</td>
+    </tr>
+    <tr class="color2">
+        <td class="left">item7</td>
+        <td>**強調とか使えない**</td>
+        <td>item9</td>
+    </tr>
+    <tr class="color1">
+        <td class="left">item10 hoge</td>
+        <td>item11</td>
+        <td>item12</td>
+    </tr>
+</table>
+
 
 ## いざとなったら
 

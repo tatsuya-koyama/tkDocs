@@ -3,7 +3,8 @@ title: 'Game Development'
 date: '2013-12-04'
 description:
 categories: []
-tags: [reference, Game-Development]
+tags: [anything, reference, Game-Development]
+position: 2
 ---
 
 # References of Game Development
@@ -18,13 +19,14 @@ tags: [reference, Game-Development]
 ## Wiki / Portal
 
 - [Game Design Wiki](http://www.ludism.org/gamedesign/HomePage)
+- [ゲームヘル](http://www5.atwiki.jp/yaruhara/)
 
 
 ## Game Design
 
 - [Eight Ways To Make a Bad Tutorial](http://www.gamasutra.com/view/feature/6406/the_designers_notebook_eight_.php)
 - [ゲーム, プレイヤ, ワールド : ゲームたらしめるものの核心を探る](http://www.jesperjuul.net/text/gameplayerworld_jp/)
-- [TwoStylesOfPlayAtOnce](http://d.hatena.ne.jp/ConquestArrow/20051027/1130346713) （ここのブログ参考になる）
+- [TwoStylesOfPlayAtOnce](http://d.hatena.ne.jp/ConquestArrow/20051027/1130346713)
 - [40+ Fantastic Game Development Tutorials From Across the Web](http://gamedev.tutsplus.com/articles/roundups/fantastic-gamedev-tutorials-from-across-the-web/)
 - [10 Tips to Making a GREAT Game Name](http://armorgames.com/news/10-tips-to-making-a-great-game-name)
 - [ボードゲームのメカニクス集](https://sites.google.com/site/jun1sboardgames/blog/boardgamemechanic)
@@ -41,7 +43,7 @@ tags: [reference, Game-Development]
 ## Job
 
 - [5 Ways to be a Successful Indie Developer](http://indiegames.com/2012/06/5_ways_to_be_a_successful_indi.html#more)
-- [ゲーム開発者達のインタビュー映像（英語）](http://www.criticalpathproject.com/)
+- [ゲーム開発者達のインタビュー映像集（英語）](http://www.criticalpathproject.com/)
 - [ゲームプログラマーという職業はもうありません。](http://d.hatena.ne.jp/teruyastar/20100806/1281120255)
 
 
@@ -65,7 +67,7 @@ tags: [reference, Game-Development]
 - [スクエニ村田氏ら、門外不出の「FF」開発ノウハウを一挙公開「『ファイナルファンタジー XII』解体新書」](http://game.watch.impress.co.jp/docs/20060902/cedec_ff.htm)
 
 
-## Tutorial
+## Game-Dev Tutorial
 
 - [The guide to implementing 2D platformers](http://higherorderfun.com/blog/2012/05/20/the-guide-to-implementing-2d-platformers/)
 - [How to make a 2d Platform Game](http://www.wildbunny.co.uk/blog/2011/12/11/how-to-make-a-2d-platform-game-part-1/)
@@ -90,13 +92,13 @@ tags: [reference, Game-Development]
 
 - [The Spriters Resource](http://www.spriters-resource.com/)
 
+## Movie
 
-
-## あとで分類する
-
-- [Insomniac](http://www.insomniacgames.com/)
 - [angry video game nerd](http://cinemassacre.com/)
 
+## Game Company
+
+- [Insomniac](http://www.insomniacgames.com/)
 
 <br/><br/><br/>
 

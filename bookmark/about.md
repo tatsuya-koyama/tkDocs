@@ -3,18 +3,27 @@ title: 'Bookmarks and References'
 date: '2013-12-04'
 description:
 categories: []
-tags: [reference]
+tags: [anything, reference]
+position: 1
 ---
 
 # Bookmarks and References
 
 ## これは何
 
-技術情報のリファンレンスや覚えておきたい価値あるサイトのリンクをまとめておくところ
+日々生きていく中で出会う、
+技術情報のリファレンスや
+覚えておきたい価値あるサイトのリンクをまとめておくところ
 
 ## どう見る
 
 左のカラムからカテゴリを選ぶ
 
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+## Pinterest もあるよ
+
+- 最近は [Pinterest](https://pinterest.com/honyapeke/)
+  にまとめてる
+- 技術系リンクや、画像がとれないやつは tkDocs にメモってる
+
+<br/><br/><br/><br/><br/>
 

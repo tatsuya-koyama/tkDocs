@@ -19,3 +19,5 @@
 #left-pane ul a:visited{ color: #ecc; text-decoration: none; }
 #left-pane ul a:hover{ color: #d7a; text-decoration: underline; }
 
+#left-pane li.active-page { background-color: #422; }
+

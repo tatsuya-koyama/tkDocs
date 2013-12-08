@@ -8,7 +8,7 @@ RuhohSpec: "2.1"
 # Used for things like RSS that need the full URL to a given resource.
 # This DOES NOT affect any of your paths or links in any way.
 # This DOES NOT configure domain mapping. See post2.ruhoh.com for hosting options.
-production_url: "http://sample.com"
+production_url: "http://docs.tatsuya-koyama.com"
 
 # Intelligently prepends all urls in the system with the given base_path.
 # This allows you to host your blog in a subdirectory of a given website.
@@ -55,6 +55,20 @@ posts:
     #
     # root_page has been set to the root for a more traditional style blog feel.
     root_page: '/'
+
+# Tatsuya Koyama added ----------
+notes:
+  sort: ["position", "asc"]
+
+krew-framework:
+  sort: ["position", "asc"]
+
+dev-log:
+  sort: ["position", "asc"]
+
+bookmark:
+  sort: ["position", "asc"]
+#--------------------------------
 
 # Enable the asset pipeline to process stylesheets and javascripts using sass, coffeescript, etc.
 # The asset pipeline supports live preview + bundling/minification on compile.

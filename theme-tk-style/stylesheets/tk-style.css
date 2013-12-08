@@ -93,46 +93,6 @@ body > #novel{
     height: auto;
 }
 
-/*----- footer ------------------------------------------------------*/
-div.ads_area{
-    width: auto;
-    font-size: 80%;
-    color: #aaa;
-    background-color: #444;
-    height: auto;
-    min-height: 250px;
-    margin-top: -100px;
-    padding: 0.5em 0 0 12.0em;
-    border-top: 1px solid #aaa;
-}
-
-h2.ads{
-    border: none;
-    background-color: transparent;
-    margin: 0.5em 0 0.5em 0;
-    padding: 0;
-}
-
-
-div.footer{
-    width: auto;
-    font-size: 80%;
-    color: #aaa;
-    background-color: #444;
-    height: auto;
-    min-height: 100px;
-    margin-top: 50px;
-    padding: 0.5em 0 0 3.0em;
-    border-top: 1px solid #aaa;
-}
-
-h2.footer_caption{
-    border: none;
-    background-color: transparent;
-    margin: 0.5em 0 0.5em 0;
-    padding: 0;
-}
-
 /*----- heading ------------------------------------------------------*/
 h1{
     font-size: 220%;
@@ -202,6 +162,45 @@ hr {
     margin: 2.0em 5% 2.0em 5%;
     background-color: #fdfdfd;
     border-top: 2px dotted #aaa;
+}
+
+/*----- footer ------------------------------------------------------*/
+div.ads_area{
+    width: auto;
+    font-size: 80%;
+    color: #aaa;
+    background-color: #444;
+    height: auto;
+    min-height: 250px;
+    margin-top: -100px;
+    border-top: 1px solid #aaa;
+    padding: 0.5em 0 0 12.0em;
+}
+
+div.footer{
+    width: auto;
+    font-size: 80%;
+    color: #aaa;
+    background-color: #444;
+    height: auto;
+    min-height: 100px;
+    margin-top: 50px;
+    padding: 0.5em 0 0 2.5em;
+    border-top: 1px solid #aaa;
+}
+
+div.copyright {
+    margin-left: 0.5em;
+}
+
+h4.footer_caption{
+    font-size: 150%;
+    color: #fff;
+    font-weight: normal;
+    border: none;
+    margin: 0.5em 0 0.5em 0;
+    background-color: transparent;
+    padding: 0;
 }
 
 /*----- outline list ------------------------------------------------------*/
@@ -296,11 +295,95 @@ div.clearfix:after {
 /* IE7 */
 *:first-child+html div.clearfix {zoom: 1;}
 
+/*----- grid ------------------------------------------------------*/
+div.grid_container{
+    width: 95%;
+    max-width: 70em;
+}
 
+/* grid_container と同時に使用 */
+div.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
 
+/* IE6 */
+* html div.clearfix { zoom: 1;}
 
+/* IE7 */
+*:first-child+html div.clearfix {zoom: 1;}
 
+div.grid_inner{
+    width: auto;
+    margin: 0.2em;
+    padding: 0.3em;
+}
 
+div.grid_start{
+    clear: left;
+    display: block;
+}
+
+/* 足して 12 にすると横幅 100 ％になるシステム */
+div.grid0_5{ float: left; width:  4.165%; }
+div.grid1  { float: left; width:  8.33%; }
+div.grid2  { float: left; width: 16.66%; }
+div.grid3  { float: left; width: 25.00%; }
+div.grid4  { float: left; width: 33.33%; }
+div.grid5  { float: left; width: 41.66%; }
+div.grid6  { float: left; width: 50.00%; }
+div.grid7  { float: left; width: 58.33%; }
+div.grid8  { float: left; width: 66.66%; }
+div.grid9  { float: left; width: 75.00%; }
+div.grid10 { float: left; width: 83.33%; }
+div.grid11 { float: left; width: 91.66%; }
+div.grid12 { float: left; width:100.00%; }
+
+/*----- image ------------------------------------------------------*/
+img.photo{
+    margin: 1.0em 0 1.0em 3.0em;
+    border: 5px solid #f9f9f9;
+
+    -moz-box-shadow:    3px 3px 6px #aaa; /* FireFox */
+    -webkit-box-shadow: 3px 3px 6px #aaa; /* webkit */
+    box-shadow:         3px 3px 6px #aaa;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=135,strength=3,enabled=true)";
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=135,strength=3,enabled=true); /* IE5.5+ */
+    background: #fff; /* IE Hack */
+
+}
+
+/*----- table ------------------------------------------------------*/
+table.mystyle{
+    border: 1px solid #777;
+    border-spacing: 0px;
+    margin-left: 3em;
+    margin-bottom: 1em;
+    margin-right: 2em;
+    max-width: 93%;
+}
+
+table.mystyle tr.color1{ background-color: #f7f7f7; }
+table.mystyle tr.color2{ background-color: #e7f3e7; }
+table.mystyle tr.color1 td.left{ background-color: #eaeaea; color: #222; }
+table.mystyle tr.color2 td.left{ background-color: #d9e8d9; color: #222; }
+
+td{
+    border: 1px solid #999;
+    padding: 0.3em 0.9em 0.3em 0.9em;
+}
+
+tr.head{ background-color: #5a8050; color: #eee; }
+tr.head td{
+    border-top   : 1px solid #9b8;
+    border-right : 1px solid #9b8;
+    border-bottom: 1px solid #575;
+    border-left  : 1px solid #575;
+}
 
 
 

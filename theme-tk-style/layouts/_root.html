@@ -39,7 +39,9 @@
     <!-- Example row of columns -->
     <div class="row">
       <div class="span4">
-        <h2 class="modern">勉強ノート</h2>
+        <h2 class="modern">勉強ノート
+          {{# notes.tags.anything }} ({{ count }}) {{/ notes.tags.anything }}
+        </h2>
 
         <div class="mini_contents_block"><div class="grid_inner">
             <a class="mini_box_contents" href="notes/about">
@@ -55,7 +57,9 @@
       </div>
 
       <div class="span4">
-        <h2 class="modern">krewFramework</h2>
+        <h2 class="modern">krewFramework
+          {{# krew-framework.tags.anything }} ({{ count }}) {{/ krew-framework.tags.anything }}
+        </h2>
 
         <div class="mini_contents_block"><div class="grid_inner">
             <a class="mini_box_contents" href="krew-framework/top">
@@ -71,7 +75,9 @@
       </div>
 
       <div class="span4">
-        <h2 class="modern">開発ログ</h2>
+        <h2 class="modern">開発ログ
+          {{# dev-log.tags.anything }} ({{ count }}) {{/ dev-log.tags.anything }}
+        </h2>
 
         <div class="mini_contents_block"><div class="grid_inner">
             <a class="mini_box_contents" href="dev-log/about">
@@ -91,7 +97,9 @@
 
     <div class="row">
       <div class="span4">
-        <h2 class="modern">References</h2>
+        <h2 class="modern">References
+          {{# bookmark.tags.anything }} ({{ count }}) {{/ bookmark.tags.anything }}
+        </h2>
 
         <div class="mini_contents_block"><div class="grid_inner">
             <a class="mini_box_contents" href="bookmark/about">
@@ -111,8 +119,8 @@
 
     <br/><br/>
     <hr>
-    ここになんか出す
-    <br/><br/><br/>
+    <!-- ここになんか出す -->
+    <br/><br/>
 
   </div>
 
