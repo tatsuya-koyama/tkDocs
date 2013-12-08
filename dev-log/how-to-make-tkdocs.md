@@ -11,11 +11,12 @@ position: 2
 
 ## なぜ tkDocs を作ったか
 
-以下を満たすものが必要だった
+以下を満たすものが必要だった：
 
-- 勉強したことや技術情報をウェブ上にまとめておく場所
-- 自分が作ったもののドキュメンテーションを公開する場所
-- それを行いやすい環境
+> - **勉強したことや技術情報をウェブ上にまとめておく場所**
+>     - （同じ問題に出会った誰かが楽できるように）
+> - **自分が作ったもののドキュメンテーションを公開する場所**
+> - **それを行いやすい環境**
 
 自分のサイトだったり、プライベートな wiki だったりは持っていたが
 いまいちしっくり来なかったので新しく用意することにした。
@@ -63,6 +64,7 @@ ___
 
 ## セットアップ手順
 
+- **【注】Mac 前提。**
 - 公式のドキュメントで概ね問題なかったと思う
 - 日本語でよくまとまってた記事は [ここ](http://www.gcnote.jp/note/tool-ruhoh/) とか
 
@@ -107,6 +109,13 @@ ___
 
 ## ruhoh の概要
 
+- 読み方は多分「ラオー」（ラッオー）だと思う
+    - uh-oh で「アッオー」（おっと、あらら、みたいな感嘆詞）らしい
+    - Ruby 製なので、そこに Ruby の r をつけたのかなーと推測（真偽のほどは定かでない）
+    - 実際 YouTube で英語で ruhoh の話してる動画とか見たら「ラオー」って言ってた
+
+___
+
 - pages とか essay とか my-documents とか大枠ごとにディレクトリ切って、
   そのディレクトリ名で essay.all みたいに扱う感じ
     - ruhoh ではこれらを Collection と呼んでいる
@@ -122,16 +131,48 @@ ___
 
 ## 独自にやったこと
 
+### レイアウト
+
 - テンプレート（サイトのレイアウト）は自分で html とか css を書いた
     - ３カラムの css は ruhoh 公式サイトのドキュメントのそれを参考にさせてもらった
     - レスポンシブ対応してる（ウインドウ狭くするとカラム閉じる、スマフォでもそれなりに見れる）
 
-___
+### Table of Contents
 
-- ２列目のインデックス（Table of Contents）も ruhoh ドキュメントのものを拝借して少しいじった
+- ２列目のインデックスも [ruhoh ドキュメントの js](https://github.com/ruhoh/ruhoh.com/blob/master/javascripts/table-of-contents.js)
+  を拝借して少しいじった
     - JavaScript で頑張ってページ表示後に生成してるだけ
     - ここまでジェネレートの時点でやれればよかったが…
 
+### ドメイン違うリンクは別ウインドウで開くように
+
+- Markdown はこの辺の指定ができないが、外部リンクは別ウインドウで開いてほしい派なので
+- js で後付けでやる
+
+        <script type="text/javascript">
+          $(document).ready( function () {
+              $("a[href^='http']:not([href*='" + location.hostname + "'])").attr('target', '_blank');
+          });
+        </script>
+
+### インデックス選択時のスムーズなスクロール
+
+- [僕のメインのサイト](http://www.tatsuya-koyama.com/4.0/html/) でもやってるやつ
+- よくある jQuery の力
+
+        <script type="text/javascript">
+        $(function(){
+            // # で始まるアンカーをクリックしたとき
+            $('a[href^=#toc]').click(function() {
+                var speed    = 400; // msec
+                var href     = $(this).attr("href");
+                var target   = $(href == "#" || href == "" ? 'html' : href);
+                var position = target.offset().top - 50;  // ヘッダの分だけちょっとずらしてやる
+                $('body,html').animate({scrollTop:position}, speed, 'swing');
+                return false;
+            });
+        });
+        </script>
 
 ## ドキュメンテーションのフロー
 
