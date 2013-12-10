@@ -365,6 +365,8 @@ table.mystyle{
     margin-bottom: 1em;
     margin-right: 2em;
     max-width: 93%;
+    font-size: 90%;
+    line-height: 150%;
 }
 
 table.mystyle tr.color1{ background-color: #f7f7f7; }
