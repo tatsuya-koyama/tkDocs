@@ -11,6 +11,8 @@ position: 9999
 
 - 考え中のメモは [こちら](/dev-log/thinking-krewfw)
 
+## GameDirector を作る
+
 ## Scene を作る
 
 ### あなたが override できる KrewScene のハンドラ一覧
@@ -135,6 +137,11 @@ position: 9999
             }
         }
     }
+
+
+## Actor を作る
+
+
 
 
 <br/><br/><br/><br/><br/><br/>
