@@ -9,15 +9,23 @@ position: 1
 
 # krewFramework
 
-## これは何
+## krewFramework とは
 
 俺と響き合う Adobe AIR / Flash 向けの汎用ゲームフレームワーク。
 
-絶賛制作中。整ってきたら GitHub で公開します
+絶賛開発中の個人用のコードですが、勉強のためにオープンにします。
 
-## ドキュメンテーションを
 
-ここでやりながらコーディングしていくつもり
+## ソースコードと API リファレンス
 
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+- [Code on GitHub](https://github.com/tatsuya-koyama/krewFramework)
+- <a href="{{base_url}}/static/krewfw-api/" target="_blank">API Reference</a>
+
+
+## はじめかた
+
+- [セットアップとサンプルゲームのビルド](/krew-framework/instllation)
+
+
+<br/><br/><br/><br/><br/><br/><br/>
 

@@ -89,7 +89,7 @@ position: 9999
 
             // このシーンにおける、ゲーム画面のレイヤー構造を定義
             public override function getLayerList():Array {
-                return ['l-back', 'l-forward', 'l-ui', 'l-filter'];
+                return ['l-back', 'l-front', 'l-ui', 'l-filter'];
             }
 
             // アセットのロード開始時の画面をつくる
@@ -114,9 +114,9 @@ position: 9999
             public override function initAfterLoad():void {
                 playBgm('nice_music');
 
-                setUpActor('l-back',   new YourBackgroundActor());
-                setUpActor('l-front',  new YourPlayerCharacterActor());
-                setUpActor('l-ui',     new YourHeadUpDisplayActor());
+                setUpActor('l-back',  new YourBackgroundActor());
+                setUpActor('l-front', new YourPlayerCharacterActor());
+                setUpActor('l-ui',    new YourHeadUpDisplayActor());
 
                 blackIn(0.5);  // 黒からのフェードインを簡単に行うヘルパー
 

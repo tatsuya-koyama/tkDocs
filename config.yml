@@ -68,6 +68,9 @@ dev-log:
 
 bookmark:
   sort: ["position", "asc"]
+
+static:
+  use: "static"
 #--------------------------------
 
 # Enable the asset pipeline to process stylesheets and javascripts using sass, coffeescript, etc.
