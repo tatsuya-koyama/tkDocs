@@ -59,6 +59,11 @@ ___
 - [ToDo] _Flash Player での再生確認用の html を用意する_
 - [ToDo] _Flash Builder 用のプロジェクトファイルを同梱する_
 
+### ゴールイメージ
+
+- ビルドに成功するとこういう感じの動作画面が見れるはずです
+    - [Sample Game Demo](/krew-framework/sample-demo)
+
 ### krewFramework のソースコードの入手
 
 あなたが Git を使える前提で話を進めます。
