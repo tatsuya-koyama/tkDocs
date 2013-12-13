@@ -1,10 +1,10 @@
 ---
-title: 'Game Development'
+title: '1. Game Development'
 date: '2013-12-04'
 description:
 categories: []
 tags: [anything, reference, Game-Development]
-position: 2
+position: 1
 ---
 
 # References of Game Development
@@ -24,6 +24,7 @@ position: 2
 
 ## Game Design
 
+- [ネットワークエンジニアから見たゲームデザインの大原則](http://www.4gamer.net/games/105/G010549/20100905002/)
 - [Eight Ways To Make a Bad Tutorial](http://www.gamasutra.com/view/feature/6406/the_designers_notebook_eight_.php)
 - [ゲーム, プレイヤ, ワールド : ゲームたらしめるものの核心を探る](http://www.jesperjuul.net/text/gameplayerworld_jp/)
 - [TwoStylesOfPlayAtOnce](http://d.hatena.ne.jp/ConquestArrow/20051027/1130346713)
@@ -61,6 +62,7 @@ position: 2
 
 ## Game Programming / Algorithm
 
+- [JavaScriptで MMOG をつくってみよう　その1](http://wise9.jp/archives/1224)
 - [ゲーマーでなくても仕組みぐらいは知っておきたいアルゴリズムx40](http://zapanet.info/blog/item/1145)
 - [Perspective correction](http://en.wikipedia.org/wiki/Texture_mapping#Perspective_correctness)
 - [shadertoy](https://www.shadertoy.com/)
