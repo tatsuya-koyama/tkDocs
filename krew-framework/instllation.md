@@ -94,8 +94,6 @@ ___
             │   ├── image
             │   └── image_src
             │       └── game
-            ├── build
-            │   └── asset -> ../asset
             ├── core-src
             │   └── krewshoot
             │       ├── actor
