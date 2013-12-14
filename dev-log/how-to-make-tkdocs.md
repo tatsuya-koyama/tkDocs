@@ -62,7 +62,7 @@ ___
     - レスポンシブ対応は [Twitter Bootstrap](http://getbootstrap.com/2.3.2/) に頼る
 
 
-## セットアップ手順
+## ruhoh のセットアップ手順
 
 - **【注】Mac 前提。**
 - 公式のドキュメントで概ね問題なかったと思う
@@ -118,7 +118,7 @@ ___
 
 - pages とか essay とか my-documents とか大枠ごとにディレクトリ切って、
   そのディレクトリ名で essay.all みたいに扱う感じ
-    - ruhoh ではこれらを Collection と呼んでいる
+    - ruhoh ではここで言う essay みたいな単位を Collection と呼んでいる
     - Collection ごとにスコープになっていて、pages のページ一覧とかは出せるけど、
       pages と essay をまたいだカテゴリ一覧みたいなのは出せない
 

@@ -17,5 +17,5 @@ position: 1
 
 左のカラムにページ一覧があるのでそこから選ぶ
 
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/>
 

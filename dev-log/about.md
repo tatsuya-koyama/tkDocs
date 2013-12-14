@@ -16,5 +16,5 @@ position: 1
 開発してると出会いがちなエラーを解決した時とかの記録を残す場所。
 
 
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
