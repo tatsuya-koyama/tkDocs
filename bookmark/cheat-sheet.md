@@ -1,5 +1,5 @@
 ---
-title: '4. Cheat Sheet'
+title: '4. Cheat Sheet / まとめ'
 date: '2013-12-13'
 description:
 categories: []
@@ -30,10 +30,11 @@ position: 4
 - [デッドロックの起きるパターン](http://www.okalabo.office-on-the.net/Blog/30c330ed30c330af309256de907f3059308b305f3081306e65b97b56-74068ad67684307e30683081/)
 - [ITインフラで起きる「もしも」のための12個のコマンド](http://heartbeats.jp/hbblog/2013/10/10-commands.html)
 
-## 開発系
+## ソフトウェア開発系
 
 - [テスト駆動開発のチートシート](http://d.hatena.ne.jp/shuji_w6e/20110429/1304079615)
 - [Emacs dired command](http://chalow.net/2006-01-18-4.html)
+- [ナウいツールやサービスなどのまとめ](http://qiita.com/phimcall/items/555d09f872373f65c6fb)
 
 ## 言語系
 

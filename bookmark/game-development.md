@@ -94,6 +94,10 @@ position: 1
 
 - [The Spriters Resource](http://www.spriters-resource.com/)
 
+## iOS
+
+- [iOS.zip （申請に必要な画像セット）](http://ioszip.mashroom.in/)
+
 ## Movie
 
 - [angry video game nerd](http://cinemassacre.com/)
