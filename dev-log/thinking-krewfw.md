@@ -110,63 +110,59 @@ crew の c を k に変えて krew にしたのは以下の理由からだ：
 
 ### パッケージ
 
-    com/tatsuyakoyama/krewfw/
-    |---KrewConfig.as
-    |---NativeStageAccessor.as
-    |
-    |---builtin_actor/
-    |   |---ColorActor.as
-    |   |---ColorRect.as
-    |   |---DraggableActor.as
-    |   |---KrewMovieClip.as
-    |   |---KrewStateHook.as
-    |   |---KrewStateMachine.as
-    |   |---ScreenCurtain.as
-    |   |---ScreenFader.as
-    |   |---SimpleButton.as
-    |   |---TextButton.as
-    |   \---TouchFilter.as
-    |
-    |---core/
-    |   |---KrewActor.as
-    |   |---KrewBlendMode.as
-    |   |---KrewGameDirector.as
-    |   |---KrewGameObject.as
-    |   |---KrewResourceManager.as
-    |   |---KrewScene.as
-    |   \---KrewSystemEventType.as
-    |
-    |---core_internal/
-    |   |---CollisionGroup.as
-    |   |---CollisionSystem.as
-    |   |---IdGenerator.as
-    |   |---KrewSharedObjects.as
-    |   |---NotificationPublisher.as
-    |   |---NotificationService.as
-    |   |---ProfileData.as
-    |   |---SceneServantActor.as
-    |   |---StageLayer.as
-    |   |---StageLayerManager.as
-    |   |---StuntAction.as
-    |   |---StuntActionInstructor.as
-    |   \---collision/
-    |       |---CollisionShape.as
-    |       |---CollisionShapeAABB.as
-    |       |---CollisionShapeOBB.as
-    |       |---CollisionShapeSphere.as
-    |       \---HitTest.as
-    |
-    |---starling_utility/
-    |   \---TextFactory.as
-    |
-    \---utility/
-        |---KrewLine2D.as
-        |---KrewPoint2D.as
-        |---KrewSoundPlayer.as
-        |---KrewTimeKeeper.as
-        |---KrewTimeKeeperTask.as
-        |---KrewUtil.as
-        \---KrewVector2D.as
+    krewfw/
+    ├── KrewConfig.as
+    ├── NativeStageAccessor.as
+    ├── builtin_actor
+    │   ├── ColorActor.as
+    │   ├── ColorRect.as
+    │   ├── DraggableActor.as
+    │   ├── KrewMovieClip.as
+    │   ├── KrewStateHook.as
+    │   ├── KrewStateMachine.as
+    │   ├── ScreenCurtain.as
+    │   ├── ScreenFader.as
+    │   ├── SimpleButton.as
+    │   ├── SimpleImageActor.as
+    │   ├── TextButton.as
+    │   └── TouchFilter.as
+    ├── core
+    │   ├── KrewActor.as
+    │   ├── KrewBlendMode.as
+    │   ├── KrewGameDirector.as
+    │   ├── KrewGameObject.as
+    │   ├── KrewScene.as
+    │   └── KrewSystemEventType.as
+    ├── core_internal
+    │   ├── CollisionGroup.as
+    │   ├── CollisionSystem.as
+    │   ├── IdGenerator.as
+    │   ├── KrewResourceManager.as
+    │   ├── KrewSharedObjects.as
+    │   ├── NotificationPublisher.as
+    │   ├── NotificationService.as
+    │   ├── ProfileData.as
+    │   ├── SceneServantActor.as
+    │   ├── StageLayer.as
+    │   ├── StageLayerManager.as
+    │   ├── StuntAction.as
+    │   ├── StuntActionInstructor.as
+    │   └── collision
+    │       ├── CollisionShape.as
+    │       ├── CollisionShapeAABB.as
+    │       ├── CollisionShapeOBB.as
+    │       ├── CollisionShapeSphere.as
+    │       └── HitTest.as
+    ├── starling_utility
+    │   └── TextFactory.as
+    └── utility
+        ├── KrewLine2D.as
+        ├── KrewPoint2D.as
+        ├── KrewSoundPlayer.as
+        ├── KrewTimeKeeper.as
+        ├── KrewTimeKeeperTask.as
+        ├── KrewUtil.as
+        └── KrewVector2D.as
 
 - core_internal は直接触れることない
     - 大体は KrewActor および KrewGameObject のインタフェースを通して制御する

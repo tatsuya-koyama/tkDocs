@@ -78,15 +78,13 @@ ___
 
         krewFramework
         ├── krew-framework
-        │   └── com
-        │       └── tatsuyakoyama
-        │           └── krewfw
-        │               ├── builtin_actor
-        │               ├── core
-        │               ├── core_internal
-        │               │   └── collision
-        │               ├── starling_utility
-        │               └── utility
+        │   └── krewfw
+        │       ├── builtin_actor
+        │       ├── core
+        │       ├── core_internal
+        │       │   └── collision
+        │       ├── starling_utility
+        │       └── utility
         ├── lib
         └── sample-game
             ├── asset
@@ -107,6 +105,7 @@ ___
             │   └── web-project
             └── script
                 └── atlas_generator
+
 
 ### swf のビルドと adl での実行
 
