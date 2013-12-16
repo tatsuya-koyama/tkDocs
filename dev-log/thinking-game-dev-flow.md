@@ -4,7 +4,7 @@ date: '2013-12-06'
 description:
 categories: []
 tags: [anything, Game-Development]
-position: 5
+position: 6
 ---
 
 # ゲームのチーム開発の開発フローについて考える

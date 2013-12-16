@@ -11,6 +11,34 @@ position: 9999
 
 - 考え中のメモは [こちら](/dev-log/thinking-krewfw)
 
+## ポリシーとかスタンス
+
+- **いざとなったら Starling**
+    - 基本よくやるゲームの制御は Starling 意識しないで使えるインタフェースにはしておく
+    - とはいえ Starling まわりのソフトウェア資産は充実してるので使わない手はない
+        - Starling の Extension とか、UI 作るときの Feathers とか
+        - ってか Starling ならまあ Feathers 使いたいよね
+    - KrewActor は starling.display.Sprite のサブクラスなので Starling まわりのオブジェクトを
+      addChild したりできる
+    - ただし自分で addChild すると krewFramework が自動的に dispose を呼んでくれなくなる
+        - addDisplayObject() を通して addChild してもらう、
+          そうでなければ自分で後始末つけてねというルールにする
+
+___
+
+- **できるだけ Actor 指向**
+    - Actor でできる範囲のことは、できるだけ Actor でやる
+        - (1) 毎フレーム場にいる Actor 達の update が呼ばれる
+        - (2) Actor はメッセージを投げられる
+        - (3) Actor はメッセージを listen できる
+        - (4) Actor は別の Actor を場に生み出せる
+        - (5) Actor は自滅できる
+    <br/><br/>
+    - 汎用的に使える機能を作っていくと、ビルトインの Actor 達が増えていくイメージ
+        - 使いたい人はシーンにその Actor を投げ込めばいい
+        - 使いたくなくなったらその Actor をシーンから外せばいいだけ
+        - プラガブルで依存性が低い構成にできる
+
 ## GameDirector を作る
 
 ## Scene を作る

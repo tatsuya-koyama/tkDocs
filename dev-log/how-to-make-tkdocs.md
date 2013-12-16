@@ -75,7 +75,7 @@ ___
 
         curl -L get.rvm.io | bash -s stable
 
-- パスを通す。僕の場合は ~/.bashrc に以下を追記して source ~/.bashrc した
+- パスを通す。僕の場合は `~/.bashrc` に以下を追記して `source ~/.bashrc` した
 
         [ -s ${HOME}/.rvm/scripts/rvm ] && source ${HOME}/.rvm/scripts/rvm
 
@@ -198,7 +198,7 @@ ___
 
 ### Markdown のプレビュー
 
-- 上記 Makefile で make ruhoh-server しておけば、ブラウザで http://localhost:9292 で表示確認できる
+- 上記 Makefile で `make ruhoh-server` しておけば、ブラウザで http://localhost:9292 で表示確認できる
     - Markdown や CSS, ページ構造に変更があると反映してくれる
     - プラグインとかその辺書き換えた時はサーバ立ち上げ直さないとダメ
     - 【ToDo】オートリロードの仕組みがあるとより楽
@@ -206,19 +206,19 @@ ___
 ___
 
 - 静的ファイルを compile してそれを http サーバで確認したいときは
-  上記 make http-server してから http://localhost:8000 にアクセス
+  上記 `make http-server` してから http://localhost:8000 にアクセス
     - python の SimpleHTTPServer は便利だね
-    - まあプレビューは ruhoh server で事足りると思う
+    - まあプレビューは `make ruhoh server` で事足りると思う
 
 ### デプロイ
 
-- デプロイは上記 make deploy
+- デプロイは上記 `make deploy`
     - 男らしく指定のサーバへ一発 rsync だ！
 
 ### コードのバージョン管理
 
-- 今は単純に GitHub に上げておいて、デプロイタイミングなどで手で git commit & git push してるだけ
-    - 静的サイトは git push にフックしてデプロイ、みたいなのがモダンだけど、面倒なのでやってない
+- 今は単純に GitHub に上げておいて、デプロイタイミングなどで手で `git commit` & `git push` してるだけ
+    - 静的サイトは `git push` にフックしてデプロイ、みたいなのがモダンだけど、面倒なのでやってない
     - デプロイ先のサーバに Git のリポジトリも置くならすぐできるけどね
 
 
