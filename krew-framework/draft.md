@@ -1,5 +1,5 @@
 ---
-title: 'まとめる前のドラフト'
+title: '（まとめる前のドラフト）'
 date: '2013-12-10'
 description:
 categories: []
