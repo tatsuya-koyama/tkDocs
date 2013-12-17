@@ -62,11 +62,21 @@ ___
 ## 決まり事
 
 - KrewActor は starling.display.Sprite なので Starling の DisplayObject 系統を addChild できる
-- でも addChild の代わりに addImage もしくは addDisplayObject を呼んでね
-    - これを通すと Actor 破棄時に勝手に dispose を呼ぶことを保証してくれる
-    - addChild してもいいけどその場合は自分で破棄してくれ
-    - addImage は一緒に位置やアンカーも指定できるヘルパーのようなもの
-        - **[ToDo] ってか普通に addChild オーバライドしてやればよかったのか**
+- ただし Image は addImage, TextField は addText を推奨
+    - krewFramework は Actor の破棄時に自動的にその Actor が持つ DisplayObject の dispose を呼ぶ
+    - addImage, addText で足すと KrewActor.color を指定したときに全てがその影響を受ける
+    - addImage ではついでに位置やアンカーも指定できる
+        - AS3 はオーバーロードが無いから引数増えると override できないんだよねー
+    - あと Image の破棄時に image.texture.dispose 呼んでやらないとメモリがアレだと思った過去があるんだけど、
+      Starling のソース見た感じ別に必要ない？
+
+
+## Tips
+
+- Draw Call を減らすには
+    - 1 レイヤーに表示させるものを 1 アトラスにまとめるとよい
+    - 単純な Painting Algorithm だからね
+
 
 ## GameDirector を作る
 

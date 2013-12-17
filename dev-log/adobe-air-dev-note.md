@@ -26,6 +26,10 @@ ___
         - まあ自分で作れって話なんだろう。でも面倒だな
         - wiki に思想が書いてあった
             - [Why don't the Feathers components have default skins?](http://wiki.starling-framework.org/feathers/faq?&#why_don_t_the_feathers_components_have_default_skins)
+        - テーマ使わず自前で作ろうとするとかなりしんどい
+            - （いつかできるけど色々調べたり時間かかる。必要なコード量も結構ある）
+            - ってかプロパティ多すぎて wiki と API Reference 眺めてもようわからん
+            - せいぜい theme のクラス見るけど、これも結構ごっつい
     <br/><br/>
     - ボタンとかのアンカーの指定ってないのかなー
 
@@ -46,6 +50,7 @@ ___
     - button.defaultSkin とか downSkin とかに Image 指定してく感じ
         - 個別に指定できるので、まあゲーム開発ならそれでいいか
         - デフォルトだと透明の UI を作ってる感じだ
+            - せめてなんか見た目的にわかるもの出してほしかったけどなー
         - Feathers 紹介記事
             - http://cuaoar.jp/2012/11/starling-stage3d-ui-feat.html
     - テーマ初期化用のクラス見れば雰囲気わかる
