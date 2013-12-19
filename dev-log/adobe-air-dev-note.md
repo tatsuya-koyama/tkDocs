@@ -26,10 +26,10 @@ ___
         - まあ自分で作れって話なんだろう。でも面倒だな
         - wiki に思想が書いてあった
             - [Why don't the Feathers components have default skins?](http://wiki.starling-framework.org/feathers/faq?&#why_don_t_the_feathers_components_have_default_skins)
-        - テーマ使わず自前で作ろうとするとかなりしんどい
+        - テーマ使わず自前で作ろうとすると割としんどい
             - （いつかできるけど色々調べたり時間かかる。必要なコード量も結構ある）
-            - ってかプロパティ多すぎて wiki と API Reference 眺めてもようわからん
-            - せいぜい theme のクラス見るけど、これも結構ごっつい
+            - ってかプロパティ多すぎて wiki と API Reference 探しまわる必要あり
+            - theme のクラス見ればいいんだけど、これも結構ごっつい
     <br/><br/>
     - ボタンとかのアンカーの指定ってないのかなー
 
@@ -43,6 +43,19 @@ ___
 - addChild するフレームで width とか height とるには validate 呼ぶ必要ある
     - まあそれは何となく想像つく
     - validate は addChild 後に呼ぶ必要あるので注意
+
+### 悩みポイント
+
+- 見た目整えようとするとなんだかんだコード量多くなる
+    - 大規模開発で使うならこのへんの設定ファイル吐き出す Builder みたいなものが
+      結局ほしくなっちゃうと思う
+
+___
+
+- フォント使うリストだと結構 Draw Call の数くっちゃうよね
+    - [リスト試してみたやつ](/krew-framework/feature-demo)
+    - 20 くらいいっちゃうのはさすがに見過ごせない
+    - 画面外のアイテムとかは Draw Call 食ってないのでそこはまあ大丈夫
 
 ### 自前テーマ
 
@@ -61,6 +74,8 @@ ___
 
 - feathers.display に scale9Image あるね（たぶん 9patch な画像）
     - scale3 もある
+    - UI じゃなくても使いどころありそう
+
 
 ## 立ち上げ時の背景色 2〜3 秒出るの気になるよね問題
 

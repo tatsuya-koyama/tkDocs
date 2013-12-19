@@ -380,6 +380,7 @@ table.mystyle tr.color1 td.left{ background-color: #eaeaea; color: #222; }
 table.mystyle tr.color2 td.left{ background-color: #d9e8d9; color: #222; }
 
 td{
+    min-width: 6.0em;
     border: 1px solid #999;
     padding: 0.3em 0.9em 0.3em 0.9em;
 }
