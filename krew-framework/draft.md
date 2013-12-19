@@ -84,54 +84,47 @@ ___
 
 ### あなたが override できる KrewScene のハンドラ一覧
 
-<table class="mystyle">
-    <tr class="head">
-        <td> 関数名 </td>
-        <td> できること </td>
-        <td> 実装すべきこと </td>
-    </tr>
-    <tr class="color1">
-        <td class="left"> getRequiredAssets </td>
-        <td> そのシーンに必要なアセットを定義できる。ここで指定するとシーン初期化時に自動で読み込んでくれる </td>
-        <td> アセットのファイル名の配列を返す </td>
-    </tr>
-    <tr class="color2">
-        <td class="left"> getLayerList </td>
-        <td> ゲーム画面のレイヤー構造（表示の前後関係や時間軸を適用させるグループ）を定義できる </td>
-        <td> レイヤー名の文字列の配列を返す。先頭の要素が最も奥に表示される </td>
-    </tr>
-    <tr class="color1">
-        <td class="left"> getCollisionGroups </td>
-        <td> 衝突判定を行いたい者を放り込むためのグループを定義できる </td>
-        <td> グループ名と衝突判定相手のグループを定義するための、配列の配列を返す </td>
-    </tr>
-    <tr class="color2">
-        <td class="left"> initLoadingView </td>
-        <td> ローディング画面を作れる </td>
-        <td> 画面を構成するための Actor をセットする </td>
-    </tr>
-    <tr class="color1">
-        <td class="left"> onLoadProgress </td>
-        <td> ローディングの最中の処理を定義できる </td>
-        <td> 引数にロードの進捗率が来るので、それを使って何かやる。
-             このハンドリングは Actor がシステムイベントを listen することでも実現できる </td>
-    </tr>
-    <tr class="color2">
-        <td class="left"> onLoadCpmlete </td>
-        <td> ロード完了時の処理を定義できる </td>
-        <td> やりたい処理を書く </td>
-    </tr>
-    <tr class="color1">
-        <td class="left"> initAfterLoad </td>
-        <td> アセット読み込み完了後の、シーンの本命の初期化処理を定義できる </td>
-        <td> シーンの冒頭で必要な Actor のセットや、イベントの listen を行う </td>
-    </tr>
-    <tr class="color2">
-        <td class="left"> getDefaultNextScene </td>
-        <td> 次のシーンの行き先を定義できる </td>
-        <td> 次のシーンのインスタンスを返す。exit() を呼んだ場合、ここで返しているシーンに自動的に遷移する </td>
-    </tr>
-</table>
+{{# table }}
+  -
+    - 関数名
+    - できること
+    - 実装すべきこと
+  -
+    - getRequiredAssets
+    - そのシーンに必要なアセットを定義できる。ここで指定するとシーン初期化時に自動で読み込んでくれる
+    - アセットのファイル名の配列を返す
+  -
+    - getLayerList
+    - ゲーム画面のレイヤー構造（表示の前後関係や時間軸を適用させるグループ）を定義できる
+    - レイヤー名の文字列の配列を返す。先頭の要素が最も奥に表示される
+  -
+    - getCollisionGroups
+    - 衝突判定を行いたい者を放り込むためのグループを定義できる
+    - グループ名と衝突判定相手のグループを定義するための、配列の配列を返す
+  -
+    - initLoadingView
+    - ローディング画面を作れる
+    - 画面を構成するための Actor をセットする
+  -
+    - onLoadProgress
+    - ローディングの最中の処理を定義できる
+    - 引数にロードの進捗率が来るので、それを使って何かやる。
+      このハンドリングは Actor がシステムイベントを listen することでも実現できる
+  -
+    - onLoadCpmlete
+    - ロード完了時の処理を定義できる
+    - やりたい処理を書く
+  -
+    - initAfterLoad
+    - アセット読み込み完了後の、シーンの本命の初期化処理を定義できる
+    - シーンの冒頭で必要な Actor のセットや、イベントの listen を行う
+  -
+    - getDefaultNextScene
+    - 次のシーンの行き先を定義できる
+    - 次のシーンのインスタンスを返す。exit() を呼んだ場合、ここで返しているシーンに自動的に遷移する
+{{/ table }}
+
+
 
 ### 基本的なシーンの実装例
 

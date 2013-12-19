@@ -365,8 +365,9 @@ img.photo{
 table.mystyle{
     border: 1px solid #777;
     border-spacing: 0px;
+    margin-top: 2em;
+    margin-bottom: 2em;
     margin-left: 3em;
-    margin-bottom: 1em;
     margin-right: 2em;
     max-width: 93%;
     font-size: 90%;
