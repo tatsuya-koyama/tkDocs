@@ -9,6 +9,8 @@ position: 8
 
 # References of English
 
+個人的な英語の勉強ノートは[こちら](/english/about)
+
 ## 一般
 
 - [英文法のインデックス](http://www.englishcafe.jp/english3rd/englishindex.html)

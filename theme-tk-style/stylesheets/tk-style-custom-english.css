@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+#left-pane {
+    background-color: #473;
+    border-right: 1px solid #473;
+}
+
+#outline-pane {
+    background-color: #d2ddd0;
+    border-right: 1px solid #d2ddd0;
+}
+
+/*----- outline list ------------------------------------------------------*/
+#outline-pane ul a:link,
+#outline-pane ul a:visited{ color: #372; text-decoration: none; }
+#outline-pane ul a:hover{ color: #593; text-decoration: underline; }
+
+#left-pane ul a:link,
+#left-pane ul a:visited{ color: #dec; text-decoration: none; }
+#left-pane ul a:hover{ color: #ac7; text-decoration: underline; }
+
+#left-pane li.active-page { background-color: #304420; }
+
+
+/*-----------------------------------------------------------*/
+div.english {
+    font-weight: bold;
+    color: #666;
+    max-width: 50em;
+
+    /* box border */
+    border: 1px solid #bbb;
+    background-color: #f7f7f7;
+    width: 89%;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+    padding: 0.5em 0 0.5em 1em;
+
+    /* shadow */
+    /* -moz-box-shadow:    3px 3px 6px #ccc; /\* FireFox *\/ */
+    /* -webkit-box-shadow: 3px 3px 6px #ccc; /\* webkit *\/ */
+    /* box-shadow:         3px 3px 6px #ccc; */
+    /* -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=135,strength=3,enabled=true)"; */
+    /* filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=135,strength=3,enabled=true); /\* IE5.5+ *\/ */
+    /* background: #fff; /\* IE Hack *\/ */
+
+    /* radius */
+    border-radius:         10px; /* CSS3 */
+    -webkit-border-radius: 10px; /* Safari, Chrome */
+    -moz-border-radius:    10px; /* Firefox */
+}
+div.english b {color: #b28; font-weight: bold;}
+div.english i {color: #279; font-style: normal;}
+
+#novel ul {
+    margin: 0em 0 2.0em 4.0em;
+}
+#novel ul ul       { margin: 0 0 0 3.0em; }
+#novel ul ul ul    { margin: 0 0 0 3.0em; }
+#novel ul ul ul ul { margin: 0 0 0 3.0em; }
+
+li {
+    font-size: 93%;
+    line-height: 150%;
+    mergin: 0 0 0 0;
+}
+
+blockquote {
+    border: 1px solid #ddb;
+    background-color: #f7f7e0;
+    width: 87%;
+    margin-left: 10%;
+    margin-bottom: 0.5em;
+    padding: 0.5em 0 0.5em 1em;
+}
+blockquote p {font-size: 93%;}
+

@@ -36,25 +36,8 @@
       </p>
     </div>
 
-    <!-- Example row of columns -->
-    <div class="row">
-      <div class="span4">
-        <h2 class="modern">勉強ノート
-          {{# notes.tags.anything }} ({{ count }}) {{/ notes.tags.anything }}
-        </h2>
 
-        <div class="mini_contents_block"><div class="grid_inner">
-            <a class="mini_box_contents" href="notes/about">
-              <div class="mini_box_contents">
-                <img src="http://www.tatsuya-koyama.com/4.0/resource/image/icon/arrow_right2.png" />
-                <p>View Docs</p>
-              </div>
-              <div class="clearfix"></div>
-            </a>
-        </div></div>
-        <p>学んだことのメモ。主にゲーム開発に関するトピック。</p>
-
-      </div>
+    <div class="row" style="margin-top: 1.0em;">
 
       <div class="span4">
         <h2 class="modern">krewFramework
@@ -74,6 +57,38 @@
 
       </div>
 
+      <div class="span8">
+        <div style="text-align: center; margin-top: 3.5em;">
+          <a href="/krew-framework/top">
+            <img src="{{urls.media}}/krewfw/krewfw_logo.png"
+                 style="width: 90%; max-width: 800px;" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <hr style="margin-top: 3.3em;  margin-bottom: 0em;">
+
+
+    <div class="row">
+      <div class="span4">
+        <h2 class="modern">勉強ノート
+          {{# notes.tags.anything }} ({{ count }}) {{/ notes.tags.anything }}
+        </h2>
+
+        <div class="mini_contents_block"><div class="grid_inner">
+            <a class="mini_box_contents" href="notes/about">
+              <div class="mini_box_contents">
+                <img src="http://www.tatsuya-koyama.com/4.0/resource/image/icon/arrow_right2.png" />
+                <p>View Docs</p>
+              </div>
+              <div class="clearfix"></div>
+            </a>
+        </div></div>
+        <p>学んだことのメモ。主にゲーム開発に関するトピック。</p>
+      </div>
+
       <div class="span4">
         <h2 class="modern">開発ログ
           {{# dev-log.tags.anything }} ({{ count }}) {{/ dev-log.tags.anything }}
@@ -89,13 +104,8 @@
             </a>
         </div></div>
         <p>何かを作った時の思考のメモや、開発・デバッグ時の作業ログ。</p>
-
       </div>
-    </div>
 
-
-
-    <div class="row">
       <div class="span4">
         <h2 class="modern">References
           {{# bookmark.tags.anything }} ({{ count }}) {{/ bookmark.tags.anything }}
@@ -117,9 +127,28 @@
 
 
 
-    <br/><br/>
-    <hr>
-    <!-- ここになんか出す -->
+    <div class="row">
+
+      <div class="span4">
+        <h2 class="modern">英語ノート
+          {{# english.tags.anything }} ({{ count }}) {{/ english.tags.anything }}
+        </h2>
+
+        <div class="mini_contents_block"><div class="grid_inner">
+            <a class="mini_box_contents" href="english/about">
+              <div class="mini_box_contents">
+                <img src="http://www.tatsuya-koyama.com/4.0/resource/image/icon/arrow_right2.png" />
+                <p>View Docs</p>
+              </div>
+              <div class="clearfix"></div>
+            </a>
+        </div></div>
+        <p>英語の勉強ノート。プログラマ向け</p>
+      </div>
+
+    </div>
+
+
     <br/><br/>
 
   </div>

@@ -29,6 +29,13 @@ position: 4
     - Starling と Away3D と各種 Physics を包括的に扱う感じで、
       やりたいこと先にやられてる感あるけど参考にしつつ自分は自分のスタイルで組む
 
+___
+
+- [Ash entity framework](http://www.ashframework.org/)
+    - サイトがシンプルでオシャレ
+    - リンクから飛べるブログ記事もしっかり書かれていて参考になりそう
+
+
 ### ToDo
 
 - [ToDo] 安定してきたら swc で提供する

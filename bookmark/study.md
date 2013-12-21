@@ -70,6 +70,7 @@ position: 3
 - [ゲーム開発 プロジェクトマネジメント講座](http://www.jp.square-enix.com/info/library/2011/dldata/PM/PM.pdf)
 - [ふりかえりの資料（永和システムマネジメント）](http://www.objectclub.jp/download/files/pf/RetrospectiveMeetingGuide.pdf)
 - [人生のパフォーマンスチューニング](http://blog.livedoor.jp/lalha/archives/50491051.html?fb_action_ids=10202551765693297&fb_action_types=og.likes&fb_source=other_multiline&action_object_map=%5B680048502027880%5D&action_type_map=%5B%22og.likes%22%5D&action_ref_map=%5B%5D)
+- [嘘偽り一切なし。仕事で幸せになるために知っておくべき10のこと](http://www.lifehacker.jp/2013/12/13122010_simple_laws_of_business_success.html)
 
 ## Study / Practice / LifeStyle
 

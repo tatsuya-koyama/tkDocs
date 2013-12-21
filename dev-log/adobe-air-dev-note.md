@@ -11,7 +11,9 @@ position: 7
 
 ## リンク集
 
-- いっぱいあるので後でまとめる
+- [Citrus Engine: Creating Level using Tiled Map Editor](http://pzuh.blogspot.jp/2013/05/citrus-engine-creating-level-using.html)
+
+他にもいっぱいあるので後でまとめる
 
 
 ## Feathers どうなの
@@ -82,6 +84,15 @@ ___
 - [Feathers のサンプルコード](https://github.com/joshtynjala/feathers/blob/master/examples/HelloWorld/source/HelloWorld.as)
   の showLaunchImage() が参考になる
       - Starling の初期化前に Flash の DisplayObject で画像 addChild してる感じかな
+
+## 画像の解像度って
+
+- できるだけ 1 枚にまとめたいけど、どれくらいのサイズまで安定して使えるんだっけ？
+    - 要は端末の OpenGL のスペックによりけりだろうけど
+    - Android がどれくらい 2048 x 2048 を許容できるか、がキモかな
+    - 1024 x 1024 なら大抵大丈夫だからそれで頑張るか
+        - その場合 960 x 640 の背景画像はそれだけで 1 枚みたいになっちゃうけど、まあ背景ならいいか
+
 
 <br/><br/><br/><br/>
 
