@@ -89,16 +89,22 @@ crew の c を k に変えて krew にしたのは以下の理由からだ：
 - 規定した分だけ、楽に・安全にする
 
 
-## 設計の手法、方法論
+## ソフトウェア設計の手法、方法論
 
 - Actor 指向
     - オブジェクト指向でイベント駆動
 - 依存性の注入（Dependency Injection）
 - Component 指向、プラガブル
-- 設定より規約（Convention over Configuration）
+- 設定より規約（[Convention over Configuration](http://en.wikipedia.org/wiki/Convention_over_configuration)）
+- [Composition over Inheritance](http://en.wikipedia.org/wiki/Composition_over_inheritance)
+- [Single responsibility principle](http://en.wikipedia.org/wiki/Single_responsibility_principle)
 - DRY 原則
 - レイヤーに分けてレイヤー間はインタフェースでやりとり
     - 他のレイヤーの実装は気にしないでよいように
+
+___
+
+- [ソフトウェア原則](http://objectclub.jp/technicaldoc/object-orientation/principle/)
 
 
 ## クラス名の命名とパッケージ分け
@@ -351,6 +357,18 @@ ___
 - 描画要素を持たないやつ、setUpActor の引数で false 渡してるけど
   Actor 側にプロパティに false 入れる処理書いた方がいいんじゃね
     - touchable と同じ扱い
+
+___
+
+- servantActor, 名前を assistantActor 的なものにしよう
+    - 映画や演劇っぽい名前にそろえる
+
+___
+
+- act(). からつなげるトゥイーンアニメーション
+    - blink みたいなちょっと凝ったやつあるけど、外からもそういうメソッドが足せるようにできたらよいな
+    - でもそのままメソッド名にするのはムズいか。js なら function 足すの容易だが
+    - やるなら使う人が、 StuntAction 自体をカスタム継承したやつに差し替える感じかな
 
 <br/><br/><br/><br/><br/><br/><br/><br/>
 

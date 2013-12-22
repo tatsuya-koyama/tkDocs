@@ -67,7 +67,7 @@ position: 2
 - [ブレンディング --- OpenGLとPhotoShop](http://tobysoft.net/wiki/index.php?PhotoShop%2F%A5%EC%A5%A4%A5%E4%A1%BC%A4%CE%B7%D7%BB%BB%CA%FD%CB%A1%A4%CB%A4%C4%A4%A4%A4%C6)
 - [RESTfulなWebサイトと拡張子を含むURLについて](http://d.hatena.ne.jp/m-hiyama/20100120/1263953482)
 
-## Design Pattern
+## Design Pattern / 設計思想
 
 - [やっと理解できた！JSオブジェクト指向プログラミング再入門](http://tokkono.cute.coocan.jp/blog/slow/index.php/programming/re-introduction-to-object-oriented-js/)
 - [デザインパターンを読み解く](http://www.happiese.com/system/dpattern.html)
@@ -76,7 +76,7 @@ position: 2
 - [デザインパターンのメタパターン](http://vox.nishimotz.com/design-pattern.html)
 - [ユニットテストのアンチパターン](http://devtesting.jp/pekema/?0004%2FTopics)
 - [Inversion of Control コンテナと Dependency Injection パターン](http://kakutani.com/trans/fowler/injection.html)
-
+- [Composition over inheritance](http://en.wikipedia.org/wiki/Composition_over_inheritance)
 
 ## Algorithm
 

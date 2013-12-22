@@ -11,28 +11,24 @@ position: 4
 
 ## Feature Demos on Flash Player
 
-- krewFramework でできる感じのことデモ（まだ制作中）
 - Required Flash Player 11 or later
+- krewFramework でできる感じのことデモ（制作中）
+- Starling 扱う時のパフォーマンス検証も兼ねてる
 
 <div style="background-color: #aaa;  padding: 1.0em;">
-  <div class="grid_container clearfix">
-    <div class="grid3"><div class="grid_inner">
-    </div></div>
-    <div class="grid9"><div class="grid_inner">
+  <div align="center">
 
-
-    <object width="320" height="480" data="{{ urls.media }}/swf/krewdemo.swf">
+    <object width="720" height="480" data="{{ urls.media }}/swf/krewdemo.swf">
       <param name="wmode" value="direct"/>
     </object>
 
-
-    </div></div>
   </div>
 </div>
 
 ___
 
-- まだプレビューの土台だけ。機能がわかるようなサンプル作ったらここに足してく
+- パフォーマンスのテストで書いてみたコードとか、機能がわかるようなサンプルを作ったらここに足していく
+- 各画面で左下の i マークのボタン押すと説明出ます
+    - （英語がしょぼいのはご愛嬌）
 
-<br/><br/><br/><br/><br/><br/><br/>
 

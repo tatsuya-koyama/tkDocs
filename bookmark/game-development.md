@@ -60,17 +60,23 @@ position: 1
 - [The five reasons freemium sucks](http://indiegames.com/2013/03/the_five_reasons_freemium_suck.html)
 
 
-## Game Programming / Algorithm
+## Algorithm
 
-- [JavaScriptで MMOG をつくってみよう　その1](http://wise9.jp/archives/1224)
 - [ゲーマーでなくても仕組みぐらいは知っておきたいアルゴリズムx40](http://zapanet.info/blog/item/1145)
 - [Perspective correction](http://en.wikipedia.org/wiki/Texture_mapping#Perspective_correctness)
 - [shadertoy](https://www.shadertoy.com/)
 - [スクエニ村田氏ら、門外不出の「FF」開発ノウハウを一挙公開「『ファイナルファンタジー XII』解体新書」](http://game.watch.impress.co.jp/docs/20060902/cedec_ff.htm)
 
 
+## フレームワーク設計
+
+- [What is an entity system framework for game development?](http://www.richardlord.net/blog/what-is-an-entity-framework)
+- [Why use an entity system framework for game development?](http://www.richardlord.net/blog/why-use-an-entity-framework)
+
+
 ## Game-Dev Tutorial
 
+- [JavaScriptで MMOG をつくってみよう　その1](http://wise9.jp/archives/1224)
 - [The guide to implementing 2D platformers](http://higherorderfun.com/blog/2012/05/20/the-guide-to-implementing-2d-platformers/)
 - [How to make a 2d Platform Game](http://www.wildbunny.co.uk/blog/2011/12/11/how-to-make-a-2d-platform-game-part-1/)
 - [Citrus Engine: Creating Level using Tiled Map Editor](http://pzuh.blogspot.jp/2013/05/citrus-engine-creating-level-using.html)
