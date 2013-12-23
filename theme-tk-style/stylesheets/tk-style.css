@@ -271,6 +271,11 @@ blockquote {
     margin-left: 2em;
     margin-bottom: 1.5em;
     padding: 0.5em 0 0.5em 1em;
+
+    /* radius */
+    border-radius:         10px; /* CSS3 */
+    -webkit-border-radius: 10px; /* Safari, Chrome */
+    -moz-border-radius:    10px; /* Firefox */
 }
 
 /*----- code ------------------------------------------------------*/
