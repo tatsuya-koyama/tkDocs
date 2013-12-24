@@ -20,6 +20,7 @@ position: 1
 
 - [Game Design Wiki](http://www.ludism.org/gamedesign/HomePage)
 - [ゲームヘル](http://www5.atwiki.jp/yaruhara/)
+- [英語のゲームチュートリまとめてるページ](http://rel.phatcode.net/index.php?action=contents&item=Tutorials)
 
 
 ## Game Design
