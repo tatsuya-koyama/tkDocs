@@ -27,7 +27,7 @@ position: 8
     - Box2D とか C++ のやつをこれでポーティングした Box2D Alchemy とかあった
     - まあ 2011 年くらいで開発止まってるっぽいけどね
 - それが FlasCC （Flash C++ Compiler）というものになった
-- Adobe CrissBridge はそれのオープンソース版（2013 年 6 月くらいの発表？）
+- Adobe CrossBridge はそれのオープンソース版（2013 年 6 月くらいの発表？）
 
 ## 物理エンジンの Nape どうなの
 
@@ -62,6 +62,37 @@ ___
 - [Demo](http://box2dflash.sourceforge.net/)
 - [ドキュメント](http://www.box2dflash.org/docs/2.0.2/manual#Creating_a_World)
 - [Box2d Flash Alchemy Port + World Construction Kit](http://www.sideroller.com/wck/)
+
+___
+
+参考リンク
+- [Box2D 2.1a Tutorial – Part 1](http://blog.allanbishop.com/box2d-2-1a-tutorial-part-1/)
+
+___
+
+- 個人的にはクラス名とか大文字小文字、細かいレベルでは Nape の方が綺麗で好き
+    - ここはさすがに Nape の方が API の切り方とかも AS3 っぽくてよい
+    - Nape は単位がメートルじゃなくてピクセルと割り切ってるのも使いやすくてよい
+    - Box2D だと毎回表示単位のスケーリングの計算必要になる
+- ドキュメンテーションは C++ の本家もあるし、Box2D の方がしっかりしてる感じある
+
+### パフォーマンスや挙動
+
+- パフォーマンスは確実に Nape の方が速い。負荷上がったときのガタガタ感も少ない
+- Box2D はデバッグビルドだとすぐ重くなるので注意
+    - Nape は debug=true でも速かった
+- だがメモリ消費は Box2D の方が小さい
+    - というか Nape が GC 対象にならず延々とメモリを食い続けてしまう問題がある
+    - Box2D ではそんなことはなかった
+
+### ハマったところ
+
+- 以下みたいに type 指定しないと静止オブジェクトのままだった
+
+        bodyDef.type = b2Body.b2_dynamicBody;
+
+- HelloWorld のソース見ても書いてなかったし 2.0.2 のマニュアルにも見当たらなかったので分からんかった
+    - って 2.1 で変わったところリストのページがあった。そこ見たら書いてあった
 
 ## Feathers どうなの
 
@@ -107,6 +138,10 @@ ___
     - [リスト試してみたやつ](/krew-framework/feature-demo)
     - 20 くらいいっちゃうのはさすがに見過ごせない
     - 画面外のアイテムとかは Draw Call 食ってないのでそこはまあ大丈夫
+
+___
+
+- リストアイテムで各セルごとにテクスチャ変えるとかは無理？
 
 ### 自前テーマ
 
