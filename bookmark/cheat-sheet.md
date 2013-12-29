@@ -35,6 +35,9 @@ position: 4
 - [テスト駆動開発のチートシート](http://d.hatena.ne.jp/shuji_w6e/20110429/1304079615)
 - [Emacs dired command](http://chalow.net/2006-01-18-4.html)
 - [ナウいツールやサービスなどのまとめ](http://qiita.com/phimcall/items/555d09f872373f65c6fb)
+- [UML Cheatsheet（クラス図とかシーケンス図）](http://loufranco.com/wp-content/uploads/2012/11/cheatsheet.pdf)
+- [MSDN - UML Class Diagrams: Reference](http://msdn.microsoft.com/en-us/library/dd409437.aspx)
+
 
 ## 言語系
 

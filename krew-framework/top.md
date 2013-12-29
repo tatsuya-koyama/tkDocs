@@ -7,7 +7,7 @@ tags: [anything, krewFramework]
 position: 1
 ---
 
-# krewFramework
+# krewFramework （クルー・フレームワーク）
 
 <div style="text-align: center;">
   <img src="{{urls.media}}/krewfw/krewfw_logo.png"
@@ -18,7 +18,7 @@ position: 1
 
 俺と響き合う Adobe AIR / Flash 向けの汎用ゲームフレームワーク。
 
-クルーフレームワークと読みます。
+クルー・フレームワークと読みます。
 
 絶賛開発中の個人用のコードですが、勉強のためにオープンにします。
 

@@ -4,7 +4,7 @@ date: '2013-12-16'
 description:
 categories: []
 tags: [anything, Game-Development, krewFramework]
-position: 7
+position: 8
 ---
 
 # Adobe AIR ゲーム開発メモ
@@ -15,8 +15,57 @@ position: 7
 
 他にもいっぱいあるので後でまとめる
 
+## Flash CrossBridge ってなに
+
+- [公式](http://adobe-flash.github.io/crossbridge/)
+- C / C++ で書いたコードを Flash 向けにコンパイルできるよってやる
+
+### 歴史
+
+- かつて前身となるプロジェクトで [Adobe Alchemy](http://labs.adobe.com/technologies/alchemy/)
+  ってのがあった
+    - Box2D とか C++ のやつをこれでポーティングした Box2D Alchemy とかあった
+    - まあ 2011 年くらいで開発止まってるっぽいけどね
+- それが FlasCC （Flash C++ Compiler）というものになった
+- Adobe CrissBridge はそれのオープンソース版（2013 年 6 月くらいの発表？）
+
+## 物理エンジンの Nape どうなの
+
+- [Nape Physics Engine](http://napephys.com/index.html)
+
+### いいところ
+
+- ためしてみたけどいい感じ。ヌルヌル動く。
+- Box2D よりパフォーマンスいいよってのを謳ってる
+- API やコードもすっきりしてていい感じ
+    - ただしコードはマクロ満載の haxe だが
+
+### つらいところ
+
+- 使い終わったメモリがどうにも GC 対象になってくれなくて困ってる
+    - 実機で動かし続けてたらメモリ消費 150 MB とかいった
+    - 破棄したり参照消したりしてもシーン遷移時に回収されない
+    - Vec2 のオブジェクトプールの仕様かと思ったが Vec2 使わない Circle とかでもなる
+    - ここが解決しないと使えんな
+
+___
+
+- Box2D よりマイナーなのが最大の弱点
+    - Box2D は C の世界のやつをポーティングしたやつだからね
+    - ドキュメントもコミュニティも Nape より強い
+- コードが haxe （の独自プリプロセッサ？の caxe とかいうやつ）
+    - 汎用言語 haxe から AS3 向けに出力する系なので、深追いするなら結構見たことないコード読まないといけない
+    - メモリまわりの解読も結局この辺がネックで諦めた…
+
+## AS3 の Box2D どうなの
+
+- [Demo](http://box2dflash.sourceforge.net/)
+- [ドキュメント](http://www.box2dflash.org/docs/2.0.2/manual#Creating_a_World)
+- [Box2d Flash Alchemy Port + World Construction Kit](http://www.sideroller.com/wck/)
 
 ## Feathers どうなの
+
+- [Feathers UI](http://feathersui.com/)
 
 - [Good]
     - 一通り揃ってる感ある。Starling 用と割り切ってるのもいい

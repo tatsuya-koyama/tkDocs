@@ -23,6 +23,11 @@ position: 1
 - [英語のゲームチュートリまとめてるページ](http://rel.phatcode.net/index.php?action=contents&item=Tutorials)
 
 
+## 参考になるソースとかゲーム
+
+- [ABA の日誌：2013年作ったゲーム遊んだゲーム](http://d.hatena.ne.jp/ABA/20131227#p1)
+
+
 ## Game Design
 
 - [ネットワークエンジニアから見たゲームデザインの大原則](http://www.4gamer.net/games/105/G010549/20100905002/)

@@ -81,6 +81,7 @@ position: 3
 - [自分の脳だけでは扱いが難しい量／複雑さの資料を取り扱う方法](http://readingmonkey.blog45.fc2.com/blog-entry-540.html)
 - [フロー体験の構成要素](http://jibun.atmarkit.co.jp/llife01/rensai/health15/health02.html)
 - [最もコンパクトな情報整理術 ―情報収集「依存」にならないために](http://www.earthinus.com/2010/04/information-overloaded.html)
+- [気を付けて！「口ぐせ」が自分自身へ与える影響がすごい！【脳科学】](http://matome.naver.jp/odai/2136781861772956801)
 
 ## Statistics / Numbers
 
