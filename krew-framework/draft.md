@@ -64,7 +64,8 @@ ___
     - addImage, addText で足すと KrewActor.color を指定したときに全てがその影響を受ける
     - addImage ではついでに位置やアンカーも指定できる
         - AS3 はオーバーロードが無いから引数増えると override できないんだよねー
-    - あと Image の破棄時に image.texture.dispose 呼んでやらないとメモリがアレだと思った過去があるんだけど、
+        - あとなんか Image のアンカーの指定にクセがあったのでここで吸収した
+    - あと Image の破棄時に image.texture.dispose 呼んでやらないとメモリがアレだと思った記憶があるんだけど、
       Starling のソース見た感じ別に必要ない？
 
 
