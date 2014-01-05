@@ -196,11 +196,20 @@ ___
 
 ## Starling 使って思ったこと
 
+### パフォーマンス
+
+- シンプルさを重視してて、そこまでパフォーマンスにこだわっていない感じ
+    - 空間分割とかそういうのは無いっぽい。でかい DisplayTree は普通に重くなる（全部走査してる）
+    - 走査中に alpha = 0 とか visible = false だったら行列計算の処理飛ばすくらいはやってる
+    - width とか height の getter で重い行列計算が走る罠があるので注意
+
 ### タッチイベント
 
 - DisplayObject のサイズとかで一思いにやっちゃってるのは初心者フレンドリーだけど扱い辛い
     - あと指でさわるとツリー上の全 DisplayObject なめるみたいで処理負荷大きかったのがイケてない
     - だから krewFramework では Actor はデフォルト touchable = false にした
+- 関連した議論がここでされてる
+    - http://forum.starling-framework.org/topic/rendering-performance-will-many-children
 
 ## Starling でタイルマップ効率よく描画するには
 
@@ -209,6 +218,21 @@ ___
 - とすると、ちっちゃいタイルを数百タイル表示したいような場合は？
     - 画面の数分の 1 くらいの領域のタイルごとに QuadBatch にまとめる
     - スクロールで入ってくる新しい領域ぶんだけ新しく QuadBatch を構成（他はスクロールだけ）
+
+## Starling Topics
+
+### たくさんスプライト出したい系
+
+- [ImageBatch](https://github.com/elsassph/starling-imagebatch)
+    - 公式にのってない Extension
+    - こまかいパーティクル描画に使える
+    - このデモたしかにパフォーマンスすごい
+
+___
+
+- [QuadtreeSprite](http://wiki.starling-framework.org/extensions/quadtreesprite)
+    - 四分木で見えてるとこだけ DisplayList にのっけるようなスプライト
+    - 広大なタイルマップ描画とかに使える
 
 
 <br/><br/><br/><br/>
