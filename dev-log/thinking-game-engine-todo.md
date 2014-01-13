@@ -83,6 +83,34 @@ ___
 
 ## スタックにのる感じのウインドウ表示
 
+- 経験的に、ウインドウをシーンで表現しない方がよいと思う
+    - まあシーンの定義によるが。自分は「シーン = リソースのスコープ」くらいに考えたい
+    - つまり「シーン遷移 = 後片付けが行われて新たな Loading が走るタイミング」
+    - シーンを階層構造にできるようにするシステムを作ってもよいが、ちょっと複雑
+    - 描画の重なりをシーンのスタックに委ねるのは融通ききづらい
+        - かといってシーン遷移時に {bg-hide: true} みたいなの渡すのも面倒
+    - 一番よくないのは、「背景にウインドウ 3 つ重なった状態から、1 つめまで戻る」みたいな処理の時に
+      シーンが「じゃあ 2 つ pop してくれ」とか言うこと
+    - 子のシーンはそんなこと知っている状態であってはいけない。何より 2 つ pop しないような場面で
+      呼び出すときに使えなくなる
+
+___
+
+- 見た目と状態遷移を一緒に扱っているのがいけない
+    - 階層形のステートマシンを別に持つべき
+    - 状態遷移はステートマシンを使ってイベント駆動で定義する
+    - ステートマシンを見て「この状態だからこういう見た目にする」という処理の書き方にする
+    - 見た目と内部状態で分離できて読みやすく・変えやすくなる
+
+### ステートマシン参考リンク
+
+- [Hierarchical State Machine](http://www.eventhelix.com/realtimemantra/hierarchicalstatemachine.htm#.Us1RbWQW1vA)
+- [Finite State Machines for AI in Actionscript - Richard Lord](http://www.richardlord.net/blog/finite-state-machines-for-ai-in-actionscript)
+- [AS3 Game Gears - State machine](http://www.as3gamegears.com/category/state-machine/)
+- [javascript-state-machine](https://github.com/jakesgordon/javascript-state-machine)
+- [Machine.js](http://machinejs.maryrosecook.com/)
+- [C++ の Boost の MSM（メタステートマシン）解説](http://d.hatena.ne.jp/redboltz/20111030)
+
 ## 衝突判定
 
 ### 四分木で空間分割

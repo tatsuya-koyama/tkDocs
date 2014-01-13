@@ -82,6 +82,7 @@ position: 3
 - [フロー体験の構成要素](http://jibun.atmarkit.co.jp/llife01/rensai/health15/health02.html)
 - [最もコンパクトな情報整理術 ―情報収集「依存」にならないために](http://www.earthinus.com/2010/04/information-overloaded.html)
 - [気を付けて！「口ぐせ」が自分自身へ与える影響がすごい！【脳科学】](http://matome.naver.jp/odai/2136781861772956801)
+- [こういうタイトルの記事を毛嫌いしないほうが良い10個の理由](http://kyouki.hatenablog.com/entry/2014/01/11/072824)
 
 ## Statistics / Numbers
 

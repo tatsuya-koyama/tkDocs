@@ -49,6 +49,7 @@ position: 6
 - [Twitterには25種類の「ふぁぼ」があるって知ってた？](http://d.hatena.ne.jp/ncat3/20111001/1317459977)
 - [１行ポエムツイッタラーのふぁぼられ](http://favotter.net/user/1linepoet&mode=best)
 - [言語女子会: undefとnullは両方必要？](http://d.hatena.ne.jp/nishiohirokazu/20120316/1331906887)
+- [プログラマのジョーク](http://cpplover.blogspot.jp/2014/01/blog-post_13.html)
 
 
 <br/><br/><br/>

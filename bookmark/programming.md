@@ -39,6 +39,7 @@ position: 2
 - [パターン指向リファクタリング](http://d.hatena.ne.jp/asakichy/20090706/1246864250)
 - [JSDoc の書き方](http://www38.atwiki.jp/aias-jsstyleguide2/pages/14.html)
 - [Refactoring (カタログあり)](http://www.refactoring.com/)
+- [（命名規則とか）Introduction to Coding Guidelines for Cocoa](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html)
 
 
 ## Development
