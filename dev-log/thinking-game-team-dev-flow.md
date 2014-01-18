@@ -1,5 +1,5 @@
 ---
-title: 'ゲームのチーム開発の開発フローについて考える'
+title: 'ゲームのチーム開発の開発フロー'
 date: '2013-12-06'
 description:
 categories: []

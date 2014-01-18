@@ -4,7 +4,7 @@ date: '2013-12-16'
 description:
 categories: []
 tags: [anything, Game-Development, krewFramework]
-position: 8
+position: 9
 ---
 
 # Adobe AIR ゲーム開発メモ
@@ -245,6 +245,27 @@ ___
 - 最小構成で動かしたいときに以下が参考になった。
   古めの記事だけど新しいやつなんかうまく動かないし…
     - [FlexUnit4が使いたくなった。 (2009-6)](http://prepro.wordpress.com/2009/06/10/flexunit4%E3%81%8C%E4%BD%BF%E3%81%84%E3%81%9F%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F%E3%80%82/)
+
+
+## メモリのマネジメント
+
+### GC
+
+- Scout とか Starling のモニター見てたりする感じだと、律儀に null 入れてやったりするのは効果ありそう
+    - System.gc() 呼んだときに解放されないものでも、時間が経つと解放されたりするので gc() 信用してはダメ
+    - 循環参照してても、基本的に ROOT から辿れないものは GC 対象になるっぽいが、
+      あまりに複雑に循環してる固まりが ROOT から浮いた状態になってると、GC は「諦める」らしい
+    - お互い参照してるところ（何かを登録する系だとよくある）ではインスタンス破棄時に null 入れてあげよう
+
+#### 参考リンク
+
+- [Understanding Garbage Collection in AS3](http://flashvideotrainingsource.com/featured_post/hints-and-tips/understanding-garbage-collection-in-as3)
+
+### インスタンスの消費メモリ
+
+- flash.sampler.getSize(obj) で obj のメモリサイズ（Byte）がとれるよ！
+
+
 
 <br/><br/><br/><br/>
 
