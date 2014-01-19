@@ -24,19 +24,19 @@ position: 999
     - ★
     - 物理エンジン使う
     - AS3 で Nape 使った小さいデモを作る
-    - Completed
+    - Completed <br/> 2013-01
     - <a href="/krew-framework/laboratory/">Demo</a><br/>(No. 8...11)
   -
     - ★★★
     - ゼルダライク
     - ゼルダっぽいマップを歩くようなデモを作る。壁との衝突判定をちゃんとやる
-    - Completed
+    - Completed <br/> 2013-01
     - <a href="/krew-framework/laboratory/">Demo</a><br/>(No. 12)
   -
     - ★★★
     - プラットフォーマー
     - マリオっぽいレベルを動き回れるデモを作る。床や壁との衝突判定をちゃんとやる
-    - Completed
+    - Completed <br/> 2013-01
     - <a href="/krew-framework/laboratory/">Demo</a><br/>(No. 13)
   -
     - ★★★

@@ -408,6 +408,15 @@ ___
 - 描画要素を持たないやつ、setUpActor の引数で false 渡してるけど
   Actor 側にプロパティに false 入れる処理書いた方がいいんじゃね
     - touchable と同じ扱い
+        - -> **やった**
+
+___
+
+- っていうかそもそも Actor が Starling の Sprite 継承しちゃってるのもアレかも
+    - Sprite は 150 バイトくらい消費する
+    - Actor 自体は素のクラスで、addChild 行われるときに初めて DisplayContainer を内部的に
+      用意する感じにした方が、View の無い Actor を作るときにメモリ節約できる
+- 3D 同じインタフェースで扱うときとか、Starling の Sprite 作るのもヘンな話だし
 
 ___
 

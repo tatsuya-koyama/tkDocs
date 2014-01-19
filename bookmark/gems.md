@@ -43,6 +43,7 @@ position: 6
 ## Puzzle
 
 - [初見で絶対に間違える問題](http://chaos2ch.com/archives/3139719.html)
+- [やねうらお - 2005-08-21 15パズルは何故解けないのか？](http://d.hatena.ne.jp/yaneurao/20050821)
 
 ## Joking
 

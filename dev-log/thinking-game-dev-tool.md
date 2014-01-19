@@ -29,7 +29,7 @@ Visual Studio がいいんだけど、Mac でも動かしたい… って人は 
 
 - Pros
     - マルチプラットフォーム
-    - GUI 作るための GUI がある
+    - GUI 作るための GUI がちゃんとある
 
 ### Adobe AIR
 
@@ -47,7 +47,9 @@ ___
 
 ### Unity
 
-- Unity 内でさらにゲーム用のツールを作るという発想の転換
+- Unity 内にカスタムしたゲーム用ツールを作る
+- Unity からそういうものを publish するんじゃなくて、Unity のプラグインを作るってこと
+- （何がどこまでできるかはわからん）
 
 ___
 
@@ -73,6 +75,11 @@ ___
 
 - Cons
     - 有料ソフトが必要
+
+#### 参考リンク
+
+- Adobe の Andy さんがまさにそういうことカンファレンスでやってたけど、GitHub で公開してた
+    - [GitHub - andyhall / Flash-HTML-demos](https://github.com/andyhall/Flash-HTML-demos/tree/master/4-flash-cocos-level)
 
 ### ゲーム内にエディタを作る
 
