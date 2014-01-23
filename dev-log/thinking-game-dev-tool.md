@@ -31,6 +31,10 @@ Visual Studio がいいんだけど、Mac でも動かしたい… って人は 
     - マルチプラットフォーム
     - GUI 作るための GUI がちゃんとある
 
+### Mono
+
+- ってのもある
+
 ### Adobe AIR
 
 - Pros
@@ -78,8 +82,13 @@ ___
 
 #### 参考リンク
 
-- Adobe の Andy さんがまさにそういうことカンファレンスでやってたけど、GitHub で公開してた
+- Adobe の Andy さんがまさにそういうことカンファレンスでやってたけど、GitHub でソース公開してた
     - [GitHub - andyhall / Flash-HTML-demos](https://github.com/andyhall/Flash-HTML-demos/tree/master/4-flash-cocos-level)
+- JSFL のドキュメントはここの Extending Flash Professional を見ればいいっぽい
+    - [Adobe Flash Professional](http://help.adobe.com/en_US/flash/cs/extend/index.html)
+- JSFL 関連
+    - [JSFLでjson2.jsライブラリを読みこんだら、すんなり使えたというメモ](http://www.1ft-seabass.jp/memo/2012/11/24/jsfl_tips_004/)
+
 
 ### ゲーム内にエディタを作る
 

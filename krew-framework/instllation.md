@@ -9,13 +9,13 @@ position: 2
 
 # セットアップとサンプルゲームのビルド
 
-## Adobe AIR ゲーム開発のセットアップ
+## Adobe AIR ゲーム開発環境のセットアップ
 
 - [ToDo] _Flash Builder 用の（罠が多くて辛い）セットアップ手順についてもまとめる_
 
-### AIR SDK と Flex SDK の準備
-
 Mac での開発を前提に手順を示します。
+
+### AIR SDK と Flex SDK の準備
 
 - 以下から Adobe AIR SDK をダウンロードし、任意の場所に展開します
     - [Adobe AIR SDK](http://www.adobe.com/devnet/air/air-sdk-download.html)
@@ -30,6 +30,7 @@ ___
 ___
 
 - コンパイラなどのコマンド実行に Java 1.6 以上が必要です
+    - Mac であれば大抵デフォルトで入っていると思います
     - 以下でチェックして、入ってなかったら頑張って入れてください
 
             $ java -version
@@ -44,14 +45,16 @@ ___
 > Mac の Finder では同名のフォルダは置き換えになってしまいます。
 > マージする場合には ditto コマンドなどを使用します。
 
-- SDK の bin ディレクトリにパスを通します。bash だったら ~/.bashrc に以下を書くなど：
+- SDK の bin ディレクトリにコンパイラなどのコマンドが置かれていますので、ここにパスを通します。
+  bash だったら ~/.bashrc に以下を書くなど：
 
         export PATH=path/to/flex_sdk_merged_air_sdk/bin:$PATH
 
-- 以下のコマンドで version 4.6.0 などと表示されれば準備完了です
+- 以下のコマンドで `version 2.0.0` などと表示されれば準備完了です
 
         $ mxmlc -version
 
+> ASC2.0 でない古いコンパイラの SDK を使用した場合は、`version 4.6.0` などと表示されます
 
 ## サンプルゲームのビルド
 

@@ -29,6 +29,70 @@ position: 9
 - それが FlasCC （Flash C++ Compiler）というものになった
 - Adobe CrossBridge はそれのオープンソース版（2013 年 6 月くらいの発表？）
 
+
+## ActionScript 3.0 一般
+
+### ASC2.0 をコマンドラインから使うとコンパイル時間長くね？
+
+- 参考リンク
+    - [FCSH with new AIR / ASC2.0 compiler (faster compilation iterations)](http://forum.starling-framework.org/topic/fcsh-with-new-air-asc20-compiler-faster-compilation-iterations)
+    - [http://jcward.com/FCSH+for+ASC+2.0+Compiler](http://jcward.com/FCSH+for+ASC+2.0+Compiler)
+    - 試してみたけど俺の環境だと ascshd の立ち上げに 7 秒くらいかかって差し引きゼロだった……
+
+### 配列の走査のパフォーマンス
+
+すごく適当に実験してみた。
+
+`[0, 1, 2, 3, ... 999999]` の要素数 100 万の配列 `list` があったとして、
+色んな書き方で走査して終了までの時間を flash.utils.getTimer() で計測する。
+当然実行するたびに値揺れるけど、傾向を見るのにやってみた。
+
+- 昔ながらのやり方で書く
+- 233 ms くらい
+
+        for (var i:int = 0;  i < list.length;  ++i) {
+            tmp = list[i];
+        }
+
+____
+
+- length を外に出す
+- 133 ms くらいで、確かに速くはなる
+
+        var len:int = list.length;
+        for (var i:int = 0;  i < len;  ++i) {
+            tmp = list[i];
+        }
+
+____
+
+- 現代人がよく書くやつ
+- 156 ms くらい。概ねこれで問題ない
+
+        for each (var val:int in tester) {
+            tmp = val;
+        }
+
+____
+
+- Array クラスの forEach
+- （引数面倒だし使うことはないだろう。 JS と違って最初から for each あるし）
+- 318 ms くらい。関数コールのオーバヘッドはこんなもん
+
+        list.forEach(function(val:*, index:int, array:Array):void {
+            tmp = val;
+        });
+
+____
+
+- オブジェクトのキーの走査に使うやつを配列で
+- 5522 ms もかかったのでダメだ。 i がほしい時は昔ながらので書くべし
+
+        for (var i:String in list) {
+            tmp = list[i];
+        }
+
+
 ## 物理エンジンの Nape どうなの
 
 - [Nape Physics Engine](http://napephys.com/index.html)
