@@ -1,19 +1,26 @@
 ---
-title: 'krewFramework を作るときに考えたこと'
+title: '（krewFramework を作るときに考えたこと）'
 date: '2013-12-03'
 description:
 categories: []
 tags: [anything, krewFramework]
-position: 4
+position: 9902
 ---
 
 # krewFramework を作るときに考えたこと
 
+## 関連メモ
+
+- [ゲーム実装するときに考えることリスト](/dev-log/thinking-game-engine-todo/)
+- [ゲーム開発のツールについて考える](/dev-log/thinking-game-dev-tool/)
+- [ゲームのチーム開発の開発フローについて考える](/dev-log/thinking-game-team-dev-flow/)
+- [プログラミングについて考える](/dev-log/thinking-programming/)
+- [Adobe AIR ゲーム開発メモ](/dev-log/adobe-air-dev-note/)
+- [Flash Builder での開発メモ](/dev-log/flash-builder-dev-note/)
+
 ## krewFramework って何
 
 クルー・フレームワークと読みます。
-
-ドキュメントは[こちら](/krew-framework/top)。
 
 - [俺](http://www.tatsuya-koyama.com/4.0/html/tkinfo/profile.html)
   による俺のための俺俺ゲームフレームワーク
@@ -77,8 +84,8 @@ ___
 
 crew の c を k に変えて krew にしたのは以下の理由からだ：
 
-- crew はタイプしにくい。krew は結構タイプしやすい
-- 検索性が上がる。"krew Framework" でググってもそれらしいものはない
+> - crew はタイプしにくい。krew は結構タイプしやすい
+> - 検索性が上がる。"krew Framework" でググってもそれらしいものはない
 
 
 ## フレームワークをなぜ自分で作るのか
@@ -416,6 +423,12 @@ ___
 - エラーハンドリング
     - 実機で動かしてる時もエラー表示ちゃんとできるようにとか
 
+___
+
+- リソース管理をもうちょっとちゃんとやる
+    - 前のシーンで使ってたやつを再読み込みしないとか
+    - グローバルのやつを足し引きできるとか
+
 ### こまかい ToDo
 
 - 描画要素を持たないやつ、setUpActor の引数で false 渡してるけど
@@ -443,5 +456,10 @@ ___
     - でもそのままメソッド名にするのはムズいか。js なら function 足すの容易だが
     - やるなら使う人が、 StuntAction 自体をカスタム継承したやつに差し替える感じかな
 
-<br/><br/><br/><br/><br/><br/><br/><br/>
+___
+
+- レイヤーを移動できるインタフェース
+
+<br/><br/><br/><br/><br/>
+
 

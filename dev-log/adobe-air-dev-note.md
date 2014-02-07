@@ -4,7 +4,7 @@ date: '2013-12-16'
 description:
 categories: []
 tags: [anything, Game-Development, krewFramework]
-position: 9
+position: 10
 ---
 
 # Adobe AIR ゲーム開発メモ
@@ -283,6 +283,17 @@ ___
     - 画面の数分の 1 くらいの領域のタイルごとに QuadBatch にまとめる
     - スクロールで入ってくる新しい領域ぶんだけ新しく QuadBatch を構成（他はスクロールだけ）
 
+## Starling の TextField
+
+- 中で QuadBatch 使ってる関係で、デフォルトでは TextField の数だけ Draw Call 増えてしまう
+    - Text いっぱい並ぶ UI 画面とか普通に作ると（文字の描画だけが連続するようにしても）Draw Call めっちゃ増える
+- **TextField.batchable を true にする** と、QuadBatch を使うのを避けられる。
+    - 長い文字列を 1 回表示する場合は false のまま、
+      短い文字列をたくさん表示する場合は true にすると処理効率がよい
+
+> - 【参考】[Starling Forum](http://forum.starling-framework.org/topic/performance-bitmap-fonts-draw-count)
+> - 【参考】[API Doc - TextField](http://doc.starling-framework.org/core/index.html?starling/text/BitmapFont.html&starling/text/class-list.html)
+
 ## Starling Topics
 
 ### たくさんスプライト出したい系
@@ -298,6 +309,11 @@ ___
     - 四分木で見えてるとこだけ DisplayList にのっけるようなスプライト
     - 広大なタイルマップ描画とかに使える
 
+### Draw Call 減らしたい系
+
+- [Dynamic Texture Atlas](https://github.com/emibap/Dynamic-Texture-Atlas-Generator)
+    - 場合によってはシーン初期化時にテクスチャを動的生成するアプローチも考えられる
+    - ランタイムコスト増えるが、アセットの開発フローが楽になる
 
 ## FlexUnit どうなの
 

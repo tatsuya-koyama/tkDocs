@@ -216,6 +216,11 @@ li {
     line-height: 160%;
 }
 
+blockquote ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 #outline-pane ul {margin-left: 1.0em;}
 #outline-pane li {
     font-size: 90%;

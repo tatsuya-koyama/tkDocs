@@ -4,7 +4,7 @@ date: '2013-12-10'
 description:
 categories: []
 tags: [anything, krewFramework]
-position: 9999
+position: 9901
 ---
 
 # まとめる前のドラフト
@@ -48,6 +48,8 @@ ___
         - ってか Starling ならまあ Feathers 使いたいよね
     - KrewActor は starling.display.Sprite のサブクラスなので Starling の DisplayObject なら
       普通に addChild できる
+
+> 【大きめToDo】 Starling の部分をコンポジションにして別の View にも差し替え可能にする
 
 ___
 
@@ -114,11 +116,11 @@ ___
 
 ___
 
-- 世の多数派に合わせ、インデントはスペース
+- 世の多数派に合わせ、インデントはスペース（僕ももともとはタブ派だったが）
 - 括弧のスペースの入れ方なども多数派に合わせる
 
         if (condition == true) {
-            // do something
+            aInstance.doSomething(args);
         }
 
 - 関数名の後の波括弧は同じ行に置く（これは僕の好みの問題）
@@ -136,7 +138,59 @@ ___
 - builtin_actor にはゲームやパフォーマンステスト用のデモを作る過程で生まれた Actor を入れておく
     - ここに入れるものは、特定のリソース名やコンテキストに依存しないようにパラメータを外から指定できるように作る
 
+## 開発の流れ
+
+### あなたがやるべきこと
+
+#### 1. GameDirector を 1 つ用意
+
+- KrewGameDirector を継承したクラスを 1 つ書く
+- こいつを Starling の コンストラクタに渡す
+- 【必須】最初の Scene の指定を行う
+- 【Optional】ゲーム全体で持ちたいグローバルなリソースの指定を行う
+
+        package {
+
+            import yourgame.scene.BootScene;
+            import krewfw.core.KrewGameDirector;
+        
+            public class YourGameDirector extends KrewGameDirector {
+
+                public function YourGameDirector() {
+                    var firstScene:KrewScene = new BootScene();
+                    startGame(firstScene);
+                }
+        
+                protected override function getInitialGlobalAssets():Array {
+                    return [
+                         "image/atlas_first.png"
+                        ,"image/atlas_first.xml"
+                    ];
+                }
+            }
+        }
+
+#### 2. Scene を画面の数だけ用意
+
+- タイトル画面、ゲーム画面、リザルト画面などがそれぞれ Scene になり得ます
+- krewFramework のおける Scene とは、「リソースをメモリに読み込むスコープ」だと思ってください
+- ToDo
+
+#### 3. Scene で使う Actor を適宜実装
+
+- ToDo
+
+## krewFramework がやっている処理の流れ
+
+- ToDo
+- resource 読み込みのフロー
+- update のフロー
+- Actor の init のフロー（setUpActor と addActor）
+- メッセージングのフロー
+
 ## GameDirector を作る
+
+- ToDo
 
 ## Scene を作る
 

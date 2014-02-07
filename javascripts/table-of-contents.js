@@ -28,6 +28,7 @@ var TocNew = {
                 })
         cache += "</ul>";
 
+        cache += "<br/><br/>";
         this.$active.append(cache);
     },
 

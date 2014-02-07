@@ -19,7 +19,7 @@ Mac での開発を前提に手順を示します。
 
 - 以下から Adobe AIR SDK をダウンロードし、任意の場所に展開します
     - [Adobe AIR SDK](http://www.adobe.com/devnet/air/air-sdk-download.html)
-    - 筆者が動作確認しているバージョンは、3.9 です
+    - 筆者が動作確認しているバージョンは、4.0 です
 
 ___
 

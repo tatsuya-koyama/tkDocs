@@ -4,7 +4,7 @@ date: '2013-12-16'
 description:
 categories: []
 tags: [anything, Programming]
-position: 8
+position: 9
 ---
 
 # プログラミングについて考える

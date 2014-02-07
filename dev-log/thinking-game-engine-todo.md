@@ -4,7 +4,7 @@ date: '2013-12-16'
 description:
 categories: []
 tags: [anything, Game-Development, krewFramework]
-position: 5
+position: 6
 ---
 
 # ゲーム実装するときに考えることリスト
