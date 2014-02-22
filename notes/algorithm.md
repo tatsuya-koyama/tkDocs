@@ -4,7 +4,7 @@ date: '2014-01-16'
 description:
 categories: []
 tags: [anything, Programming, Algorithm]
-position: 2
+position: 3
 ---
 
 # Algorithm
@@ -49,5 +49,5 @@ position: 2
 
 
 
-<br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/>
 

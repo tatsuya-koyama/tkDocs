@@ -106,9 +106,18 @@ ___
     - 単純な Painting Algorithm だからね
 
 
+## コーディングガイドライン
+
+- Scene は基本的にアセット一覧や setUpActor を並べるだけのイメージ
+    - Actor の初期化のための private メソッドとかでもあんまり足さない方がいい
+    - Scene は「これとこれとこれを使う」と指定するだけの場所。Actor 固有の処理はできるだけ Actor にまとめる
+        - 初期化のためのカスタマイズが複雑になるなら Factory 的な Actor を一枚かましてそいつを setUpActor するとか
+    - つけ外しの「外し」が容易かどうか、ということを気にする
+
+
 ## コーディングスタイル
 
-- 書籍「リーダブルコード」に概ね賛成
+- 思想は書籍「リーダブルコード」に概ね賛成
 - ちょっとした作業変数だったとしても、変数名はできるだけ省略しない
     - 書く労力は一度だけ、読む方を楽にする精神
 - スペースによる整形は積極的に行う
@@ -116,17 +125,88 @@ ___
 
 ___
 
-- 世の多数派に合わせ、インデントはスペース（僕ももともとはタブ派だったが）
-- 括弧のスペースの入れ方なども多数派に合わせる
+- 参考
+    - [Google Java Style](http://google-styleguide.googlecode.com/svn/trunk/javaguide.html#s5.2.2-class-names)
+    - [Python - PEP8](http://www.python.org/dev/peps/pep-0008/)
 
-        if (condition == true) {
-            aInstance.doSomething(args);
+___
+
+- 世の多数派に合わせ、インデントはスペース（僕ももともとはタブ派だったが）
+- 4 スペースを使う
+- 行末のスペースは許さない。これに従い、改行目的でもスペースだけの行は作らない
+    - （Emacs で delete-trailing-whitespace した状態）
+
+___
+
+- 括弧や演算子のスペースの入れ方なども多数派（と思われるもの）に合わせる
+- インクリメントは基本的に無難な前置
+- これは完全に僕個人のクセであることを認めるが、if の && 前後や for のセミコロンの後ろには
+  スペースを 2 つ入れてしまう。区切りが見やすいから…
+
+        if (condition == true  &&  anotherCondition == false) {
+            aInstance.doSomething(arg1, arg2);
+            someVar = someVar + 3;
+            ++someVar;
         }
 
-- 関数名の後の波括弧は同じ行に置く（これは僕の好みの問題）
-
-        publich function hoge(fuga:Number):void {
+        for (var i:int = 0;  i < numList.length;  ++i) {
+            var elem:Number = numList[i];
             // do something
+        }
+
+___
+
+- 関数名の後の波括弧は同じ行に置く（FlashBuilder のデフォルトとは異なるが、if などと合わせたい）
+- 初期値の = などは個人的にはスペース入れたいが、多数派に合わせてスペース入れない
+
+        publich function hoge(fuga:Number, piyo:Number=0):void {
+            // do something
+        }
+
+___
+
+- これも個人的なスタイルだが、大きい配列・オブジェクトで要素を並べるときに、
+  追加と削除がしやすいように先頭にカンマを持ってくることがある
+      - Perl などのように末尾のカンマが許されているなら、全部行末につけるけどね
+
+            var someObj:Object = {hoge: 1, fuga: 2};
+            var someList:Array = [1, 2, 3];
+    
+            var actors:Array = [
+                 new HogeActor(args1, args2)
+                ,new FugaActor(args1, args2, args3)
+                ,new PiyoPiyoActor(args1)
+            ];
+
+
+___
+
+- 命名はキャメルケース
+- クラス名は大文字から、それ以外は小文字から
+- 定数名は大文字でアンダーバー区切り
+- package 内はインデント
+- private, protected な変数名、関数名には先頭に _ をつける（JavaScript でよく見られるスタイル）
+
+        package com.tk.something {
+
+            public class MyClass {
+
+                private const MY_CONST_VALUE:int = 100;
+
+                public var hogeNum:Number;
+                private var _fugaNum:Number;
+                protected var _piyoNum:Number;
+
+                public function myFunc():void {
+                    // ...
+                }
+
+                private function _mySecretFunc():void {
+                    // ...
+                }
+
+            }
+
         }
 
 

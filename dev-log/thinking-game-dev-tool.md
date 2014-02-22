@@ -1,5 +1,5 @@
 ---
-title: 'ゲーム開発のツールについて'
+title: 'ゲーム開発のツール'
 date: '2014-01-18'
 description:
 categories: []

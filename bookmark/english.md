@@ -20,6 +20,7 @@ position: 8
 ## ビジネス
 
 - [ビジネス英語メール](http://eigo-reibun.com/)
+- [センスがグッとアップする。そのまま使える英語メール書き出し80選](http://www.berlitz-blog.com/englishmail)
 
 ## プログラマ向け
 

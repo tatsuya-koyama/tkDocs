@@ -169,61 +169,86 @@ ___
     - さわるやつには Krew をつけておこう
     - Vector とか ResourceManager みたいな一般的な名前にも一応つけておこう
 
-### パッケージ
+### パッケージ構成
 
-    krewfw/
-    ├── KrewConfig.as
-    ├── NativeStageAccessor.as
-    ├── builtin_actor
-    │   ├── ColorActor.as
-    │   ├── ColorRect.as
-    │   ├── DraggableActor.as
-    │   ├── KrewMovieClip.as
-    │   ├── KrewStateHook.as
-    │   ├── KrewStateMachine.as
-    │   ├── ScreenCurtain.as
-    │   ├── ScreenFader.as
-    │   ├── SimpleButton.as
-    │   ├── SimpleImageActor.as
-    │   ├── TextButton.as
-    │   └── TouchFilter.as
-    ├── core
-    │   ├── KrewActor.as
-    │   ├── KrewBlendMode.as
-    │   ├── KrewGameDirector.as
-    │   ├── KrewGameObject.as
-    │   ├── KrewScene.as
-    │   └── KrewSystemEventType.as
-    ├── core_internal
-    │   ├── CollisionGroup.as
-    │   ├── CollisionSystem.as
-    │   ├── IdGenerator.as
-    │   ├── KrewResourceManager.as
-    │   ├── KrewSharedObjects.as
-    │   ├── NotificationPublisher.as
-    │   ├── NotificationService.as
-    │   ├── ProfileData.as
-    │   ├── SceneServantActor.as
-    │   ├── StageLayer.as
-    │   ├── StageLayerManager.as
-    │   ├── StuntAction.as
-    │   ├── StuntActionInstructor.as
-    │   └── collision
-    │       ├── CollisionShape.as
-    │       ├── CollisionShapeAABB.as
-    │       ├── CollisionShapeOBB.as
-    │       ├── CollisionShapeSphere.as
-    │       └── HitTest.as
-    ├── starling_utility
-    │   └── TextFactory.as
-    └── utility
-        ├── KrewLine2D.as
-        ├── KrewPoint2D.as
-        ├── KrewSoundPlayer.as
-        ├── KrewTimeKeeper.as
-        ├── KrewTimeKeeperTask.as
-        ├── KrewUtil.as
-        └── KrewVector2D.as
+    krew-framework/
+    └── krewfw
+        ├── KrewConfig.as
+        ├── NativeStageAccessor.as
+        │
+        ├── builtin_actor
+        │   ├── display
+        │   │   ├── ColorActor.as
+        │   │   ├── ColorRect.as
+        │   │   ├── KrewMovieClip.as
+        │   │   ├── ScreenCurtain.as
+        │   │   ├── ScreenFader.as
+        │   │   ├── SimpleImageActor.as
+        │   │   └── SimpleLoadingScreen.as
+        │   ├── event
+        │   │   └── TouchFilter.as
+        │   ├── system
+        │   │   ├── KrewState.as
+        │   │   ├── KrewStateMachine.as
+        │   │   ├── MinimalStateHook.as
+        │   │   └── MinimalStateMachine.as
+        │   └── ui
+        │       ├── DraggableActor.as
+        │       ├── ImageButton.as
+        │       ├── SimpleButton.as
+        │       ├── SimpleVirtualJoystick.as
+        │       └── TextButton.as
+        │
+        ├── core
+        │   ├── KrewActor.as
+        │   ├── KrewBlendMode.as
+        │   ├── KrewGameDirector.as
+        │   ├── KrewGameObject.as
+        │   ├── KrewScene.as
+        │   └── KrewSystemEventType.as
+        │
+        ├── core_internal
+        │   ├── CollisionGroup.as
+        │   ├── CollisionSystem.as
+        │   ├── IdGenerator.as
+        │   ├── KrewResourceManager.as
+        │   ├── KrewSharedObjects.as
+        │   ├── NotificationPublisher.as
+        │   ├── NotificationService.as
+        │   ├── ProfileData.as
+        │   ├── SceneServantActor.as
+        │   ├── StageLayer.as
+        │   ├── StageLayerManager.as
+        │   ├── StuntAction.as
+        │   ├── StuntActionInstructor.as
+        │   └── collision
+        │       ├── CollisionShape.as
+        │       ├── CollisionShapeAABB.as
+        │       ├── CollisionShapeOBB.as
+        │       ├── CollisionShapeSphere.as
+        │       └── HitTest.as
+        │
+        ├── data_structure
+        │   ├── KrewLine2D.as
+        │   ├── KrewPoint2D.as
+        │   └── KrewVector2D.as
+        │
+        └── utils
+            ├── krew.as
+            ├── as3
+            │   ├── KrewSoundPlayer.as
+            │   ├── KrewTimeKeeper.as
+            │   └── KrewTimeKeeperTask.as
+            ├── dev_tool
+            │   └── KrewTestUtil.as
+            ├── starling
+            │   ├── TextFactory.as
+            │   └── TileMapHelper.as
+            └── swiss_knife
+                ├── KrewListUtil.as
+                ├── KrewStringUtil.as
+                └── KrewTopUtil.as
+
 
 - core_internal は直接触れることない
     - 大体は KrewActor および KrewGameObject のインタフェースを通して制御する
@@ -354,112 +379,7 @@ Scene が各 Actor 達の update を呼ぶ感じ
 
 
 
-## 作業メモ
 
-### こまかい設計上の悩みポイント
-
-- Actor の init に引数渡したくなる感
-    - 今だとコンストラクタで渡してメンバに保持しておいて init 内で使うとかなってて微妙
-        - → **addInitializer メソッド作ってコンストラクタ内で init 処理足せるようにして解決**
-
-___
-
-- Actor の中で getImage('hoge') って書くのはまあいいとして、
-  getGlobalImage('fuga') とかの使い分け要るのは微妙？
-    - Actor 書く側が使われる側でのリソース指定を気にしとかなきゃいけないところが微妙
-    - 処理のオーバヘッドは増えるが「シーンスコープから探して、無ければグローバルスコープから探す」とするか
-        - → **やった**
-
-___
-
-- Scene も Actor でよかったんじゃないか説
-    - たぶん最初は色々悩んでて GameObject から Scene と Actor に分岐させてしまった
-    - 「Scene は Actor を束ねるもの」だけど、別に Scene が Actor でもよいよな
-    - Layer も Actor のサブクラスになったしな
-    - Actor が Actor を持てればいいって話。Composit パターン
-    - 結局メッセージングとかシステム側でやるときに Scene に持たせたシステム Actor に
-      仕事させたりしちゃってる。Scene 自体が Actor だったらもっとすっきり書けた気がする
-    - あーでも update が無限ループするみたいな事故もありそう。わからん。
-
-___
-
-- グローバルとシーンスコープの 2 つだけだとちょっとやりづらい？
-    - ちょっとした画面遷移でいちいちファイルアクセスすると割と実機での Loading 気になる
-    - アセット多いゲームパートと、それ以外のパート、みたいにシーンのグループで
-      読み込んでおくグループコントロールしたくなってくる
-
-### こまかい実装上の悩みポイント
-
-- Asset 読み込みの効率化
-    - シーン遷移で全部 purge じゃなくて、差分だけ purge & load したいところだ
-    - でも starling.utils.AssetManager 使ってるとやりにくいな
-    - まあよく使うものは Global に読み込んでもらえって話か
-- ただシーン遷移のフェードアウトしながら次のシーンの読み込むとかできたらカッコいいよな
-    - まあそれ頑張るとフェードアウトが結構カクついちゃうかもしれんが…
-
-### 大きめ ToDo
-
-- ゲームのオブジェクトはワールド座標内に置くようにして
-  レイヤーごとに Camera が切り取るみたいな感じにする
-    - 表示のカリングもこいつがやればよいか
-    - Starling Extension の QuadtreeSprite が近いことやってるっぽい
-    - （4 頂点オブジェクトの Quad と紛らわしいけど、Quadtree というだけあって内部では四分木やってる）
-
-___
-
-- 衝突判定が今は単純すぎてスケールしないので、四分木で空間分割する
-    - まあ世にある collision とか physics 系のライブラリ使うのが早いだろうな
-
-___
-
-- 今は KrewActor が Starling の Sprite を継承しちゃってるけど、View をコンポジションで持つようにして
-  別の View にも差し替え可能にする
-    - 例えば Away3D のオブジェクトも krewFramework のインタフェースで透過的に扱いたいとなった場合に、
-      なんで Starling の Sprite を new せなアカンねん、となってしまうため
-    - 見た目を持たない Actor はそもそも View を new しなくていい。メモリも節約できる
-
-___
-
-- エラーハンドリング
-    - 実機で動かしてる時もエラー表示ちゃんとできるようにとか
-
-___
-
-- リソース管理をもうちょっとちゃんとやる
-    - 前のシーンで使ってたやつを再読み込みしないとか
-    - グローバルのやつを足し引きできるとか
-
-### こまかい ToDo
-
-- 描画要素を持たないやつ、setUpActor の引数で false 渡してるけど
-  Actor 側にプロパティに false 入れる処理書いた方がいいんじゃね
-    - touchable と同じ扱い
-        - -> **やった**
-
-___
-
-- っていうかそもそも Actor が Starling の Sprite 継承しちゃってるのもアレかも
-    - Sprite は 150 バイトくらい消費する
-    - Actor 自体は素のクラスで、addChild 行われるときに初めて DisplayContainer を内部的に
-      用意する感じにした方が、View の無い Actor を作るときにメモリ節約できる
-- 3D 同じインタフェースで扱うときとか、Starling の Sprite 作るのもヘンな話だし
-
-___
-
-- servantActor, 名前を assistantActor 的なものにしよう
-    - 映画や演劇っぽい名前にそろえる
-
-___
-
-- act(). からつなげるトゥイーンアニメーション
-    - blink みたいなちょっと凝ったやつあるけど、外からもそういうメソッドが足せるようにできたらよいな
-    - でもそのままメソッド名にするのはムズいか。js なら function 足すの容易だが
-    - やるなら使う人が、 StuntAction 自体をカスタム継承したやつに差し替える感じかな
-
-___
-
-- レイヤーを移動できるインタフェース
-
-<br/><br/><br/><br/><br/>
+<br/><br/><br/>
 
 

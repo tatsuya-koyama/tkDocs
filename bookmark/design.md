@@ -45,6 +45,11 @@ position: 7
 
 - [LifeVestInside（親切の連鎖）](http://www.youtube.com/watch?feature=player_embedded&v=nwAYpLVyeFU)
 - [Sight](http://vimeo.com/46304267)
+- [feely.jp](http://feely.jp/)
+
+## Music
+
+- [第99回：2010年代に聴くべき、新しいピアノ・ミュージック](http://www.drillspin.com/articles/view/680)
 
 ## Stylish Website
 
@@ -84,6 +89,7 @@ position: 7
 - [The Noun Project（ピクトグラム）](http://thenounproject.com/)
 - [PhotoShop Brush](http://fbrushes.com/)
 - [DESK](http://desk.cmiscm.com/#)
+- [英語圏のかぶらない無料写真サイト10選](http://kyouki.hatenablog.com/entry/2014/02/16/091153)
 
 
 <br/><br/><br/>

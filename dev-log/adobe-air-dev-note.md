@@ -32,6 +32,23 @@ position: 10
 
 ## ActionScript 3.0 一般
 
+### AS3 Tips
+
+#### null と undefined
+
+- JS のノリで undefined とか null とか使うと事故るよ
+    - AS3 は型ごとにデフォルト値決まってる
+    - Boolean は false, int/uint は 0, Number は NaN, 後は大体 null
+    - 未宣言とか * で型指定ない場合が undefined
+    - **Boolean, int/uint, Number は null 入れられない**
+        - null 入れるとデフォルト値に変換されるので注意
+        - Number に null 入れて if (num == null) とかダメ
+        - そういうときは Number に NaN 入れて if (isNaN(num)) ってやる
+
+
+> - [Adobe AS3 - デフォルト値](http://help.adobe.com/ja_JP/ActionScript/3.0_ProgrammingAS3/WS5b3ccc516d4fbf351e63e3d118a9b90204-7f9d.html#WS5b3ccc516d4fbf351e63e3d118a9b90204-7f8b)
+> - [Adobe AS3 - 型変換](http://help.adobe.com/ja_JP/ActionScript/3.0_ProgrammingAS3/WS5b3ccc516d4fbf351e63e3d118a9b90204-7f87.html)
+
 ### ASC2.0 をコマンドラインから使うとコンパイル時間長くね？
 
 - 参考リンク
@@ -345,6 +362,18 @@ ___
 
 - flash.sampler.getSize(obj) で obj のメモリサイズ（Byte）がとれるよ！
 
+
+## mp3 ってライセンス的にどうなんすかね
+
+- 正式なところまだわかってない
+    - フォーラムにも書き込みあるけど回答ない
+- でも Flash / AIR って基本読み込めるの mp3 だしね…
+
+___
+
+- 参考リンク
+    - [Ogg Vorbis Encoder + Decoder for Flash](http://labs.byhook.com/2011/02/22/ogg-vorbis-encoder-decoder-for-flash/)
+    - [Even more about audio licenses on the web](https://www.scirra.com/blog/65/even-more-about-audio-licenses-on-the-web)
 
 
 <br/><br/><br/><br/>

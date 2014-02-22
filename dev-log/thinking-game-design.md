@@ -1,5 +1,5 @@
 ---
-title: 'ゲームデザインについて'
+title: 'ゲームデザイン'
 date: '2014-02-05'
 description:
 categories: []
@@ -8,10 +8,6 @@ position: 5
 ---
 
 # ゲームデザインについて考える
-
-## 本読んだまとめ
-
-- [Rules of Play まとめ](http://www.tatsuya-koyama.com/4.0/html/tknotes/mynote/book/rules_of_play.html)
 
 ## 師は言った
 
@@ -52,6 +48,14 @@ ___
 
 - 人は「楽」で「楽しい」ものに流れる
     - 同じ楽しさのものがあれば、楽な方に流れる
+
+
+## 関連 tkDocs
+
+- [ゲームデザイン勉強メモ](/notes/game-design)
+
+
+
 
 
 
