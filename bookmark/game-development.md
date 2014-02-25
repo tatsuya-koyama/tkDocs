@@ -47,11 +47,12 @@ position: 1
 - [5 tips for making great animations for 2D games](http://www.gamasutra.com/view/news/176663/5_tips_for_making_great_animations_for_2D_games.php#.UEdDAaQe7ZT)
 
 
-## Job
+## Job / Working
 
 - [5 Ways to be a Successful Indie Developer](http://indiegames.com/2012/06/5_ways_to_be_a_successful_indi.html#more)
 - [ゲーム開発者達のインタビュー映像集（英語）](http://www.criticalpathproject.com/)
 - [ゲームプログラマーという職業はもうありません。](http://d.hatena.ne.jp/teruyastar/20100806/1281120255)
+- [【驚き】NGUI作者がUnity 退職。ゲーム開発への情熱はそのまま！](http://gamesonytablet.blogspot.jp/2014/02/nguiunity.html)
 
 
 ## Project Management

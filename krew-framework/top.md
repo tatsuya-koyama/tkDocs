@@ -10,7 +10,7 @@ position: 1
 # krewFramework （クルー・フレームワーク）
 
 <div style="text-align: center;">
-  <img src="{{urls.media}}/krewfw/krewfw_logo.png"
+  <img class="radius" src="{{urls.media}}/krewfw/krewfw_logo.png"
        style="width: 100%; max-width: 800px;" />
 </div>
 
@@ -29,9 +29,19 @@ position: 1
 - <a href="{{base_url}}/static/krewfw-api/" target="_blank">API Reference</a>
 
 
-## はじめかた
+## 動作デモ
 
-- [セットアップとサンプルゲームのビルド](/krew-framework/instllation)
+- 制作過程で生まれた実験的なコード集
+    - [Laboratory](/krew-framework/laboratory)
+
+<div style="padding-left: 12%;">
+  <img src="{{urls.media}}/krewfw/krew-lab-image.png" />
+</div>
+
+
+## 始め方
+
+- [AIR SDK のセットアップとサンプルのビルド](/krew-framework/instllation)
 
 
 <br/><br/><br/><br/>

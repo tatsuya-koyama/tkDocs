@@ -241,7 +241,7 @@ blockquote ul {
 #left-pane li {
     font-size: 90%;
     line-height: 120%;
-    margin-bottom: 0.5em;
+    margin-bottom: 1.0em;
     list-style: none;
     margin-left: 0px;
     padding-right: 0.3em;
@@ -290,6 +290,18 @@ pre {
 
 code {
     font-size: 120%;
+    color: #5a3e20;
+    background-color: #edc;
+    border: 1px solid #dcb;
+    padding: 0.1em 0.3em 0.1em 0.3em;
+}
+
+blockquote code { font-size: 92%; }
+
+pre.prettyprint code {
+    font-size: 120%;
+    background-color: transparent;
+    border: none;
 }
 
 /*----- div ------------------------------------------------------*/
@@ -358,8 +370,22 @@ div.grid11 { float: left; width: 91.66%; }
 div.grid12 { float: left; width:100.00%; }
 
 /*----- image ------------------------------------------------------*/
+img {
+    margin: 1.0em 1.0em 1.0em 1.0em;
+}
+
+img.normal {
+    margin: 1.0em 1.0em 1.0em 1.0em;
+
+    -moz-box-shadow:    3px 3px 6px #aaa; /* FireFox */
+    -webkit-box-shadow: 3px 3px 6px #aaa; /* webkit */
+    box-shadow:         3px 3px 6px #aaa;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=135,strength=3,enabled=true)";
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=135,strength=3,enabled=true); /* IE5.5+ */
+}
+
 img.photo{
-    margin: 1.0em 0 1.0em 3.0em;
+    margin: 1.0em 1.0em 1.0em 1.0em;
     border: 5px solid #f9f9f9;
 
     -moz-box-shadow:    3px 3px 6px #aaa; /* FireFox */
@@ -368,7 +394,13 @@ img.photo{
     -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=135,strength=3,enabled=true)";
     filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000,direction=135,strength=3,enabled=true); /* IE5.5+ */
     background: #fff; /* IE Hack */
+}
 
+img.radius {
+    /* radius */
+    border-radius:         9px; /* CSS3 */
+    -webkit-border-radius: 9px; /* Safari, Chrome */
+    -moz-border-radius:    9px; /* Firefox */
 }
 
 /*----- table ------------------------------------------------------*/
