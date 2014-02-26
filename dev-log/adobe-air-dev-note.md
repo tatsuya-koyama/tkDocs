@@ -11,7 +11,13 @@ position: 10
 
 ## リンク集
 
-- [Citrus Engine: Creating Level using Tiled Map Editor](http://pzuh.blogspot.jp/2013/05/citrus-engine-creating-level-using.html)
+- ゲームエンジン
+    - [Citrus Engine: Creating Level using Tiled Map Editor](http://pzuh.blogspot.jp/2013/05/citrus-engine-creating-level-using.html)
+
+___
+
+- 描画系
+    - [[AS3] 2D lighting with normal map, take 2](http://www.yopsolo.fr/wp/2014/02/15/as3-2d-lighting-with-normal-map-take-2/)
 
 他にもいっぱいあるので後でまとめる
 

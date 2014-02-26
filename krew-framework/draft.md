@@ -9,8 +9,6 @@ position: 9901
 
 # まとめる前のドラフト
 
-- 考え中のメモは [こちら](/dev-log/thinking-krewfw)
-
 ## ウリ
 
 ### Actor の書き心地
@@ -29,7 +27,7 @@ position: 9901
 
 ___
 
-- 実態は krewfw.utility.KrewUtil で、シングルトン
+- 実態は krewfw.utils.KrewTopUtil で、シングルトン
     - static でなくシングルトンにしたのは、継承やすげ替えを可能にするため
 
 
