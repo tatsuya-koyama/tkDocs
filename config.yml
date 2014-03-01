@@ -74,6 +74,9 @@ english:
 
 static:
   use: "static"
+
+workfile:
+  use: "ignore"
 #--------------------------------
 
 # Enable the asset pipeline to process stylesheets and javascripts using sass, coffeescript, etc.

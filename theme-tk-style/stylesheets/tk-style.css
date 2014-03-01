@@ -74,7 +74,7 @@ body{
   }
   #outline-pane { display:none }
   #nav-toggle { display:block }
-  #toc li:first-child {display:none}
+  /*#toc li:first-child {display:none}*/
 }
 @media all and (min-width: 860px) { #left-pane {display:block !important }}
 
@@ -151,6 +151,32 @@ h4{
     text-align : left;
     border-bottom: 1px solid #8a3;
     margin: 2.5em 0 1.5em 0em;
+    padding-left : 0.5em;
+}
+
+h4.flash-modal {
+    margin: 0.5em 0 0.5em 0em;
+    border: none;
+}
+
+h4.krew-index {
+    font-size: 105%;
+    width : 90%;
+    color : #294a10;
+    margin: 0 0 0.5em 0.3em;
+    border-bottom: 1px dotted #3a5a15;
+    padding-left: 0em;
+}
+
+h5{
+    width: 70%;
+    max-width: 40em;
+    color: #462;
+    font-size  : 108%;
+    line-height: 150%;
+    font-weight: bold;
+    text-align : left;
+    margin: 1.0em 0 0.5em 0em;
     padding-left : 0.5em;
 }
 
@@ -241,7 +267,7 @@ blockquote ul {
 #left-pane li {
     font-size: 90%;
     line-height: 120%;
-    margin-bottom: 1.0em;
+    margin-bottom: 0.6em;
     list-style: none;
     margin-left: 0px;
     padding-right: 0.3em;
@@ -281,6 +307,10 @@ blockquote {
     border-radius:         10px; /* CSS3 */
     -webkit-border-radius: 10px; /* Safari, Chrome */
     -moz-border-radius:    10px; /* Firefox */
+}
+
+strong {
+    color: #822;
 }
 
 /*----- code ------------------------------------------------------*/
@@ -403,6 +433,10 @@ img.radius {
     -moz-border-radius:    9px; /* Firefox */
 }
 
+img.btn-icon {
+    margin: 0 0.5em 0.2em 0;
+}
+
 /*----- table ------------------------------------------------------*/
 table.mystyle{
     border: 1px solid #777;
@@ -435,7 +469,43 @@ tr.head td{
     border-left  : 1px solid #575;
 }
 
+/*----- flash demo mordal ------------------------------------------*/
+.modal.play-flash {
+    /* SET THE WIDTH OF THE MODAL */
+    width: 600px;
 
+    /* CHANGE MARGINS TO ACCOMMODATE THE NEW WIDTH (original = margin: -250px 0 0 -280px;) */
+    margin: -250px 0 0 -300px;
+}
+
+.modal-body.play-flash {
+    max-height: 350px;
+}
+
+a.flash-modal-btn {
+    float       : left;
+    font-size   : 150%;
+    padding     : 0.7em 2.0em 0.6em 2.0em;
+    margin      : 0 1.0em;
+    line-height: normal;
+    -webkit-border-radius: 10px;
+    -moz-border-radius   : 10px;
+    border-radius        : 10px;
+}
+
+a.large-btn {
+    font-size  : 150%;
+    padding    : 0.7em 2.0em 0.5em 2.0em;
+    line-height: normal;
+    -webkit-border-radius: 10px;
+    -moz-border-radius   : 10px;
+    border-radius        : 10px;
+}
+
+ul.flash-modal {
+    margin: 0 0 0 3.0em;
+    color: #888;
+}
 
 
 

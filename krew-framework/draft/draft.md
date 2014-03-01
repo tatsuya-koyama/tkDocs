@@ -9,6 +9,16 @@ position: 9901
 
 # まとめる前のドラフト
 
+## Demo Flash のモーダル表示テスト
+
+{{# flashModal }}
+  id   : flashMordal_globalLayer
+  title: Global Layer
+  swf  : "{{ urls.media }}/swf/krewsample/krew-sample-global-layer.swf"
+{{/ flashModal }}
+
+<div class="clearfix"></div>
+
 ## ウリ
 
 ### Actor の書き心地
@@ -220,6 +230,11 @@ ___
 
 ### あなたがやるべきこと
 
+#### 0. krewFramework の設定
+
+- Main かなんかで、krewfw.KrewConfig の変数の値をカスタマイズ
+- NativeStageAccessor.stage に root の stage をセットするのはやらんといけない
+
 #### 1. GameDirector を 1 つ用意
 
 - KrewGameDirector を継承したクラスを 1 つ書く
@@ -248,23 +263,145 @@ ___
             }
         }
 
+___
+
+- 現状 krewFramework は Starling 依存で、Starling 使う前提のフレームワーク
+- Main （プログラムのエントリ）で Starling に GameDirector を渡してやろう
+
+        _starling = new Starling(YourGameDirector, stage, viewPort);
+
+
 #### 2. Scene を画面の数だけ用意
 
-- タイトル画面、ゲーム画面、リザルト画面などがそれぞれ Scene になり得ます
-- krewFramework のおける Scene とは、「リソースをメモリに読み込むスコープ」だと思ってください
-- ToDo
+- タイトル画面、ゲーム画面、リザルト画面などがそれぞれ Scene になり得る
+- krewFramework のおける Scene とは、「リソースをメモリに読み込むスコープ」だと思ってほしい
+
+___
+
+- Scene がやるのは以下
+    - そのシーンに必要なリソースの指定
+    - そのシーンのレイヤー定義
+    - 【Optional】衝突判定のグループ定義
+    - 「シーン開始時に存在しているべき Actor 達」を並べる
 
 #### 3. Scene で使う Actor を適宜実装
 
-- ToDo
+- Scene が始まってからの仕事はできるだけ Actor に任せる
+- 各 Actor を実装する
+- Actor 同士の連携はメッセージングで
+    - 各 Actor は「こういうメッセージが来るだろう」想定で書く
+
+___
+
+- Actor は「Scene でこういうものが準備されているだろう」前提で書いてしまってよい
+    - 引数で渡してやってもよいが、汎用的な Actor 以外は前提を持ってしまってよいだろう
+    - 要は、ある程度「Actor は Scene を構成するための書き捨てスクリプト」のように作ってしまってよいという思想
+- Scene で定義・準備されていることを期待しちゃうもの
+    - リソース
+    - レイヤー名
+    - コリジョンのグループ名
+
+
+
+
 
 ## krewFramework がやっている処理の流れ
 
-- ToDo
-- resource 読み込みのフロー
-- update のフロー
-- Actor の init のフロー（setUpActor と addActor）
-- メッセージングのフロー
+### GameDirector がゲームの初期化と、初めの Scene を起動
+
+- あなたが継承した GameDirector の中で
+
+        startGame(initialScene);
+
+___
+
+- KrewSharedObjects が new される
+    - 以後、これの参照が各 Scene, Actor に引き回される
+- `_loadGlobalAssets` で「ゲーム中ずっと持つリソース」がメモリに読み込まれる
+- `_startScene`
+    - Scene の初期化処理
+    - Scene を addChild して表示リストにのせる
+        - （GameDirector も Scene も Starling の Sprite）
+    - EXIT_SCENE イベントを listen する
+
+### Scene の初期化処理
+
+- `KrewScene.startInitSceneSequence`
+
+#### レイヤーをつくる
+
+- あなたが override した `getLayerList` をもとに、レイヤーを作る
+    - （暗黙で `_system_` レイヤーも足す）
+    - （`_system_` レイヤーにはフェード用の `krewfw.builtin_actor.display.ScreenFader` が addActor される）
+    - レイヤーは、レイヤーごとに starling.animation.Juggler を所持している
+
+#### その他の初期化
+
+- 同様に collision のグループも作る
+- （Scene が Actor っぽい仕事をするためのサポート Actor を `_system_` レイヤーに足す）
+- `initLoadingView`
+    - レイヤーはできている。Loading 表示用の Actor などを setUpActor する
+- `getAdditionalGlobalAssets` が定義されていれば、追加グローバルアセットをメモリに足し込む
+- `getRequiredAssets` が定義されていれば、シーンアセットをメモリに読み込む
+
+#### 準備完了、初期 Actor のセットアップ
+
+- `initAfterLoad`
+    - ここからリソースの準備が整って動き出せる状態
+    - `initLoadingView` で出した Actor はここで passAway するなど
+    - ここであなたが初期 Actor 達を `setUpActor` する
+
+
+### Scene のメインループ
+
+- KrewScene はコンストラクタで `starling.display.DisplayObject.addEventListener` を呼んでいる
+    - `starling.events.Event.ENTER_FRAME` を登録してる
+    - これによりメインループが呼ばれる
+    - **だからコンストラクタをサブクラスで書いたら `super` 呼んでおかないとループが回らなくなるので注意**
+- ENTER_FRAME のイベントで呼ばれるのは `KrewScene.mainLoop` のみ
+
+#### 1 フレームで行われること
+
+- 以下、1 フレームに行われる処理
+    - Scene の `onUpdate` を呼ぶ
+
+##### Actor 達の update
+- 全レイヤーの `onUpdate` を呼ぶ
+    - 奥のレイヤーから手前のレイヤーの順で、レイヤー単位で update
+    - 以下、StageLayer の `onUpdate`
+        - Layer 上の全 Actor の `update` を呼ぶ
+        - （Actor の `passAway` が呼ばれていた場合は、update を呼ばず `dispose` を呼んで破棄）
+        - 以下、KrewActor の update
+            - まずは自分の子 Actor 達を update
+            - （`passAway` 呼ばれてたら update を呼ばす `dispose` を呼んで破棄）
+            - Actor の `onUpdate` を呼ぶ
+            - timeKeeper の update （delayed とか cyclic とかの処理）
+            - _updateAction で tween 系の update
+
+> ToDo: Layer と Actor で同じようなことやってるの、これひとつにできるんじゃん？
+
+##### Scene の onUpdate つづき
+
+- Actor が `createActor` によって新しい Actor を生んでいたら、Scene がそれらを `setUpActor` する
+- collision のヒットテストを行い、衝突があればコールバックを呼ぶ
+- Actor 達によって送られていたメッセージを listener に配信
+    - listener のコールバックでさらにメッセージが呼ばれた場合、再び配信
+    - メッセージが発生しなくなるまで行われる
+    - （ただし規定回数ループしてまだある場合はエラーとして中断。デフォルトは 8 回）
+    - （メッセージがループになるのは設計が間違っている）
+- Scene の `exit` が呼ばれていたならここで `KrewSystemEventType.EXIT_SCENE` を `dispatchEvent`
+
+> ENTER_FRAME と EXIT_SCENE は krewFramework のメッセージングではなく
+> Starling のイベントシステムでやっている
+
+## onUpdate に渡される passedTime
+
+- ある程度まで FPS 落ちたら「コマ落ち」じゃなく「処理落ち」になるような時間を渡している
+- FPS がどこまで落ちても「コマ落ち」で許すかは、`KrewConfig.ALLOW_DELAY_FPS` で指定
+
+
+
+
 
 ## GameDirector を作る
 
@@ -396,5 +533,6 @@ ___
 
 
 
-<br/><br/><br/><br/><br/><br/>
+
+<br/><br/>
 

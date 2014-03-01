@@ -12,3 +12,17 @@ navigation :
   - categories
   - pages
   - about
+
+krew_index_top:
+  - top
+  - laboratory
+  - instllation
+  - krew-skeleton
+
+krew_index_samples:
+  - samples/cookbook
+
+krew_index_draft:
+  - draft/draft
+  - draft/thinking
+  - draft/todo

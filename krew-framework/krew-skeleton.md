@@ -14,7 +14,11 @@ position: 4
 krewFramework を使ったゲームのコードを書き始める際の、
 プロジェクトのひな形を生成するためのスクリプトを用意しています。
 
-- [GitHub | krew-skeleton](https://github.com/tatsuya-koyama/krew-skeleton)
+<a href="https://github.com/tatsuya-koyama/krew-skeleton"
+   class="btn large-btn" style="margin: 0.5em 1.0em;">
+  <img class="btn-icon" src="{{urls.media}}/krewfw/GitHub-Mark-64px.png" width="28" height="28" />
+  GitHub | krew-skeleton
+</a>
 
 krew-skeleton を用いることで、 1 つのコンフィグファイルから
 複数プラットフォーム向けの FlashBuilder プロジェクトと、足がかりとなるソースコード・アセットを

@@ -33,10 +33,30 @@
   <div id="left-pane">
     <ul id="toc">
 
+      <h4 class="krew-index">Overview</h4>
       <ul>
-        {{# krew-framework.all }}
+        {{#data.krew_index_top?to_krew-framework}}
           {{> page-list.html }}
-        {{/ krew-framework.all }}
+        {{/data.krew_index_top?to_krew-framework}}
+      </ul>
+
+      <br/>
+      <h4 class="krew-index">Sample Codes</h4>
+      <ul>
+        {{#data.krew_index_samples?to_krew-framework}}
+          {{> page-list.html }}
+        {{/data.krew_index_samples?to_krew-framework}}
+      </ul>
+
+      <br/>
+      <h4 class="krew-index">Documentation</h4>
+
+      <br/>
+      <h4 class="krew-index">Draft</h4>
+      <ul>
+        {{#data.krew_index_draft?to_krew-framework}}
+          {{> page-list.html }}
+        {{/data.krew_index_draft?to_krew-framework}}
       </ul>
 
     </ul>
