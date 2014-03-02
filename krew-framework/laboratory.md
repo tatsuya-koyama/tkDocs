@@ -27,7 +27,14 @@ position: 2
 
 ___
 
+<a href="https://github.com/tatsuya-koyama/krewFramework/tree/master/laboratory/core-src"
+   class="btn large-btn clearfix"
+   style="float: right;">
+  <img class="btn-icon" src="{{urls.media}}/krewfw/GitHub-Mark-64px.png" width="28" height="28" />
+  Source Code
+</a>
+
 - 各画面で i マークのボタン押すと説明出ます
-    - （英語がしょぼいのはご愛嬌）
+- （英語がしょぼいのはご愛嬌）
 
 

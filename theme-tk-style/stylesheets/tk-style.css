@@ -293,6 +293,8 @@ p {
     max-width: 50em;
     font-size: 105%;
     line-height: 170%;
+    margin-left  : 0.2em;
+    margin-bottom: 1.5em;
 }
 
 blockquote {
@@ -308,6 +310,8 @@ blockquote {
     -webkit-border-radius: 10px; /* Safari, Chrome */
     -moz-border-radius:    10px; /* Firefox */
 }
+
+blockquote p { line-height: 150%; }
 
 strong {
     color: #822;

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>{{ page.title }} - 俺式4.0 tkDocs</title>
+  <title>{{ page.title }} - krewFramework | 俺式4.0 tkDocs</title>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="copyright" content="tatsuya-koyama.com 2002-2013 All Rights Reserved" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,6 +41,22 @@
       </ul>
 
       <br/>
+      <h4 class="krew-index">Philosophy</h4>
+      <ul>
+        {{#data.krew_index_philosophy?to_krew-framework}}
+          {{> page-list.html }}
+        {{/data.krew_index_philosophy?to_krew-framework}}
+      </ul>
+
+      <br/>
+      <h4 class="krew-index">Manual</h4>
+      <ul>
+        {{#data.krew_index_manual?to_krew-framework}}
+          {{> page-list.html }}
+        {{/data.krew_index_manual?to_krew-framework}}
+      </ul>
+
+      <br/>
       <h4 class="krew-index">Sample Codes</h4>
       <ul>
         {{#data.krew_index_samples?to_krew-framework}}
@@ -49,10 +65,7 @@
       </ul>
 
       <br/>
-      <h4 class="krew-index">Documentation</h4>
-
-      <br/>
-      <h4 class="krew-index">Draft</h4>
+      <h4 class="krew-index">Developer Note</h4>
       <ul>
         {{#data.krew_index_draft?to_krew-framework}}
           {{> page-list.html }}

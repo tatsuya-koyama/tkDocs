@@ -13,14 +13,25 @@ navigation :
   - pages
   - about
 
+#---------------------------------------
+# krew-framework index list
+#---------------------------------------
 krew_index_top:
   - top
   - laboratory
+  - what_is
+
+krew_index_philosophy:
+  - philosophy/why
+  - philosophy/concept
+
+krew_index_manual:
   - instllation
   - krew-skeleton
 
 krew_index_samples:
   - samples/cookbook
+  - samples/global-layer
 
 krew_index_draft:
   - draft/draft

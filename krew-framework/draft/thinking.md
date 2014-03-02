@@ -172,34 +172,17 @@ ___
 ### パッケージ構成
 
     krew-framework/
-    └── krewfw
+    └── krewfw/
         ├── KrewConfig.as
         ├── NativeStageAccessor.as
         │
-        ├── builtin_actor
-        │   ├── display
-        │   │   ├── ColorActor.as
-        │   │   ├── ColorRect.as
-        │   │   ├── KrewMovieClip.as
-        │   │   ├── ScreenCurtain.as
-        │   │   ├── ScreenFader.as
-        │   │   ├── SimpleImageActor.as
-        │   │   └── SimpleLoadingScreen.as
-        │   ├── event
-        │   │   └── TouchFilter.as
-        │   ├── system
-        │   │   ├── KrewState.as
-        │   │   ├── KrewStateMachine.as
-        │   │   ├── MinimalStateHook.as
-        │   │   └── MinimalStateMachine.as
-        │   └── ui
-        │       ├── DraggableActor.as
-        │       ├── ImageButton.as
-        │       ├── SimpleButton.as
-        │       ├── SimpleVirtualJoystick.as
-        │       └── TextButton.as
+        ├── builtin_actor/
+        │   ├── display/
+        │   ├── event/
+        │   ├── system/
+        │   └── ui/
         │
-        ├── core
+        ├── core/
         │   ├── KrewActor.as
         │   ├── KrewBlendMode.as
         │   ├── KrewGameDirector.as
@@ -207,47 +190,14 @@ ___
         │   ├── KrewScene.as
         │   └── KrewSystemEventType.as
         │
-        ├── core_internal
-        │   ├── CollisionGroup.as
-        │   ├── CollisionSystem.as
-        │   ├── IdGenerator.as
-        │   ├── KrewResourceManager.as
-        │   ├── KrewSharedObjects.as
-        │   ├── NotificationPublisher.as
-        │   ├── NotificationService.as
-        │   ├── ProfileData.as
-        │   ├── SceneServantActor.as
-        │   ├── StageLayer.as
-        │   ├── StageLayerManager.as
-        │   ├── StuntAction.as
-        │   ├── StuntActionInstructor.as
-        │   └── collision
-        │       ├── CollisionShape.as
-        │       ├── CollisionShapeAABB.as
-        │       ├── CollisionShapeOBB.as
-        │       ├── CollisionShapeSphere.as
-        │       └── HitTest.as
-        │
-        ├── data_structure
-        │   ├── KrewLine2D.as
-        │   ├── KrewPoint2D.as
-        │   └── KrewVector2D.as
-        │
-        └── utils
+        ├── core_internal/
+        ├── data_structure/
+        └── utils/
             ├── krew.as
-            ├── as3
-            │   ├── KrewSoundPlayer.as
-            │   ├── KrewTimeKeeper.as
-            │   └── KrewTimeKeeperTask.as
-            ├── dev_tool
-            │   └── KrewTestUtil.as
-            ├── starling
-            │   ├── TextFactory.as
-            │   └── TileMapHelper.as
-            └── swiss_knife
-                ├── KrewListUtil.as
-                ├── KrewStringUtil.as
-                └── KrewTopUtil.as
+            ├── as3/
+            ├── dev_tool/
+            ├── starling/
+            └── swiss_knife/
 
 
 - core_internal は直接触れることない
@@ -380,7 +330,7 @@ Scene が各 Actor 達の update を呼ぶ感じ
 
 ## 非同期処理
 
-- いわゆる JSDeffered 的なやつ
+- いわゆる JSDeferred 的なやつ
 - タスクを連続して実行させるのはまあ簡単
 - 重要なのは、パラレルなタスクと全体のエラー処理が書けるか
 - JS のライトウェイトに書ける感じはよい
@@ -388,6 +338,41 @@ Scene が各 Actor 達の update を呼ぶ感じ
     - JS のようにオブジェクトとかメソッドチェーンで楽にも書けるし、
       型のある AS ならではの感じでクラス化して使い回しもできる、ってのがいいなぁ
 
+- 参考リンク
+    - [（V8で）Promiseが実装された](http://js-next.hatenablog.com/entry/2013/11/28/093230)
+    - [ASDeferred](https://github.com/minodisk/asdeferred)
+    - [Promises Promises (AS3 blog)](http://blog.onebyonedesign.com/actionscript/promises-promises/)
+
+
+### 何がしたい
+
+例えばこういうのある
+
+- 画像データをサーバからダウンロード（非同期）
+- クライアントに保存（非同期）
+- それを読み込んでメモリに展開（非同期）
+- 描画処理
+
+___
+
+- まあ Deferred な話なんだけど
+    - 場合によっては並列にしたいタスクもあるよね
+    - 前のタスクで得た情報を使いたくなるよね
+    - 途中でエラーになったら catch したいよね
+
+## Scene のあり方再考
+
+- 基本的な思想は「必要なリソースの列挙」と「最初に必要な Actor の列挙」
+- Scene であれこれ書きたくないのは、「Actor を外す・差し替える」のを楽にしたいから
+    - setUpActor の並びは粒度が対等に並んでいるべき
+- リソースの準備はできるだけ終えてから Actor を始動させたい
+    - StateMachine で初期化処理色々やってから真の初期化、みたいにも書けるけど
+      Scene の時点で見通しが分からないので望ましくない
+    - Scene ではほぼリソース記述されてなくて、実は Actor が色々読み込んでるってのも気持ち悪い
+    - でも今の配列 1 回返すだけのやり方じゃ不十分
+    - 読み込むファイルの内容が json ファイルに書かれていて、まずそれを読み込みたいとかざらにある
+- 突き詰めると、やはり Scene に「初期化コマンド一覧」みたいなのが必要なんじゃないか？
+    - ここを Deferred っぽく書けたら完璧かも
 
 
 <br/><br/><br/>
