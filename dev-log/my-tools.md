@@ -20,6 +20,24 @@ position: 900
 - [iTerm2](http://www.iterm2.com/#/section/home)
     - 標準 Terminal よりこちら
 
+## これ買って使ってるわーリスト
+
+- [TexturePacker](http://www.codeandweb.com/texturepacker)
+    - 複数画像を 1 枚のシートにまとめるやつ
+    - Sparrow Framework の中にあるスクリプトとか、Shoebox っていう AIR アプリとか
+      無料の代替品はあるけどまあ持っておくと便利ではある
+    - 4000 円くらいだったかな。1 人で使うなら PC 2 台まで OK
+- [Glyph Designer](http://71squared.com/glyphdesigner)
+    - ビットマップフォントのテクスチャアトラスつくるやつ
+    - 3600 円
+    - 無料でやりたいなら
+      [Littera](http://kvazars.com/littera/)
+      っていう web サービスで代用はできそう
+- [charles](http://www.charlesproxy.com/)
+    - http をモニタリングする proxy アプリ。1 ライセンス 50 ドル
+    - トライアル版（30日間）は起動に 10 秒の待ち時間、30 分ごとに再起動が必要
+
+
 まだ書き途中
 
 

@@ -380,6 +380,14 @@ ___
 - 参考リンク
     - [Ogg Vorbis Encoder + Decoder for Flash](http://labs.byhook.com/2011/02/22/ogg-vorbis-encoder-decoder-for-flash/)
     - [Even more about audio licenses on the web](https://www.scirra.com/blog/65/even-more-about-audio-licenses-on-the-web)
+    - [Flashで外部swfに埋め込んだサウンドをBGMにする](http://itouhiro.hatenablog.com/entry/20130326/flash)
+
+## zip のダウンロードとかアップロード
+
+- 参考リンク
+    - [ActionScript 3.0 でZIPの圧縮と解凍](http://un-q.net/2009/06/actionscript_30_zip_as3.html)
+    - [AS3でデータ圧縮するならZipのライブラリよりByteArray.compress](http://un-q.net/2009/07/as3_zip_bytearray_compress.html)
+    - [Quick Tip: Use FZip to Open Zip Files Within AS3](http://code.tutsplus.com/tutorials/quick-tip-use-fzip-to-open-zip-files-within-as3--active-10660)
 
 
 <br/><br/><br/><br/>

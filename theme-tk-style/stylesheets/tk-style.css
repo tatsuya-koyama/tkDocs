@@ -476,14 +476,14 @@ tr.head td{
 /*----- flash demo mordal ------------------------------------------*/
 .modal.play-flash {
     /* SET THE WIDTH OF THE MODAL */
-    width: 600px;
+    width: 700px;
 
     /* CHANGE MARGINS TO ACCOMMODATE THE NEW WIDTH (original = margin: -250px 0 0 -280px;) */
-    margin: -250px 0 0 -300px;
+    margin: -300px 0 0 -350px;
 }
 
 .modal-body.play-flash {
-    max-height: 350px;
+    max-height: 420px;
 }
 
 a.flash-modal-btn {

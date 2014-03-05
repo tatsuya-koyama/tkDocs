@@ -340,8 +340,9 @@ Scene が各 Actor 達の update を呼ぶ感じ
 
 - 参考リンク
     - [（V8で）Promiseが実装された](http://js-next.hatenablog.com/entry/2013/11/28/093230)
-    - [ASDeferred](https://github.com/minodisk/asdeferred)
+    - [GitHub | ASDeferred](https://github.com/minodisk/asdeferred)
     - [Promises Promises (AS3 blog)](http://blog.onebyonedesign.com/actionscript/promises-promises/)
+    - [GitHub | caolan / async](https://github.com/caolan/async)
 
 
 ### 何がしたい
