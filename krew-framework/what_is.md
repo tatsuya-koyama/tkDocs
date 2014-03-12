@@ -33,7 +33,7 @@ Mac / Windows などの PC ブラウザと、主要なプラットフォーム�
 
 krewFramework は内部で [Starling Framework](http://gamua.com/starling/)
 を使用しています。Starling は Stage3D を使って 2D のゲームを作るためのゲームエンジンで、
-Adobe が公式でサポートしているものです。
+Adobe が公式でサポートしているオープンソースのプロジェクトです。
 
 <div style="text-align: center;">
   <img class="" src="{{urls.media}}/krewfw/krewfw_architecture.png"

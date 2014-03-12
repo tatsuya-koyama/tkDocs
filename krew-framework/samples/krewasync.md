@@ -68,19 +68,19 @@ position: 3003
 
         private function _goAsyncSequence():void {
             krew.async({
-                serial: [
+                "serial": [
                     _yourFunction_1,
                     _yourFunction_2,
 
-                    {parallel: [
-                        {serial: [
+                    {"parallel": [
+                        {"serial": [
                             _yourFunction_3,
-                            {parallel: [
+                            {"parallel": [
                                 _yourFunction_4,
                                 _yourFunction_5
                             ]}
                         ]},
-                        {serial: [
+                        {"serial": [
                             _yourFunction_6,
                             _yourFunction_7
                         ]}
@@ -88,8 +88,8 @@ position: 3003
 
                     _yourFunction_8
                 ],
-                error : _onCatchError,
-                anyway: _finallyHandler
+                "error" : _onCatchError,
+                "anyway": _finallyHandler
             });
         }
 
@@ -133,7 +133,7 @@ ___
     import krewfw.utils.as3.KrewAsync;
 
     var async:KrewAsync = new KrewAsync({
-        serial: [function_1, function_2, function_3]
+        "serial": [function_1, function_2, function_3]
     });
     async.go();
 
@@ -144,7 +144,7 @@ ___
     import krewfw.utils.krew;
 
     krew.async({
-        serial: [function_1, function_2, function_3]
+        "serial": [function_1, function_2, function_3]
     });
 
 
@@ -159,14 +159,14 @@ ___
 
     // function_1, 2, 3 を順次実行、最後に 4 を実行
     krew.async({
-        serial: [function_1, function_2, function_3],
-        anyway: function_4
+        "serial": [function_1, function_2, function_3],
+        "anyway": function_4
     });
 
     // function_1, 2, 3 を同時に処理開始、全部終わったタイミングで 4 を実行
     krew.async({
-        parallel: [function_1, function_2, function_3],
-        anyway  : function_4
+        "parallel": [function_1, function_2, function_3],
+        "anyway"  : function_4
     });
 
 > serial と parallel はどちらか片方しか指定できません。両方指定した場合は Error を投げます。
@@ -201,24 +201,24 @@ ___
      *           4 -> |
      */
     krew.async({
-        serial: [
+        "serial": [
             function_1,
             function_2,
 
             //----- nested Object -----
             {
-                parallel: [
+                "parallel": [
                     function_3,
                     function_4
                 ],
-                anyway: finally_func_1
+                "anyway": finally_func_1
             },
             //-------------------------
 
             function_5,
             function_6
         ],
-        anyway: finally_func_2
+        "anyway": finally_func_2
     });
 
 上記の例では、以下のような実行順になります。
@@ -243,15 +243,15 @@ ___
      *                6 -> |
      */
     krew.async({
-        serial: [
+        "serial": [
             function_1,
             function_2,
-            {parallel: [
+            {"parallel": [
                 function_3,
 
-                {serial: [
+                {"serial": [
                     function_4,
-                    {parallel: [
+                    {"parallel": [
                         function_5,
                         function_6
                     ]}
@@ -260,6 +260,48 @@ ___
             function_7
         ]
     });
+
+### Tips: serial のショートカット
+
+Object を指定できる箇所で、Function でも Object でもなく Array を指定した場合は、
+`serial` を指定したものとみなされます。
+
+    // これは、
+    krew.async(
+        [func_1, func_2, func_3]
+    );
+
+    // 以下と同じ
+    krew.async(
+        {"serial": [func_1, func_2, func_3]}
+    );
+
+`anyway` や、後述する `error` を指定しなくてよい `serial` は、
+この記法を使うと記述が見やすくなるのでおすすめです。
+先ほどの入れ子の例は以下のように書き直せます。
+
+    /**
+     *           3 ------> |
+     * 1 -> 2 -> |         | -> 7
+     *           |    5 -> |
+     *           4 -> |    |
+     *                6 -> |
+     */
+    krew.async([
+        function_1,
+        function_2,
+        {"parallel": [
+            function_3,
+            [
+                function_4,
+                {"parallel": [
+                    function_5,
+                    function_6
+                ]}
+            ]
+        ]},
+        function_7
+    ]);
 
 
 ## エラー処理
@@ -272,18 +314,18 @@ ___
     // 途中で fail() が呼ばれたら次の処理に進まず _onErrorHandler を呼ぶ。
     // エラーが発生したかどうかに関わらず、最後には _finallyHandler が呼ばれる
     krew.async({
-        serial: [function_1, function_2, function_3],
-        error : _onErrorHandler,
-        anyway: _finallyHandler
+        "serial": [function_1, function_2, function_3],
+        "error" : _onErrorHandler,
+        "anyway": _finallyHandler
     });
 
     // function_1, 2, 3 を同時に処理開始、
     // いずれかで fail() が呼ばれたら _onErrorHandler を呼ぶ。
     // エラーが発生したかどうかに関わらず、最後には _finallyHandler が呼ばれる
     krew.async({
-        parallel: [function_1, function_2, function_3],
-        error   : _onErrorHandler,
-        anyway  : _finallyHandler
+        "parallel": [function_1, function_2, function_3],
+        "error"   : _onErrorHandler,
+        "anyway"  : _finallyHandler
     });
 
 - `error`, `anyway` には引数をとらない `function():void {...}` を指定します。
@@ -299,22 +341,22 @@ ___
      *           4 -> |
      */
     krew.async({
-        serial: [
+        "serial": [
             function_1,
             function_2,
             {
-                parallel: [
+                "parallel": [
                     function_3,
                     function_4
                 ],
-                error : onError_1
-                anyway: finally_1
+                "error" : onError_1
+                "anyway": finally_1
             },
             function_5,
             function_6
         ],
-        error : onError_2
-        anyway: finally_2
+        "error" : onError_2
+        "anyway": finally_2
     });
 
 上記の場合、
@@ -344,24 +386,24 @@ ___
      *           4 -> |
      */
     krew.async({
-        serial: [
+        "serial": [
             function_1,
             function_2,
             //----- ここを切り出してまとめたい -----
             {
-                parallel: [
+                "parallel": [
                     function_3,
                     function_4
                 ],
-                error : onError_1
-                anyway: finally_1
+                "error" : onError_1
+                "anyway": finally_1
             },
             //------------------------------------
             function_5,
             function_6
         ],
-        error : onError_2
-        anyway: finally_2
+        "error" : onError_2
+        "anyway": finally_2
     });
 
 KrewAsync クラスを継承したクラスを作り、自身を Object で初期化するようにします。
@@ -371,12 +413,12 @@ KrewAsync クラスを継承したクラスを作り、自身を Object で初�
     public class MyKrewAsyncSubTask extends KrewAsync {
         public function MyKrewAsyncSubTask() {
             super({
-                parallel: [
+                "parallel": [
                     function_3,
                     function_4
                 ],
-                error : onError_1
-                anyway: finally_1
+                "error" : onError_1
+                "anyway": finally_1
             });
         }
 
@@ -390,15 +432,15 @@ KrewAsync クラスを継承したクラスを作り、自身を Object で初�
 先ほどの例はこのクラスのインスタンスを使って次のように書けます。
 
     krew.async({
-        serial: [
+        "serial": [
             function_1,
             function_2,
             new MyKrewAsyncSubTask(),
             function_5,
             function_6
         ],
-        error : onError_2
-        anyway: finally_2
+        "error" : onError_2
+        "anyway": finally_2
     });
 
 

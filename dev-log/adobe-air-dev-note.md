@@ -11,15 +11,45 @@ position: 10
 
 ## リンク集
 
-- ゲームエンジン
+- ゲームエンジン / フレームワーク
     - [Citrus Engine: Creating Level using Tiled Map Editor](http://pzuh.blogspot.jp/2013/05/citrus-engine-creating-level-using.html)
+    - [Ash entity framework](http://www.ashframework.org/)
 
 ___
 
-- 描画系
-    - [[AS3] 2D lighting with normal map, take 2](http://www.yopsolo.fr/wp/2014/02/15/as3-2d-lighting-with-normal-map-take-2/)
+- Starling 関連
+    - [Showcase](http://wiki.starling-framework.org/games/start)
+    - [Extension](http://wiki.starling-framework.org/extensions/start)
+      の下の方にある関連記事のリンク集とかおもしろい
 
-他にもいっぱいあるので後でまとめる
+___
+
+- Starling 描画系
+    - [[AS3] 2D lighting with normal map, take 2](http://www.yopsolo.fr/wp/2014/02/15/as3-2d-lighting-with-normal-map-take-2/)
+    - [onebyoneblog](http://blog.onebyonedesign.com/)
+        - [Filters in Starling](http://blog.onebyonedesign.com/actionscript/filters-in-starling/)
+            - ピクレセートとかポスタリゼーションっぽいの
+        - [Starling Filter Collection](http://blog.onebyonedesign.com/actionscript/starling-filter-collection/)
+            - 色々使えそうなフィルタがたくさん
+    - [KrechaBlog](http://blog.krecha-games.com/)
+        - ミミズみたいなぐにゃぐにゃとか
+    - [Deferred shading extension for Starling..](http://nekobit.puslapiai.lt/deferred-shading-extension-for-starling/)
+        - 法線マップのアレ
+    - [Displacement maps and Metaballs](http://www.andysaia.com/radicalpropositions/displacement-maps-and-metaballs/)
+
+___
+
+- AS3 とか Flash とか Starling とか読み物とか
+    - [akihiro kamijo さんのブログ](http://cuaoar.jp/)
+        - Adobe の中の人
+    - [(blog) Pierre Chamberlain](http://pierrechamberlain.ca/blog/)
+        - CRT ディスプレイな shader が素敵
+    - [Adobe Flash Platform](http://www.scoop.it/t/adobe-flash-platform)
+        - AS3 / AIR / Stage3D まわりの情報
+    - [TypedArray.org](http://typedarray.org/)
+        - サイトデザインがおしゃれ
+
+
 
 ## Flash CrossBridge ってなに
 
@@ -182,7 +212,7 @@ ___
 
 ### パフォーマンスや挙動
 
-- パフォーマンスは確実に Nape の方が速い。負荷上がったときのガタガタ感も少ない
+- パフォーマンスは確実に Nape の方が速い。負荷上がったときのガタガタ感も Nape の方が少ない
 - Box2D はデバッグビルドだとすぐ重くなるので注意
     - Nape は debug=true でも速かった
 - だがメモリ消費は Box2D の方が小さい
@@ -239,13 +269,15 @@ ___
 ___
 
 - フォント使うリストだと結構 Draw Call の数くっちゃうよね
-    - [リスト試してみたやつ](/krew-framework/feature-demo)
+    - [リストここで試してるよ](/krew-framework/laboratory)
     - 20 くらいいっちゃうのはさすがに見過ごせない
     - 画面外のアイテムとかは Draw Call 食ってないのでそこはまあ大丈夫
 
 ___
 
 - リストアイテムで各セルごとにテクスチャ変えるとかは無理？
+    - Accessory とか使うのでいけるっぽい？
+    - 自分で ItemRenderer 書くみたいなこと頑張るとイケたけど大変すぎる
 
 ### 自前テーマ
 
@@ -285,7 +317,7 @@ ___
 
 ### パフォーマンス
 
-- シンプルさを重視してて、そこまでパフォーマンスにこだわっていない感じ
+- シンプルさ（Flash の API っぽさ）を重視してて、そこまでパフォーマンスにこだわっていない感じ
     - 空間分割とかそういうのは無いっぽい。でかい DisplayTree は普通に重くなる（全部走査してる）
     - 走査中に alpha = 0 とか visible = false だったら行列計算の処理飛ばすくらいはやってる
     - width とか height の getter で重い行列計算が走る罠があるので注意
@@ -377,10 +409,31 @@ ___
 
 ___
 
+- 商用利用じゃなければ関係ない
+- ライセンス払うならゲームごとに 3750 ドル
+
+___
+
 - 参考リンク
     - [Ogg Vorbis Encoder + Decoder for Flash](http://labs.byhook.com/2011/02/22/ogg-vorbis-encoder-decoder-for-flash/)
     - [Even more about audio licenses on the web](https://www.scirra.com/blog/65/even-more-about-audio-licenses-on-the-web)
     - [Flashで外部swfに埋め込んだサウンドをBGMにする](http://itouhiro.hatenablog.com/entry/20130326/flash)
+
+### mp3 どうしても避けたいなら
+
+- .fla にライブラリで wav 読み込んで、書き出しの設定を mp3 じゃなく raw にする
+    - swc に書き出して、ゲームではそこから音源を読み込む
+    - ファイルサイズの比較
+        - mp3 44 kHz / Stereo / 128 kbps で swc にすると 1 分 0.8 MB くらい
+        - wav 22 kHz / Stereo で swf にすると 1 分 5.0 MB 弱くらい
+    - wave でやると周波数半分で 6 倍くらいファイルサイズ大きい。
+      単純に非圧縮か。これは使えないな…
+
+___
+
+- もしくは ANE 書く
+    - 誰もそんなことやりたがらないけど
+
 
 ## zip のダウンロードとかアップロード
 
@@ -388,6 +441,32 @@ ___
     - [ActionScript 3.0 でZIPの圧縮と解凍](http://un-q.net/2009/06/actionscript_30_zip_as3.html)
     - [AS3でデータ圧縮するならZipのライブラリよりByteArray.compress](http://un-q.net/2009/07/as3_zip_bytearray_compress.html)
     - [Quick Tip: Use FZip to Open Zip Files Within AS3](http://code.tutsplus.com/tutorials/quick-tip-use-fzip-to-open-zip-files-within-as3--active-10660)
+
+
+## Adobe Scout
+
+- かなりイケてるプロファイラ
+    - これ使えるってだけで AIR 使いたくなるレベル
+    - 単独アプリで立ち上げとくだけでいいってのも使いやすい
+        - adl でも web 上で動かしてるやつでもいける
+    - Stage3D の描画命令も送ってるので、全フレームのその時点での画面も追える（これがすごい）
+    - メモリの内訳や関数ごとの処理時間の内訳もかなり見やすい
+
+___
+
+- 実機プロファイリングには使えるのか？
+    - ある程度は使える。重い画面が続くと telemetry を送るための
+      CPU・メモリ負荷の方が大きくなりすぎて実用に耐えないので注意
+    - 見たいところをピンポイントで見るとかならまあ。あとは FPS を下げとくとか？
+
+___
+
+- 実機プロファイリングのやり方
+    - Android / iOS 実機と Mac を同じネットワークにつなぐ
+    - Mac の Scout を立ち上げておく
+    - 実機に Scout のコンパニオンアプリをインストールしておく
+    - コンパニオンアプリ起動して Enable すると自分の Mac が出てくるので選択
+    - AIR アプリを起動
 
 
 <br/><br/><br/><br/>
