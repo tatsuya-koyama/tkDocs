@@ -380,6 +380,175 @@ ___
 - リソース読み込みを複数段階分けると、「連続して使うリソースは再読み込みしない」
   みたいなバックエンドを作るのが大変なんだよなぁ
 
+## Actor じゃなくても Actor の便利機能使いたい話
+
+- 気持ちは分かる
+    - メッセージングとかしたいけど View とかいらないんだよ的なやつとかね
+    - static なクラスでよくてわざわざ Scene にのせたり面倒なんだよ的なやつとかね
+- Actor と Scene に乗っていないやつでも、思想的に呼んでもいいものとそうではないものがある
+- Scene 上で生存期間を持つ Actor だからこそ許されていること（タスクの登録系とか）は外の世界で使えてはならない
+
+___
+
+- いちいち Actor にして Scene にのせてオーバヘッド上げたくない、
+  static な Model とかが AssetManager にアクセスしたいけど方法がないから
+  仕方なく参照渡す、みたいになっちゃってるのが実情
+    - つまりポリシーを守りながら要件を満たすだけの機能を提供できてないってことだ
+
+___
+
+- 今 GameObject が public でできること
+
+        // accessor
+        get id():int {
+        get sharedObj():KrewSharedObjects {
+        get krew():KrewTopUtil {
+        
+        // framework から呼ばれる
+        set sharedObj(sharedObj:KrewSharedObjects):void {
+        init():void {
+        onUpdate(passedTime:Number):void {
+
+        // リソースアクセス系
+        getTexture(fileName:String):Texture { 
+        getImage  (fileName:String):Image   { 
+        getSound  (fileName:String):Sound   { 
+        getXml    (fileName:String):XML     { 
+        getObject (fileName:String):Object  { 
+        loadResources(fileNameList:Array, onLoadProgress:Function,
+        
+        // 音の操作
+        playBgm(bgmId:String, vol:Number=NaN, startTime:Number=0):void {
+        pauseBgm():void {
+        resumeBgm():void {
+        stopBgm():void {
+        playSe(seId:String, pan:Number=0, loops:int=0,
+        stopSe():void {
+        stopAllSound():void {
+        
+        // レイヤー操作
+        getLayer(layerName:String):StageLayer {
+        setTimeScale(layerName:String, timeScale:Number):void {
+        resetTimeScale(layerName:String):void {
+        setLayerEnabled(layerNameList:Array, enabled:Boolean):void {
+        setLayerEnabledOtherThan(excludeLayerNameList:Array, enabled:Boolean):void {
+        setAllLayersEnabled(enabled:Boolean):void {
+        
+        // コリジョン
+        setCollision(groupName:String, shape:CollisionShape):void {
+        
+        // フェード
+        blackIn (duration:Number=0.33, startAlpha:Number=1):void { 
+        blackOut(duration:Number=0.33, startAlpha:Number=0):void { 
+        whiteIn (duration:Number=0.33, startAlpha:Number=1):void { 
+        whiteOut(duration:Number=0.33, startAlpha:Number=0):void { 
+        colorIn (color:uint, duration:Number=0.33, startAlpha:Number=1):void { 
+        colorOut(color:uint, duration:Number=0.33, startAlpha:Number=0):void { 
+        
+        // メッセージング。これは呼べていい
+        sendMessage(eventType:String, eventArgs:Object=null):void {
+
+        // 登録する系は呼ぶべきでない        
+        listen(eventType:String, callback:Function):void {
+        stopListening(eventType:String):void {
+        stopAllListening():void {
+
+
+- 今 Actor が public でできること
+
+        // accessor
+        get cachedWidth():Number {
+        get cachedHeight():Number {
+        get color():uint {
+        set color(color:uint):void {
+        get childActors():Vector.<KrewActor> {
+        get numActor():int {
+        get isDead():Boolean {
+        get hasInitialized():Boolean {
+        set hasInitialized(value:Boolean):void {
+        
+        // framework から呼ばれる
+        setUp(sharedObj:KrewSharedObjects, applyForNewActor:Function,
+
+        // Actor の状態を変えたりするもの。外の者が呼ぶべきでない
+        addInitializer(initFunc:Function):void {
+        addImage(image:Image,
+        changeImage(image:Image, imageName:String):void {
+        addText(text:TextField, x:Number=NaN, y:Number=NaN):void {
+        addActor(actor:KrewActor, putOnDisplayList:Boolean=true):void {
+        passAway():void {
+        setVertexColor(color1:int=0, color2:int=0,
+        addTouchMarginNode(touchWidth:Number=0, touchHeight:Number=0):void {
+        sortDisplayOrder():void {
+        addTween(tween:Tween):void {
+        removeTweens():void {
+        enchant(duration:Number, transition:String=Transitions.LINEAR):Tween {
+
+        // 使いたくなるが呼ぶべきでない
+        act(action:StuntAction=null):StuntAction {
+        react():void {
+
+        // Actor に登録する系だが使いたくなる
+        addScheduledTask(timeout:Number, task:Function):void {
+        delayed(timeout:Number, task:Function):void {
+        addPeriodicTask(interval:Number, task:Function, times:int=-1):void {
+        cyclic(interval:Number, task:Function, times:int=-1):void {
+        delayedFrame(task:Function, waitFrames:int=1):void {
+        cyclicFrame(task:Function, waitFrames:int=1, times:int=-1):void {
+
+        // これは呼べていい
+        createActor(newActor:KrewActor, layerName:String=null):void {
+
+### 「Actor なら呼んでいいもの」のポリシー
+
+- ポリシーを決め、やってはいけないことはやれないような形を保つことが、
+  フレームワークの責務だ
+
+#### OK
+
+- 一方向にただ投げるようなものは呼べても害は無い
+    - 恐らく Scene 専属のシステム Actor に処理を委譲する形になるのだろう
+- 例えば以下はよいだろう
+    - sendMesasge
+    - createActor
+
+___
+
+- sharedObject を通してやっていることも、生存していることが保証されている Actor を通して
+  さらに委譲することについては、やっていることの本質的な違いは無い
+    - getImage, getObject, ...
+    - loadResources
+    - playBgm, ...
+    - getLayer, setTimeScale, ...
+    - blackIn, blackOut, ...
+- まあ sharedObject は一応「Scene 上の Actor 達にだけ」使ってほしいから
+  インスタンスを引き渡す形にしてるんだけどね…
+
+#### NG
+
+- Actor にタスクを登録させるものは、「その Actor が死んだら解放されることを担保する」という意味で
+  他人がやるべきではない
+- Actor に登録してよいタスクは、その Actor に関するもの（自分自身のメソッド）だけである
+- **要は「登録された側だけが生きている」状態が発生してしまってはいけない**
+    - Other が Other.handler を Actor.delayed で呼んだりしてはいけない。
+      もしコールされるまでの間に Other が disposed な状態になってしまったら、
+      Actor は無効なオブジェクトのメソッドを呼んでしまうことになる。
+
+___
+
+- だから、以下のようなものは呼んではいけない
+- （呼びたいのならばそいつは Actor として生きなければならない）
+    - act
+    - delayed, cyclic
+    - listen
+
+#### 悩みどころ
+
+- フレームワークの他のコンポーネントが呼ぶために public にしちゃってるメソッドが結構ある。
+- こうなっていると、その気になれば Actor の参照を渡して Scene 上にいないクラスが好き勝手できちゃう
+
+
+
 
 <br/><br/><br/>
 

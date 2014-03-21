@@ -443,6 +443,46 @@ ___
     - [Quick Tip: Use FZip to Open Zip Files Within AS3](http://code.tutsplus.com/tutorials/quick-tip-use-fzip-to-open-zip-files-within-as3--active-10660)
 
 
+## 実機でのファイルの保存先ってどうするのが正しいの
+
+### iOS の参考リンク
+
+- [(kamijo さんの blog) iOS データ保管ガイドラインの変更と Adobe AIR への影響](http://cuaoar.jp/2011/11/ios-air.html)
+
+> 1. ユーザが生成した情報、またはアプリだけでは生成できない情報のみ /Documents ディレクトリ以下に保存し、自動的に iCloud にバックアップされる
+> 1. 再ダウンロード、あるいは再生可能なデータは **/Library/Caches** ディレクトリ以下に保管する
+> 1. 一時的な利用のためのデータは /tmp ディレクトリ以下に保存する。これらのファイルは iCloud にはバックアップされないが、余分な記憶領域を使用しないよう、不要になったら削除する
+
+- 2 はこうとれるけどマジか
+
+        var path:String = File.applicationDirectory.nativePath + "/\.\./Library/Caches";
+        cacheDir = new File(path);
+
+
+### Android の参考リンク
+
+- [(Adobe 公式) Android の設定 - インストールの場所](http://help.adobe.com/ja_JP/air/build/WSfffb011ac560372f-5d0f4f25128cc9cd0cb-7ffc.html#WS901d38e593cd1bac-476b1d7312aca7bcda1-8000)
+
+> 外部メモリにインストールした場合でも、アプリケーション記憶域ディレクトリの内容、共有オブジェクト、
+> 一時ファイルなどのアプリケーションキャッシュおよびユーザーデータは、内部メモリに保存されます。
+> 内部メモリを使用し過ぎないように、アプリケーション記憶域ディレクトリに保存するデータは慎重に選択してください。
+> **大量のデータは File.userDirectory または File.documentsDirectory の場所を使用して、**
+> SD カードに保存してください（これらの場所は両方とも Android の SD カードのルートにマッピングされます）。
+
+### app-storage: ってあれどこに保存されるの
+
+- [(Adobe 公式) アプリケーション記憶領域ディレクトリの参照](http://help.adobe.com/ja_JP/as3/dev/WS5b3ccc516d4fbf351e63e3d118666ade46-7fe4.html#WS5b3ccc516d4fbf351e63e3d118676a4c56-7fc6)
+    - Mac, Win, Linux, Android の説明がある
+    - **Android は内部ストレージを食うことに注意**
+
+### とはいえ結局
+
+- 世の中のアプリは Android の内部ストレージに保存してる
+- 2011 年頃に内部ストレージなさすぎのイケてない端末（acro とか）あったけど、もう時効かな
+- 長期でプレイして累計 200 MB くらいまでなら保存してもよいかな
+- iOS で iCloud 対象になっちゃうところが気になるくらい
+
+
 ## Adobe Scout
 
 - かなりイケてるプロファイラ
@@ -467,6 +507,8 @@ ___
     - 実機に Scout のコンパニオンアプリをインストールしておく
     - コンパニオンアプリ起動して Enable すると自分の Mac が出てくるので選択
     - AIR アプリを起動
+
+
 
 
 <br/><br/><br/><br/>

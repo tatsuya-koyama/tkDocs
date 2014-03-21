@@ -62,6 +62,10 @@ div.english i {color: #279; font-style: normal;}
 li {
     font-size: 93%;
     line-height: 150%;
+    margin: 0 0 0 0;
+}
+
+#novel li {
     margin: 0 0 0.8em 0;
 }
 
