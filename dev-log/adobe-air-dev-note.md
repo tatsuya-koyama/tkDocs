@@ -36,6 +36,10 @@ ___
     - [Deferred shading extension for Starling..](http://nekobit.puslapiai.lt/deferred-shading-extension-for-starling/)
         - 法線マップのアレ
     - [Displacement maps and Metaballs](http://www.andysaia.com/radicalpropositions/displacement-maps-and-metaballs/)
+    - [Forum - Light rings using BlendMode](http://forum.starling-framework.org/topic/light-rings-using-blendmode)
+        - ライティングっぽいのどうやればいい？ スレッド
+    - [Forum - Where to learn how to write simple shaders?](http://forum.starling-framework.org/topic/where-to-learn-how-to-write-simple-shaders)
+        - AGAL とか学び始める時のよいリソースのリンクがある
 
 ___
 
@@ -482,6 +486,11 @@ ___
 - 長期でプレイして累計 200 MB くらいまでなら保存してもよいかな
 - iOS で iCloud 対象になっちゃうところが気になるくらい
 
+## フォントの埋め込みとかってどうやるの
+
+- Embed ってしたくないんだけど
+- swf に埋め込んで動的に読み込む
+    - [AS3 で埋め込みフォントを使うテクニック](http://tech.nitoyon.com/ja/blog/2008/07/23/as3-embed-font/)
 
 ## Adobe Scout
 
