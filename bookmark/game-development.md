@@ -73,6 +73,8 @@ position: 1
 - [Perspective correction](http://en.wikipedia.org/wiki/Texture_mapping#Perspective_correctness)
 - [shadertoy](https://www.shadertoy.com/)
 - [スクエニ村田氏ら、門外不出の「FF」開発ノウハウを一挙公開「『ファイナルファンタジー XII』解体新書」](http://game.watch.impress.co.jp/docs/20060902/cedec_ff.htm)
+- [TWEENER Transition cheat sheet](http://www.tonpoo.com/tweener/index2.html)
+    - [JSTweener](http://coderepos.org/share/wiki/JSTweener)
 
 
 ## フレームワーク設計
