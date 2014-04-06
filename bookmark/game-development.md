@@ -75,6 +75,7 @@ position: 1
 - [スクエニ村田氏ら、門外不出の「FF」開発ノウハウを一挙公開「『ファイナルファンタジー XII』解体新書」](http://game.watch.impress.co.jp/docs/20060902/cedec_ff.htm)
 - [TWEENER Transition cheat sheet](http://www.tonpoo.com/tweener/index2.html)
     - [JSTweener](http://coderepos.org/share/wiki/JSTweener)
+    - [quad とか cubic とか quintic とか](http://mathforum.org/library/drmath/view/56413.html)
 
 
 ## フレームワーク設計
