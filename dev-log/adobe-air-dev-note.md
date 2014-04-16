@@ -40,6 +40,10 @@ ___
         - ライティングっぽいのどうやればいい？ スレッド
     - [Forum - Where to learn how to write simple shaders?](http://forum.starling-framework.org/topic/where-to-learn-how-to-write-simple-shaders)
         - AGAL とか学び始める時のよいリソースのリンクがある
+    - [Forum - work in progress: Starling extension for lighting and dynamic shadows](http://forum.starling-framework.org/topic/work-in-progress-starling-extension-for-lighting-and-dynamic-shadows)
+        - 2D の shadow casting の demo と extension のソースがある
+    - [Digging more into the Molehill APIs](http://www.bytearray.org/?p=2555)
+        - AGAL の記事
 
 ___
 

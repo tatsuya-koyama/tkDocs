@@ -22,6 +22,9 @@ position: 900
 
 ## これ買って使ってるわーリスト
 
+- [OmniGraffle](http://www.omnigroup.com/omnigraffle)
+    - 図表作成ツール。ワイヤーフレームとか設計メモとか書くのに重宝。軽くて使いやすい
+    - Pro 版の Family Pack で 199 ドル
 - [TexturePacker](http://www.codeandweb.com/texturepacker)
     - 複数画像を 1 枚のシートにまとめるやつ
     - Sparrow Framework の中にあるスクリプトとか、Shoebox っていう AIR アプリとか
