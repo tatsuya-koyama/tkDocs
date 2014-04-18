@@ -135,5 +135,31 @@ ___
   勝手に使ってくれるんだけどね
 
 
+## ハマった系
+
+### iOS 実機デバッグうまくいかない
+
+- 環境
+    - FlashBuilder 4.7
+    - XCode 5.0 くらい
+    - iOS 5.1 の iPhone 4S
+- デバイス実行するとできるアプリを起動すると即落ちる
+- コマンドラインで adt でパッケージしたやつは普通に動いた
+- 落ちたときの端末のエラーログ
+
+        <Error>: -[__NSCFDictionary objectForKeyedSubscript:]: unrecognized selector sent to instance 0x961430
+
+- これでググったら同じような症状の
+  [Stack Overflow](http://stackoverflow.com/questions/16744689/air-native-extension-failing-on-nsdictionary-objectforkeyedsubscript-in-ios-5-1)
+  出てきた
+    - これを参考に、iOS プロジェクトの「デバッグの構成」->「起動をカスタマイズ」から
+
+            // 俺は Xcode 5.0 なので
+            Applications/Xcode.app/Contents/Developer/Platforms/
+            iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+
+    - これを `-platformsdk` に設定したら動いた
+
+
 <br/><br/><br/><br/>
 
