@@ -40,6 +40,7 @@ position: 6
 ## Blog
 
 - [teruyastarはかく語りき](http://d.hatena.ne.jp/teruyastar/)
+- [ATOCHOTTO](http://atochotto.seesaa.net/)
 
 ## Puzzle
 
