@@ -3,7 +3,7 @@ title: 'Adobe AIR ゲーム開発メモ'
 date: '2013-12-16'
 description:
 categories: []
-tags: [anything, Game-Development, krewFramework]
+tags: [anything, Game-Development, Adobe-AIR]
 position: 10
 ---
 
@@ -522,7 +522,4 @@ ___
     - AIR アプリを起動
 
 
-
-
-<br/><br/><br/><br/>
 
