@@ -168,6 +168,14 @@ DelayedCall dispatches an Event of type 'Event.REMOVE_FROM_JUGGLER' when it is f
   juggler がもう必要なくなったやつを自動で remove できるようにね。
 
 
+## バージョンにからむ系
+
+<div class="english">
+Since Version x.x.x, this API is intentionally deprecated. New code should instead use ...
+</div>
+
+- バージョン x.x.x からこの API は意図的に廃止される予定だから、新しいコードでは代わりに ... を使ってね
+
 
 ## 名詞格バリエーション
 
