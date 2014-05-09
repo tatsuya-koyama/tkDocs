@@ -53,6 +53,10 @@ position: 3001
 
 - ToDo: Documentation
 
+## Actor じゃないやつがリソースアクセスしたくなったらどうするの
+
+- ToDo: KrewActorAgent について書く
+
 
 
 <br/>
