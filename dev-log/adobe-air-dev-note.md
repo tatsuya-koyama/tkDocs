@@ -490,6 +490,12 @@ ___
 - 長期でプレイして累計 200 MB くらいまでなら保存してもよいかな
 - iOS で iCloud 対象になっちゃうところが気になるくらい
 
+### Mac での開発時、SharedObject ってどこに保存されてるの
+
+    /Users/your.name/Library/Application\ Support/com.your.app-id/Local\ Store/
+
+- app-storage: で保存したアセットや sqlite のファイルもここに保存される
+
 ## フォントの埋め込みとかってどうやるの
 
 - Embed ってしたくないんだけど
