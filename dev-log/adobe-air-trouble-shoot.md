@@ -9,6 +9,29 @@ position: 10.1
 
 # Adobe AIR トラブルシュート メモ
 
+## 2014-05-21: Xcode の IOKit 無いって言われる
+
+- AIR というより Xcode の SDK のレベルの問題
+- FlashBuilder での iOS 実機デバッグ時に以下のようなエラー出た
+
+        アプリケーションのパッケージ化中にエラーが発生しました :
+        
+        ld: framework not found IOKit
+        Compilation failed while executing : ld64
+
+___
+
+- 以下 Stack Overflow 参考
+    - http://stackoverflow.com/questions/17542092/iokit-not-found
+- シンボリックリンクはったら動いた
+
+        # 見やすさのために改行入れてます
+        cd /Applications/Xcode.app/Contents/Developer/Platforms
+           /iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+           /System/Library/Frameworks/IOKit.framework
+        sudo ln -s Versions/A/IOKit .
+
+
 ## 2014-05-07: なんか Android ビルドで dx tool failed
 
 - ANE とか増やしたり AIR 13 にバージョンアップしたりしてたら、

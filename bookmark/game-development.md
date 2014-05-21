@@ -96,6 +96,11 @@ position: 1
 - [Unity training videos for game development](http://vimeo.com/album/1558304)
 
 
+## 3D
+
+- [roxik さんの Flash スライド](http://temp.roxik.com/datas/max2007/index.html)
+
+
 ## ユーザ心理
 
 - [今までにプレイしてきた中で面白かったiPhoneのゲームBEST5は？](http://iphonech.com/archives/53280305.html)
