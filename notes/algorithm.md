@@ -48,6 +48,12 @@ position: 3
 - [catmull-rom spline](https://www.google.co.jp/search?q=catmull-rom+spline&rls=en&source=lnms&tbm=isch&sa=X&ei=ux7hUt-xIcKAkQX-zYHwBw&ved=0CAcQ_AUoAQ&biw=1569&bih=1027)
 
 
+## いもす法
+
+- 累積和をアルゴリズムを多次元、多次数に拡張したもの
+- 愚直な方法よりも計算量を抑える（次元の上昇に強い）
+    - [いもす法](http://imoz.jp/algorithms/imos_method.html)
+
 
 <br/><br/><br/>
 
