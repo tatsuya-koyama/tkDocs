@@ -40,6 +40,7 @@ position: 7
 - [クリエイティブ脳が刺激される！見ているだけで心が弾んでしまう デザイン生活雑貨をまとめました](http://webdesignmatome.com/webdesign/designgoods)
 - [shimage.net](http://shimage.net/)
 - [LOL の絵とか](http://instantip.deviantart.com/gallery/?catpath=%2F&offset=0)
+- [Lifetime Clock](http://lifetime-clock.com/)
 
 ## Movie / Animation
 

@@ -29,6 +29,7 @@ position: 2
 - [百年の言語](http://practical-scheme.net/trans/hundred-j.html)
 - [開発抽象化レイヤ](http://local.joelonsoftware.com/mediawiki/index.php/%E9%96%8B%E7%99%BA%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%83%AC%E3%82%A4%E3%83%A4)
 - [ウェブ系エンジニアがおさえておきたい技術ブログまとめ](http://d.hatena.ne.jp/nokuno/20101020/1287587608)
+- [プログラマーは文系の仕事か、理系の仕事か - 愛と勇気と缶ビール](http://zentoo.hatenablog.com/entry/2014/06/07/031513)
 
 ## Coding
 

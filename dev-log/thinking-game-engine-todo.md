@@ -111,6 +111,23 @@ ___
 - [Machine.js](http://machinejs.maryrosecook.com/)
 - [C++ の Boost の MSM（メタステートマシン）解説](http://d.hatena.ne.jp/redboltz/20111030)
 
+## Object Pooling
+
+- 物量が出る系のゲームではまあ必須
+- ライブラリ化したいよね
+
+### 参考リンク
+
+- [(AS3) Richard Lord - Object Pool class](http://www.richardlord.net/blog/object-pool-class)
+- [(JS) No more garbage : Pooling objects built with constructor functions](http://gamealchemist.wordpress.com/2013/02/02/no-more-garbage-pooling-objects-built-with-constructor-functions/)
+- [(JS) Object Pool implementation for Node.js and the Browser](https://www.npmjs.org/package/objectpool)
+
+・匿名関数のメモリ束縛について
+
+- [(1) AS3のクロージャ](http://www.imajuk.com/blog/archives/2008/04/as3_2.html)
+- [(2) アクティベーションオブジェクトとスコープチェーン](http://www.imajuk.com/blog/archives/2008/04/post_4.html)
+- [(3) アクティベーションオブジェクトによるメモリリーク](http://www.imajuk.com/blog/archives/2008/04/post_3.html)
+
 ## 衝突判定
 
 ### 四分木で空間分割
