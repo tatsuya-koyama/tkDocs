@@ -238,6 +238,11 @@ ul ul       { margin: 0 0 0 3.0em; }
 ul ul ul    { margin: 0 0 0 3.0em; }
 ul ul ul ul { margin: 0 0 0 3.0em; }
 
+ol {
+    margin: 1.6em 0 1.6em 3.4em;
+    max-width: 48em;
+}
+
 li {
     line-height: 160%;
 }

@@ -39,7 +39,13 @@ FlashBuilder を使うとお金はかかりますが、IDE で人間らしいコ
 
 - 以下から Adobe AIR SDK をダウンロードし、任意の場所に展開します
     - [Adobe AIR SDK](http://www.adobe.com/devnet/air/air-sdk-download.html)
-    - 2014 年 2 月現在、筆者が動作確認しているバージョンは、4.0 です
+    - 2014 年 6 月現在、筆者が動作確認しているバージョンは、14.0.0.110 です
+
+> 【Note】Adobe AIR のバージョンは、2014 年 4 月に出た Ver.13 から
+> Flash Player とメジャーバージョンを一致させたものになっています。
+> そのため 4.0 から 13.0 に飛んでいて、5.0 〜 12.0 は欠番になっています。
+
+___
 
 > 【Note】AIR SDK には、新型のコンパイラ（ASC2.0）のバージョンと、
 > 旧型のコンパイラのバージョンがあります。ASC2.0 を用いた方が生成される swf
@@ -60,7 +66,7 @@ FlashBuilder を使うとお金はかかりますが、IDE で人間らしいコ
 
 - 以下から Adobe Flex SDK をダウンロードし、任意の場所に展開します
     - [Adobe Flex SDK](http://www.adobe.com/devnet/flex/flex-sdk-download.html)
-    - 2014 年 2 月現在、筆者が動作確認しているバージョンは、4.6 です
+    - 2014 年 6 月現在、筆者が動作確認しているバージョンは、4.6 です
 
 ### Java 1.6 の準備
 
@@ -151,7 +157,7 @@ FlashBuilder を使うとお金はかかりますが、IDE で人間らしいコ
 
 - FlashBuilder は Adobe 公認の IDE であり、AIR / Flash 向けのゲーム開発においては
   最もポピュラーなソリューションでしょう
-- ただし 2014 年 2 月現在、SDK のアップデート周りが不十分な対応になっており、
+- ただし 2014 年 6 月現在、SDK のアップデート周りが不十分な対応になっており、
   多くの人がここで苦労していますので注意してください
 
 <div style="text-align: center;">
@@ -161,7 +167,7 @@ FlashBuilder を使うとお金はかかりますが、IDE で人間らしいコ
 ### 罠の多い SDK のアップデート
 
 - FlashBuilder が最新の SDK を使うようになっていない場合、
-  最新のもの（2014 年 2 月現在、Adobe AIR SDK 4.0, Adobe Flex SDK 4.6）
+  最新のもの（2014 年 6 月現在、Adobe AIR SDK 14.0, Adobe Flex SDK 4.6）
   を使うようにするには SDK の入れ替え作業が必要になります
 - [公式記事](http://helpx.adobe.com/flash-builder/kb/overlay-air-sdk-flash-builder.html)
   がありますが、**この通りにやってもうまくいかないと思います**（つらい）
@@ -170,6 +176,59 @@ FlashBuilder を使うとお金はかかりますが、IDE で人間らしいコ
 
 > 【Note】この PDF は Windows 向けです。フォルダをマージするところは Mac では
 > `ditto` コマンドなどを使う必要があります
+
+### 本当の FlashBuilder 向け SDK アップデート手順
+
+- 上記 PDF に従ったやり方をまとめておきます
+- 以下の 3 点をダウンロードして手元に用意します
+
+1. 新しい Adobe AIR SDK (with ActionScript Compiler 2.0)
+1. 旧式の Adobe AIR SDK (without ASC2)
+1. Flex SDK
+
+- 以下からダウンロードできます
+    - [Adobe AIR SDK](http://www.adobe.com/devnet/air/air-sdk-download.html)
+    - [Adobe Flex SDK](http://www.adobe.com/devnet/flex/flex-sdk-download.html)
+
+___
+
+- 新しい AIR SDK を **NEW-AIR-SDK** と表記します
+- 旧式の AIR SDK を **OLD-AIR-SDK** と表記します
+
+___
+
+- (1) Flash Builder が参照している AIRSDK のディレクトリを、展開した **NEW-AIR-SDK** で置き換えます
+    - Mac で Flash Builder 4.7 のデフォルト設定なら、以下にあるでしょう
+    - /Applications/Adobe Flash Builder 4.7/eclipse/plugins/com.adobe.flash.compiler_4.7.0.349722/AIRSDK
+
+> ・こんな階層にあるディレクトリを手で置換するのかと驚かれるでしょうが、真実です
+
+___
+
+- (2) 展開した Flex SDK に、展開した **OLD-AIR-SDK** をマージしたものを用意します
+    - 上で既出ですが、Mac の場合は Finder で投げ込むのではなく ditto コマンドなどを使用してください
+
+            $ ditto AdobeAIRSDK_14/ flex_sdk_4.6/
+
+> ・こんな煩わしいことをやらなくてはならないのかと疑われるでしょうが、真実です
+
+___
+
+- (3) (2) で作ったものを Flash Builder が参照可能な場所に置きます
+    - デフォルトにならうなら以下が無難でしょう
+    - /Applications/Adobe Flash Builder 4.7/sdks/
+    - `4.6.0_with_14` などと名前をつけておくと分かりやすいでしょう
+
+___
+
+- (4) Flash Builder を起動し、Flex SDK の参照先を指定します
+    - Flash Builder → 環境設定 → インストールされている Flex SDK
+    - (3) で配置したパスを追加して、チェックをつけてください
+
+___
+
+- 以上で完了です。お疲れさまでした
+
 
 ### laboratory をビルドするための準備
 
