@@ -4,10 +4,36 @@ date: '2014-01-16'
 description:
 categories: []
 tags: [anything, Programming, Algorithm]
-position: 3
+position: 2
 ---
 
 # Algorithm
+
+## ソート関連
+
+- [Wikipedia - クイックソート](http://ja.wikipedia.org/wiki/%E3%82%AF%E3%82%A4%E3%83%83%E3%82%AF%E3%82%BD%E3%83%BC%E3%83%88)
+- [404 Blog Not Found: bucket sort - 比較しなければソートは相当速い](http://blog.livedoor.jp/dankogai/archives/51764496.html)
+- [Wikipedia - スリープソート](http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%97%E3%82%BD%E3%83%BC%E3%83%88#.E3.82.B9.E3.83.AA.E3.83.BC.E3.83.97.E3.82.BD.E3.83.BC.E3.83.88)
+    - 「バケットソートのバケツをメモリ空間の代わりに時間に置き換えたもの」…なるほど。
+
+
+## 乱数系
+
+- [Wikipedia - 線形合同法](http://ja.wikipedia.org/wiki/%E7%B7%9A%E5%BD%A2%E5%90%88%E5%90%8C%E6%B3%95)
+- [Wikipedia - メルセンヌツイスタ](http://ja.wikipedia.org/wiki/%E3%83%A1%E3%83%AB%E3%82%BB%E3%83%B3%E3%83%8C%E3%83%BB%E3%83%84%E3%82%A4%E3%82%B9%E3%82%BF)
+- [Wikipedia - Xorshift](http://ja.wikipedia.org/wiki/Xorshift)
+
+___
+
+- [遠藤雅伸公式blog - 100分の1を100回やってみる](http://ameblo.jp/evezoo/entry-10704872133.html)
+    - 100 分の 1 を 100 回やって、1 回は当たってる確率は 63 ％くらい
+
+
+## 自動生成系
+
+- [古くて新しい自動迷路生成アルゴリズム](http://getnews.jp/archives/288113)
+    - ドルアーガの塔の迷路生成とか
+
 
 ## リーズナブルな配列のシャッフル Fisher–Yates shuffle
 
@@ -41,6 +67,7 @@ position: 3
           });
           return shuffled;
         };
+
 
 ## catmull-rom spline
 
