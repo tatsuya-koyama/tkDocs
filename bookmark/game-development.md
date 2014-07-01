@@ -95,6 +95,9 @@ position: 1
 
 - [Unity training videos for game development](http://vimeo.com/album/1558304)
 
+## Game Dev. Tool
+
+- [Unityの新GUI、uGUIはどうなる？こうなる！](http://terasur.blog.fc2.com/blog-entry-813.html)
 
 ## 3D
 
@@ -118,6 +121,7 @@ position: 1
 ## iOS
 
 - [iOS.zip （申請に必要な画像セット）](http://ioszip.mashroom.in/)
+- [App Store Review Guidelines](https://developer.apple.com/appstore/resources/approval/guidelines.html)
 
 ## Movie
 

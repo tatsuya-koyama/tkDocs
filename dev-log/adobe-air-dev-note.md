@@ -4,7 +4,7 @@ date: '2013-12-16'
 description:
 categories: []
 tags: [anything, Game-Development, Adobe-AIR]
-position: 10
+position: 110
 ---
 
 # Adobe AIR ゲーム開発メモ
@@ -14,6 +14,12 @@ position: 10
 - ゲームエンジン / フレームワーク
     - [Citrus Engine: Creating Level using Tiled Map Editor](http://pzuh.blogspot.jp/2013/05/citrus-engine-creating-level-using.html)
     - [Ash entity framework](http://www.ashframework.org/)
+
+___
+
+- ツール開発
+    - [Starling Forum - Integrated non tile-based map editor](http://forum.starling-framework.org/topic/integrated-non-tile-based-map-editor)
+    - [SoundQuest, a journey in the extraordinary world of game development and Stage3D](http://blog.open-design.be/2012/03/25/soundquest-a-journey-in-the-extraordinary-world-of-game-development-and-stage3d/)
 
 ___
 
@@ -321,6 +327,12 @@ ___
     - 1024 x 1024 なら大抵大丈夫だからそれで頑張るか
         - その場合 960 x 640 の背景画像はそれだけで 1 枚みたいになっちゃうけど、まあ背景ならいいか
 
+## 圧縮テクスチャ
+
+- 各プラットフォーム向けの圧縮テクスチャまとめてくれる ATF (Adobe Texture Format) ってのがある
+- [きれいなATF (Adobe Texture Format)ファイル の作り方 - Togetter](http://togetter.com/li/555871)
+
+
 ## Starling 使って思ったこと
 
 ### パフォーマンス
@@ -466,6 +478,22 @@ ___
         var path:String = File.applicationDirectory.nativePath + "/\.\./Library/Caches";
         cacheDir = new File(path);
 
+___
+
+- いや AIR 3.6 (2013 年 3 月) からこれでいける
+
+        File.cacheDirectory.nativePath;
+
+___
+
+- もしくはファイル単位で iCloud 対象にならないように指定
+- AIR 3.6 以降、iOS 5.1 以降で利用可能
+- ディレクトリに対して使えばそのディレクトリ以下全て iCloud 対象じゃなくできる
+
+        var foo:File;
+        foo = File.applicationStorageDirectory.resolvePath("foo.txt");
+        foo.preventBackup = true;
+
 
 ### Android の参考リンク
 
@@ -526,6 +554,19 @@ ___
     - 実機に Scout のコンパニオンアプリをインストールしておく
     - コンパニオンアプリ起動して Enable すると自分の Mac が出てくるので選択
     - AIR アプリを起動
+
+
+## AIR の WebView
+
+- [モバイルアプリケーションでの HTML コンテンツの表示](http://help.adobe.com/ja_JP/as3/dev/WS901d38e593cd1bac3ef1d28412ac57b094b-8000.html)
+- [StageWebView differences between platforms](http://helpx.adobe.com/air/kb/stagewebview-differences-platforms-air-sdk.html)
+
+### BASIC 認証
+
+- どうやら StageWebView だと BASIC 認証通せないっぽい？
+    - `http://user:pass@...` みたいに埋め込んでみてもダメだった
+- URLRequest は普通に Request Header に渡してやれば通るけど
+
 
 
 

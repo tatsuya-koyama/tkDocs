@@ -4,7 +4,7 @@ date: '2014-04-18'
 description:
 categories: []
 tags: [anything]
-position: 13
+position: 200
 ---
 
 # 「ロボットとおばけ」開発メモ

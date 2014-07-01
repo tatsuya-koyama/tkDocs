@@ -37,6 +37,11 @@ position: 6
 - [Super Mario Tutorial](http://www.youtube.com/watch?v=OFMbaNfqY6Y&feature=youtu.be&noredirect=1)
 - [外を走れるルームランナー](http://makezine.com/2008/11/17/treadmill-morphs-into-a-v/)
 
+## シュールなゲーム
+
+- [SUMOTORI DREAMS](http://www.gravitysensation.com/sumotori/)
+    - 不気味の谷を乗り越えた先に笑いの山があるんじゃないか
+
 ## Blog
 
 - [teruyastarはかく語りき](http://d.hatena.ne.jp/teruyastar/)
