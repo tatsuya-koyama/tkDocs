@@ -1,5 +1,5 @@
 ---
-title: '4. Cheat Sheet / まとめ'
+title: '4. Cheat Sheet / Pattern'
 date: '2013-12-13'
 description:
 categories: []
@@ -17,6 +17,7 @@ position: 4
 ## デザインパターン
 
 - [Gof以外のデザインパターン](http://www.tom.sfc.keio.ac.jp/~fjedi/wiki/index.php?%A4%BD%A4%CE%C2%BE%A4%CE%A5%C7%A5%B6%A5%A4%A5%F3%A5%D1%A5%BF%A1%BC%A5%F3)
+- [AWS クラウドデザインパターン](http://aws.clouddesignpattern.org/index.php/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8)
 
 ## Git 系
 
@@ -38,11 +39,12 @@ position: 4
 - [UML Cheatsheet（クラス図とかシーケンス図）](http://loufranco.com/wp-content/uploads/2012/11/cheatsheet.pdf)
 - [MSDN - UML Class Diagrams: Reference](http://msdn.microsoft.com/en-us/library/dd409437.aspx)
 
-
 ## 言語系
 
 - [PHP, Perl, Python, Ruby の比較シート](http://hyperpolyglot.org/scripting)
 - [プログラミング言語をパラダイムでまとめた図](http://d.hatena.ne.jp/minekoa/20100530/1275204024)
+- [プログラミング言語擬人化 1](http://next.rikunabi.com/tech/docs/ct_s03600.jsp?p=002412)
+- [プログラミング言語擬人化 2](http://next.rikunabi.com/tech/docs/ct_s03600.jsp?p=002477)
 
 ## ビジネス系
 

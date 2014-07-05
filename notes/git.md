@@ -4,7 +4,7 @@ date: '2014-06-12'
 description:
 categories: []
 tags: [anything, Tips, Git]
-position: 5
+position: 6
 ---
 
 # Git Memo
