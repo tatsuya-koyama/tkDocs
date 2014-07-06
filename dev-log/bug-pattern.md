@@ -9,6 +9,37 @@ position: 10
 
 # バグあるあるノート
 
+## リスト走査中にリストの内容が変化しちゃうパターン
+
+例えば Event の dispatcher 的な何かが
+
+    // 疑似コード
+    function dispatchEvent(eventArgs) {
+        for each (var callback in _listenerCallbacks) {
+            callback(eventArgs);
+        }
+    }
+
+みたいに登録されてる _listenerCallbacks を走査して Event 投げるようなとき。
+
+ここで callback 呼んでる先でこの dispatcher に addEventListener とか removeEventListener
+的なことがされていると、_listenerCallbacks の内容が変化して呼ばれるべきものが呼ばれなくなったり、
+その逆が起こったりする。
+
+### 解決策
+
+外から変更されうるものは走査対象にしない。複製したリストに対して走査する。
+
+    function dispatchEvent(eventArgs) {
+        // duplicate list
+        var workingCallbacks = _listenerCallbacks.slice();
+
+        for each (var callback in workingCallbacks) {
+            callback(eventArgs);
+        }
+    }
+
+
 ## [AS3] ループの前の値引きずってるパターン
 
 人の書いたコードでこんな感じのあった（実際はもう少し複雑）：

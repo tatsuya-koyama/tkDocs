@@ -10,6 +10,39 @@
 				
 					if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("krewfw.core"); titleBar_setSubNav(false,false,false,false,false,false,false,false,false,false,false	,false,false,false,true,false);}	
 				-->
-			</script><div class="MainContent"><br><br><hr><a name="classSummary"></a><div class="summaryTableTitle">Classes</div><table cellpadding="3" cellspacing="0" class="summaryTable"><tr><th>&nbsp;</th><th width="30%">Class</th><th width="70%">Description</th></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="KrewActor.html">KrewActor</a></td><td class="summaryTableLastCol">&nbsp;</td></tr><tr class="prow0"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="KrewBlendMode.html">KrewBlendMode</a></td><td class="summaryTableLastCol">
-     Expand the blend modes of Starling framework.</td></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="KrewGameDirector.html">KrewGameDirector</a></td><td class="summaryTableLastCol">
-     Take responsibility for direction of game sequence.</td></tr><tr class="prow0"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="KrewGameObject.html">KrewGameObject</a></td><td class="summaryTableLastCol">&nbsp;</td></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="KrewScene.html">KrewScene</a></td><td class="summaryTableLastCol">&nbsp;</td></tr><tr class="prow0"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="KrewSystemEventType.html">KrewSystemEventType</a></td><td class="summaryTableLastCol">&nbsp;</td></tr></table><p></p><div><p></p><center class="copyright"><footer></footer><br/>Sun Feb 23 2014, 04:59 AM +09:00  </center></div></div></body></html><!--<br/>Sun Feb 23 2014, 04:59 AM +09:00  -->
+			</script><div class="MainContent"><br><br><hr><a name="classSummary"></a><div class="summaryTableTitle">Classes</div><table cellpadding="3" cellspacing="0" class="summaryTable"><tr><th>&nbsp;</th><th width="30%">Class</th><th width="70%">Description</th></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="KrewActor.html">KrewActor</a></td><td class="summaryTableLastCol">&nbsp;</td></tr><tr class="prow0"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="KrewActorAgent.html">KrewActorAgent</a></td><td class="summaryTableLastCol">
+     Scene 上にのっていない Actor が Actor めいた仕事をしたいときの委譲先。
+     バックエンドに存在する各 Scene のシステム Actor に処理を代行してもらう。
+     以下のように使う。
+          
+         import krewfw.utils.krew;
+         krew.agent.sendMessage(...);
+     
+          krewFramework は Actor の集まりで構成するという設計思想を持つが、
+     static な Model クラスなどがリソースへのアクセスやメッセージングなどを
+     行いたくなった時、または Actor を増やした時のオーバヘッドを減らしたい場合などに利用する。
+          ただしフレームワークのポリシー上、Actor にタスクを登録する系統のものは代行できない。
+     そういうことをしたくなったクラスは Actor として Scene 上に生きなければならない。
+     </td></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="KrewBlendMode.html">KrewBlendMode</a></td><td class="summaryTableLastCol">
+     Expand the blend modes of Starling framework.</td></tr><tr class="prow0"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="KrewGameDirector.html">KrewGameDirector</a></td><td class="summaryTableLastCol">
+     Take responsibility for direction of game sequence.</td></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="KrewGameObject.html">KrewGameObject</a></td><td class="summaryTableLastCol">&nbsp;</td></tr><tr class="prow0"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="KrewPoolableActor.html">KrewPoolableActor</a></td><td class="summaryTableLastCol">
+     To make poolable actor, extends KrewPoolableActor and implements
+     in subclasses like this:
+          
+     public class YourPoolableActorClass extends KrewPoolableActor {
+              private static var _objectPool:KrewObjectPool = new KrewObjectPool(YourPoolableActorClass);
+              protected override function onRecycle():void {
+             _objectPool.recycle(this);
+         }
+              public static function getObject(arg1:Number, arg2:uint):YourPoolableActorClass {
+             var params:Object = {
+                 arg1: arg1,
+                 arg2: arg2
+             };
+             return _objectPool.getObject(params) as YourPoolableActorClass;
+         }
+              public static function disposePool():void {
+             _objectPool.dispose();
+         }
+              ...</td></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="KrewScene.html">KrewScene</a></td><td class="summaryTableLastCol">&nbsp;</td></tr><tr class="prow0"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="KrewSystemEventType.html">KrewSystemEventType</a></td><td class="summaryTableLastCol">&nbsp;</td></tr><tr class="prow1"><td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableSecondCol"><a href="KrewTransition.html">KrewTransition</a></td><td class="summaryTableLastCol">
+     Expand tween transition functions of Starling.</td></tr></table><p></p><div><p></p><center class="copyright"><footer></footer><br/>Sun Jul 6 2014, 02:29 PM +09:00  </center></div></div></body></html><!--<br/>Sun Jul 6 2014, 02:29 PM +09:00  -->
