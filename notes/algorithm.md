@@ -23,7 +23,35 @@ position: 2
 - [Wikipedia - メルセンヌツイスタ](http://ja.wikipedia.org/wiki/%E3%83%A1%E3%83%AB%E3%82%BB%E3%83%B3%E3%83%8C%E3%83%BB%E3%83%84%E3%82%A4%E3%82%B9%E3%82%BF)
 - [Wikipedia - Xorshift](http://ja.wikipedia.org/wiki/Xorshift)
 
-___
+### XorShift
+
+- 軽量で実装が手軽、実用に耐える精度
+- seed の設定の仕方の定番というのはあまり見当たらない
+    - とりあえずうまいこと 4 つの変数が変わるようにする
+- 初期の並びは偏りが出やすいようだ。初めに数回ぶん読み飛ばししておくと偏りが減る
+    - 関連：[Xorshift アルゴリズムの偏りを除去するのに必要な「読み飛ばし」回数を見積もる](http://d.hatena.ne.jp/gintenlabo/20100926/1285521107)
+
+#### 僕の実装
+
+- krewFramework に utility として入れた
+    - [KrewRandom.as](https://github.com/tatsuya-koyama/krewFramework/blob/master/krew-framework/krewfw/utils/as3/KrewRandom.as)
+
+seed は以下のようにやってみた：
+
+    private function _setSeed(seed:uint):void {
+        x = seed = 1812433253 * (seed ^ (seed >> 30)) + 0;
+        y = seed = 1812433253 * (seed ^ (seed >> 30)) + 1;
+        z = seed = 1812433253 * (seed ^ (seed >> 30)) + 2;
+        w = seed = 1812433253 * (seed ^ (seed >> 30)) + 3;
+
+        // 初めのほうを読み飛ばし
+        for (var i:int = 0;  i < 8;  ++i) {
+            _genUint();
+        }
+    }
+
+
+### 読み物
 
 - [遠藤雅伸公式blog - 100分の1を100回やってみる](http://ameblo.jp/evezoo/entry-10704872133.html)
     - 100 分の 1 を 100 回やって、1 回は当たってる確率は 63 ％くらい
@@ -33,6 +61,12 @@ ___
 
 - [古くて新しい自動迷路生成アルゴリズム](http://getnews.jp/archives/288113)
     - ドルアーガの塔の迷路生成とか
+
+
+## プロシージャル
+
+- Perlin Noise をモーションに使うって応用もあるようだ
+    - [Twitter / _kzr: 単純な Perlin Noise で作った動き](https://twitter.com/_kzr/status/476652150257643520)
 
 
 ## リーズナブルな配列のシャッフル Fisher–Yates shuffle
