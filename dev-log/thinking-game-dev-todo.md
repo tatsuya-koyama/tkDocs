@@ -9,18 +9,6 @@ position: 6
 
 # ゲーム実装するときに考えることリスト
 
-## プロジェクト管理
-
-### バージョン管理
-
-- 少数精鋭の開発なら、ゲームに使う実データのための作業ファイルも Git 入れときたい
-    - スプライトシート化の前の画像はまあ入れるだろうけど
-    - PhotoShop の psd とか、タイルマップの tmx とか
-    - 他の人が見れるようにしておくと作業・職種の障壁減る
-    - ファイルサイズが気にならないレベルであればね
-    - ただ、ディレクトリは asset/workfile/ みたいに分けておいてアプリのパッケージ
-
-
 ## みんながアクセスできちゃうグローバルなデータ領域
 
 - よく使われるものは割り切ってグローバルにアクセスできるようにした方が無難
@@ -127,7 +115,15 @@ ___
 - メモリ少ない環境だとバックのシーンのメモリ退避とか考えないといけない
 
 
-### ステートマシン参考リンク
+## ステートマシン
+
+- 単純な FSM でなく階層型くらいまでやれば結構使い道ある
+- 自分は json でステート定義できる階層型ステートマシンを作った
+    - 自前フレームワーク内のコンポーネントとして
+    - [KrewStateMachine.as](https://github.com/tatsuya-koyama/krewFramework/blob/master/krew-framework/krewfw/builtin_actor/system/KrewStateMachine.as)
+    - ToDo: ドキュメンテーション
+
+### 参考リンク
 
 - [Hierarchical State Machine](http://www.eventhelix.com/realtimemantra/hierarchicalstatemachine.htm#.Us1RbWQW1vA)
 - [Finite State Machines for AI in Actionscript - Richard Lord](http://www.richardlord.net/blog/finite-state-machines-for-ai-in-actionscript)
@@ -187,13 +183,23 @@ ___
 
 ### 壁との衝突判定
 
+- 物理エンジン使っちゃうのが楽
+
 ### めっちゃ広いのをシームレスに表示
 
 ## マリオみたいな platformer なマップ
 
 ### タイルベースじゃない感じのマップのエディタ
 
+- プロでも、最終的に自前でなんか用意することが多い
+- Unity とかも Unity 内にエディタ作ってデータ吐いたりとかね
+- 僕は 2D なら Flash で絵を置いて jsfl でデータ書き出すとかが手軽でよいかと
+- 3D なら Maya とか
+
 ### ナナメの地面とかあるときの衝突判定
+
+- これも物理エンジン使っちゃうのが楽
+- パラメータの調整とかうまくやらんとつるんと滑ったりしちゃう
 
 ## サーバからゲームデータとってくる
 
