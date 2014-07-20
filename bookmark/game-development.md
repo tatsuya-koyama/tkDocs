@@ -28,6 +28,12 @@ position: 1
 - [ABA の日誌：2013年作ったゲーム遊んだゲーム](http://d.hatena.ne.jp/ABA/20131227#p1)
 
 
+## Game Engine / 低レイヤー
+
+- [スクールガールストライカーズの内製クライアントエンジン](http://www.jp.square-enix.com/info/images/image_technical_seminar2014_06/pdf/SQEX_DevCon_sugimoto.pdf)
+- [CPU とキャッシュのはなし](http://graphics.hatenablog.com/entry/2012/03/23/175113)
+
+
 ## Game Design
 
 - [ネットワークエンジニアから見たゲームデザインの大原則](http://www.4gamer.net/games/105/G010549/20100905002/)
