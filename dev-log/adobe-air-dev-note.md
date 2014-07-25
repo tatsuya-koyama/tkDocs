@@ -184,6 +184,15 @@ ____
 - flash.sampler.getSize(obj) で obj のメモリサイズ（Byte）がとれるよ！
 
 
+## バッテリー消費
+
+- ある程度エネルギー食いなのは AIR 依存で仕方ないかなー
+    - Android とか AIR 上で中間コード実行する感じだしね
+    - iOS はネイティブコードに変換されてるのでマシかな
+- スリープ時も、実は FPS 4 でスクリプトが動いてる
+    - [AIR アプリケーションにおける Android のホーム、メニュー、サーチ、バックキーの処理方法](http://www.adobe.com/jp/devnet/air/articles/air_android_virtualkey.html)
+
+
 ## mp3 ってライセンス的にどうなんすかね
 
 - 正式なところまだわかってない
