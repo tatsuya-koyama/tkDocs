@@ -15,6 +15,7 @@ div.hero-unit h1 {
 div.mini_contents_block{
     float: left;
     width: 100%;
+    margin-top   : 0.5em;
     margin-bottom: 1.5em;
 }
 
@@ -38,7 +39,7 @@ div.mini_box_contents{
     margin-top: 0;
     margin-bottom: 0;
     min-height: 80px;
-    padding: 0.1em 0.5em 0.1em 0.1em;
+    padding: 1.1em 0.5em 0.7em 0.1em;
 }
 
 div.mini_box_contents img{
@@ -58,11 +59,10 @@ div.mini_box_contents img.contents_img_padding{
 
 div.mini_box_contents p{
     font-size: 150%;
-    font-weight: bold;
+    /*font-weight: bold;*/
     line-height: 140%;
-    color: #555;
     margin-top:  1.0em;
-    margin-left: 3.5em;
+    margin-left: 1.0em;
 }
 
 div.mini_box_contents p.contents_name{
@@ -76,11 +76,46 @@ div.mini_box_contents p.contents_name{
     clear: both;
 }
 
-a:hover.mini_box_contents p{ color: #5ae; }
 
 a.mini_box_contents{ text-decoration: none; }
+
+/*
+a:hover.mini_box_contents p{ color: #5ae; }
+
 a:link   .mini_box_contents{ color: #333; }
 a:visited.mini_box_contents{ color: #333; }
 a:hover  .mini_box_contents{ color: #37a; }
+*/
+
+/*----- button colors ---------------------------------------------*/
+div.mbc_krew {
+    color: #ee9;
+    background-color: #683;
+}
+a:hover.mbc_krew p{ color: #eb7; }
+
+div.mbc_notes {
+    color: #cee;
+    background-color: #368;
+}
+a:hover.mbc_notes p{ color: #7cc; }
+
+div.mbc_dev {
+    color: #ecc;
+    background-color: #844;
+}
+a:hover.mbc_dev p{ color: #d7a; }
+
+div.mbc_ref {
+    color: #ece;
+    background-color: #648;
+}
+a:hover.mbc_ref p{ color: #c7c; }
+
+div.mbc_eng {
+    color: #dec;
+    background-color: #473;
+}
+a:hover.mbc_eng p{ color: #ac7; }
 
 

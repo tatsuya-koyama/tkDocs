@@ -59,7 +59,7 @@ div.english i {color: #279; font-style: normal;}
 #novel ul ul ul    { margin: 0 0 0 3.0em; }
 #novel ul ul ul ul { margin: 0 0 0 3.0em; }
 
-li {
+div.inner li {
     font-size: 93%;
     line-height: 150%;
     margin: 0 0 0 0;
