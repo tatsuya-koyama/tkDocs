@@ -1,5 +1,5 @@
 ---
-title: 'プログラミング'
+title: 'プログラミング一般'
 date: '2013-12-16'
 description:
 categories: []

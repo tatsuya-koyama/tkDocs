@@ -28,6 +28,9 @@ krew_index_philosophy:
 krew_index_manual:
   - instllation
   - krew-skeleton
+  - manual/system-overview
+  - manual/process-sequence
+#  - manual/resource-management
 
 krew_index_samples:
   - samples/cookbook

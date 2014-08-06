@@ -144,6 +144,20 @@ ____
             tmp = list[i];
         }
 
+### Array から Vector への変換
+
+こんな書き方をする
+
+    var vector:Vecotr.<String> = new <String>["a", "b", "c"];
+
+またはビルトインの Vector のグローバル関数を使う。
+これは Vector から型の違う Vector への変換にも使える。
+
+    var array:Array = ["a", "b", "c"];
+    var vector:Vector.<String> = Vector.<String>(array);
+
+> 【参考】[Vector の新しい初期化方法 （Flex 4 & Flash Professional CS5）](http://cuaoar.jp/2010/09/vector-flex-4-flash-professional-cs5.html)
+
 
 ## 立ち上げ時の背景色 2〜3 秒出るの気になるよね問題
 
