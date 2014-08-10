@@ -96,6 +96,7 @@ position: 2
 - [git - 簡単ガイド](http://rogerdudler.github.com/git-guide/index.ja.html)
 - [GitHub人気レポジトリランキング Best50 全解説](http://d.hatena.ne.jp/yayugu/20110824/1314194100)
 - [提言: コミットメッセージの一行目には要求仕様を書け](http://qiita.com/magicant/items/882b5142c4d5064933bc)
+- [巨大なリポジトリを Git で上手く扱う方法](http://japan.blogs.atlassian.com/2014/05/handle-big-repositories-git/)
 
 ___
 
