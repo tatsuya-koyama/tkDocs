@@ -65,6 +65,14 @@
       </ul>
 
       <br/>
+      <h4 class="krew-index">ToDo</h4>
+      <ul>
+        {{#data.krew_index_todo?to_krew-framework}}
+          {{> page-list.html }}
+        {{/data.krew_index_todo?to_krew-framework}}
+      </ul>
+
+      <br/>
       <h4 class="krew-index">Developer Note</h4>
       <ul>
         {{#data.krew_index_draft?to_krew-framework}}

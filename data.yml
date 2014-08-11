@@ -37,6 +37,9 @@ krew_index_samples:
   - samples/global-layer
   - samples/krewasync
 
+krew_index_todo:
+  - todo/known_issues
+
 krew_index_draft:
   - draft/draft
   - draft/thinking
