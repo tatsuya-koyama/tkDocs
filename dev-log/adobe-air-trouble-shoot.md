@@ -9,7 +9,33 @@ position: 110.1
 
 # Adobe AIR トラブルシュート メモ
 
-## 2014-08-11: 実機で動かしたときに SharedObject 作れないことがある
+## 2014-08-12: iOS 申請で、ビルドのアップロード時に Invalid Bundle Structure
+
+### 現象
+
+Application Loader 2.9.1 を使用して Itunes Connect にアップロードする際、以下のようなエラーが出る：
+
+> ERROR ITMS-9000: "Invalid Bundle Structure" - The binary file '~~~~.app/~~~~' is not permitted.
+> Your app may contain only one executable file. Refer to the Bundle Programming Guide at
+> https://developer.apple.com/library/ios/#documentation/CoreFoundation/Conceptual/CFBundles/BundleTypes/BundleTypes.html#//apple_ref/doc/uid/10000123i-CH101-SW1
+> for information on the iOS app bundle structure.
+
+- 組み込んでいる ANE (Adobe Native Extension) 内のバイナリファイルが executable file と見なされ、
+  「実行可能ファイルは 1 つまでにしろ」と怒られているようだ
+- いくつかある ANE のうち 2 つの ANE について、合計 4 ファイルがエラーの対象となった
+    - 大丈夫な ANE もあるということだ
+- **2014 年 7 月に申請したものは、このファイルが含まれていても問題なくアップロードでき、申請も approve された。**
+    - このときも Application Loader は同じ 2.9.1
+    - つまり最近になって、Apple の Server Side の Validation ロジックが変わった可能性が高い
+
+### 解決
+
+- 色々と格闘した結果、機能を落とさずに
+  エラー対象となるファイルを含まない状態の ANE を用意することができたので、
+  それに差し替えて申請した
+
+
+## 2014-08-11: 実機で動かしたときに SharedObject を作れないことがある
 
 - 単純に端末のストレージ容量が少ないと失敗する
 - 「少ない」のしきい値は環境によって様々で、iOS7 だと 400 MB とか残っていても

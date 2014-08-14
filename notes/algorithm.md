@@ -102,6 +102,32 @@ seed は以下のようにやってみた：
           return shuffled;
         };
 
+## 配列系
+
+### 重複を削除する
+
+意外と標準ライブラリになかったりする系の処理。
+naive な手法だと要素を走査して「結果のリストにもう入っているか」を都度 find 的なものでチェックする、
+というのがありそうだけど非効率。
+
+- **ハッシュマップに覚えとく**
+    - メモリを消費して速度を得るパターン
+    - 無難で速い。でかいリスト対象の場合、メモリを食うのが懸念くらいか
+    - 順序が維持できる
+
+___
+
+- **ソートしてから走査していく**
+    - 隣り合うやつが同じだったら Pick しない的な
+    - CPU 使ってもよいけどメモリ食いたくない場合などに
+    - 当然結果はソートされた順序になる。どうせソートしたい場合などには都合がよい
+
+> 参考：[Array remove duplicate elements - Stack Overflow](http://stackoverflow.com/questions/3350641/array-remove-duplicate-elements)
+
+#### 僕の実装
+
+- [KrewListUtil.as](https://github.com/tatsuya-koyama/krewFramework/blob/master/krew-framework/krewfw/utils/swiss_knife/KrewListUtil.as)
+    - この中の unique() と sortedUnique()
 
 ## catmull-rom spline
 
