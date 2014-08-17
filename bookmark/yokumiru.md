@@ -21,6 +21,10 @@ position: 99
 - [IndieGames.com](http://indiegames.com/index.html)
 - [Gamasutra - The Art &amp; Business of Making Games](http://www.gamasutra.com/)
 
+### プログラマ系
+
+- [POSTD](http://postd.cc/)
+
 ### たのしい
 
 - [ボケて - 人気ボケ一覧](http://bokete.jp/boke/popular)
