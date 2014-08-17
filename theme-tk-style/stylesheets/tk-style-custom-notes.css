@@ -13,11 +13,11 @@
 /*----- outline list ------------------------------------------------------*/
 #outline-pane ul a:link,
 #outline-pane ul a:visited{ color: #257; text-decoration: none; }
-#outline-pane ul a:hover{ color: #479; text-decoration: underline; }
+#outline-pane ul a:hover{ color: #49b; text-decoration: underline; }
 
 #left-pane ul a:link,
 #left-pane ul a:visited{ color: #cee; text-decoration: none; }
-#left-pane ul a:hover{ color: #7cc; text-decoration: underline; }
+#left-pane ul a:hover{ color: #eea; text-decoration: underline; }
 
 #left-pane li.active-page { background-color: #234; }
 

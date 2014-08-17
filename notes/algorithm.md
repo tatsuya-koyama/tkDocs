@@ -56,6 +56,10 @@ seed は以下のようにやってみた：
 - [遠藤雅伸公式blog - 100分の1を100回やってみる](http://ameblo.jp/evezoo/entry-10704872133.html)
     - 100 分の 1 を 100 回やって、1 回は当たってる確率は 63 ％くらい
 
+## メモリ管理
+
+- [メモリー管理の内側 - 動的アロケーションの選択肢とトレードオフ、そして実装](http://www.ibm.com/developerworks/jp/linux/library/l-memory/index.html)
+
 
 ## 自動生成系
 

@@ -98,24 +98,30 @@ div.mbc_notes {
     color: #cee;
     background-color: #368;
 }
-a:hover.mbc_notes p{ color: #7cc; }
+a:hover.mbc_notes p{ color: #eea; }
 
 div.mbc_dev {
+    color: #fda;
+    background-color: #951;
+}
+a:hover.mbc_dev p{ color: #fe8; }
+
+div.mbc_issues {
     color: #ecc;
     background-color: #844;
 }
-a:hover.mbc_dev p{ color: #d7a; }
+a:hover.mbc_issues p{ color: #fea; }
 
 div.mbc_ref {
     color: #ece;
     background-color: #648;
 }
-a:hover.mbc_ref p{ color: #c7c; }
+a:hover.mbc_ref p{ color: #9ee; }
 
 div.mbc_eng {
     color: #dec;
     background-color: #473;
 }
-a:hover.mbc_eng p{ color: #ac7; }
+a:hover.mbc_eng p{ color: #fdf; }
 
 

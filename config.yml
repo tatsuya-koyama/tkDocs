@@ -72,6 +72,9 @@ bookmark:
 english:
   sort: ["position", "asc"]
 
+issues:
+  sort: ["date", "desc"]
+
 static:
   use: "static"
 

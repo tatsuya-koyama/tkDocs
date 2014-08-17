@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+#left-pane {
+    background-color: #844;
+    border-right: 1px solid #844;
+}
+
+#outline-pane {
+    background-color: #ddd0d0;
+    border-right: 1px solid #ddd0d0;
+}
+
+/*----- outline list ------------------------------------------------------*/
+#outline-pane ul a:link,
+#outline-pane ul a:visited{ color: #744; text-decoration: none; }
+#outline-pane ul a:hover{ color: #b77; text-decoration: underline; }
+
+#left-pane ul a:link,
+#left-pane ul a:visited{ color: #ecc; text-decoration: none; }
+#left-pane ul a:hover{ color: #fea; text-decoration: underline; }
+
+#left-pane li.active-page { background-color: #422; }
+
+
+/*-------------------------------------------------------*/
+#left-pane li {
+    line-height: 200%;
+}
+
+table.issue-summary td {
+    color: #888;
+    border: none;
+    padding: 0.1em 0.4em;
+}
+
+td.issue-summary-title {
+    text-align: right;
+}
+
+div.footer-nav {
+    width: 90%;
+    text-align: right;
+}
+
