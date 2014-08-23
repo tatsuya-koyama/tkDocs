@@ -1,5 +1,5 @@
 ---
-title: 'about tkNotes'
+title: 'about'
 date: '2013-12-01'
 description:
 categories: []

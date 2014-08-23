@@ -44,3 +44,30 @@ krew_index_draft:
   - draft/draft
   - draft/thinking
   - draft/todo
+
+#---------------------------------------
+# krew-framework index list
+#---------------------------------------
+
+notes_top:
+  - about
+
+notes_engineering:
+  - algorithm
+  - git
+
+notes_game:
+  - game-design
+  - design
+  - writing
+
+notes_phychology:
+  - phycology/see
+  - phycology/think
+  - phycology/motivation
+  - phycology/feeling
+  - phycology/error
+
+notes_misc:
+  - misc-tips
+

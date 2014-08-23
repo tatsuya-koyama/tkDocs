@@ -34,9 +34,37 @@
     <ul id="toc">
 
       <ul>
-        {{# notes.all }}
+        {{#data.notes_top?to_notes}}
           {{> page-list.html }}
-        {{/ notes.all }}
+        {{/data.notes_top?to_notes}}
+      </ul>
+
+      <h4 class="notes-index">Enginnering</h4>
+      <ul>
+        {{#data.notes_engineering?to_notes}}
+          {{> page-list.html }}
+        {{/data.notes_engineering?to_notes}}
+      </ul>
+
+      <h4 class="notes-index">Game Dev.</h4>
+      <ul>
+        {{#data.notes_game?to_notes}}
+          {{> page-list.html }}
+        {{/data.notes_game?to_notes}}
+      </ul>
+
+      <h4 class="notes-index">Phychology</h4>
+      <ul>
+        {{#data.notes_phychology?to_notes}}
+          {{> page-list.html }}
+        {{/data.notes_phychology?to_notes}}
+      </ul>
+
+      <h4 class="notes-index">Misc.</h4>
+      <ul>
+        {{#data.notes_misc?to_notes}}
+          {{> page-list.html }}
+        {{/data.notes_misc?to_notes}}
       </ul>
 
     </ul>

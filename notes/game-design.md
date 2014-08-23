@@ -1,5 +1,5 @@
 ---
-title: 'ゲームデザイン勉強メモ'
+title: 'ゲームデザイン'
 date: '2014-02-22'
 description:
 categories: []

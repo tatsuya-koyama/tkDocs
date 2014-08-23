@@ -21,3 +21,12 @@
 
 #left-pane li.active-page { background-color: #341; }
 
+h4.krew-index {
+    font-size: 105%;
+    width : 90%;
+    color : #294a10;
+    margin: 0 0 0.5em 0.3em;
+    border-bottom: 1px dotted #3a5a15;
+    padding-left: 0em;
+}
+

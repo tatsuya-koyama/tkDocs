@@ -1,5 +1,5 @@
 ---
-title: 'Graphic Design'
+title: '見た目のデザイン'
 date: '2013-12-01'
 description:
 categories: []

@@ -20,6 +20,7 @@ position: 99
 
 - [IndieGames.com](http://indiegames.com/index.html)
 - [Gamasutra - The Art &amp; Business of Making Games](http://www.gamasutra.com/)
+- [4Gamer](http://www.4gamer.net/)
 
 ### プログラマ系
 

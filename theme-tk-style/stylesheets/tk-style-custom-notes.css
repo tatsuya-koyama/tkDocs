@@ -21,3 +21,12 @@
 
 #left-pane li.active-page { background-color: #234; }
 
+h4.notes-index {
+    font-size: 105%;
+    width : 90%;
+    color : #112740;
+    margin: 1.2em 0 0.5em 0.3em;
+    border-bottom: 1px dotted #113355;
+    padding-left: 0em;
+}
+

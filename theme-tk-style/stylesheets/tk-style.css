@@ -159,15 +159,6 @@ h4.flash-modal {
     border: none;
 }
 
-h4.krew-index {
-    font-size: 105%;
-    width : 90%;
-    color : #294a10;
-    margin: 0 0 0.5em 0.3em;
-    border-bottom: 1px dotted #3a5a15;
-    padding-left: 0em;
-}
-
 h5{
     width: 70%;
     max-width: 40em;
@@ -185,7 +176,7 @@ h5{
 /*     border: 2px dotted #ccc; */
 /* } */
 hr {
-    margin: 2.0em 5% 2.0em 5%;
+    margin: 1.4em 5% 1.4em 5%;
     background-color: #fdfdfd;
     border-top: 2px dotted #aaa;
 }
