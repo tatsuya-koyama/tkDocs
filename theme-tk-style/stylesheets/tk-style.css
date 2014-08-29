@@ -335,6 +335,10 @@ pre.prettyprint code {
     border: none;
 }
 
+ol.linenums {
+    max-width: 1000px;
+}
+
 /*----- div ------------------------------------------------------*/
 /* grid_container と同時に使用 */
 div.clearfix:after {

@@ -33,6 +33,10 @@ position: 6
 <br/><br/>
 - **電池と発熱**
     - 高負荷で電池消費が激しく、端末が熱くなるアプリは敬遠される
+<br/><br/>
+- **1 人でも複数端末で同じゲームをプレイする**
+    - 外ではスマフォでプレイして、家ではタブレットで遊ぶとか、割と普通にやられる
+    - ユーザデータの Sync をどこまで自動で厳密に行うかは決め所
 
 
 ## 強制的に Client をアップデートする
@@ -221,7 +225,16 @@ ___
 
 ### 四分木で空間分割
 
-- [参考リンク](http://marupeke296.com/COL_2D_No8_QuadTree.html)
+- [その８ 4分木空間分割を最適化する！（理屈編）](http://marupeke296.com/COL_2D_No8_QuadTree.html)
+
+### Spatial Hashing
+
+- [Spatial hashing implementation for fast 2D collisions](http://conkerjo.wordpress.com/2009/06/13/spatial-hashing-implementation-for-fast-2d-collisions/)
+- [As3 Spatial Hash](http://www.playchilla.com/as3-spatial-hash)
+
+### 参考リンク
+
+- [Best solution for 2D occlusion culling - Stack Overflow](http://stackoverflow.com/questions/6979910/best-solution-for-2d-occlusion-culling)
 
 ## タイルマップ
 

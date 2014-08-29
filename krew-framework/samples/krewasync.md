@@ -48,7 +48,7 @@ position: 3003
 </div>
 
 <ul>
-  <li>KrewAsync は ActionScript3.0 にのみ依存するクラスなので、krewFramework の外でも利用可能です。</li>
+  <li>KrewAsync は ActionScript3.0 にのみ依存するクラスなので、krewFramework の外でも単体で利用可能です。</li>
 </ul>
 <div class="clearfix"></div>
 
@@ -88,8 +88,9 @@ position: 3003
 
                     _yourFunction_8
                 ],
-                "error" : _onCatchError,
-                "anyway": _finallyHandler
+                "success": _onAllSuccessHandler,
+                "error"  : _onCatchError,
+                "anyway" : _finallyHandler
             });
         }
 
@@ -110,19 +111,19 @@ ___
 
 ### 何が嬉しい
 
-- 普通に書くと煩雑になる非同期処理のシーケンスを、上から下にすっきり書けます
+- 普通に書くと煩雑になる **非同期処理のシーケンス** を、上から下にすっきり書けます
 - シーケンスの一部をクラスオブジェクトにまとめて使い回すこともできます
-- catch 節に当たるエラーハンドリングと、finally 節にあたる終了処理が指定できます
-- クラス 1 個のピュア AS3 で軽やか
+- catch 節に当たるエラーハンドリングと、finally 節にあたる終了処理が階層的に指定できます
+- クラス 1 個のピュア AS3 で軽やか！
 
 ### 特徴
 
-- よくある Deferred パターンのように、メソッドチェーンではありません
-    - シーケンスを記述した Object (JSON) を渡して実行させます
+- よくある Deferred パターンのような **メソッドチェーンではありません**
+    - シーケンスを記述した Object **(JSON)** を渡して実行させます
 - インスタントに Object を記述してもよく、KrewAsync のサブクラスを作ってそれを渡してもよいです
-    - JS の JSDeferred よりも AS3 らしく、クラスに実装をまとめて使い回せるのがメリットです
+    - JS の JSDeferred などよりも AS3 らしく、クラスに実装をまとめて使い回せるのがメリットです
 - 途中で動的に処理を追加したりとか、分岐したり、指定回数ループさせたりとかは考えていません
-    - 分岐とかをやりたくなったときは krewFramework の KrewStateMachine と組み合わせるのがおすすめです
+
 
 ## 書き方
 
@@ -140,6 +141,7 @@ ___
 ### ショートカット
 
 `krewfw.utils.krew` を import すれば、以下のように書くだけで実行されますので、こちらがおすすめです。
+（以後、このページは以下の記述方法を用います。）
 
     import krewfw.utils.krew;
 
@@ -147,6 +149,8 @@ ___
         "serial": [function_1, function_2, function_3]
     });
 
+> krewFramework を使用している場合、KrewActor や KrewScene は最初から krew の参照を持っているので、
+> krew を別途 import することなく `krew.async()` が利用できます
 
 ## 仕様
 
@@ -176,6 +180,7 @@ ___
 渡す関数は引数に KrewAsync のインスタンスを受け取ります。
 処理が正常に完了した場合にそのインスタンスの `done()` を、
 エラー時に `fail()` を呼ぶようにしてください。
+（これを呼ぶのを忘れると処理の流れが止まってしまうので気をつけてください。）
 
     private function function_1(async:KrewAsync):void {  // Receives KrewAsync
 
@@ -276,7 +281,7 @@ Object を指定できる箇所で、Function でも Object でもなく Array �
         {"serial": [func_1, func_2, func_3]}
     );
 
-`anyway` や、後述する `error` を指定しなくてよい `serial` は、
+`anyway` や、後述する `success`, `error` を指定しなくてよい `serial` は、
 この記法を使うと記述が見やすくなるのでおすすめです。
 先ほどの入れ子の例は以下のように書き直せます。
 
@@ -373,10 +378,36 @@ ___
     - `onError_2` が呼ばれ、次に `finally_2` が呼ばれます
 
 
+## 全て成功時のハンドラ
+
+`success` に Function を指定すると、全てのタスクが fail せずに終了した場合のハンドリングができます。
+これも `error` と同様、内側から順に、`anyway` よりは先に呼ばれます。
+
+    krew.async({
+        "serial" : [function_1, function_2, function_3],
+
+        "success": _onSuccessHandler,  // 全て成功したらこちらが呼ばれる
+        "error"  : _onErrorHandler,    // 1 つでも失敗したらこちらが呼ばれる
+
+        "anyway" : _finallyHandler     // これはいずれにせよ呼ばれる
+    });
+
+`success` はタスクの最後に関数を置くことでも同等のことを実現できますが、見やすさのために用意されています。
+以下のような関数を書くときなどに便利です。
+
+    public function someAsyncTask(onSuccess:Function, onFail:Function):void {
+        krew.async({
+            "serial" : [function_1, function_2, function_3],
+            "success": onSuccess,
+            "error"  : onFail
+        });
+    }
+
+
 ## クラスを使った記述
 
 処理の一部分を複数箇所で使い回したり、パラメータを与えて処理を動的に組み立てたくなることもあります。
-その場合は、処理を KrewAsync サブクラスに記述する方法が有効です。
+その場合は、処理をまとめて KrewAsync サブクラスに記述する方法が有効です。
 
 例として以下のコードで、**「3 と 4 の並列実行とエラー処理の部分」をクラス化する** ことを考えます。
 
@@ -444,7 +475,34 @@ KrewAsync クラスを継承したクラスを作り、自身を Object で初�
     });
 
 
+## こんなときどうなる
+
+### parallel で fail した場合、error, anyway はいつ呼ばれるか
+
+`error` および `anyway` は fail 時に即座に呼ばれます。
+他の並列実行中のタスクの終了を待つことはしません。
+
+
+### parallel で複数のタスクが fail した場合、error は何回呼ばれるのか
+
+`error` および `anyway` は 1 回までしか呼ばれません。
+
+以下のようなケースで、`function_2` と `function_3` が 2 つとも fail した場合を考えます。
+
+    krew.async({
+        "parallel": [function_1, function_2, function_3],
+        "error"   : _onErrorHandler,
+        "anyway"  : _finallyHandler
+    });
+
+この場合は、最初の fail が呼ばれた時点で `error`, `anyway` の順に処理が実行されます。
+この後に他の関数が fail を呼んでも、何も起こりません。
+
+
 
 <br/><br/><br/><br/>
+
+___
+
 それでは、よい非同期処理ライフを。
 

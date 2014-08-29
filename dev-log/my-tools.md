@@ -11,6 +11,8 @@ position: 900
 
 ## Mac 買い直したらこれ絶対入れるわーリスト
 
+- [KeyRemap4MacBook (現 Karabiner)](https://pqrs.org/osx/karabiner/index.html.ja)
+    - キーストロークを早くしたりどこでも Emacs キーバインド割り当てたり
 - [Carbon Emacs](http://www.emacswiki.org/emacs/EmacsForMacOS)
     - 不朽のエディタ。MacPorts 版を入れるとスクロールとかジェスチャーでできてリッチ
 - [TotalSpaces](http://totalspaces.binaryage.com/)
