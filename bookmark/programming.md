@@ -43,7 +43,6 @@ position: 2
 - [（命名規則とか）Introduction to Coding Guidelines for Cocoa](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html)
 - [コードのネストを深くするな | anopara](http://anopara.matrix.jp/2014/06/27/do-not-write-deep-nested-code/)
 
-
 ## Development
 
 - [小悪魔女子大生のサーバエンジニア日記](http://co-akuma.directorz.jp/blog/)
@@ -80,12 +79,12 @@ position: 2
 - [ユニットテストのアンチパターン](http://devtesting.jp/pekema/?0004%2FTopics)
 - [Inversion of Control コンテナと Dependency Injection パターン](http://kakutani.com/trans/fowler/injection.html)
 - [Composition over inheritance](http://en.wikipedia.org/wiki/Composition_over_inheritance)
+- [伽藍とバザール](http://www.atmarkit.co.jp/aig/03linux/candb.html)
 
 ## Algorithm
 
 - [データマイニングで使われるトップ10アルゴリズム](http://d.hatena.ne.jp/isseing333/20111123/1322053940)
 - [衝突判定](http://marupeke296.com/COL_main.html)
-
 
 ## Git
 
