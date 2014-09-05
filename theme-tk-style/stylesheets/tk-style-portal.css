@@ -101,10 +101,10 @@ div.mbc_notes {
 a:hover.mbc_notes p{ color: #eea; }
 
 div.mbc_dev {
-    color: #fda;
-    background-color: #905521;
+    color: #f0e0cf;
+    background-color: #705c41;
 }
-a:hover.mbc_dev p{ color: #fe8; }
+a:hover.mbc_dev p{ color: #ffcf77; }
 
 div.mbc_issues {
     color: #ecc;
