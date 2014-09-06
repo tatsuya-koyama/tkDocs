@@ -209,7 +209,10 @@ ___
 
 ## Feathers どうなの
 
-- [Feathers UI](http://feathersui.com/)
+- [Feathers](http://feathersui.com/)
+    - Starling で描画する UI のライブラリ
+
+___
 
 - [Good]
     - 一通り揃ってる感ある。Starling 用と割り切ってるのもいい

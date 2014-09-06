@@ -31,7 +31,7 @@ krewFramework は
 概ねワンソースで iOS / Android などのモバイル端末、
 Mac / Windows などの PC ブラウザと、主要なプラットフォームに作品を展開できます。
 
-krewFramework は内部で [Starling Framework](http://gamua.com/starling/)
+krewFramework は内部で [Starling](http://gamua.com/starling/)
 を使用しています。Starling は Stage3D を使って 2D のゲームを作るためのゲームエンジンで、
 Adobe が公式でサポートしているオープンソースのプロジェクトです。
 
@@ -48,14 +48,17 @@ Starling の機能や拡張ライブラリは krewFramework 上でも利用可�
 ## krewFramework を使うことで得られる恩恵
 
 - Scene スコープのリソース管理の簡略化（生成と破棄の自動化）
-- Actor のメッセージングを用いた依存性の低い協調動作
+- Actor 指向のメッセージングを用いた依存性の低い協調動作
 - Layer 単位での表示順序の制御
 - Layer 単位での、Actor の時間軸の制御
 - コマ落ちと処理落ちを切り替える、ゲーム向けの時間軸の制御
-- 手軽に書ける Tween やマルチタスキング
+- 手軽に書ける Tween やタスクのスケジューリング
 - 手軽に書ける BGM / SE 再生
 - 簡単な衝突判定
-- ビルトインの Actor による、よくやる処理のコーディングの短縮
+- ゲームでありがちな計算をするユーティリティ
+- ゲームでありがちなコンポーネントを提供
+    - 階層型ステートマシン
+    - 非同期処理を書きやすくするライブラリ
 
 
 
