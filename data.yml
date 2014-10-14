@@ -55,6 +55,7 @@ notes_top:
 notes_engineering:
   - algorithm
   - git
+  - command-line
 
 notes_game:
   - game-design

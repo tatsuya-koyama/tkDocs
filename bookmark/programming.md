@@ -80,6 +80,8 @@ position: 2
 - [Inversion of Control コンテナと Dependency Injection パターン](http://kakutani.com/trans/fowler/injection.html)
 - [Composition over inheritance](http://en.wikipedia.org/wiki/Composition_over_inheritance)
 - [伽藍とバザール](http://www.atmarkit.co.jp/aig/03linux/candb.html)
+- [【翻訳】クラスの「継承」より「合成」がよい理由とは？ゲーム開発におけるコードのフレキシビリティと可読性の向上](http://postd.cc/why-composition-is-often-better-than-inheritance/)
+- [再考: GoF デザインパターン](http://qiita.com/irxground/items/d1f9cc447bafa8db2388)
 
 ## Algorithm
 

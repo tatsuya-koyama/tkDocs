@@ -11,18 +11,29 @@ position: 900
 
 ## Mac 買い直したらこれ絶対入れるわーリスト
 
+### Mac 環境系
+
 - [KeyRemap4MacBook (現 Karabiner)](https://pqrs.org/osx/karabiner/index.html.ja)
     - キーストロークを早くしたりどこでも Emacs キーバインド割り当てたり
-- [Carbon Emacs](http://www.emacswiki.org/emacs/EmacsForMacOS)
-    - 不朽のエディタ。MacPorts 版を入れるとスクロールとかジェスチャーでできてリッチ
 - [TotalSpaces](http://totalspaces.binaryage.com/)
     - Mac の Spaces を愛していた。Lion 以降でも使いたい場合にはこれ
-- [Ricty](http://save.sys.t.u-tokyo.ac.jp/~yusa/fonts/ricty.html)
-    - プログラミング用フォント。見やすい
 - [Spectacle](http://spectacleapp.com/)
     - ホットキーでウインドウをリサイズしたり移動したり
+
+### 開発系
+
+- [Carbon Emacs](http://www.emacswiki.org/emacs/EmacsForMacOS)
+    - 不朽のエディタ。MacPorts 版を入れるとスクロールとかジェスチャーでできてリッチ
+- [Ricty](http://save.sys.t.u-tokyo.ac.jp/~yusa/fonts/ricty.html)
+    - プログラミング用フォント。見やすい
 - [iTerm2](http://www.iterm2.com/#/section/home)
     - 標準 Terminal よりこちら
+
+### ゲーム開発のツール
+
+- [ImageAlpha](http://pngmini.com/)
+    - png の減色ツール
+    - 優秀なコマンドラインツールの [pngquant](http://pngquant.org/) を内部で使ってる
 
 
 ## このへんは使わざるを得ないわーリスト

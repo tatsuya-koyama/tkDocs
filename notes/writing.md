@@ -22,6 +22,7 @@ position: 5
 ### 参考リンク
 
 - [有名小説家が伝授する、ショートストーリーを書くための8つの法則](http://www.lifehacker.jp/2010/11/101112tips_writing_fiction.html)
+- [物語の作り方／感動させる技術](http://rootport.hateblo.jp/entry/20140311/1394554663)
 
 
 <br/><br/><br/>
