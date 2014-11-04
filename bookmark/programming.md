@@ -69,6 +69,10 @@ position: 2
 - [ブレンディング --- OpenGLとPhotoShop](http://tobysoft.net/wiki/index.php?PhotoShop%2F%A5%EC%A5%A4%A5%E4%A1%BC%A4%CE%B7%D7%BB%BB%CA%FD%CB%A1%A4%CB%A4%C4%A4%A4%A4%C6)
 - [RESTfulなWebサイトと拡張子を含むURLについて](http://d.hatena.ne.jp/m-hiyama/20100120/1263953482)
 
+## Database
+
+- [開発者はインデックスを知る必要がある](http://use-the-index-luke.com/ja/sql/preface)
+
 ## Design Pattern / 設計思想
 
 - [やっと理解できた！JSオブジェクト指向プログラミング再入門](http://tokkono.cute.coocan.jp/blog/slow/index.php/programming/re-introduction-to-object-oriented-js/)
@@ -82,6 +86,7 @@ position: 2
 - [伽藍とバザール](http://www.atmarkit.co.jp/aig/03linux/candb.html)
 - [【翻訳】クラスの「継承」より「合成」がよい理由とは？ゲーム開発におけるコードのフレキシビリティと可読性の向上](http://postd.cc/why-composition-is-often-better-than-inheritance/)
 - [再考: GoF デザインパターン](http://qiita.com/irxground/items/d1f9cc447bafa8db2388)
+- [シングルトンについて思うこと](http://beinteractive.jp/shingurutonnitsuitesi-ukoto)
 
 ## Algorithm
 
