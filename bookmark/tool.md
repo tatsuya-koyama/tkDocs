@@ -16,6 +16,7 @@ position: 5
 ## Web Service
 
 - [GLSL Sandbox](http://glsl.heroku.com/)
+- [Coolors](http://coolors.co/)
 
 ## Misc
 

@@ -53,6 +53,7 @@ notes_top:
   - about
 
 notes_engineering:
+  - software-engineering
   - algorithm
   - git
   - command-line

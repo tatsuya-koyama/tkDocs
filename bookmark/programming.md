@@ -87,6 +87,7 @@ position: 2
 - [【翻訳】クラスの「継承」より「合成」がよい理由とは？ゲーム開発におけるコードのフレキシビリティと可読性の向上](http://postd.cc/why-composition-is-often-better-than-inheritance/)
 - [再考: GoF デザインパターン](http://qiita.com/irxground/items/d1f9cc447bafa8db2388)
 - [シングルトンについて思うこと](http://beinteractive.jp/shingurutonnitsuitesi-ukoto)
+- [ソフトウェア設計とは何か 〜 設計にはプログラミング経験が必要か否か](http://kuranuki.sonicgarden.jp/2013/01/post-109.html)
 
 ## Algorithm
 
