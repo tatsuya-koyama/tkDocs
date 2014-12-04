@@ -17,7 +17,7 @@ position: 2
 
 ___
 
-- [ACID 特性](http://ja.wikipedia.org/wiki/ACID_(%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E7%A7%91%E5%AD%A6))
+- [ACID 特性](http://ja.wikipedia.org/wiki/ACID_(%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E7%A7%91%E5%AD%A6)
     - トランザクション処理の信頼性を保証する 4 つの性質
 - [CRUD](http://ja.wikipedia.org/wiki/CRUD)
     - Create, Read, Update, Delete
@@ -45,6 +45,25 @@ ___
 - [参照透過性](http://ja.wikipedia.org/wiki/%E5%8F%82%E7%85%A7%E9%80%8F%E9%81%8E%E6%80%A7)
     - 式（関数）の値が文脈によらず一意に定まること / 副作用を持たないこと
     - これがあるとテストしやすく、事故（バグ）が起こりにくい
+
+### テスト
+
+- [ソフトウェアテスト - Wikipedia](http://ja.wikipedia.org/wiki/%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E3%83%86%E3%82%B9%E3%83%88)
+
+#### キーワード
+
+- 正常系、異常系、エッジケース
+- カバレッジ
+- αテスト、βテスト
+- Feature Complete, Release Candidate
+- 単体テスト、結合テスト、システムテスト、受け入れテスト、スモークテスト
+- ドライバ、スタブ
+- ホワイトボックステスト、ブラックボックステスト
+
+### エンジニアが使う言葉 / 慣用句
+
+- [Boilerplate code](http://en.wikipedia.org/wiki/Boilerplate_code)
+    - 自明だが省略できないお決まりのコード片
 
 
 <br/>

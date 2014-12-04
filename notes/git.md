@@ -36,5 +36,37 @@ position: 6
     - [gitで特定のファイルの履歴を消す方法](http://d.hatena.ne.jp/ichhi/20110825/1314300975)
 
 
+## git tag
+
+- 一覧
+
+        git tag
+
+___
+
+- タグを打つ
+
+        git tag v1.0.0
+
+___
+
+- 特定コミットにタグを打つ
+
+        git tag v1.0.0 <commit_hash>
+
+___
+
+- リモートにタグ全部 push
+
+        git push origin --tags
+
+___
+
+- ログ見るとき、`%d` でタグ情報も表示できるよ
+
+        git log --pretty=format:"%C(yellow)%h%C(reset) %C(blue)%ad %C(reset)%C(red)%an%C(reset) - %s %C(green)%d%C(reset)" --graph --date-order -30 --date=iso
+
+
+
 <br/><br/><br/>
 

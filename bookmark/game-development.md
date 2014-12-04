@@ -28,10 +28,17 @@ position: 1
 - [ABA の日誌：2013年作ったゲーム遊んだゲーム](http://d.hatena.ne.jp/ABA/20131227#p1)
 
 
+## eBook
+
+- [Game Programming Patterns - Robert Nystrom](http://gameprogrammingpatterns.com/)
+
+
 ## Game Engine / 低レイヤー
 
 - [スクールガールストライカーズの内製クライアントエンジン](http://www.jp.square-enix.com/info/images/image_technical_seminar2014_06/pdf/SQEX_DevCon_sugimoto.pdf)
 - [CPU とキャッシュのはなし](http://graphics.hatenablog.com/entry/2012/03/23/175113)
+- [jMonkeyEngine 3.0 - Java OpenGL Game Engine](http://jmonkeyengine.org/)
+    - [ソースコード](https://github.com/jMonkeyEngine/jmonkeyengine)
 
 
 ## Game Design
@@ -45,6 +52,7 @@ position: 1
 - [ボードゲームのメカニクス集](https://sites.google.com/site/jun1sboardgames/blog/boardgamemechanic)
 - [（ギャザ）デザインのための言葉](http://iwasgame.sakura.ne.jp/archives/49)
 - [【島国大和】ゲームを作る立場で，どうやって落とし穴を回避するかを考えるよ。](http://www.4gamer.net/games/999/G999903/20131127076/)
+- [I was game — ボードゲームにおけるランダム性と公平性](http://iwasgame.tumblr.com/post/104067391536)
 
 
 ## Game Art / Animation

@@ -31,6 +31,10 @@ position: 2
 - [ウェブ系エンジニアがおさえておきたい技術ブログまとめ](http://d.hatena.ne.jp/nokuno/20101020/1287587608)
 - [プログラマーは文系の仕事か、理系の仕事か - 愛と勇気と缶ビール](http://zentoo.hatenablog.com/entry/2014/06/07/031513)
 
+## eBook
+
+- [Game Programming Patterns - Robert Nystrom](http://gameprogrammingpatterns.com/)
+
 ## Coding
 
 - [ブール値を返す関数の命名規則](http://www.aerith.net/design/bool-j.html)
@@ -68,6 +72,7 @@ position: 2
 - [ブレンディングのファクター](http://fmworks.cocolog-nifty.com/blog/2009/06/d3d-f379.html)
 - [ブレンディング --- OpenGLとPhotoShop](http://tobysoft.net/wiki/index.php?PhotoShop%2F%A5%EC%A5%A4%A5%E4%A1%BC%A4%CE%B7%D7%BB%BB%CA%FD%CB%A1%A4%CB%A4%C4%A4%A4%A4%C6)
 - [RESTfulなWebサイトと拡張子を含むURLについて](http://d.hatena.ne.jp/m-hiyama/20100120/1263953482)
+- [Quick As A Flash: Optimization Strategies for AS3 and Flash](http://gskinner.com/talks/quick/)
 
 ## Database
 

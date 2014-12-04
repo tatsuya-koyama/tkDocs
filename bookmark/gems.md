@@ -37,6 +37,10 @@ position: 6
 - [Super Mario Tutorial](http://www.youtube.com/watch?v=OFMbaNfqY6Y&feature=youtu.be&noredirect=1)
 - [外を走れるルームランナー](http://makezine.com/2008/11/17/treadmill-morphs-into-a-v/)
 
+## 技術的にすごい
+
+- [JS1k.com - a fiery js code golfing competition](http://js1k.com/2014-dragons/demos)
+
 ## シュールなゲーム
 
 - [SUMOTORI DREAMS](http://www.gravitysensation.com/sumotori/)
