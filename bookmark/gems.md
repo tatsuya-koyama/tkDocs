@@ -23,7 +23,8 @@ position: 6
 
 ## 秀逸な記事
 
-- [料理のさしすせそ](http://ansaikuropedia.org/wiki/%E3%81%95%E3%81%97%E3%81%99%E3%81%9B%E3%81%9D)
+- [料理のさしすせそ - アンサイクロペディア](http://ansaikuropedia.org/wiki/%E3%81%95%E3%81%97%E3%81%99%E3%81%9B%E3%81%9D)
+- [65536進法 - アンサイクロペディア](http://ja.uncyclopedia.info/wiki/65536%E9%80%B2%E6%B3%95)
 
 ## 良記事
 

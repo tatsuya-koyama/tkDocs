@@ -55,6 +55,7 @@ notes_top:
 notes_engineering:
   - software-engineering
   - algorithm
+  - data-structure
   - git
   - command-line
 

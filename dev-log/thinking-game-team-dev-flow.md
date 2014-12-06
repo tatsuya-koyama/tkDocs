@@ -11,6 +11,11 @@ position: 7
 
 ## バージョン管理
 
+### GitHub Flow
+
+- [GitHub Flow – Scott Chacon](http://scottchacon.com/2011/08/31/github-flow.html)
+    - [日本語訳](https://gist.github.com/Gab-km/3705015)
+
 ### Git のブランチ運用
 
 - 何だかんだ鉄板： [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)

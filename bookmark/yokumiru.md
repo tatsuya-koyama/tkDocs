@@ -31,6 +31,7 @@ position: 99
 - [ボケて - 人気ボケ一覧](http://bokete.jp/boke/popular)
 - [Tumblr](https://www.tumblr.com/dashboard)
 - [EffectHub](http://www.effecthub.com/)
+- [Animated Algorithms](http://www.algomation.com/)
 
 ### シュッとしてる
 
@@ -42,6 +43,6 @@ position: 99
 
 - [iKnow!](http://iknow.jp/home)
 - [Hack Design](https://hackdesign.org/lessons)
-
+- [Skillshare](http://www.skillshare.com/)
 
 

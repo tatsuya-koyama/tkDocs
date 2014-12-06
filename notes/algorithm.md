@@ -146,5 +146,4 @@ ___
     - [いもす法](http://imoz.jp/algorithms/imos_method.html)
 
 
-<br/><br/><br/>
 
