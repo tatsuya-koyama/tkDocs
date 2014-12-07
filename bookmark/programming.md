@@ -58,21 +58,42 @@ position: 2
 
 ## Programming / Architecture
 
-- [ラムダ式をC++で実現する](http://www.sun-inet.or.jp/~yaneurao/intensive/spt1.html)
 - [近代的タスクシステムの構築](http://d.hatena.ne.jp/yaneurao/20090203)
-- [乱数と Perl5 にかんする蘊蓄の話](http://www.edita.jp/tokuhirom/one/tokuhirom162.html)
 - [ngmoco直伝 OpenGL高速化テクニック](http://objective-audio.jp/2009/07/ngmoco-opengl.html)
-- [Perl-DBIのTips](http://yanor.net/wiki/index.php?Perl-DBI%2FSELECT)
 - [Python/Ruby基礎文法最速マスター](http://d.hatena.ne.jp/dplusplus/20100126/p1)
 - [Objective-C 最速基礎文法マスター](http://d.hatena.ne.jp/fn7/20100203/1265207098)
-- [Python早めぐり](http://www.shido.info/py/python2.html)
 - [イージングの公式集](http://www.actionscript.org/forums/showthread.php3?t=42833)
-- [仮想パネル: JavaScriptで非同期プログラミングを乗り切る方法](http://www.infoq.com/jp/articles/surviving-asynchronous-programming-in-javascript)
-- [Javaのクラス宣言5種+α](http://d.hatena.ne.jp/Nagise/20120308/1331222011)
 - [ブレンディングのファクター](http://fmworks.cocolog-nifty.com/blog/2009/06/d3d-f379.html)
 - [ブレンディング --- OpenGLとPhotoShop](http://tobysoft.net/wiki/index.php?PhotoShop%2F%A5%EC%A5%A4%A5%E4%A1%BC%A4%CE%B7%D7%BB%BB%CA%FD%CB%A1%A4%CB%A4%C4%A4%A4%A4%C6)
 - [RESTfulなWebサイトと拡張子を含むURLについて](http://d.hatena.ne.jp/m-hiyama/20100120/1263953482)
+
+## Language
+
+### Flash / AS3
+
 - [Quick As A Flash: Optimization Strategies for AS3 and Flash](http://gskinner.com/talks/quick/)
+
+### C++
+
+- [ラムダ式をC++で実現する](http://www.sun-inet.or.jp/~yaneurao/intensive/spt1.html)
+
+### Ruby
+
+- [Rubyの凄く面白い特徴をRailsのコードを例に解説 - Qiita](http://qiita.com/shinya_131/items/901b9c70642b1e1f9227)
+
+### Python
+
+- [Python早めぐり](http://www.shido.info/py/python2.html)
+
+### Perl
+
+- [乱数と Perl5 にかんする蘊蓄の話](http://www.edita.jp/tokuhirom/one/tokuhirom162.html)
+- [Perl-DBIのTips](http://yanor.net/wiki/index.php?Perl-DBI%2FSELECT)
+
+### Java
+
+- [仮想パネル: JavaScriptで非同期プログラミングを乗り切る方法](http://www.infoq.com/jp/articles/surviving-asynchronous-programming-in-javascript)
+- [Javaのクラス宣言5種+α](http://d.hatena.ne.jp/Nagise/20120308/1331222011)
 
 ## Database
 
