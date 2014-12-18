@@ -11,6 +11,11 @@ position: 110
 
 ## リンク集
 
+- AIR / Flash ニュース
+    - [Android端末をFlashゲームのコントローラーに！Adobe AIR 15の新機能AIRGamepad機能を使ってみよう – ICS LAB](http://ics-web.jp/lab/archives/3947)
+
+___
+
 - ゲームエンジン / フレームワーク
     - [Citrus Engine: Creating Level using Tiled Map Editor](http://pzuh.blogspot.jp/2013/05/citrus-engine-creating-level-using.html)
     - [Ash entity framework](http://www.ashframework.org/)
@@ -53,7 +58,7 @@ ___
 
 ___
 
-- AS3 とか Flash とか Starling とか読み物とか
+- AS3 とか Starling とか読み物とか
     - [akihiro kamijo さんのブログ](http://cuaoar.jp/)
         - Adobe の中の人
     - [(blog) Pierre Chamberlain](http://pierrechamberlain.ca/blog/)

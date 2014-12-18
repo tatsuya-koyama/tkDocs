@@ -30,6 +30,7 @@ position: 2
 - [開発抽象化レイヤ](http://local.joelonsoftware.com/mediawiki/index.php/%E9%96%8B%E7%99%BA%E6%8A%BD%E8%B1%A1%E5%8C%96%E3%83%AC%E3%82%A4%E3%83%A4)
 - [ウェブ系エンジニアがおさえておきたい技術ブログまとめ](http://d.hatena.ne.jp/nokuno/20101020/1287587608)
 - [プログラマーは文系の仕事か、理系の仕事か - 愛と勇気と缶ビール](http://zentoo.hatenablog.com/entry/2014/06/07/031513)
+- [Yakst - プログラミング初心者に言ってはいけないこと](http://yakst.com/ja/posts/1373)
 
 ## eBook
 
@@ -119,6 +120,15 @@ position: 2
 
 - [データマイニングで使われるトップ10アルゴリズム](http://d.hatena.ne.jp/isseing333/20111123/1322053940)
 - [衝突判定](http://marupeke296.com/COL_main.html)
+
+## 圧縮
+
+- [コルモゴロフ複雑性 - Wikipedia](http://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%AB%E3%83%A2%E3%82%B4%E3%83%AD%E3%83%95%E8%A4%87%E9%9B%91%E6%80%A7)
+
+## 人工知能
+
+- [人工知能が急に進化し始めた！ | TheWave](http://thewave.jp/archives/1985)
+- [Is Google a Step Away from Developing a Computer that Can "Program Itself"? - Evolution News & Views](http://www.evolutionnews.org/2014/10/is_google_a_ste090771.html)
 
 ## Git
 

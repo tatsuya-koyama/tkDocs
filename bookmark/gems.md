@@ -25,6 +25,7 @@ position: 6
 
 - [料理のさしすせそ - アンサイクロペディア](http://ansaikuropedia.org/wiki/%E3%81%95%E3%81%97%E3%81%99%E3%81%9B%E3%81%9D)
 - [65536進法 - アンサイクロペディア](http://ja.uncyclopedia.info/wiki/65536%E9%80%B2%E6%B3%95)
+- [4分33秒 - アンサイクロペディア](http://ja.uncyclopedia.info/wiki/4%E5%88%8633%E7%A7%92)
 
 ## 良記事
 

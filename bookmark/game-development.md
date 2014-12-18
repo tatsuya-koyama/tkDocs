@@ -53,6 +53,7 @@ position: 1
 - [（ギャザ）デザインのための言葉](http://iwasgame.sakura.ne.jp/archives/49)
 - [【島国大和】ゲームを作る立場で，どうやって落とし穴を回避するかを考えるよ。](http://www.4gamer.net/games/999/G999903/20131127076/)
 - [I was game — ボードゲームにおけるランダム性と公平性](http://iwasgame.tumblr.com/post/104067391536)
+- ["ドア"から見通すゲームデザイナーの仕事 米国開発者による「ドア問題」 | AUTOMATON](http://jp.automaton.am/articles/newsjp/the-door-problems/)
 
 
 ## Game Art / Animation
@@ -137,6 +138,8 @@ position: 1
 ## 素材集
 
 - [The Spriters Resource](http://www.spriters-resource.com/)
+- [ロイヤリティフリーで300種類のUIの動きに合わせて使える効果音源キット「SoundKit」 - GIGAZINE](http://gigazine.net/news/20141213-soundkit/)
+- [A Sound Effect](http://www.asoundeffect.com/)
 
 ## iOS
 
