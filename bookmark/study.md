@@ -37,6 +37,7 @@ position: 3
 - [コンテンツの終焉](http://wordpress.rauru-block.org/index.php/1564)
 - [楽天レシピはなぜクックパッドに勝てないのか？](http://hiromikubota.tumblr.com/post/12920370524/the-reason-rakuten-recipe-cant)
 - [11の「やめたこと」で実現した1000万ダウンロード突破【スマホ2011冬】](http://trendy.nikkeibp.co.jp/article/column/20111215/1039018/?rt=nocnt)
+- [ソーシャルゲームの影。儲からないソーシャルゲームの一生とは - ソシャゲ業界の片隅で3](http://www.gamecast-blog.com/archives/65816413.html)
 
 ## Web Service
 
@@ -60,7 +61,7 @@ position: 3
 - [「良い企画」の条件　または「良い斬新」とはなにか](http://d.hatena.ne.jp/shi3z/20111112/1321057463)
 - [ソーシャルゲームと従来型ゲームは何が違うのか](http://d.hatena.ne.jp/GiGir/20120118/1326854977)
 
-## Development / Programming / Working
+## Development / Programming / Management
 
 - [エンジニアのためのUX入門](http://www.slideshare.net/ckazu/ux-10671865)
 - [（ソフトウェア開発）５つの世界](http://japanese.joelonsoftware.com/Articles/FiveWorlds.html)
@@ -72,6 +73,7 @@ position: 3
 - [人生のパフォーマンスチューニング](http://blog.livedoor.jp/lalha/archives/50491051.html?fb_action_ids=10202551765693297&fb_action_types=og.likes&fb_source=other_multiline&action_object_map=%5B680048502027880%5D&action_type_map=%5B%22og.likes%22%5D&action_ref_map=%5B%5D)
 - [嘘偽り一切なし。仕事で幸せになるために知っておくべき10のこと](http://www.lifehacker.jp/2013/12/13122010_simple_laws_of_business_success.html)
 - [技術的負債という(非エンジニアにとっての)隠しパラメータが生産性100倍を起こす](http://mizchi.hatenablog.com/entry/2014/02/19/210801)
+- [開発組織のマネジメント // Speaker Deck](https://speakerdeck.com/naoya/kai-fa-zu-zhi-falsemanezimento)
 
 ## Study / Practice / LifeStyle
 
@@ -84,6 +86,7 @@ position: 3
 - [最もコンパクトな情報整理術 ―情報収集「依存」にならないために](http://www.earthinus.com/2010/04/information-overloaded.html)
 - [気を付けて！「口ぐせ」が自分自身へ与える影響がすごい！【脳科学】](http://matome.naver.jp/odai/2136781861772956801)
 - [こういうタイトルの記事を毛嫌いしないほうが良い10個の理由](http://kyouki.hatenablog.com/entry/2014/01/11/072824)
+- [「やる気は5秒で死んでしまう」 行動のブレーキを外すための"自分ルール"のつくりかた | ログミー](http://logmi.jp/32799)
 
 ## Statistics / Numbers
 

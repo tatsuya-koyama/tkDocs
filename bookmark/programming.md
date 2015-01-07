@@ -47,6 +47,7 @@ position: 2
 - [Refactoring (カタログあり)](http://www.refactoring.com/)
 - [（命名規則とか）Introduction to Coding Guidelines for Cocoa](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html)
 - [コードのネストを深くするな | anopara](http://anopara.matrix.jp/2014/06/27/do-not-write-deep-nested-code/)
+- [メソッド名をシンプルにするために、知っておくと便利な英語のprefixとsuffix - Ph by codic team](http://blog.codic.jp/2014/12/22/shoud-know-prefix-suffix-for-naming/)
 
 ## Development
 
@@ -67,6 +68,8 @@ position: 2
 - [ブレンディングのファクター](http://fmworks.cocolog-nifty.com/blog/2009/06/d3d-f379.html)
 - [ブレンディング --- OpenGLとPhotoShop](http://tobysoft.net/wiki/index.php?PhotoShop%2F%A5%EC%A5%A4%A5%E4%A1%BC%A4%CE%B7%D7%BB%BB%CA%FD%CB%A1%A4%CB%A4%C4%A4%A4%A4%C6)
 - [RESTfulなWebサイトと拡張子を含むURLについて](http://d.hatena.ne.jp/m-hiyama/20100120/1263953482)
+- [2014年、オブジェクト指向vs関数型プログラミングの壮絶な宗教戦争は終結　OO陣営最後の牙城DOMというWeb標準のUIを破壊した巨砲Facebook-React - Qiita](http://qiita.com/kenokabe/items/9c650ec8bcb1418c596d)
+
 
 ## Language
 
@@ -95,6 +98,7 @@ position: 2
 
 - [仮想パネル: JavaScriptで非同期プログラミングを乗り切る方法](http://www.infoq.com/jp/articles/surviving-asynchronous-programming-in-javascript)
 - [Javaのクラス宣言5種+α](http://d.hatena.ne.jp/Nagise/20120308/1331222011)
+
 
 ## Database
 

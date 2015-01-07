@@ -22,6 +22,8 @@ position: 99
 - [Gamasutra - The Art &amp; Business of Making Games](http://www.gamasutra.com/)
 - [4Gamer](http://www.4gamer.net/)
 - [AUTOMATON](http://jp.automaton.am/)
+- [Ludum Dare](http://ludumdare.com/compo/)
+- [もぐらゲームス](http://www.moguragames.com/)
 
 ### プログラマ系
 

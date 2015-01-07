@@ -27,10 +27,11 @@ position: 6
 - [65536進法 - アンサイクロペディア](http://ja.uncyclopedia.info/wiki/65536%E9%80%B2%E6%B3%95)
 - [4分33秒 - アンサイクロペディア](http://ja.uncyclopedia.info/wiki/4%E5%88%8633%E7%A7%92)
 
-## 良記事
+## 良記事 / 名言
 
 - [山内語録（任天堂の社長）](http://crossing.blog.eonet.jp/blog/yamauchi.html)
 - [綺麗な日本語っていいよね](http://blog.livedoor.jp/news23vip/archives/4349841.html)
+- [所ジョージの金言集 2014 - てれびのスキマ](http://littleboy.hatenablog.com/entry/2014/12/22/120615)
 
 ## Humorous
 
