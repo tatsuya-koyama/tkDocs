@@ -30,6 +30,13 @@ position: 7
 
 - Mac だと `sips` ってコマンドがあるらしい
 
+## Mac の電波遮断
+
+ゲーム作ってて電波遮断のテストとかしたくなることあるよね
+
+    networksetup -setairportpower en1 off
+    networksetup -setairportpower en1 on
+
 
 <br/><br/><br/>
 

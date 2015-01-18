@@ -148,6 +148,14 @@ position: 2
 
 ___
 
+- [GIT Commit Good Practice - OpenStack](https://wiki.openstack.org/wiki/GitCommitMessages)
+- [英語コミットコメントに使えるオシャレフレーズ集](http://qiita.com/ken_c_lo/items/4cb49f0fb74e8778804d)
+- [git commit時のコメントを英語で書くための最初の一歩](http://www.sssg.org/blogs/hiro345/archives/11721.html)
+- [Changelogのための英文テンプレート集](http://d.hatena.ne.jp/pyopyopyo/20070920/p1)
+- [ネイティブと働いて分かった英語コミットメッセージの頻出動詞10つ - Qiita](http://qiita.com/gogotanaka/items/b65e1b081fa976e5d754)
+
+___
+
 - A successful Git branching model
     - [原文](http://nvie.com/posts/a-successful-git-branching-model/)
     - [日本語訳](http://keijinsonyaban.blogspot.com/2010/10/successful-git-branching-model.html)

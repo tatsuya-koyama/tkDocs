@@ -15,6 +15,7 @@ position: 6
 - [英語コミットコメントに使えるオシャレフレーズ集](http://qiita.com/ken_c_lo/items/4cb49f0fb74e8778804d)
 - [git commit時のコメントを英語で書くための最初の一歩](http://www.sssg.org/blogs/hiro345/archives/11721.html)
 - [Changelogのための英文テンプレート集](http://d.hatena.ne.jp/pyopyopyo/20070920/p1)
+- [ネイティブと働いて分かった英語コミットメッセージの頻出動詞10つ - Qiita](http://qiita.com/gogotanaka/items/b65e1b081fa976e5d754)
 
 
 ## .gitignore に足したんだけどもうそれ add しちゃってたとき
@@ -34,6 +35,15 @@ position: 6
 
 - ここに書いてある方法でいけた
     - [gitで特定のファイルの履歴を消す方法](http://d.hatena.ne.jp/ichhi/20110825/1314300975)
+
+
+## プルリク開発
+
+業務の開発も OSS 開発のように行おう
+
+- [空コミット便利！git commit --allow-emptyでgitを使った開発フローを改善 - fukajun - DeepValley -](http://fukajun.org/25)
+- [git commit --allow-empty を使った WIP PR ワークフロー - Qiita](http://qiita.com/a-suenami/items/129e09f8550f31e4c2da)
+- [github を用いた開発フロー テンプレート](http://pepabo.github.io/docs/github/workflow.html)
 
 
 ## git tag

@@ -39,6 +39,7 @@ position: 6
 - [１次元テトリス](http://www.tetris1d.org/)
 - [Super Mario Tutorial](http://www.youtube.com/watch?v=OFMbaNfqY6Y&feature=youtu.be&noredirect=1)
 - [外を走れるルームランナー](http://makezine.com/2008/11/17/treadmill-morphs-into-a-v/)
+- [形態素解析エンジンMeCabにて文章中から短歌を抽出 - inaniwa3's blog](http://inaniwa3.hatenablog.com/entry/2015/01/01/152927)
 
 ## 技術的にすごい
 
