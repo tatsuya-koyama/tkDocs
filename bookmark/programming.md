@@ -77,6 +77,10 @@ position: 2
 
 - [Quick As A Flash: Optimization Strategies for AS3 and Flash](http://gskinner.com/talks/quick/)
 
+### JavaScript
+
+- [【翻訳】JavaScriptのデバッグ方法 – JSを嫌いにならないためのTips | POSTD](http://postd.cc/how-to-not-hate-javascript-tips-from-the-frontline/)
+
 ### C++
 
 - [ラムダ式をC++で実現する](http://www.sun-inet.or.jp/~yaneurao/intensive/spt1.html)

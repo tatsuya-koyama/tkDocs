@@ -7,16 +7,50 @@ tags: [anything, tool]
 position: 900
 ---
 
-# 使ってるツール
+# 使ってるツールとか
+
+現状把握するために一覧。
+
+## ハードウェア
+
+- **マシンと出力機器**
+    - MacBook Pro のそこそこのやつ
+    - そこそこの大きさのディスプレイ 1 枚
+        - （仮想デスクトップあればディスプレイは 1 枚でいい派）
+- **入力機器**
+    - Apple Wireless Keyboard
+    - 右手にマウス
+    - 左手に Magic Trackpad
+    - ペンタブ Intuos 5 touch
+- **音源**
+    - Roland SonicCell
+        - 音は軽いけどオーディオインタフェース込みでお手軽
+
+## 環境系
+
+- **設定ファイル**
+    - .emacs とか .bashrc とかは GitHub で管理
+    - public にできない情報は別途こっそり管理
+- **オンラインストレージ**
+    - Google Drive 派
+    - Dropbox でもいいけどこっちは 100 GB 2 ドルというプランがあるのが手頃
+
+## 新しく Mac を買ったら最初にすること
+
+- caps キーを Command にする
+- Chrome を落とす
+- Google Drive のクライアントを入れて同期
+- Karabiner を入れてキーストロークを高速にする
+- iTerm2 と Emacs を入れる
 
 ## Mac 買い直したらこれ絶対入れるわーリスト
 
 ### Mac 環境系
 
 - [KeyRemap4MacBook (現 Karabiner)](https://pqrs.org/osx/karabiner/index.html.ja)
-    - キーストロークを早くしたりどこでも Emacs キーバインド割り当てたり
+    - キーストロークを速くしたりどこでも Emacs キーバインド割り当てたり
 - [TotalSpaces](http://totalspaces.binaryage.com/)
-    - Mac の Spaces を愛していた。Lion 以降でも使いたい場合にはこれ
+    - Mac の Spaces を愛していた。Lion 以降でも使いたい場合にはこれ。（2000 円くらい）
 - [Spectacle](http://spectacleapp.com/)
     - ホットキーでウインドウをリサイズしたり移動したり
 
@@ -77,14 +111,6 @@ position: 900
     - 使いやすいけど常駐させてるとモニタ off にしててもメモリ食うので、結局は定期的に再起動することになる
 
 
-## ハードウェア
-
-- 入力系
-    - Magic Trackpad
-    - Apple Wireless Keyboard
-- 音源
-    - Roland SonicCell
-        - 音は軽いけどオーディオインタフェース込みでお手軽
 
 
 

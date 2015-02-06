@@ -13,13 +13,19 @@ position: 6
 
 ## Wikipedia
 
-- [妖精のエアと死のワルツ](http://ja.wikipedia.org/wiki/%E5%A6%96%E7%B2%BE%E3%81%AE%E3%82%A8%E3%82%A2%E3%81%A8%E6%AD%BB%E3%81%AE%E3%83%AF%E3%83%AB%E3%83%84)
+### 技術用語
+
 - [メタ構文変数](http://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%BF%E6%A7%8B%E6%96%87%E5%A4%89%E6%95%B0)
 - [Lorem ipsum](http://ja.wikipedia.org/wiki/Lorem_ipsum)
-- [つるふさの法則](http://ja.wikipedia.org/wiki/%E3%81%A4%E3%82%8B%E3%81%B5%E3%81%95%E3%81%AE%E6%B3%95%E5%89%87)
-- [ノーフリーランチ定理](http://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%BC%E3%83%95%E3%83%AA%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%81%E5%AE%9A%E7%90%86)
 - [技術的特異点](http://ja.wikipedia.org/wiki/%E6%8A%80%E8%A1%93%E7%9A%84%E7%89%B9%E7%95%B0%E7%82%B9)
 - [クワイン](http://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AF%E3%82%A4%E3%83%B3_(%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0)
+
+### おもしろい / なんかすごい
+
+- [妖精のエアと死のワルツ](http://ja.wikipedia.org/wiki/%E5%A6%96%E7%B2%BE%E3%81%AE%E3%82%A8%E3%82%A2%E3%81%A8%E6%AD%BB%E3%81%AE%E3%83%AF%E3%83%AB%E3%83%84)
+- [つるふさの法則](http://ja.wikipedia.org/wiki/%E3%81%A4%E3%82%8B%E3%81%B5%E3%81%95%E3%81%AE%E6%B3%95%E5%89%87)
+- [ノーフリーランチ定理](http://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%BC%E3%83%95%E3%83%AA%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%81%E5%AE%9A%E7%90%86)
+- [90対90の法則 - Wikipedia](http://ja.wikipedia.org/wiki/90%E5%AF%BE90%E3%81%AE%E6%B3%95%E5%89%87)
 
 ## 秀逸な記事
 
@@ -44,6 +50,8 @@ position: 6
 ## 技術的にすごい
 
 - [JS1k.com - a fiery js code golfing competition](http://js1k.com/2014-dragons/demos)
+- [ライフゲームの世界８【複雑系】 - ニコニコ動画:GINZA](http://www.nicovideo.jp/watch/sm19509968)
+    - ライフゲームでライフゲームつくってる
 
 ## シュールなゲーム
 

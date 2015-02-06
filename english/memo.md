@@ -9,6 +9,16 @@ position: 4
 
 # こまいメモ
 
+## 和製英語の罠シリーズ
+
+### pick up に「選ぶ」ニュアンスない
+
+「拾い上げる」とか「軌道に乗る」イメージ。
+「選び出す」のは pick out.
+
+- [pick upとpick outの意味と違い ー 和製英語の罠 | 英語 with Luke](http://www.eigowithluke.com/2014/03/pick-up-pick-out/)
+- [pick upとpick outを解説。](http://i-eigo.net/cat_1/ent_50.html)
+
 ## 似てる単語どう違うのシリーズ
 
 ### center と middle

@@ -17,6 +17,10 @@ position: 8
 - [２３個の英語の前置詞の使い方を完璧に身につける音声トレーニング！](http://waiwaienglish.com/preposition-1890.html)
 - [色々勉強になりそうな読み物系](http://www.eigowithluke.com/)
 
+## 英会話
+
+- [オンライン英会話で僕が頻繁に使ってきた超便利フレーズ200](http://enjoylifeinenglish.blog112.fc2.com/blog-entry-240.html)
+
 ## ビジネス
 
 - [ビジネス英語メール](http://eigo-reibun.com/)

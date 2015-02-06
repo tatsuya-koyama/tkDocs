@@ -9,6 +9,11 @@ position: 4
 
 # 見た目のデザイン関連
 
+## 用語
+
+- [スミベタ / リッチブラック / 4色ベタ](http://www.wave-inc.co.jp/data/dtp/black.html)
+- [マッハバンド - Wikipedia](http://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%83%E3%83%8F%E3%83%90%E3%83%B3%E3%83%89)
+
 ## 色彩
 
 ### カラーマネージメント
