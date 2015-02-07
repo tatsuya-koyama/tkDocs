@@ -4,11 +4,14 @@
 /* Original theme - https://github.com/chriskempson/tomorrow-theme */
 .prettyprint {
   background: #1d1f21;
-  font-family: Menlo, 'Bitstream Vera Sans Mono', 'DejaVu Sans Mono', Monaco, Consolas, monospace;
+  font-family: Consolas, Menlo, 'Bitstream Vera Sans Mono', 'DejaVu Sans Mono', Monaco, monospace;
   font-size: 12px;
   line-height: 1.5;
   border: 1px solid #ccc;
   padding: 10px;
+}
+code {
+  font-family: Consolas, Menlo, 'Bitstream Vera Sans Mono', 'DejaVu Sans Mono', Monaco, monospace;
 }
 
 .pln {
