@@ -106,6 +106,12 @@ div.mbc_dev {
 }
 a:hover.mbc_dev p{ color: #ffcf77; }
 
+div.mbc_mind {
+    color: #C9D8ED;
+    background-color: #414770;
+}
+a:hover.mbc_dev p{ color: #ffcf77; }
+
 div.mbc_issues {
     color: #ecc;
     background-color: #844;
@@ -114,7 +120,7 @@ a:hover.mbc_issues p{ color: #fea; }
 
 div.mbc_ref {
     color: #ece;
-    background-color: #648;
+    background-color: #874280;
 }
 a:hover.mbc_ref p{ color: #9ee; }
 

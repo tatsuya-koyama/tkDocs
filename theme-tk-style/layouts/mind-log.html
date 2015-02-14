@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{ page.title }} - 俺式4.0 tkDocs</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="copyright" content="tatsuya-koyama.com 2002-2013 All Rights Reserved" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="http://www.tatsuya-koyama.com/4.0/resource/image/icon/favicon.ico" />
+
+  <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  {{# stylesheets.load }}
+    bootstrap.min.css
+    bootstrap-responsive.min.css
+    google_prettify/tomorrow-night.css
+    tk-style.css
+    tk-style-custom-mind-log.css
+  {{/ stylesheets.load }}
+
+</head>
+<body>
+
+  {{> header.html }}
+
+  <!-- ３カラム: Pages, Outline, Content -->
+  <div id="nav-toggle">
+    <a href="#"><i class="icon-align-justify icon-white"></i> Index</a>
+  </div>
+
+  <div id="left-pane">
+    <ul id="toc">
+
+      <ul>
+        {{# mind-log.all }}
+          {{> page-list.html }}
+        {{/ mind-log.all }}
+      </ul>
+
+    </ul>
+    <br/><br/>
+  </div>
+
+  <div id="outline-pane"> </div>
+  <div id="novel">
+    <div id="novel-inner" class="inner">
+      <div id="main-content" class="novel docs layout-{{page.layout}}">
+        <div class="inner">
+
+          {{{ content }}}
+
+        </div>
+      </div>
+    </div>
+    {{> footer.html }}
+  </div>
+
+  {{> common-widgets.html }}
+
+  </body>
+</html>

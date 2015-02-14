@@ -66,6 +66,9 @@ krew-framework:
 dev-log:
   sort: ["position", "asc"]
 
+mind-log:
+  sort: ["position", "asc"]
+
 bookmark:
   sort: ["position", "asc"]
 

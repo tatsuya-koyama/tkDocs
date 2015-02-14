@@ -109,8 +109,15 @@ position: 900
     - http をモニタリングする proxy アプリ。1 ライセンス 50 ドル
     - トライアル版（30日間）は起動に 10 秒の待ち時間、30 分ごとに再起動が必要
     - 使いやすいけど常駐させてるとモニタ off にしててもメモリ食うので、結局は定期的に再起動することになる
+- [CLIP STUDIO PAINT PRO](http://www.clipstudio.net/)
+    - ペンタブで絵を描くときに
 
+## その他こまかいもの
 
+- Chrome には Vimium
+- プログラマフレンドリーなデスクトップウィジェット
+    - [Übersicht](http://tracesof.net/uebersicht/)
+- ちょっとしたテキストエディタに [Atom](https://atom.io/)
 
 
 

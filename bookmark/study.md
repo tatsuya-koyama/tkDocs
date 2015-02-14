@@ -38,6 +38,7 @@ position: 3
 - [楽天レシピはなぜクックパッドに勝てないのか？](http://hiromikubota.tumblr.com/post/12920370524/the-reason-rakuten-recipe-cant)
 - [11の「やめたこと」で実現した1000万ダウンロード突破【スマホ2011冬】](http://trendy.nikkeibp.co.jp/article/column/20111215/1039018/?rt=nocnt)
 - [ソーシャルゲームの影。儲からないソーシャルゲームの一生とは - ソシャゲ業界の片隅で3](http://www.gamecast-blog.com/archives/65816413.html)
+- [現実を直視しながら理想を持ち続けることの難しさ、人生の「賞味期限」 | メタップス社長のブログ](http://katsuaki.co/?p=744)
 
 ## Web Service
 
@@ -87,6 +88,7 @@ position: 3
 - [気を付けて！「口ぐせ」が自分自身へ与える影響がすごい！【脳科学】](http://matome.naver.jp/odai/2136781861772956801)
 - [こういうタイトルの記事を毛嫌いしないほうが良い10個の理由](http://kyouki.hatenablog.com/entry/2014/01/11/072824)
 - [「やる気は5秒で死んでしまう」 行動のブレーキを外すための"自分ルール"のつくりかた | ログミー](http://logmi.jp/32799)
+- [【翻訳】ポール・グレアムによる「経験することと自覚について」 | POSTD](http://postd.cc/how-you-know/)
 
 ## Statistics / Numbers
 

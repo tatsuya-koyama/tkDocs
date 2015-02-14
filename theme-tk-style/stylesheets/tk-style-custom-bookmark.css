@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 #left-pane {
-    background-color: #648;
+    background-color: #874280;
     border-right: 1px solid #648;
 }
 
@@ -12,12 +12,12 @@
 
 /*----- outline list ------------------------------------------------------*/
 #outline-pane ul a:link,
-#outline-pane ul a:visited{ color: #527; text-decoration: none; }
-#outline-pane ul a:hover{ color: #94a; text-decoration: underline; }
+#outline-pane ul a:visited{ color: #6D3467; text-decoration: none; }
+#outline-pane ul a:hover{ color: #a4b; text-decoration: underline; }
 
 #left-pane ul a:link,
 #left-pane ul a:visited{ color: #ece; text-decoration: none; }
 #left-pane ul a:hover{ color: #9ee; text-decoration: underline; }
 
-#left-pane li.active-page { background-color: #314; }
+#left-pane li.active-page { background-color: #63305E; }
 

@@ -470,8 +470,8 @@ table.mystyle{
 
 table.mystyle tr.color1{ background-color: #f7f7f7; }
 table.mystyle tr.color2{ background-color: #e7f3e7; }
-table.mystyle tr.color1 td.left{ background-color: #eaeaea; color: #222; }
-table.mystyle tr.color2 td.left{ background-color: #d9e8d9; color: #222; }
+table.mystyle tr.color1 td.left{ font-weight: bold; color: 444; }
+table.mystyle tr.color2 td.left{ font-weight: bold; color: 444; }
 
 td{
     min-width: 6.0em;

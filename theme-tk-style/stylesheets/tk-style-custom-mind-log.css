@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+#left-pane {
+    background-color: #414770;
+    border-right: 1px solid #951;
+}
+
+#outline-pane {
+    background-color: #BFCDE0;
+    border-right: 1px solid #e0d0c5;
+}
+
+/*----- outline list ------------------------------------------------------*/
+#outline-pane ul a:link,
+#outline-pane ul a:visited{ color: #414770; text-decoration: none; }
+#outline-pane ul a:hover{ color: #18c; text-decoration: underline; }
+
+#left-pane ul a:link,
+#left-pane ul a:visited{ color: #C9D8ED; text-decoration: none; }
+#left-pane ul a:hover{ color: #ffcf77; text-decoration: underline; }
+
+#left-pane li.active-page { background-color: #323756; }
+
