@@ -46,6 +46,13 @@
         {{/data.notes_engineering?to_notes}}
       </ul>
 
+      <h4 class="notes-index">Team Play</h4>
+      <ul>
+        {{#data.notes_teamplay?to_notes}}
+          {{> page-list.html }}
+        {{/data.notes_teamplay?to_notes}}
+      </ul>
+
       <h4 class="notes-index">Game Dev.</h4>
       <ul>
         {{#data.notes_game?to_notes}}

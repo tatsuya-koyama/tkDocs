@@ -59,6 +59,9 @@ notes_engineering:
   - git
   - command-line
 
+notes_teamplay:
+  - project-management
+
 notes_game:
   - game-design
   - design

@@ -23,14 +23,14 @@ position: 1
 - [英語のゲームチュートリまとめてるページ](http://rel.phatcode.net/index.php?action=contents&item=Tutorials)
 
 
-## 参考になるソースとかゲーム
-
-- [ABA の日誌：2013年作ったゲーム遊んだゲーム](http://d.hatena.ne.jp/ABA/20131227#p1)
-
-
 ## eBook
 
 - [Game Programming Patterns - Robert Nystrom](http://gameprogrammingpatterns.com/)
+
+
+## 参考になるソースとかゲーム
+
+- [ABA の日誌：2013年作ったゲーム遊んだゲーム](http://d.hatena.ne.jp/ABA/20131227#p1)
 
 
 ## Game Engine / 低レイヤー
@@ -51,7 +51,11 @@ position: 1
 - [10 Tips to Making a GREAT Game Name](http://armorgames.com/news/10-tips-to-making-a-great-game-name)
 - [ボードゲームのメカニクス集](https://sites.google.com/site/jun1sboardgames/blog/boardgamemechanic)
 - [（ギャザ）デザインのための言葉](http://iwasgame.sakura.ne.jp/archives/49)
+- [ゲームに必要な１０のこと　その１｜マジック：ザ・ギャザリング](http://mtg-jp.com/reading/translated/002615/)
+- [ゲームに必要な１０のこと　その２｜マジック：ザ・ギャザリング](http://mtg-jp.com/reading/translated/002787/)
 - [【島国大和】ゲームを作る立場で，どうやって落とし穴を回避するかを考えるよ。](http://www.4gamer.net/games/999/G999903/20131127076/)
+- [ドロッセルマイヤーズが考える，ゲームシステムと世界観の理想の関係とは？ ボードゲーム制作の視点からメカニクス構築を紐解く講演会レポート](http://www.4gamer.net/games/999/G999905/20140219131/)
+- [「ゲーム性」とは何か？ アナログゲームから紐解く、ゲームの真髄](http://japan.internet.com/busnews/20121031/3.html)
 - [I was game — ボードゲームにおけるランダム性と公平性](http://iwasgame.tumblr.com/post/104067391536)
 - ["ドア"から見通すゲームデザイナーの仕事 米国開発者による「ドア問題」 | AUTOMATON](http://jp.automaton.am/articles/newsjp/the-door-problems/)
 
@@ -73,8 +77,8 @@ position: 1
 - [ゲーム開発者達のインタビュー映像集（英語）](http://www.criticalpathproject.com/)
 - [ゲームプログラマーという職業はもうありません。](http://d.hatena.ne.jp/teruyastar/20100806/1281120255)
 - [【驚き】NGUI作者がUnity 退職。ゲーム開発への情熱はそのまま！](http://gamesonytablet.blogspot.jp/2014/02/nguiunity.html)
+- [【CEDEC 2013】勝つべくして勝つ企画書を作る方法を伝授！アシスタントからディレクターになるために](http://www.inside-games.jp/article/2013/08/25/69774.html)
 - [ゲーム開発者の生活と仕事に関するアンケート調査2014](http://cedec.cesa.or.jp/2014/outline/enquete.html)
-
 
 ## Project Management
 
@@ -141,9 +145,15 @@ position: 1
 
 ## 素材集
 
+### グラフィック
+
 - [The Spriters Resource](http://www.spriters-resource.com/)
+
+### サウンド
+
 - [ロイヤリティフリーで300種類のUIの動きに合わせて使える効果音源キット「SoundKit」 - GIGAZINE](http://gigazine.net/news/20141213-soundkit/)
 - [A Sound Effect](http://www.asoundeffect.com/)
+- [Sound Effects Download | Soundsnap.com](http://www.soundsnap.com/)
 
 ## iOS
 
