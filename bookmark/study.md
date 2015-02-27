@@ -39,6 +39,7 @@ position: 3
 - [11の「やめたこと」で実現した1000万ダウンロード突破【スマホ2011冬】](http://trendy.nikkeibp.co.jp/article/column/20111215/1039018/?rt=nocnt)
 - [ソーシャルゲームの影。儲からないソーシャルゲームの一生とは - ソシャゲ業界の片隅で3](http://www.gamecast-blog.com/archives/65816413.html)
 - [現実を直視しながら理想を持ち続けることの難しさ、人生の「賞味期限」 | メタップス社長のブログ](http://katsuaki.co/?p=744)
+- [なぜあなたはジョブズの名言を読んでも成功しないのか？ | ログミー](http://logmi.jp/37561)
 
 ## Web Service
 

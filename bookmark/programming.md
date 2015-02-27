@@ -84,6 +84,7 @@ position: 2
 ### C++
 
 - [ラムダ式をC++で実現する](http://www.sun-inet.or.jp/~yaneurao/intensive/spt1.html)
+- [More C++ Idioms - Wikibooks](http://ja.wikibooks.org/wiki/More_C%2B%2B_Idioms)
 
 ### Ruby
 
@@ -157,6 +158,7 @@ ___
 - [git commit時のコメントを英語で書くための最初の一歩](http://www.sssg.org/blogs/hiro345/archives/11721.html)
 - [Changelogのための英文テンプレート集](http://d.hatena.ne.jp/pyopyopyo/20070920/p1)
 - [ネイティブと働いて分かった英語コミットメッセージの頻出動詞10つ - Qiita](http://qiita.com/gogotanaka/items/b65e1b081fa976e5d754)
+- [Git - 英語のコメントや issue で頻出する略語の意味 (FYI, AFAIK, ...) - Qiita](http://qiita.com/uasi/items/86c3a09d17792ab62dfe)
 
 ___
 
