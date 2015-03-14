@@ -49,7 +49,7 @@ position: 2
 - [コードのネストを深くするな | anopara](http://anopara.matrix.jp/2014/06/27/do-not-write-deep-nested-code/)
 - [メソッド名をシンプルにするために、知っておくと便利な英語のprefixとsuffix - Ph by codic team](http://blog.codic.jp/2014/12/22/shoud-know-prefix-suffix-for-naming/)
 
-## Development
+## Development / Practice
 
 - [小悪魔女子大生のサーバエンジニア日記](http://co-akuma.directorz.jp/blog/)
 - [crontabの書き方](http://www.server-memo.net/tips/crontab.html)
@@ -57,21 +57,30 @@ position: 2
 - [高速で無駄のないソフトウェア開発を実現するための7つのポイント](http://kuranuki.sonicgarden.jp/2012/03/post-70.html)
 - [ゲームプログラミングでテストを書かない理由](http://d.hatena.ne.jp/shuichi_h/20100520/1274372291)
 - [Test Driven Development with Perl](http://assets.en.oreilly.com/1/event/12/Practical%20Test-driven%20Development%20Presentation.pdf)
+- [何かのときにすっと出したい、プログラミングに関する法則・原則一覧 - Qiita](http://qiita.com/hirokidaichi/items/d6c473d8011bd9330e63)
 
-## Programming / Architecture
+## Architecture / Paradigm
 
 - [近代的タスクシステムの構築](http://d.hatena.ne.jp/yaneurao/20090203)
+- [RESTfulなWebサイトと拡張子を含むURLについて](http://d.hatena.ne.jp/m-hiyama/20100120/1263953482)
+- [2014年、オブジェクト指向vs関数型プログラミングの壮絶な宗教戦争は終結　OO陣営最後の牙城DOMというWeb標準のUIを破壊した巨砲Facebook-React - Qiita](http://qiita.com/kenokabe/items/9c650ec8bcb1418c596d)
+- [【翻訳】2015年に向けたJavaScriptアプリケーションアーキテクチャ PART 1 | POSTD](http://postd.cc/javascript-application-architecture-on-the-road-to-2015/)
+    - コンポーネント間のメッセージングについての言及がある
+- [雑把の UI アーキテクチャー史(MVCからMVVMへ) | プログラマーズ雑記帳](http://yohshiy.blog.fc2.com/blog-entry-215.html)
+- [2015年に備えて知っておきたいリアクティブアーキテクチャの潮流 - Qiita](http://qiita.com/hirokidaichi/items/9c1d862099c2e12f5b0f)
+- [【翻訳】あなたが求めていたリアクティブプログラミング入門 - ninjinkun's diary](http://ninjinkun.hatenablog.com/entry/introrxja)
+
+## Programming / Technique
+
 - [ngmoco直伝 OpenGL高速化テクニック](http://objective-audio.jp/2009/07/ngmoco-opengl.html)
-- [Python/Ruby基礎文法最速マスター](http://d.hatena.ne.jp/dplusplus/20100126/p1)
-- [Objective-C 最速基礎文法マスター](http://d.hatena.ne.jp/fn7/20100203/1265207098)
 - [イージングの公式集](http://www.actionscript.org/forums/showthread.php3?t=42833)
 - [ブレンディングのファクター](http://fmworks.cocolog-nifty.com/blog/2009/06/d3d-f379.html)
 - [ブレンディング --- OpenGLとPhotoShop](http://tobysoft.net/wiki/index.php?PhotoShop%2F%A5%EC%A5%A4%A5%E4%A1%BC%A4%CE%B7%D7%BB%BB%CA%FD%CB%A1%A4%CB%A4%C4%A4%A4%A4%C6)
-- [RESTfulなWebサイトと拡張子を含むURLについて](http://d.hatena.ne.jp/m-hiyama/20100120/1263953482)
-- [2014年、オブジェクト指向vs関数型プログラミングの壮絶な宗教戦争は終結　OO陣営最後の牙城DOMというWeb標準のUIを破壊した巨砲Facebook-React - Qiita](http://qiita.com/kenokabe/items/9c650ec8bcb1418c596d)
-
 
 ## Language
+
+- [Python/Ruby基礎文法最速マスター](http://d.hatena.ne.jp/dplusplus/20100126/p1)
+- [Objective-C 最速基礎文法マスター](http://d.hatena.ne.jp/fn7/20100203/1265207098)
 
 ### Flash / AS3
 
@@ -150,6 +159,7 @@ position: 2
 - [GitHub人気レポジトリランキング Best50 全解説](http://d.hatena.ne.jp/yayugu/20110824/1314194100)
 - [提言: コミットメッセージの一行目には要求仕様を書け](http://qiita.com/magicant/items/882b5142c4d5064933bc)
 - [巨大なリポジトリを Git で上手く扱う方法](http://japan.blogs.atlassian.com/2014/05/handle-big-repositories-git/)
+- [Yakst - より良いプルリクエストのための10のヒント](http://yakst.com/ja/posts/1625)
 
 ___
 

@@ -118,6 +118,7 @@ position: 900
 - プログラマフレンドリーなデスクトップウィジェット
     - [Übersicht](http://tracesof.net/uebersicht/)
 - ちょっとしたテキストエディタに [Atom](https://atom.io/)
+- 検索は grep より ack, ack より ag
 
 
 

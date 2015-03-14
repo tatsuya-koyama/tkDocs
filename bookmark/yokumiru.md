@@ -28,6 +28,7 @@ position: 99
 ### プログラマ系
 
 - [POSTD](http://postd.cc/)
+- [Ph by codic team](http://blog.codic.jp/)
 
 ### たのしい
 

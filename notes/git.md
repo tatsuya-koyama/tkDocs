@@ -46,6 +46,9 @@ position: 6
 - [git commit --allow-empty を使った WIP PR ワークフロー - Qiita](http://qiita.com/a-suenami/items/129e09f8550f31e4c2da)
 - [github を用いた開発フロー テンプレート](http://pepabo.github.io/docs/github/workflow.html)
 - [WIPブランチをPull Requestする運用をためした - 15 min/d](http://bouzuya.hatenablog.com/entry/2014/04/02/235959)
+- [Yakst - より良いプルリクエストのための10のヒント](http://yakst.com/ja/posts/1625)
+- [ピクセルグリッドの仕事術 技術編 - コードレビューのフロー | CodeGrid](https://app.codegrid.net/entry/code-review)
+    - こちらはレビュー待ちを無くすためにすぐ merge して後からレビュー、というやり方
 
 
 ## git tag
