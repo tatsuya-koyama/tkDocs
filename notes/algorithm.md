@@ -61,6 +61,11 @@ seed は以下のようにやってみた：
 - [メモリー管理の内側 - 動的アロケーションの選択肢とトレードオフ、そして実装](http://www.ibm.com/developerworks/jp/linux/library/l-memory/index.html)
 
 
+## 座標系
+
+- [Hexagonal Grids](http://www.redblobgames.com/grids/hexagons/)
+
+
 ## 自動生成系
 
 - [古くて新しい自動迷路生成アルゴリズム](http://getnews.jp/archives/288113)

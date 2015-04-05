@@ -76,6 +76,7 @@ position: 3
 - [嘘偽り一切なし。仕事で幸せになるために知っておくべき10のこと](http://www.lifehacker.jp/2013/12/13122010_simple_laws_of_business_success.html)
 - [技術的負債という(非エンジニアにとっての)隠しパラメータが生産性100倍を起こす](http://mizchi.hatenablog.com/entry/2014/02/19/210801)
 - [開発組織のマネジメント // Speaker Deck](https://speakerdeck.com/naoya/kai-fa-zu-zhi-falsemanezimento)
+- [7年働いた時点での私の仕事の極意 - Kengo's blog](http://blog.kengo-toda.jp/entry/2015/03/22/215005)
 
 ## Study / Practice / LifeStyle
 

@@ -28,6 +28,7 @@ position: 4
 ### 参考リンク
 
 - [【成果を上げる色の選び方】色彩心理学から学ぶ　サイトカラーの「正解」](http://liskul.com/wm_cpsychology-4111)
+- [「ドキュメントデザイン」で最も重要な50のルールをまとめた「Color CRAYON-TIP Method」 - GIGAZINE](http://gigazine.net/news/20150325-50-rules-document-design/)
 
 <br/><br/><br/><br/><br/>
 

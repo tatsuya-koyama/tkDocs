@@ -82,6 +82,7 @@ position: 7
 - [ノンデザイナーのための配色理論](http://www.slideshare.net/saucerjp/ss-14902681)
 - [ニコニコ超デザイン-Metro考察編-](http://www.slideshare.net/VoQn/metro-12797234)
 - [Flashアニメーション制作テクニックをまとめてみる](http://news.mynavi.jp/column/kurieita/029/index.html)
+- [「ドキュメントデザイン」で最も重要な50のルールをまとめた「Color CRAYON-TIP Method」 - GIGAZINE](http://gigazine.net/news/20150325-50-rules-document-design/)
 
 ## 素材集 / ライブラリ / サービス
 

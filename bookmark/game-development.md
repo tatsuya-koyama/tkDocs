@@ -23,9 +23,11 @@ position: 1
 - [英語のゲームチュートリまとめてるページ](http://rel.phatcode.net/index.php?action=contents&item=Tutorials)
 
 
-## eBook
+## eBook / Article
 
 - [Game Programming Patterns - Robert Nystrom](http://gameprogrammingpatterns.com/)
+- [Red Blob Games](http://www.redblobgames.com/)
+    - [Blobs in Games (ブログ)](http://simblob.blogspot.jp/)
 
 
 ## 参考になるソースとかゲーム
@@ -101,7 +103,7 @@ position: 1
 - [TWEENER Transition cheat sheet](http://www.tonpoo.com/tweener/index2.html)
     - [JSTweener](http://coderepos.org/share/wiki/JSTweener)
     - [quad とか cubic とか quintic とか](http://mathforum.org/library/drmath/view/56413.html)
-
+- [Hexagonal Grids](http://www.redblobgames.com/grids/hexagons/)
 
 ## フレームワーク設計
 

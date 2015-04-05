@@ -77,6 +77,11 @@ position: 2
 - [ブレンディングのファクター](http://fmworks.cocolog-nifty.com/blog/2009/06/d3d-f379.html)
 - [ブレンディング --- OpenGLとPhotoShop](http://tobysoft.net/wiki/index.php?PhotoShop%2F%A5%EC%A5%A4%A5%E4%A1%BC%A4%CE%B7%D7%BB%BB%CA%FD%CB%A1%A4%CB%A4%C4%A4%A4%A4%C6)
 
+## Documentation
+
+- [PharkMillups/beautiful-docs](https://github.com/PharkMillups/beautiful-docs)
+    - イケてるドキュメントのリンク集
+
 ## Language
 
 - [Python/Ruby基礎文法最速マスター](http://d.hatena.ne.jp/dplusplus/20100126/p1)

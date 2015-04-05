@@ -82,6 +82,23 @@ ___
         git log --pretty=format:"%C(yellow)%h%C(reset) %C(blue)%ad %C(reset)%C(red)%an%C(reset) - %s %C(green)%d%C(reset)" --graph --date-order -30 --date=iso
 
 
+## git branch
+
+- ブランチ消す
+
+        git branch -d branch_name     # ローカルのを消す
+        git push origin :branch_name  # リモートのを消す
+
+【補足】
+
+    git push origin master
+    は
+    git push origin master:master
+    の略。
+
+    ローカルブランチの master をリモートブランチの master に push するという意味。
+
+
 
 <br/><br/><br/>
 
