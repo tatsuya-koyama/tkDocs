@@ -51,6 +51,7 @@ position: 3
 - [良い論文を書くために知っておくべき５つのこと](http://leoclock.blogspot.com/2008/07/blog-post.html)
 - [［保存版］読むだけで文章力が劇的に向上する良質記事まとめ８選＋α](http://fta7.jp/blog)
 - [文章を「書ける人」と「書けない人」のちがい（引用の藤子F不二雄の言葉がいい）](http://d.hatena.ne.jp/Rootport/20130505/1367763730)
+- [【脚本術】会話とセリフの書き方 - Togetterまとめ](http://togetter.com/li/804384)
 
 ## Game
 

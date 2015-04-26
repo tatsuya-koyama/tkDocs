@@ -69,6 +69,12 @@ position: 2
 - [雑把の UI アーキテクチャー史(MVCからMVVMへ) | プログラマーズ雑記帳](http://yohshiy.blog.fc2.com/blog-entry-215.html)
 - [2015年に備えて知っておきたいリアクティブアーキテクチャの潮流 - Qiita](http://qiita.com/hirokidaichi/items/9c1d862099c2e12f5b0f)
 - [【翻訳】あなたが求めていたリアクティブプログラミング入門 - ninjinkun's diary](http://ninjinkun.hatenablog.com/entry/introrxja)
+- [【翻訳】ReactをjQueryの数行に要約する | POSTD](http://postd.cc/boiling-react-down-to-a-few-lines-in-jquery/)
+- [elab » Webフロントエンドでリアクティブプログラミング](http://www.ediplex.com/blog/?p=830)
+
+## Framework / SDK
+
+- [Electron(旧atom shell)基礎+入門](http://www.slideshare.net/mainya/electronatom-shell)
 
 ## Programming / Technique
 
@@ -165,6 +171,7 @@ position: 2
 - [提言: コミットメッセージの一行目には要求仕様を書け](http://qiita.com/magicant/items/882b5142c4d5064933bc)
 - [巨大なリポジトリを Git で上手く扱う方法](http://japan.blogs.atlassian.com/2014/05/handle-big-repositories-git/)
 - [Yakst - より良いプルリクエストのための10のヒント](http://yakst.com/ja/posts/1625)
+- [「Git補完をしらない」「git statusを1日100回は使う」そんなあなたに朗報【git-completionとgit-prompt】 - Qiita](http://qiita.com/varmil/items/9b0aeafa85975474e9b6)
 
 ___
 
