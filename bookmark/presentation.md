@@ -23,6 +23,7 @@ position: 9
 - [How Emacs changed my Life](http://www.slideshare.net/yukihiro_matz/how-emacs-changed-my-life)
 - [altJS勉強会「Haxeすごいからみんな使え！」](http://www.slideshare.net/sipojp/haxe-24876418)
 - [Electron(旧atom shell)基礎+入門](http://www.slideshare.net/mainya/electronatom-shell)
+- [ちゃんとした C# プログラムを書けるようになる実践的な方法～ Visual Studio を使った 高品質・低コスト・保守性の高い開発](http://www.slideshare.net/shinichikoga355/starting-c-sharp)
 
 ## ビジネス系
 
