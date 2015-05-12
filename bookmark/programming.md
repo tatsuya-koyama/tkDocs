@@ -48,6 +48,7 @@ position: 2
 - [（命名規則とか）Introduction to Coding Guidelines for Cocoa](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html)
 - [コードのネストを深くするな | anopara](http://anopara.matrix.jp/2014/06/27/do-not-write-deep-nested-code/)
 - [メソッド名をシンプルにするために、知っておくと便利な英語のprefixとsuffix - Ph by codic team](http://blog.codic.jp/2014/12/22/shoud-know-prefix-suffix-for-naming/)
+- [Code Review Best Practices](http://kevinlondon.com/2015/05/05/code-review-best-practices.html)
 
 ## Development / Practice
 
@@ -59,24 +60,28 @@ position: 2
 - [Test Driven Development with Perl](http://assets.en.oreilly.com/1/event/12/Practical%20Test-driven%20Development%20Presentation.pdf)
 - [何かのときにすっと出したい、プログラミングに関する法則・原則一覧 - Qiita](http://qiita.com/hirokidaichi/items/d6c473d8011bd9330e63)
 
-## Architecture / Paradigm
+## Architecture / System
 
 - [近代的タスクシステムの構築](http://d.hatena.ne.jp/yaneurao/20090203)
-- [RESTfulなWebサイトと拡張子を含むURLについて](http://d.hatena.ne.jp/m-hiyama/20100120/1263953482)
-- [2014年、オブジェクト指向vs関数型プログラミングの壮絶な宗教戦争は終結　OO陣営最後の牙城DOMというWeb標準のUIを破壊した巨砲Facebook-React - Qiita](http://qiita.com/kenokabe/items/9c650ec8bcb1418c596d)
 - [【翻訳】2015年に向けたJavaScriptアプリケーションアーキテクチャ PART 1 | POSTD](http://postd.cc/javascript-application-architecture-on-the-road-to-2015/)
     - コンポーネント間のメッセージングについての言及がある
-- [雑把の UI アーキテクチャー史(MVCからMVVMへ) | プログラマーズ雑記帳](http://yohshiy.blog.fc2.com/blog-entry-215.html)
 - [2015年に備えて知っておきたいリアクティブアーキテクチャの潮流 - Qiita](http://qiita.com/hirokidaichi/items/9c1d862099c2e12f5b0f)
+
+## Paradigm / Convention / Languages
+
+- [RESTfulなWebサイトと拡張子を含むURLについて](http://d.hatena.ne.jp/m-hiyama/20100120/1263953482)
+- [2014年、オブジェクト指向vs関数型プログラミングの壮絶な宗教戦争は終結　OO陣営最後の牙城DOMというWeb標準のUIを破壊した巨砲Facebook-React - Qiita](http://qiita.com/kenokabe/items/9c650ec8bcb1418c596d)
+- [雑把の UI アーキテクチャー史(MVCからMVVMへ) | プログラマーズ雑記帳](http://yohshiy.blog.fc2.com/blog-entry-215.html)
 - [【翻訳】あなたが求めていたリアクティブプログラミング入門 - ninjinkun's diary](http://ninjinkun.hatenablog.com/entry/introrxja)
 - [【翻訳】ReactをjQueryの数行に要約する | POSTD](http://postd.cc/boiling-react-down-to-a-few-lines-in-jquery/)
 - [elab » Webフロントエンドでリアクティブプログラミング](http://www.ediplex.com/blog/?p=830)
+- [Less is more：プログラミング言語設計の進歩史 | POSTD](http://postd.cc/less-is-more/)
 
 ## Framework / SDK
 
 - [Electron(旧atom shell)基礎+入門](http://www.slideshare.net/mainya/electronatom-shell)
 
-## Programming / Technique
+## Programming - Technique
 
 - [ngmoco直伝 OpenGL高速化テクニック](http://objective-audio.jp/2009/07/ngmoco-opengl.html)
 - [イージングの公式集](http://www.actionscript.org/forums/showthread.php3?t=42833)

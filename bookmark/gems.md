@@ -26,6 +26,7 @@ position: 6
 - [つるふさの法則](http://ja.wikipedia.org/wiki/%E3%81%A4%E3%82%8B%E3%81%B5%E3%81%95%E3%81%AE%E6%B3%95%E5%89%87)
 - [ノーフリーランチ定理](http://ja.wikipedia.org/wiki/%E3%83%8E%E3%83%BC%E3%83%95%E3%83%AA%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%81%E5%AE%9A%E7%90%86)
 - [90対90の法則 - Wikipedia](http://ja.wikipedia.org/wiki/90%E5%AF%BE90%E3%81%AE%E6%B3%95%E5%89%87)
+- [Twitter: "イグノーベル賞受賞者Len Fisher氏（@LenFisherScienc）が発見？した美しい関係式"](https://twitter.com/morikuni_net/status/596357173002698752)
 
 ## 秀逸な記事
 

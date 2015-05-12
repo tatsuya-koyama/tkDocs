@@ -50,6 +50,19 @@ position: 6
 - [ピクセルグリッドの仕事術 技術編 - コードレビューのフロー | CodeGrid](https://app.codegrid.net/entry/code-review)
     - こちらはレビュー待ちを無くすためにすぐ merge して後からレビュー、というやり方
 
+### プルリクの差分を手元で見る
+
+    # feature -> master のプルリクの差分を見たいとき
+    # （トリプルドットを使う）
+    git diff master...feature
+
+    # 僕は周辺行を多く表示するのが好き（コンテキストを理解しやすい）
+    # （-U<行数> オプションを使う。grep の -C みたいなもの）
+    git diff master...feature -U30
+
+- 参考
+    - [Atlassian Japan | さらに優れたプルリクエスト](http://japan.blogs.atlassian.com/2015/02/a-better-pull-request/)
+    - [Git - リビジョンの選択](http://git-scm.com/book/ja/v1/Git-%E3%81%AE%E3%81%95%E3%81%BE%E3%81%96%E3%81%BE%E3%81%AA%E3%83%84%E3%83%BC%E3%83%AB-%E3%83%AA%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AE%E9%81%B8%E6%8A%9E)
 
 ## git tag
 
