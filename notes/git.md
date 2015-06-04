@@ -17,7 +17,7 @@ position: 6
 - [Changelogのための英文テンプレート集](http://d.hatena.ne.jp/pyopyopyo/20070920/p1)
 - [ネイティブと働いて分かった英語コミットメッセージの頻出動詞10つ - Qiita](http://qiita.com/gogotanaka/items/b65e1b081fa976e5d754)
 - [Git - 英語のコメントや issue で頻出する略語の意味 (FYI, AFAIK, ...) - Qiita](http://qiita.com/uasi/items/86c3a09d17792ab62dfe)
-
+- [commit-m: GitHubコミットメッセージの文例が検索できるサービス](http://commit-m.minamijoyo.com/commits/search?keyword=fix+bug)
 
 ## .gitignore に足したんだけどもうそれ add しちゃってたとき
 

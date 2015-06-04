@@ -81,7 +81,7 @@ position: 3
 - [開発組織のマネジメント // Speaker Deck](https://speakerdeck.com/naoya/kai-fa-zu-zhi-falsemanezimento)
 - [7年働いた時点での私の仕事の極意 - Kengo's blog](http://blog.kengo-toda.jp/entry/2015/03/22/215005)
 
-## Study / Practice / LifeStyle
+## Study / Practice / LifeStyle / 人間心理
 
 - [IDEA*IDEA - The Inbox Makeoverですっきり](http://www.ideaxidea.com/archives/2005/08/the_inbox_makeover.html])
 - [SMART Goals](http://www.projectsmart.co.uk/smart-goals.html)
@@ -94,6 +94,8 @@ position: 3
 - [こういうタイトルの記事を毛嫌いしないほうが良い10個の理由](http://kyouki.hatenablog.com/entry/2014/01/11/072824)
 - [「やる気は5秒で死んでしまう」 行動のブレーキを外すための"自分ルール"のつくりかた | ログミー](http://logmi.jp/32799)
 - [【翻訳】ポール・グレアムによる「経験することと自覚について」 | POSTD](http://postd.cc/how-you-know/)
+- [能力の低い人ほど根拠のない自信に満ちあふれている。「ダニング＝クルーガー効果」とは？ : カラパイア](http://karapaia.livedoor.biz/archives/52191924.html)
+- [日常生活で使える心理学テクニックのまとめ | 心理学 | Ofee](http://ofee.tank.jp/life-psychology/)
 
 ## Statistics / Numbers
 

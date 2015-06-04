@@ -38,6 +38,7 @@ position: 4
 - [ナウいツールやサービスなどのまとめ](http://qiita.com/phimcall/items/555d09f872373f65c6fb)
 - [UML Cheatsheet（クラス図とかシーケンス図）](http://loufranco.com/wp-content/uploads/2012/11/cheatsheet.pdf)
 - [MSDN - UML Class Diagrams: Reference](http://msdn.microsoft.com/en-us/library/dd409437.aspx)
+- [プログラマ能力指標表 | コンピュータサイエンス | POSTD](http://postd.cc/programmer-competency-matrix/)
 
 ## 言語系
 

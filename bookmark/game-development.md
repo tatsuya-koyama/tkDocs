@@ -15,6 +15,9 @@ position: 1
 - [GAMASUTRA](http://www.gamasutra.com/)
 - [Kotaku](http://kotaku.com/)
 
+## 読み物
+
+- [スプラトゥーンとかいうイカしたシューターの再発明の話をしたい - セラミックロケッツ！](http://cr.hatenablog.com/entry/2015/05/31/002059)
 
 ## Wiki / Portal
 
@@ -134,6 +137,9 @@ position: 1
 
 - [roxik さんの Flash スライド](http://temp.roxik.com/datas/max2007/index.html)
 
+## 音楽 / DTM
+
+- [DTMをやっていて気になったことがあります 【OKWave】](http://okwave.jp/qa/q4288393.html)
 
 ## ユーザ心理
 

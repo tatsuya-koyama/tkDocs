@@ -31,6 +31,7 @@ position: 2
 - [ウェブ系エンジニアがおさえておきたい技術ブログまとめ](http://d.hatena.ne.jp/nokuno/20101020/1287587608)
 - [プログラマーは文系の仕事か、理系の仕事か - 愛と勇気と缶ビール](http://zentoo.hatenablog.com/entry/2014/06/07/031513)
 - [Yakst - プログラミング初心者に言ってはいけないこと](http://yakst.com/ja/posts/1373)
+- [プログラマ能力指標表 | コンピュータサイエンス | POSTD](http://postd.cc/programmer-competency-matrix/)
 
 ## eBook
 
@@ -88,47 +89,13 @@ position: 2
 - [ブレンディングのファクター](http://fmworks.cocolog-nifty.com/blog/2009/06/d3d-f379.html)
 - [ブレンディング --- OpenGLとPhotoShop](http://tobysoft.net/wiki/index.php?PhotoShop%2F%A5%EC%A5%A4%A5%E4%A1%BC%A4%CE%B7%D7%BB%BB%CA%FD%CB%A1%A4%CB%A4%C4%A4%A4%A4%C6)
 
-## Documentation
+## Network
 
-- [PharkMillups/beautiful-docs](https://github.com/PharkMillups/beautiful-docs)
-    - イケてるドキュメントのリンク集
+- [ネットワークの状況を確認するコマンド色々 ｜ Developers.IO](http://dev.classmethod.jp/etc/network-check-tools/)
 
-## Language
+## Security
 
-- [Python/Ruby基礎文法最速マスター](http://d.hatena.ne.jp/dplusplus/20100126/p1)
-- [Objective-C 最速基礎文法マスター](http://d.hatena.ne.jp/fn7/20100203/1265207098)
-
-### Flash / AS3
-
-- [Quick As A Flash: Optimization Strategies for AS3 and Flash](http://gskinner.com/talks/quick/)
-
-### JavaScript
-
-- [【翻訳】JavaScriptのデバッグ方法 – JSを嫌いにならないためのTips | POSTD](http://postd.cc/how-to-not-hate-javascript-tips-from-the-frontline/)
-
-### C++
-
-- [ラムダ式をC++で実現する](http://www.sun-inet.or.jp/~yaneurao/intensive/spt1.html)
-- [More C++ Idioms - Wikibooks](http://ja.wikibooks.org/wiki/More_C%2B%2B_Idioms)
-
-### Ruby
-
-- [Rubyの凄く面白い特徴をRailsのコードを例に解説 - Qiita](http://qiita.com/shinya_131/items/901b9c70642b1e1f9227)
-
-### Python
-
-- [Python早めぐり](http://www.shido.info/py/python2.html)
-
-### Perl
-
-- [乱数と Perl5 にかんする蘊蓄の話](http://www.edita.jp/tokuhirom/one/tokuhirom162.html)
-- [Perl-DBIのTips](http://yanor.net/wiki/index.php?Perl-DBI%2FSELECT)
-
-### Java
-
-- [仮想パネル: JavaScriptで非同期プログラミングを乗り切る方法](http://www.infoq.com/jp/articles/surviving-asynchronous-programming-in-javascript)
-- [Javaのクラス宣言5種+α](http://d.hatena.ne.jp/Nagise/20120308/1331222011)
-
+- [ブラウザゲーム時代のチートとセキュリティ](http://wate.jp/wordpress/?p=262)
 
 ## Database
 
@@ -163,6 +130,7 @@ position: 2
 
 - [人工知能が急に進化し始めた！ | TheWave](http://thewave.jp/archives/1985)
 - [Is Google a Step Away from Developing a Computer that Can "Program Itself"? - Evolution News & Views](http://www.evolutionnews.org/2014/10/is_google_a_ste090771.html)
+- [二次元画像を拡大したいと思ったことはありませんか？ - デー](http://ultraist.hatenablog.com/entry/2015/05/17/183436)
 
 ## Git
 
@@ -193,10 +161,48 @@ ___
     - [原文](http://nvie.com/posts/a-successful-git-branching-model/)
     - [日本語訳](http://keijinsonyaban.blogspot.com/2010/10/successful-git-branching-model.html)
 
-## Security
+## Documentation
 
-- [ブラウザゲーム時代のチートとセキュリティ](http://wate.jp/wordpress/?p=262)
+- [PharkMillups/beautiful-docs](https://github.com/PharkMillups/beautiful-docs)
+    - イケてるドキュメントのリンク集
+
+## Language
+
+- [Python/Ruby基礎文法最速マスター](http://d.hatena.ne.jp/dplusplus/20100126/p1)
+- [Objective-C 最速基礎文法マスター](http://d.hatena.ne.jp/fn7/20100203/1265207098)
+
+### Flash / AS3
+
+- [Quick As A Flash: Optimization Strategies for AS3 and Flash](http://gskinner.com/talks/quick/)
+
+### JavaScript
+
+- [【翻訳】JavaScriptのデバッグ方法 – JSを嫌いにならないためのTips | POSTD](http://postd.cc/how-to-not-hate-javascript-tips-from-the-frontline/)
+- [Chrome DevToolsを使ってJavaScriptのメモリリークを検出し、解消する - 人生dat落ち](http://eiua-memo.tumblr.com/post/114307115793/chrome-devtools-javascript)
+
+### C++
+
+- [ラムダ式をC++で実現する](http://www.sun-inet.or.jp/~yaneurao/intensive/spt1.html)
+- [More C++ Idioms - Wikibooks](http://ja.wikibooks.org/wiki/More_C%2B%2B_Idioms)
+
+### Ruby
+
+- [Rubyの凄く面白い特徴をRailsのコードを例に解説 - Qiita](http://qiita.com/shinya_131/items/901b9c70642b1e1f9227)
+
+### Python
+
+- [Python早めぐり](http://www.shido.info/py/python2.html)
+
+### Perl
+
+- [乱数と Perl5 にかんする蘊蓄の話](http://www.edita.jp/tokuhirom/one/tokuhirom162.html)
+- [Perl-DBIのTips](http://yanor.net/wiki/index.php?Perl-DBI%2FSELECT)
+
+### Java
+
+- [仮想パネル: JavaScriptで非同期プログラミングを乗り切る方法](http://www.infoq.com/jp/articles/surviving-asynchronous-programming-in-javascript)
+- [Javaのクラス宣言5種+α](http://d.hatena.ne.jp/Nagise/20120308/1331222011)
 
 
-<br/><br/><br/>
+
 

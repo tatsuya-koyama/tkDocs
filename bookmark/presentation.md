@@ -17,6 +17,7 @@ position: 9
 - [Loard of Knights のクライアント開発事例紹介](http://www.slideshare.net/mobile/ppcchan/lord-of-knights)
 - [gumiStudy Cocos2d-x 勉強会メモ](https://docs.google.com/a/dena.jp/presentation/d/19y0iM5dJZ67V7MJ7vuUWqOeZ_9MsXj3eZX6fB2IVI3g/edit#slide=id.p)
 - [電撃 - Unity技術者は必読！ 3,200万ダウンロードの『白猫プロジェクト』を支える“最適化”](http://dengekionline.com/elem/000/001/039/1039929/)
+- [仕事がつまらないと嘆くあなたへ、元スクウェア・エニックスCTOがアドバイス - ログミー](http://logmi.jp/45997)
 
 ## プログラミング / エンジニアリング系
 
