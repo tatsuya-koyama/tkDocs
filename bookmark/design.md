@@ -83,6 +83,7 @@ position: 7
 - [ニコニコ超デザイン-Metro考察編-](http://www.slideshare.net/VoQn/metro-12797234)
 - [Flashアニメーション制作テクニックをまとめてみる](http://news.mynavi.jp/column/kurieita/029/index.html)
 - [「ドキュメントデザイン」で最も重要な50のルールをまとめた「Color CRAYON-TIP Method」 - GIGAZINE](http://gigazine.net/news/20150325-50-rules-document-design/)
+- [よくわかるダメUIUX画像コレクション](http://www.slideshare.net/takayukifukatsu/uiux-48936541)
 
 ## 素材集 / ライブラリ / サービス
 

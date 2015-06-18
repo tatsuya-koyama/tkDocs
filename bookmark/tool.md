@@ -17,6 +17,7 @@ position: 5
 
 - [Apache Cordova](https://cordova.apache.org/)
 - [Electron(旧atom shell)基礎+入門](http://www.slideshare.net/mainya/electronatom-shell)
+    - [sindresorhus/awesome-electron · GitHub](https://github.com/sindresorhus/awesome-electron)
 
 ## Task Runner / Build System
 

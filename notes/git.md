@@ -9,6 +9,10 @@ position: 6
 
 # Git Memo
 
+## Tips
+
+- [巨大なリポジトリを Git で上手く扱う方法 - Atlassian Japan](http://japan.blogs.atlassian.com/2014/05/handle-big-repositories-git/)
+
 ## コミットメッセージ系
 
 - [GIT Commit Good Practice - OpenStack](https://wiki.openstack.org/wiki/GitCommitMessages)
@@ -18,6 +22,34 @@ position: 6
 - [ネイティブと働いて分かった英語コミットメッセージの頻出動詞10つ - Qiita](http://qiita.com/gogotanaka/items/b65e1b081fa976e5d754)
 - [Git - 英語のコメントや issue で頻出する略語の意味 (FYI, AFAIK, ...) - Qiita](http://qiita.com/uasi/items/86c3a09d17792ab62dfe)
 - [commit-m: GitHubコミットメッセージの文例が検索できるサービス](http://commit-m.minamijoyo.com/commits/search?keyword=fix+bug)
+
+## プルリク開発
+
+業務の開発も OSS 開発のように行おう
+
+- [空コミット便利！git commit --allow-emptyでgitを使った開発フローを改善 - fukajun - DeepValley -](http://fukajun.org/25)
+- [git commit --allow-empty を使った WIP PR ワークフロー - Qiita](http://qiita.com/a-suenami/items/129e09f8550f31e4c2da)
+- [github を用いた開発フロー テンプレート](http://pepabo.github.io/docs/github/workflow.html)
+- [WIPブランチをPull Requestする運用をためした - 15 min/d](http://bouzuya.hatenablog.com/entry/2014/04/02/235959)
+- [Yakst - より良いプルリクエストのための10のヒント](http://yakst.com/ja/posts/1625)
+- [ピクセルグリッドの仕事術 技術編 - コードレビューのフロー | CodeGrid](https://app.codegrid.net/entry/code-review)
+    - こちらはレビュー待ちを無くすためにすぐ merge して後からレビュー、というやり方
+
+### プルリクの差分を手元で見る
+
+でかい差分とか GitHub だと truncate されちゃうからね
+
+    # feature -> master のプルリクの差分を見たいとき
+    # （トリプルドットを使う）
+    git diff master...feature
+
+    # 僕は周辺行を多く表示するのが好き（コンテキストを理解しやすい）
+    # （-U<行数> オプションを使う。grep の -C みたいなもの）
+    git diff master...feature -U30
+
+- 参考
+    - [Atlassian Japan | さらに優れたプルリクエスト](http://japan.blogs.atlassian.com/2015/02/a-better-pull-request/)
+    - [Git - リビジョンの選択](http://git-scm.com/book/ja/v1/Git-%E3%81%AE%E3%81%95%E3%81%BE%E3%81%96%E3%81%BE%E3%81%AA%E3%83%84%E3%83%BC%E3%83%AB-%E3%83%AA%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AE%E9%81%B8%E6%8A%9E)
 
 ## .gitignore に足したんだけどもうそれ add しちゃってたとき
 
@@ -38,31 +70,19 @@ position: 6
     - [gitで特定のファイルの履歴を消す方法](http://d.hatena.ne.jp/ichhi/20110825/1314300975)
 
 
-## プルリク開発
+## あのファイル消えてるけどどこで消えちゃったんだろう
 
-業務の開発も OSS 開発のように行おう
+- オブジェクトの歴史を辿る `git rev-list` というコマンドがある
+    - [Git - git-rev-list Documentation](https://git-scm.com/docs/git-rev-list)
+    - [gitで削除してしまったファイルの復元 - itochin2の日記（仮）](http://itochin2.hatenablog.com/entry/2013/06/06/020939)
+- 指定したポイントから時系列逆順に commit の歴史を表示してくれる
+- 以下のように打てば消えたファイルについても履歴が見れる
 
-- [空コミット便利！git commit --allow-emptyでgitを使った開発フローを改善 - fukajun - DeepValley -](http://fukajun.org/25)
-- [git commit --allow-empty を使った WIP PR ワークフロー - Qiita](http://qiita.com/a-suenami/items/129e09f8550f31e4c2da)
-- [github を用いた開発フロー テンプレート](http://pepabo.github.io/docs/github/workflow.html)
-- [WIPブランチをPull Requestする運用をためした - 15 min/d](http://bouzuya.hatenablog.com/entry/2014/04/02/235959)
-- [Yakst - より良いプルリクエストのための10のヒント](http://yakst.com/ja/posts/1625)
-- [ピクセルグリッドの仕事術 技術編 - コードレビューのフロー | CodeGrid](https://app.codegrid.net/entry/code-review)
-    - こちらはレビュー待ちを無くすためにすぐ merge して後からレビュー、というやり方
+```
+git rev-list --pretty HEAD -- 対象のファイルパス
+# 最後の commit だけ表示したいなら -n 1 を与えればよい
+```
 
-### プルリクの差分を手元で見る
-
-    # feature -> master のプルリクの差分を見たいとき
-    # （トリプルドットを使う）
-    git diff master...feature
-
-    # 僕は周辺行を多く表示するのが好き（コンテキストを理解しやすい）
-    # （-U<行数> オプションを使う。grep の -C みたいなもの）
-    git diff master...feature -U30
-
-- 参考
-    - [Atlassian Japan | さらに優れたプルリクエスト](http://japan.blogs.atlassian.com/2015/02/a-better-pull-request/)
-    - [Git - リビジョンの選択](http://git-scm.com/book/ja/v1/Git-%E3%81%AE%E3%81%95%E3%81%BE%E3%81%96%E3%81%BE%E3%81%AA%E3%83%84%E3%83%BC%E3%83%AB-%E3%83%AA%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AE%E9%81%B8%E6%8A%9E)
 
 ## git tag
 
