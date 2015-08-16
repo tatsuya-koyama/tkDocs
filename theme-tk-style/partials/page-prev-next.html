@@ -1,0 +1,21 @@
+  <div id="page-navigation">
+    <div class="container">
+      <div class="row">
+
+        <div class="span1"></div>
+
+        <div class="span3">
+          {{# page.next }}
+            &laquo; <a href="{{ url }}">{{ title }}</a>
+          {{/ page.next }}
+        </div>
+
+        <div class="span4" style="text-align: right;">
+          {{# page.previous }}
+            <a href="{{ url }}">{{ title }}</a> &raquo;
+          {{/ page.previous }}
+        </div>
+
+      </div>
+    </div>
+  </div>
