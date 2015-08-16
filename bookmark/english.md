@@ -34,6 +34,7 @@ position: 8
 - [英語表現でもう迷わない - ドキュメントコメント頻出表現まとめ](http://www.dotapon.sakura.ne.jp/blog/?p=734)
 - [ゲーム翻訳者のブログ](http://wearebottoms.blog53.fc2.com/)
 - [提言: コミットメッセージの一行目には要求仕様を書け](http://qiita.com/magicant/items/882b5142c4d5064933bc)
+- [エンジニアのための英語 - Tumblr](http://englishforengineers.tumblr.com/)
 
 ## その他
 

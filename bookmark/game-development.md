@@ -63,6 +63,7 @@ position: 1
 - [「ゲーム性」とは何か？ アナログゲームから紐解く、ゲームの真髄](http://japan.internet.com/busnews/20121031/3.html)
 - [I was game — ボードゲームにおけるランダム性と公平性](http://iwasgame.tumblr.com/post/104067391536)
 - ["ドア"から見通すゲームデザイナーの仕事 米国開発者による「ドア問題」 | AUTOMATON](http://jp.automaton.am/articles/newsjp/the-door-problems/)
+- [ゲームにおける「運」の要素と「運ゲー」の違い | YASAIBOWL](http://yasaibowl.com/blog/566)
 
 
 ## Game Art / Animation
@@ -128,6 +129,8 @@ position: 1
 ## Unity
 
 - [Unity training videos for game development](http://vimeo.com/album/1558304)
+- [Unity のシェーダの基礎を勉強してみたのでやる気出してまとめてみた - 凹みTips](http://tips.hecomi.com/entry/2014/03/16/233943)
+- [Unity 5.1 から導入された新しいネットワーク機能の UNET について詳しく調べてみた - 凹みTips](http://tips.hecomi.com/entry/2015/08/14/220030)
 
 ## Game Dev. Tool
 

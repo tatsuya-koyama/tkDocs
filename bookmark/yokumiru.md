@@ -29,6 +29,8 @@ position: 99
 
 - [POSTD](http://postd.cc/)
 - [Ph by codic team](http://blog.codic.jp/)
+- [エンジニアのための英語](http://englishforengineers.tumblr.com/)
+- [sugi.cc](http://sugi.cc/)
 
 ### たのしい
 

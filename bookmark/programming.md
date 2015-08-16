@@ -97,6 +97,11 @@ position: 2
 
 - [ブラウザゲーム時代のチートとセキュリティ](http://wate.jp/wordpress/?p=262)
 
+## Web Architecture
+
+- [2015年Webサーバアーキテクチャ序論 - ゆううきブログ](http://yuuki.hatenablog.com/entry/2015-webserver-architecture)
+- [Webシステムにおけるデータベース接続アーキテクチャ概論 - ゆううきブログ](http://yuuki.hatenablog.com/entry/architecture-of-database-connection)
+
 ## Database
 
 - [開発者はインデックスを知る必要がある](http://use-the-index-luke.com/ja/sql/preface)
@@ -116,6 +121,7 @@ position: 2
 - [再考: GoF デザインパターン](http://qiita.com/irxground/items/d1f9cc447bafa8db2388)
 - [シングルトンについて思うこと](http://beinteractive.jp/shingurutonnitsuitesi-ukoto)
 - [ソフトウェア設計とは何か 〜 設計にはプログラミング経験が必要か否か](http://kuranuki.sonicgarden.jp/2013/01/post-109.html)
+- [Rails - 中規模Web開発のためのMVC分割とレイヤアーキテクチャ - Qiita](http://qiita.com/yuku_t/items/961194a5443b618a4cac)
 
 ## Algorithm
 

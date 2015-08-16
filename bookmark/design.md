@@ -84,6 +84,10 @@ position: 7
 - [Flashアニメーション制作テクニックをまとめてみる](http://news.mynavi.jp/column/kurieita/029/index.html)
 - [「ドキュメントデザイン」で最も重要な50のルールをまとめた「Color CRAYON-TIP Method」 - GIGAZINE](http://gigazine.net/news/20150325-50-rules-document-design/)
 - [よくわかるダメUIUX画像コレクション](http://www.slideshare.net/takayukifukatsu/uiux-48936541)
+- [ウェブサイトのデザイン変更が腹立つ理由 : ギズモード・ジャパン](http://www.gizmodo.jp/2015/07/website_redesign.html)
+    - **9倍効果**
+        - ユーザーは元の製品の美しさや使いやすさを3倍で過大評価する
+        - 一方、メーカー側は新製品の美しさや使いやすさを3倍で過大評価する
 
 ## 素材集 / ライブラリ / サービス
 
