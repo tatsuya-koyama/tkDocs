@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+#novel {
+    background: #f2f1f0;
+}
+
+#left-pane {
+    background-color: #c1502b;
+    border-right: 1px solid #8a2;
+}
+
+#outline-pane {
+    background-color: #f0e9db;
+    border-right: 1px solid #cfd0aa;
+}
+
+/*----- outline list ------------------------------------------------------*/
+#outline-pane ul a:link,
+#outline-pane ul a:visited{ color: #d05a33; text-decoration: none; }
+#outline-pane ul a:hover{ color: #e85e30; text-decoration: underline; }
+
+#left-pane ul a:link,
+#left-pane ul a:visited{ color: #f0e9db; text-decoration: none; }
+#left-pane ul a:hover{ color: #edd795; text-decoration: underline; }
+
+#left-pane li.active-page { background-color: #883419; }
+
+h4.krew-index {
+    font-size: 105%;
+    width : 90%;
+    color : #294a10;
+    margin: 0 0 0.5em 0.3em;
+    border-bottom: 1px dotted #3a5a15;
+    padding-left: 0em;
+}
+
+/*----- general ------------------------------------------------------*/
+a:link    { color: #ef3475; }
+a:visited { color: #ef3475; }
+a:hover   { color: #f90;  position: relative;  top: 1px; }
+
+strong {
+    color: #7c981b;
+}
+
+/*----- heading ------------------------------------------------------*/
+h1 {
+    font-size: 300%;
+    font-weight: normal;
+    color: #883419;
+    margin-bottom: 0.3em;
+}
+
+h2 {
+    font-size: 180%;
+    width: 95%;
+    color: #d05a33;
+    margin: 2.3em 0 1.0em 0;
+    background-color: transparent;
+    border-left: 0;
+    border-bottom: 1px solid #d05a33;
+    font-family: cursive;
+}
+
+h3{
+    width: 90%;
+    max-width: 42em;
+    color: #a23f1e;
+    background-color: transparent;
+    font-size  : 130%;
+    line-height: 150%;
+    font-weight: bold;
+    text-align : left;
+    border-left  : 8px solid #d05a33;
+    border-bottom: 1px solid #d05a33;
+    margin: 2.5em 0 1.3em 0em;
+    padding-left : 0.5em;
+}
+
+h4{
+    width: 70%;
+    max-width: 40em;
+    color: #883419;
+    font-size  : 115%;
+    line-height: 150%;
+    font-weight: bold;
+    text-align : left;
+    border-bottom: 1px solid #8a3;
+    margin: 2.5em 0 1.5em 0em;
+    padding-left : 0.5em;
+}
+
+h5{
+    width: 70%;
+    max-width: 40em;
+    color: #883419;
+    font-size  : 108%;
+    line-height: 150%;
+    font-weight: bold;
+    text-align : left;
+    margin: 1.0em 0 0.5em 0em;
+    padding-left : 0.5em;
+}
+
+/*----- specific ------------------------------------------------------*/
+div.title-image {
+    margin-top: 2.0em;
+    text-align: center;
+}
+div.title-image i {
+    color: #999;
+}
+
+p.created-at {
+    color: #999;
+    font-family: monospace;
+}
+
+
+
+

@@ -16,7 +16,7 @@ div.mini_contents_block{
     float: left;
     width: 100%;
     margin-top   : 0.5em;
-    margin-bottom: 1.5em;
+    margin-bottom: 0.9em;
 }
 
 div.mini_box_contents{
@@ -35,11 +35,11 @@ div.mini_box_contents{
 
     height: auto;
     background-color: #f7f7f7;
-    border: 1px solid #ccc;
+    border: 1px solid #888;
     margin-top: 0;
     margin-bottom: 0;
     min-height: 80px;
-    padding: 1.1em 0.5em 0.7em 0.1em;
+    padding: 1.1em 0.5em 0.3em 0.1em;
 }
 
 div.mini_box_contents img{
@@ -93,6 +93,12 @@ div.mbc_krew {
     background-color: #683;
 }
 a:hover.mbc_krew p{ color: #eb7; }
+
+div.mbc_book {
+    color: #f0e9db;
+    background-color: #e85e30;
+}
+a:hover.mbc_book p{ color: #edd795; }
 
 div.mbc_notes {
     color: #cee;
