@@ -36,6 +36,8 @@ position: 2
 ## eBook
 
 - [Game Programming Patterns - Robert Nystrom](http://gameprogrammingpatterns.com/)
+    - 翻訳記事
+    - [ゲームプログラミング コンポーネントパターン｜Insanity](http://ameblo.jp/longwaylife/entry-11835997010.html)
 
 ## Coding
 
@@ -68,6 +70,19 @@ position: 2
     - コンポーネント間のメッセージングについての言及がある
 - [2015年に備えて知っておきたいリアクティブアーキテクチャの潮流 - Qiita](http://qiita.com/hirokidaichi/items/9c1d862099c2e12f5b0f)
 
+### Entity-Component System / Data-Oriented
+
+- [エンティティ・コンポーネント・システム - Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%B3%E3%83%86%E3%82%A3%E3%83%86%E3%82%A3%E3%83%BB%E3%82%B3%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%8D%E3%83%B3%E3%83%88%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0)
+- [階層構造を進化させる](http://qpp.bitbucket.org/translation/evolve_your_hierarchy/)
+- [Ashフレームワーク説明記事の勝手訳・その1 : ぐりぺん](http://miscellaneous.tokyo/archives/54652159.html)
+- [Avoiding the Blob Antipattern: A Pragmatic Approach to Entity Composition - Tuts+ Game Development Tutorial](http://gamedevelopment.tutsplus.com/tutorials/avoiding-the-blob-antipattern-a-pragmatic-approach-to-entity-composition--gamedev-1113)
+    - [Create a Simple Asteroids Game Using Component-Based Entities - Tuts+ Game Development Tutorial](http://gamedevelopment.tutsplus.com/tutorials/create-a-simple-asteroids-game-using-component-based-entities--gamedev-1324)
+- [データ指向設計 (または何故OOPで自爆してしまうのか) - 雑記帳](https://sites.google.com/site/shunichisnote/translations/data-oriented-design)
+- [Entity/Component Game Design That Works: The Artemis Framework | Piemaster.net](http://piemaster.net/2011/07/entity-component-artemis/)
+- [Games And Entity Systems | Shaun Smith](http://shaun.boyblack.co.za/blog/2012/08/04/games-and-entity-systems/)
+- [ebs - A component-based entity system framework — Python Utilities 0.0.0 documentation](http://python-utilities.readthedocs.org/en/latest/ebs.html)
+- [ゲーム パフォーマンス: データ指向プログラミング - Google Developer Japan Blog](http://googledevjp.blogspot.jp/2015/08/blog-post.html)
+
 ## Paradigm / Convention / Languages
 
 - [RESTfulなWebサイトと拡張子を含むURLについて](http://d.hatena.ne.jp/m-hiyama/20100120/1263953482)
@@ -81,6 +96,7 @@ position: 2
 ## Framework / SDK
 
 - [Electron(旧atom shell)基礎+入門](http://www.slideshare.net/mainya/electronatom-shell)
+- [Flambe](http://getflambe.com/)
 
 ## Programming - Technique
 
@@ -181,6 +197,11 @@ ___
 ### Flash / AS3
 
 - [Quick As A Flash: Optimization Strategies for AS3 and Flash](http://gskinner.com/talks/quick/)
+
+### Haxe / OpenFL
+
+- [Haxe + lime + openFL — kodemint technologies — Medium](https://medium.com/kodemint-technologies/haxe-lime-openfl-ec9c2784aaa8)
+- [Gamasutra: Lars Doucet's Blog - Flash is dead, long live OpenFL!](http://gamasutra.com/blogs/LarsDoucet/20140318/213407/Flash_is_dead_long_live_OpenFL.php)
 
 ### JavaScript
 

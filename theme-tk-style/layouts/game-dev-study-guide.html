@@ -33,11 +33,53 @@
   <div id="left-pane">
     <ul id="toc">
 
+      <h4 class="study-guide-index">導入</h4>
       <ul>
-        {{# game-dev-study-guide.all }}
+        {{#data.study_guide_top?to_game-dev-study-guide}}
           {{> page-list.html }}
-        {{/ game-dev-study-guide.all }}
+        {{/data.study_guide_top?to_game-dev-study-guide}}
       </ul>
+
+      <h4 class="study-guide-index">コード</h4>
+      <ul>
+        {{#data.study_guide_code?to_game-dev-study-guide}}
+          {{> page-list.html }}
+        {{/data.study_guide_code?to_game-dev-study-guide}}
+      </ul>
+
+      <h4 class="study-guide-index">チーム</h4>
+      <ul>
+        {{#data.study_guide_team?to_game-dev-study-guide}}
+          {{> page-list.html }}
+        {{/data.study_guide_team?to_game-dev-study-guide}}
+      </ul>
+
+      <h4 class="study-guide-index">デザイン</h4>
+      <ul>
+        {{#data.study_guide_design?to_game-dev-study-guide}}
+          {{> page-list.html }}
+        {{/data.study_guide_design?to_game-dev-study-guide}}
+      </ul>
+
+      <h4 class="study-guide-index">結び</h4>
+      <ul>
+        {{#data.study_guide_conclusion?to_game-dev-study-guide}}
+          {{> page-list.html }}
+        {{/data.study_guide_conclusion?to_game-dev-study-guide}}
+      </ul>
+
+      <!-- <ul> -->
+      <!--   {{# game-dev-study-guide.all }} -->
+      <!--     {{> page-list.html }} -->
+      <!--   {{/ game-dev-study-guide.all }} -->
+      <!-- </ul> -->
+
+      <!-- <h4 class="krew-index">Overview</h4> -->
+      <!-- <ul> -->
+      <!--   {{#data.krew_index_top?to_krew-framework}} -->
+      <!--     {{> page-list.html }} -->
+      <!--   {{/data.krew_index_top?to_krew-framework}} -->
+      <!-- </ul> -->
 
     </ul>
     <br/><br/>

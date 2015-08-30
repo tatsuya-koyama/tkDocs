@@ -1,13 +1,13 @@
 ---
-title: '04.コーディング'
+title: '05.コーディング'
 date: '2015-08-16'
 description:
 categories: []
 tags: [anything, GameDevStudyGuide]
-position: 4
+position: 5
 ---
 
-# 4. コーディング
+# 5. コーディング
 <p class="created-at">Updated at: 2015-08-16</p>
 
 ## 良いコードとは何か
@@ -56,7 +56,7 @@ void update() {
 そして後者の方が読みやすく、保守性が高いコードだと言うだろう。
 
 2 つのコードは何が違うんだろう？
-少なくとも、要求を満たすように動く以上の良し悪しが、コードの書き方にはあるのだ。
+少なくとも言えるのは、**要求を満たすように動く以上の良し悪しが、コードの書き方にはある** ってことだ。
 
 ## 参考文献
 
@@ -64,7 +64,8 @@ void update() {
 
 <div class="azlink-box"><div class="azlink-image" style="float:left"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4873115655/tkoreshiki-22/ref=nosim/" name="azlinklink" target="_blank"><img src="http://ecx.images-amazon.com/images/I/51MgH8Jmr3L._SL160_.jpg" alt="リーダブルコード ―より良いコードを書くためのシンプルで実践的なテクニック (Theory in practice)" style="border:none" /></a></div><div class="azlink-info" style="float:left;margin-left:15px;line-height:120%"><div class="azlink-name" style="margin-bottom:10px;line-height:120%"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4873115655/tkoreshiki-22/ref=nosim/" name="azlinklink" target="_blank">リーダブルコード ―より良いコードを書くためのシンプルで実践的なテクニック (Theory in practice)</a><div class="azlink-powered-date" style="font-size:7pt;margin-top:5px;font-family:verdana;line-height:120%">posted at 2015.8.17</div></div><div class="azlink-detail">Dustin Boswell,Trevor Foucher,須藤 功平,角 征典<br />オライリージャパン<br /></div><div class="azlink-link" style="margin-top:5px"><a href="http://www.amazon.co.jp/exec/obidos/ASIN/4873115655/tkoreshiki-22/ref=nosim/" target="_blank">Amazon.co.jp で詳細を見る</a></div></div><div class="azlink-footer" style="clear:left"></div></div>
 
-いきなり言ってしまうと、2015 年の現在においては、最初にこれを読んでおけば間違いない。
+最初に言ってしまうと 2015 年の現在においては、まずこれを読んでおけば間違いない。
+「リーダブルコード」は初心者の必読書とも言える良書だ。
 変数名や関数名のつけ方、コメントにどういうことを書くべきか、といった基本的なことから
 スコープを小さくしてシンプルさを保つといったところまで、読みやすい文体で小さくまとめられている。
 
@@ -75,8 +76,7 @@ void update() {
 もうちょっとゲームっぽい具体的なコードを見たいなら、この本の前半を読むといい。
 C++ で説明されているので、C++ でゲームを書く人向けではあるが、
 良いコードの書き方がステップを踏んで簡潔に説明されている。
-
-（後半のオブジェクト指向設計の部分も非常に真っ当な感じでまとまっているのでおすすめ）
+（後半のオブジェクト指向設計の部分も非常に真っ当な感じでまとまっているのでおすすめだ）
 
 ____
 
@@ -143,10 +143,10 @@ return;
 後者のコードで示したような、まず事前条件で弾いてしまう **早期リターン** もよく使われる。
 （**「ガード節」** で検索してみよう）
 
-## グローバル変数を避ける
+## グローバルなものを避ける
 
 スコープが小さいことは良いことだが、その逆の「スコープが大きい」とはどういうことだろう。
-最もスコープが大きいのが、いわゆる **グローバル変数** というやつだ。
+最もスコープが大きいのが、いわゆる **グローバル** というやつだ。
 グローバル変数は悪しき存在として有名だから、使うべきでないことくらい君はわかっていると思う。
 でも世の中には意外と **グローバル変数みたいなもの** が転がっているので、
 うっかりこれを使ってしまわないように注意したい。
@@ -190,12 +190,12 @@ class SomeClass {
 // メンバ変数への直接のアクセスを減らした例
 class SomeClass {
     void method_1() {
-        // 実はメンバ変数として持たなくてもよいかもしれない
-        var someValue = ...;
+        // 実はメンバ変数として持たなくてよいのかもしれない
+        int someValue = ...;
         method_2(someValue);
     }
 
-    void method_2(someValue) {
+    void method_2(int someValue) {
         // 引数で渡された someValue を使う
     }
     ...
@@ -211,10 +211,15 @@ class SomeClass {
 var hoge = GameObject.Find("Hoge");
 ```
 
-どこからでもアクセスできちゃうし、型のあるシステムなのに文字列で指定しちゃってるし、
-というか「検索」しちゃってるので負荷も高くてグローバル変数よりもコストが大きい。
-小規模なプロトタイプを作る時には使ってもよいと思うが、
-中規模以上の開発では使うべきではないものだということを覚えておこう。
+これは以下の理由から、グローバル変数よりもデメリットが大きい：
+
+> - グローバル変数同様、Scene 内のどこからでもアクセスできてしまい依存関係が追いにくい
+> - 文字列で対象を指定しているため、型で安全性を保証できない
+> - 原理としては「検索」を行っているので、処理負荷が大きい
+
+小規模なプロトタイプを作る時には手軽で便利だが、
+中規模以上の開発では使わない方が安定した開発ができる、
+そういうものだということは覚えておこう。
 
 
 

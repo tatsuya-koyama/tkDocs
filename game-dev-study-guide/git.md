@@ -1,13 +1,13 @@
 ---
-title: '07.Git と GitHub'
+title: '09.Git と GitHub'
 date: '2015-08-16'
 description:
 categories: []
 tags: [anything, GameDevStudyGuide]
-position: 7
+position: 9
 ---
 
-# 7. Git と GitHub
+# 9. Git と GitHub
 <p class="created-at">Updated at: 2015-08-16</p>
 
 <div class="apology">

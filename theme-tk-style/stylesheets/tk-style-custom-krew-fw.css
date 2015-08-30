@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 #left-pane {
+    padding-top: 30px;
     background-color: #683;
     border-right: 1px solid #8a2;
 }

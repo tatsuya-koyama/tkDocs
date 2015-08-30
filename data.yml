@@ -46,7 +46,35 @@ krew_index_draft:
   - draft/todo
 
 #---------------------------------------
-# krew-framework index list
+# game-dev-study-guide index list
+#---------------------------------------
+
+study_guide_top:
+  - top
+  - about-author
+  - why-game
+  - basic-things
+
+study_guide_code:
+  - coding
+  - algorithm
+  - software-design
+
+study_guide_team:
+  - collaboration
+  - git
+  - task-management
+
+study_guide_design:
+  - game-design
+  - visual-design
+
+study_guide_conclusion:
+  - other-indexes
+  - conclusion
+
+#---------------------------------------
+# notes index list
 #---------------------------------------
 
 notes_top:

@@ -1,13 +1,13 @@
 ---
-title: '06.チームでの開発'
+title: '08.チームでの開発'
 date: '2015-08-16'
 description:
 categories: []
 tags: [anything, GameDevStudyGuide]
-position: 6
+position: 8
 ---
 
-# 6. チームでの開発
+# 8. チームでの開発
 <p class="created-at">Updated at: 2015-08-16</p>
 
 <div class="apology">
@@ -15,5 +15,8 @@ position: 6
 <p>このページはまだ鋭意執筆中だ！</p>
 </div>
 
+## ToDo
+
+- GitHub によるコードレビューとか
 
 

@@ -69,6 +69,8 @@ ___
         - サイトデザインがおしゃれ
     - [Quick As A Flash: Optimization Strategies for AS3 and Flash](http://gskinner.com/talks/quick/)
         - AS3 / Flash のパフォーマンスのスライド（ちょっと古い）
+    - [Pete Shand | Flash and New Media](http://blog.peteshand.net/)
+        - Haxe とか Starling + Away3D とか
 
 
 

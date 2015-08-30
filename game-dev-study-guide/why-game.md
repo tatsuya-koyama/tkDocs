@@ -1,19 +1,17 @@
 ---
-title: '14.おわりに'
-date: '2015-08-16'
+title: '03.なぜゲームを作るのか'
+date: '2015-08-29'
 description:
 categories: []
 tags: [anything, GameDevStudyGuide]
-position: 14
+position: 3
 ---
 
-# 14. おわりに
-<p class="created-at">Updated at: 2015-08-16</p>
+# 3. なぜゲームを作るのか
 
 <div class="apology">
 <p class="caption">Sorry!</p>
 <p>このページはまだ鋭意執筆中だ！</p>
 </div>
-
 
 

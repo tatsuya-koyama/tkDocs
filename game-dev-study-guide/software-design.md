@@ -1,19 +1,25 @@
 ---
-title: '05.ソフトウェアの設計'
+title: '07.ソフトウェア設計'
 date: '2015-08-16'
 description:
 categories: []
 tags: [anything, GameDevStudyGuide]
-position: 5
+position: 7
 ---
 
-# 5. ソフトウェアの設計
+# 7. ソフトウェア設計
 <p class="created-at">Updated at: 2015-08-16</p>
 
 <div class="apology">
 <p class="caption">Sorry!</p>
 <p>このページはまだ鋭意執筆中だ！</p>
 </div>
+
+## ToDo
+
+- SOLID 原則とか
+- レイヤーを分けて考えるとか
+- 継承よりコンポジションの方がいいよとか
 
 ## 参考文献
 

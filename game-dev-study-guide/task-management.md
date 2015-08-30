@@ -1,13 +1,13 @@
 ---
-title: '08.タスク管理'
+title: '10.タスク管理'
 date: '2015-08-16'
 description:
 categories: []
 tags: [anything, GameDevStudyGuide]
-position: 8
+position: 10
 ---
 
-# 8. タスク管理
+# 10. タスク管理
 <p class="created-at">Updated at: 2015-08-16</p>
 
 <div class="apology">

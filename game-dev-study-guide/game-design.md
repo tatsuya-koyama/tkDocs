@@ -1,13 +1,13 @@
 ---
-title: '09.ゲームデザイン'
+title: '11.ゲームデザイン'
 date: '2015-08-16'
 description:
 categories: []
 tags: [anything, GameDevStudyGuide]
-position: 9
+position: 11
 ---
 
-# 9. ゲームデザイン
+# 11. ゲームデザイン
 <p class="created-at">Updated at: 2015-08-16</p>
 
 <div class="apology">
