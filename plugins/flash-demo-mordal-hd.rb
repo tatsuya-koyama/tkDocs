@@ -3,7 +3,7 @@ require 'yaml'
 
 # Example:
 #
-# {{# flashModal }}
+# {{# flashModalHD }}
 #   id     : flashMordal_globalLayer
 #   caption: Play Demo
 #   title  : Global Layer
@@ -11,7 +11,7 @@ require 'yaml'
 # {{/ flashModal }}
 
 module FlashDemoModal
-  def flashModal(sub_context)
+  def flashModalHD(sub_context)
 
     params = YAML.load(sub_context)
     params['caption'] = params['caption'] || "Play Demo"
@@ -24,7 +24,7 @@ module FlashDemoModal
 </a>
 
 <!-- Modal -->
-<div id="#{params['id']}" class="modal hide fade play-flash" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div id="#{params['id']}" class="modal hide fade play-flash-hd" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
     <h4 class="flash-modal">#{params['title']}</h4>
@@ -32,10 +32,10 @@ module FlashDemoModal
       <li>Required Flash Player 11 or later</li>
     </ul>
   </div>
-  <div class="modal-body play-flash">
+  <div class="modal-body play-flash-hd">
 
     <div align="center">
-      <object width="600" height="400" data="#{params['swf']}">
+      <object width="900" height="600" data="#{params['swf']}">
         <param name="wmode" value="direct"/>
       </object>
     </div>

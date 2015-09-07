@@ -53,6 +53,10 @@ strong {
     color: #7c981b;
 }
 
+blockquote {
+    border: 1px solid #d0d0d0;
+}
+
 /*----- heading ------------------------------------------------------*/
 h1 {
     font-size: 300%;
@@ -95,7 +99,7 @@ h4{
     line-height: 150%;
     font-weight: bold;
     text-align : left;
-    border-bottom: 1px solid #8a3;
+    border-bottom: 1px solid #d05a33;
     margin: 2.5em 0 1.5em 0em;
     padding-left : 0.5em;
 }
@@ -135,8 +139,6 @@ p.created-at {
 }
 
 div.hint, div.key-idea, div.apology {
-    border: 1px solid #73bbe0;
-    background-color: #f0f7fa;
     width: 80%;
     max-width: 50em;
     margin-left: 2em;
@@ -149,10 +151,14 @@ div.hint, div.key-idea, div.apology {
     -webkit-border-radius: 10px; /* Safari, Chrome */
     -moz-border-radius:    10px; /* Firefox */
 }
+div.hint {
+    border: 1px solid #accee0;
+    background-color: #e7f1f6;
+}
 div.hint p.caption {
     margin-bottom: 0.1em;
     margin-left: 0.1em;
-    color: #73bbe0;
+    color: #55a8d2;
     font-weight: bold;
     letter-spacing: 0.1em;
 }
@@ -160,11 +166,11 @@ div.hint p {
     margin-bottom: 0.1em;
     margin-left: 1.5em;
     font-style: italic;
-    color: #7a7a7a;
+    color: #698d9f;
 }
 
 div.key-idea {
-    border: 1px solid #97a75e;
+    border: 1px solid #c3d190;
     background-color: #edeed8;
 }
 div.key-idea p.caption {
@@ -178,7 +184,7 @@ div.key-idea p {
     margin-bottom: 0.1em;
     margin-left: 1.5em;
     font-style: italic;
-    color: #333;
+    color: #4d5f10;
 }
 
 div.apology {

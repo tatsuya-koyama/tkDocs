@@ -82,6 +82,9 @@ position: 2
 - [Games And Entity Systems | Shaun Smith](http://shaun.boyblack.co.za/blog/2012/08/04/games-and-entity-systems/)
 - [ebs - A component-based entity system framework — Python Utilities 0.0.0 documentation](http://python-utilities.readthedocs.org/en/latest/ebs.html)
 - [ゲーム パフォーマンス: データ指向プログラミング - Google Developer Japan Blog](http://googledevjp.blogspot.jp/2015/08/blog-post.html)
+- [Component basedgameenginedesign](http://www.slideshare.net/DADA246/component-basedgameenginedesign-23304862)
+- [Unity: Now You're Thinking With Components - Tuts+ Game Development Article](http://gamedevelopment.tutsplus.com/articles/unity-now-youre-thinking-with-components--gamedev-12492)
+- [Entity Systems in game development | rokatainment](http://www.rokatainment.de/2014/08/16/entity-systems-in-game-development/)
 
 ## Paradigm / Convention / Languages
 

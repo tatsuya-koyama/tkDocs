@@ -15,9 +15,10 @@ position: 1
 - [GAMASUTRA](http://www.gamasutra.com/)
 - [Kotaku](http://kotaku.com/)
 
-## 読み物
+## 読み物 / blog
 
 - [スプラトゥーンとかいうイカしたシューターの再発明の話をしたい - セラミックロケッツ！](http://cr.hatenablog.com/entry/2015/05/31/002059)
+- [I was game](http://iwasgame.tumblr.com/)
 
 ## Wiki / Portal
 

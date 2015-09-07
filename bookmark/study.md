@@ -85,7 +85,6 @@ position: 3
 
 - [IDEA*IDEA - The Inbox Makeoverですっきり](http://www.ideaxidea.com/archives/2005/08/the_inbox_makeover.html])
 - [SMART Goals](http://www.projectsmart.co.uk/smart-goals.html)
-- [僕がダサいと思う12のこと (2011年7月版)](http://www.ikedahayato.com/?p=4376)
 - [口にすると仕事もできなくなり、モテなくなる悪魔の言葉](http://www.lifehacker.jp/2011/08/110816patience.html)
 - [自分の脳だけでは扱いが難しい量／複雑さの資料を取り扱う方法](http://readingmonkey.blog45.fc2.com/blog-entry-540.html)
 - [フロー体験の構成要素](http://jibun.atmarkit.co.jp/llife01/rensai/health15/health02.html)
