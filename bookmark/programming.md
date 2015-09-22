@@ -62,6 +62,7 @@ position: 2
 - [ゲームプログラミングでテストを書かない理由](http://d.hatena.ne.jp/shuichi_h/20100520/1274372291)
 - [Test Driven Development with Perl](http://assets.en.oreilly.com/1/event/12/Practical%20Test-driven%20Development%20Presentation.pdf)
 - [何かのときにすっと出したい、プログラミングに関する法則・原則一覧 - Qiita](http://qiita.com/hirokidaichi/items/d6c473d8011bd9330e63)
+- [Abstracting key and game controller inputs in Adobe AIR – Zeh Fernando](http://zehfernando.com/2013/abstracting-key-and-game-controller-inputs-in-adobe-air/)
 
 ## Architecture / System
 
@@ -85,6 +86,8 @@ position: 2
 - [Component basedgameenginedesign](http://www.slideshare.net/DADA246/component-basedgameenginedesign-23304862)
 - [Unity: Now You're Thinking With Components - Tuts+ Game Development Article](http://gamedevelopment.tutsplus.com/articles/unity-now-youre-thinking-with-components--gamedev-12492)
 - [Entity Systems in game development | rokatainment](http://www.rokatainment.de/2014/08/16/entity-systems-in-game-development/)
+- [Overview of Entity Component System (ECS) variations with pseudo-code](https://gist.github.com/LearnCocos2D/77f0ced228292676689f)
+- [Entity Component System framework, redux | IceFall Games](https://mtnphil.wordpress.com/2013/03/23/entity-component-system-framework-redux/)
 
 ## Paradigm / Convention / Languages
 
@@ -124,6 +127,7 @@ position: 2
 ## Database
 
 - [開発者はインデックスを知る必要がある](http://use-the-index-luke.com/ja/sql/preface)
+- [リレーショナルデータベースの仕組み (1/3) | コンピュータサイエンス | POSTD](http://postd.cc/how-does-a-rdb-work-1/)
 
 ## Design Pattern / 設計思想
 
@@ -146,6 +150,8 @@ position: 2
 
 - [データマイニングで使われるトップ10アルゴリズム](http://d.hatena.ne.jp/isseing333/20111123/1322053940)
 - [衝突判定](http://marupeke296.com/COL_main.html)
+- [Chromeのなかのコンピュータ・サイエンス - Google Slides](https://docs.google.com/presentation/d/1mAq5t8cxyyZyNC2MG3zJeQUaIrVAzYU3ZBuSOH1_RHc/preview?slide=id.g437b0e633_00)
+    - GC の話
 
 ## 圧縮
 

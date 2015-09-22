@@ -130,6 +130,8 @@ Updated at: 2015-09-06
 - [ゲーム パフォーマンス: データ指向プログラミング - Google Developer Japan Blog](http://googledevjp.blogspot.jp/2015/08/blog-post.html)
 - [Component basedgameenginedesign](http://www.slideshare.net/DADA246/component-basedgameenginedesign-23304862)
 - [Entity Systems in game development | rokatainment](http://www.rokatainment.de/2014/08/16/entity-systems-in-game-development/)
+- [Overview of Entity Component System (ECS) variations with pseudo-code](https://gist.github.com/LearnCocos2D/77f0ced228292676689f)
+- [Entity Component System framework, redux | IceFall Games](https://mtnphil.wordpress.com/2013/03/23/entity-component-system-framework-redux/)
 
 ## 僕の方針
 
