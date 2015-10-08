@@ -14,10 +14,11 @@ position: 7
 - [roxik](http://roxik.com/)
 - [rain town（制作過程まとめ）](http://d.hatena.ne.jp/Tete/20110310)
 
-## 読み物 / ポータル系
+## 読み物 / ポータル系 / Blog
 
 - [TOKYO ART BEAT](http://www.tokyoartbeat.com/)
 - [デザインの骨格](http://lleedd.com/blog/)
+- [ÉKRITS / エクリ | design / experience / architecture](http://ekrits.jp/)
 
 ## Creative / Artwork
 
@@ -90,6 +91,14 @@ position: 7
         - 一方、メーカー側は新製品の美しさや使いやすさを3倍で過大評価する
 - [よくわかる、なぜ「五輪とリエージュのロゴは似てない」と考えるデザイナーが多いのか？(深津貴之) - 個人 - Yahoo!ニュース](http://bylines.news.yahoo.co.jp/takayukifukatsu/20150907-00049112/)
 - [全デザイナー要注目！美しいデザインの構図を決める10個の黄金ルールまとめ - PhotoshopVIP](http://photoshopvip.net/archives/81431)
+
+## Drawing
+
+- [ポーズビューワ | デッサンポーズ](http://www.dessinpose.com/poseviewer/)
+- [Twitterで話題のイラスト講座がすごい！！ - NAVER まとめ](http://matome.naver.jp/odai/2143788798768749301)
+- [NEIGHBORSTUDIOS's DeviantArt Gallery](http://neighborstudios.deviantart.com/gallery/)
+    - 表情やアニメっぽい動き
+- [• concept art Character Design official You Yoshinari studio trigger Sushio kill la kill...](http://rebloggy.com/post/concept-art-character-design-official-you-yoshinari-studio-trigger-sushio-kill-l/108027216425)
 
 ## 素材集 / ライブラリ / サービス
 
