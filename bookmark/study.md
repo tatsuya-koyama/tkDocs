@@ -41,6 +41,7 @@ position: 3
 - [現実を直視しながら理想を持ち続けることの難しさ、人生の「賞味期限」 | メタップス社長のブログ](http://katsuaki.co/?p=744)
 - [なぜあなたはジョブズの名言を読んでも成功しないのか？ | ログミー](http://logmi.jp/37561)
 - [人脈作りなんてやめちまえ！ ビジネスの基本は「人助け」だ ｜ ライフハッカー［日本版］](http://www.lifehacker.jp/2015/05/150506stopnetworking.html)
+- [DeNA南場智子氏が語った「経営会議より、UI/UXが大事」なぜ今デザインなのか？ - リクナビNEXTジャーナル](http://next.rikunabi.com/journal/entry/20151130_1?vos=drnnrag00002)
 
 ## Web Service
 
@@ -55,6 +56,10 @@ position: 3
 - [【脚本術】会話とセリフの書き方 - Togetterまとめ](http://togetter.com/li/804384)
 - [誰にでも物語を作れる方法をアドバイスする番組がもの凄く良かったのでメモ!! - 強火で進め](http://d.hatena.ne.jp/nakamura001/20150429/1430327314)
 
+## 発想法
+
+- [アイデア大全ー52の発想法／思いつくことに行き詰まった時に開く備忘録 読書猿Classic: between / beyond readers](http://readingmonkey.blog45.fc2.com/blog-entry-765.html)
+
 ## Game
 
 - [Why Games Are the Killer App for Social Networks](http://mashable.com/2010/08/11/social-gaming-business/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Mashable+%28Mashable%29&utm_content=Google+Reader)
@@ -66,7 +71,7 @@ position: 3
 - [「良い企画」の条件　または「良い斬新」とはなにか](http://d.hatena.ne.jp/shi3z/20111112/1321057463)
 - [ソーシャルゲームと従来型ゲームは何が違うのか](http://d.hatena.ne.jp/GiGir/20120118/1326854977)
 
-## Development / Programming / Management
+## Development / Programming / Management / Working
 
 - [エンジニアのためのUX入門](http://www.slideshare.net/ckazu/ux-10671865)
 - [（ソフトウェア開発）５つの世界](http://japanese.joelonsoftware.com/Articles/FiveWorlds.html)
@@ -80,6 +85,7 @@ position: 3
 - [技術的負債という(非エンジニアにとっての)隠しパラメータが生産性100倍を起こす](http://mizchi.hatenablog.com/entry/2014/02/19/210801)
 - [開発組織のマネジメント // Speaker Deck](https://speakerdeck.com/naoya/kai-fa-zu-zhi-falsemanezimento)
 - [7年働いた時点での私の仕事の極意 - Kengo's blog](http://blog.kengo-toda.jp/entry/2015/03/22/215005)
+- [トランザクティブ・メモリー | transactive-memory.md](https://gist.github.com/naoya/f457b874a39b98bb0292)
 
 ## Study / Practice / LifeStyle / 人間心理
 

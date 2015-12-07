@@ -28,9 +28,7 @@ position: 99
 ### プログラマ系
 
 - [POSTD](http://postd.cc/)
-- [Ph by codic team](http://blog.codic.jp/)
 - [エンジニアのための英語](http://englishforengineers.tumblr.com/)
-- [sugi.cc](http://sugi.cc/)
 
 ### たのしい
 
@@ -50,5 +48,11 @@ position: 99
 - [iKnow!](http://iknow.jp/home)
 - [Hack Design](https://hackdesign.org/lessons)
 - [Skillshare](http://www.skillshare.com/)
+
+## たまにみる
+
+- [Ph by codic team](http://blog.codic.jp/)
+- [sugi.cc](http://sugi.cc/)
+- [WirelessWire News（ワイヤレスワイヤーニュース）- The Technology and Ecosystem of the IoT](https://wirelesswire.jp/)
 
 

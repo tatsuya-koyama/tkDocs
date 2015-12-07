@@ -88,6 +88,7 @@ position: 2
 - [Entity Systems in game development | rokatainment](http://www.rokatainment.de/2014/08/16/entity-systems-in-game-development/)
 - [Overview of Entity Component System (ECS) variations with pseudo-code](https://gist.github.com/LearnCocos2D/77f0ced228292676689f)
 - [Entity Component System framework, redux | IceFall Games](https://mtnphil.wordpress.com/2013/03/23/entity-component-system-framework-redux/)
+- [より良いプログラムを書くための究極の奇策 – 「Data first, not code first」 | プログラミング | POSTD](http://postd.cc/one-weird-trick-to-write-better-code/)
 
 ## Paradigm / Convention / Languages
 
@@ -98,11 +99,21 @@ position: 2
 - [【翻訳】ReactをjQueryの数行に要約する | POSTD](http://postd.cc/boiling-react-down-to-a-few-lines-in-jquery/)
 - [elab » Webフロントエンドでリアクティブプログラミング](http://www.ediplex.com/blog/?p=830)
 - [Less is more：プログラミング言語設計の進歩史 | POSTD](http://postd.cc/less-is-more/)
+- [「なぜ関数プログラミングは重要か」を要約してみた（その１） - Okapies' Archive](http://okapies.hateblo.jp/entry/2015/12/07/022915)
 
 ## Framework / SDK
 
 - [Electron(旧atom shell)基礎+入門](http://www.slideshare.net/mainya/electronatom-shell)
 - [Flambe](http://getflambe.com/)
+
+### Newral Network
+
+- [Chainer: A flexible framework of neural networks](http://chainer.org/)
+
+## Library
+
+- [mo · js - Motion Graphics For The Web](http://mojs.io/)
+- [GreenSock | TweenMax](http://greensock.com/tweenmax)
 
 ## Programming - Technique
 
@@ -119,10 +130,11 @@ position: 2
 
 - [ブラウザゲーム時代のチートとセキュリティ](http://wate.jp/wordpress/?p=262)
 
-## Web Architecture
+## Web Architecture / Web App
 
 - [2015年Webサーバアーキテクチャ序論 - ゆううきブログ](http://yuuki.hatenablog.com/entry/2015-webserver-architecture)
 - [Webシステムにおけるデータベース接続アーキテクチャ概論 - ゆううきブログ](http://yuuki.hatenablog.com/entry/architecture-of-database-connection)
+- [Web開発の未来 – React、FalcorおよびES6 | プログラミング | POSTD](http://postd.cc/future-of-the-web-react-falcor/)
 
 ## Database
 
@@ -145,6 +157,7 @@ position: 2
 - [シングルトンについて思うこと](http://beinteractive.jp/shingurutonnitsuitesi-ukoto)
 - [ソフトウェア設計とは何か 〜 設計にはプログラミング経験が必要か否か](http://kuranuki.sonicgarden.jp/2013/01/post-109.html)
 - [Rails - 中規模Web開発のためのMVC分割とレイヤアーキテクチャ - Qiita](http://qiita.com/yuku_t/items/961194a5443b618a4cac)
+- [デザインパターン紹介 (GoF 以外)](http://www.hyuki.com/dp/dpinfo.html)
 
 ## Algorithm
 
@@ -192,6 +205,9 @@ ___
 - A successful Git branching model
     - [原文](http://nvie.com/posts/a-successful-git-branching-model/)
     - [日本語訳](http://keijinsonyaban.blogspot.com/2010/10/successful-git-branching-model.html)
+
+## Command line
+- [Bash: 標準出力・標準エラー出力の全て（1>&2とか）まとめ | Coffee Breakにプログラミング備忘録](http://to-developer.com/blog/?p=1001)
 
 ## Documentation
 

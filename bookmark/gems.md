@@ -77,6 +77,10 @@ position: 6
 - [言語女子会: undefとnullは両方必要？](http://d.hatena.ne.jp/nishiohirokazu/20120316/1331906887)
 - [プログラマのジョーク](http://cpplover.blogspot.jp/2014/01/blog-post_13.html)
 
+## Goods
+
+- [code:deck - playing cards for developers](http://varianto25.com/product/code-deck)
+
 
 <br/><br/><br/>
 

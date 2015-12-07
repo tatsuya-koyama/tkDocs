@@ -19,6 +19,7 @@ position: 7
 - [TOKYO ART BEAT](http://www.tokyoartbeat.com/)
 - [デザインの骨格](http://lleedd.com/blog/)
 - [ÉKRITS / エクリ | design / experience / architecture](http://ekrits.jp/)
+- [デザイナーのイラストノート](http://in.spicagraph.com/)
 
 ## Creative / Artwork
 
@@ -91,6 +92,7 @@ position: 7
         - 一方、メーカー側は新製品の美しさや使いやすさを3倍で過大評価する
 - [よくわかる、なぜ「五輪とリエージュのロゴは似てない」と考えるデザイナーが多いのか？(深津貴之) - 個人 - Yahoo!ニュース](http://bylines.news.yahoo.co.jp/takayukifukatsu/20150907-00049112/)
 - [全デザイナー要注目！美しいデザインの構図を決める10個の黄金ルールまとめ - PhotoshopVIP](http://photoshopvip.net/archives/81431)
+- [全エンジニア・全デザイナー必見！UI/UXを入門からマスターできるスライド資料25選](http://iphone-kamisama.com/uiux-nyuumon)
 
 ## Drawing
 
@@ -99,6 +101,7 @@ position: 7
 - [NEIGHBORSTUDIOS's DeviantArt Gallery](http://neighborstudios.deviantart.com/gallery/)
     - 表情やアニメっぽい動き
 - [• concept art Character Design official You Yoshinari studio trigger Sushio kill la kill...](http://rebloggy.com/post/concept-art-character-design-official-you-yoshinari-studio-trigger-sushio-kill-l/108027216425)
+- [portfolio | gomnaga.org](http://gomnaga.org/portfolio/)
 
 ## 素材集 / ライブラリ / サービス
 
