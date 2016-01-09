@@ -35,6 +35,16 @@ position: 8
 - [ゲーム翻訳者のブログ](http://wearebottoms.blog53.fc2.com/)
 - [提言: コミットメッセージの一行目には要求仕様を書け](http://qiita.com/magicant/items/882b5142c4d5064933bc)
 - [エンジニアのための英語 - Tumblr](http://englishforengineers.tumblr.com/)
+- [エンジニアが0から英語を勉強する為にした事 - ギークに憧れて](http://hotchemi.hateblo.jp/entry/2015/12/31/091301)
+
+## 雑多
+
+- [海外で撮影！現地スタッフと意思疎通するための映画監督英語](http://www.berlitz-blog.com/filming)
+    - 映像系の英語はゲームプログラミングと相性よさそうな
+
+## 例文 / 単語集
+
+- [Common words translation for games](https://docs.google.com/a/dena.jp/spreadsheet/ccc?key=0Al1cNCkGdEJfdF8xX0dsaHl6ZVpzMDF2OW9JaWVWMVE#gid=0)
 
 ## その他
 

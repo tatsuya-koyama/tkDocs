@@ -32,6 +32,7 @@ position: 2
 - [プログラマーは文系の仕事か、理系の仕事か - 愛と勇気と缶ビール](http://zentoo.hatenablog.com/entry/2014/06/07/031513)
 - [Yakst - プログラミング初心者に言ってはいけないこと](http://yakst.com/ja/posts/1373)
 - [プログラマ能力指標表 | コンピュータサイエンス | POSTD](http://postd.cc/programmer-competency-matrix/)
+- [Webサービス - プログラマ向けニュースキュレーションサービスを作ってみた話 - Qiita](http://qiita.com/ytanaka/items/a0144b623a8dd7fcdbbe)
 
 ## eBook
 
@@ -52,6 +53,7 @@ position: 2
 - [コードのネストを深くするな | anopara](http://anopara.matrix.jp/2014/06/27/do-not-write-deep-nested-code/)
 - [メソッド名をシンプルにするために、知っておくと便利な英語のprefixとsuffix - Ph by codic team](http://blog.codic.jp/2014/12/22/shoud-know-prefix-suffix-for-naming/)
 - [Code Review Best Practices](http://kevinlondon.com/2015/05/05/code-review-best-practices.html)
+- [良いコードとは](http://www.slideshare.net/nbykmatsui/ss-55961899)
 
 ## Development / Practice
 
@@ -125,6 +127,8 @@ position: 2
 ## Network
 
 - [ネットワークの状況を確認するコマンド色々 ｜ Developers.IO](http://dev.classmethod.jp/etc/network-check-tools/)
+- [TCPを（少しは）理解しておくべきその理由 | コンピュータサイエンス | POSTD](http://postd.cc/why-you-should-understand-a-little-about-tcp/)
+    - 遅延ACKの話
 
 ## Security
 
@@ -136,10 +140,18 @@ position: 2
 - [Webシステムにおけるデータベース接続アーキテクチャ概論 - ゆううきブログ](http://yuuki.hatenablog.com/entry/architecture-of-database-connection)
 - [Web開発の未来 – React、FalcorおよびES6 | プログラミング | POSTD](http://postd.cc/future-of-the-web-react-falcor/)
 
+## リアルタイム通信
+
+- [年の瀬リアルタイム通信サーバ勉強会](http://www.slideshare.net/yhonjo/ss-56043422)
+
 ## Database
 
 - [開発者はインデックスを知る必要がある](http://use-the-index-luke.com/ja/sql/preface)
 - [リレーショナルデータベースの仕組み (1/3) | コンピュータサイエンス | POSTD](http://postd.cc/how-does-a-rdb-work-1/)
+
+## 情報科学
+
+- [情報科学における18のメタテクニック](http://www.slideshare.net/nakano_lab/cs-metatechniques)
 
 ## Design Pattern / 設計思想
 
@@ -220,6 +232,8 @@ ___
 - [Objective-C 最速基礎文法マスター](http://d.hatena.ne.jp/fn7/20100203/1265207098)
 
 ### Flash / AS3
+
+Adobe AIR 関連メモは[これ](/dev-log/adobe-air-dev-note)
 
 - [Quick As A Flash: Optimization Strategies for AS3 and Flash](http://gskinner.com/talks/quick/)
 

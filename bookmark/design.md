@@ -81,7 +81,6 @@ position: 7
 - [UI/UXデザインガイドラインまとめ](http://blog.livedoor.jp/lalha/archives/50443077.html)
 - [写真が語るUXとUIの違い](http://d.hatena.ne.jp/takoratta/20120503/1336015326)
 - [エンジニアが一からUX/UIデザインを学ぶのに役立つ記事まとめ11個](http://it-ch.net/t/49)
-- [ノンデザイナーのための配色理論](http://www.slideshare.net/saucerjp/ss-14902681)
 - [ニコニコ超デザイン-Metro考察編-](http://www.slideshare.net/VoQn/metro-12797234)
 - [Flashアニメーション制作テクニックをまとめてみる](http://news.mynavi.jp/column/kurieita/029/index.html)
 - [「ドキュメントデザイン」で最も重要な50のルールをまとめた「Color CRAYON-TIP Method」 - GIGAZINE](http://gigazine.net/news/20150325-50-rules-document-design/)
@@ -93,6 +92,12 @@ position: 7
 - [よくわかる、なぜ「五輪とリエージュのロゴは似てない」と考えるデザイナーが多いのか？(深津貴之) - 個人 - Yahoo!ニュース](http://bylines.news.yahoo.co.jp/takayukifukatsu/20150907-00049112/)
 - [全デザイナー要注目！美しいデザインの構図を決める10個の黄金ルールまとめ - PhotoshopVIP](http://photoshopvip.net/archives/81431)
 - [全エンジニア・全デザイナー必見！UI/UXを入門からマスターできるスライド資料25選](http://iphone-kamisama.com/uiux-nyuumon)
+- [闇雲にディズニー映画みたいなアニメーションを GUI に実装するのはもうやめよう - Qiita](http://qiita.com/usagimaru/items/aac9b33433686c00dcf8)
+
+## Color
+
+- [ノンデザイナーのための配色理論](http://www.slideshare.net/saucerjp/ss-14902681)
+- [色彩心理学：マーケティング担当者のための完全ガイド | デザイン | POSTD](http://postd.cc/color-psychology/)
 
 ## Drawing
 
