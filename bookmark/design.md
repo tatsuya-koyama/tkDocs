@@ -98,6 +98,7 @@ position: 7
 
 - [ノンデザイナーのための配色理論](http://www.slideshare.net/saucerjp/ss-14902681)
 - [色彩心理学：マーケティング担当者のための完全ガイド | デザイン | POSTD](http://postd.cc/color-psychology/)
+- [Web制作で配色に迷わない！美しすぎるカラーパレット50個まとめ - PhotoshopVIP](http://photoshopvip.net/archives/86191)
 
 ## Drawing
 
@@ -107,6 +108,7 @@ position: 7
     - 表情やアニメっぽい動き
 - [• concept art Character Design official You Yoshinari studio trigger Sushio kill la kill...](http://rebloggy.com/post/concept-art-character-design-official-you-yoshinari-studio-trigger-sushio-kill-l/108027216425)
 - [portfolio | gomnaga.org](http://gomnaga.org/portfolio/)
+- [お絵かき講座 カテゴリーの記事一覧 - 洞田創研究室](http://todahajime.hatenablog.com/archive/category/%E3%81%8A%E7%B5%B5%E3%81%8B%E3%81%8D%E8%AC%9B%E5%BA%A7)
 
 ## 素材集 / ライブラリ / サービス
 

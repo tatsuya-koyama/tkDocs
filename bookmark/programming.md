@@ -72,6 +72,7 @@ position: 2
 - [【翻訳】2015年に向けたJavaScriptアプリケーションアーキテクチャ PART 1 | POSTD](http://postd.cc/javascript-application-architecture-on-the-road-to-2015/)
     - コンポーネント間のメッセージングについての言及がある
 - [2015年に備えて知っておきたいリアクティブアーキテクチャの潮流 - Qiita](http://qiita.com/hirokidaichi/items/9c1d862099c2e12f5b0f)
+- [これからの Microservices](http://www.slideshare.net/zigorou/microservices-57643957)
 
 ### Entity-Component System / Data-Oriented
 
@@ -116,6 +117,7 @@ position: 2
 
 - [mo · js - Motion Graphics For The Web](http://mojs.io/)
 - [GreenSock | TweenMax](http://greensock.com/tweenmax)
+- [voxel.css](http://www.voxelcss.com/)
 
 ## Programming - Technique
 
