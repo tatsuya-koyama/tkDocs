@@ -78,13 +78,11 @@ position: 2
 
 - [エンティティ・コンポーネント・システム - Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%B3%E3%83%86%E3%82%A3%E3%83%86%E3%82%A3%E3%83%BB%E3%82%B3%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%8D%E3%83%B3%E3%83%88%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0)
 - [階層構造を進化させる](http://qpp.bitbucket.org/translation/evolve_your_hierarchy/)
-- [Ashフレームワーク説明記事の勝手訳・その1 : ぐりぺん](http://miscellaneous.tokyo/archives/54652159.html)
+    - [Cowboy Programming » Evolve Your Hierarchy](http://cowboyprogramming.com/2007/01/05/evolve-your-heirachy/)
 - [Avoiding the Blob Antipattern: A Pragmatic Approach to Entity Composition - Tuts+ Game Development Tutorial](http://gamedevelopment.tutsplus.com/tutorials/avoiding-the-blob-antipattern-a-pragmatic-approach-to-entity-composition--gamedev-1113)
     - [Create a Simple Asteroids Game Using Component-Based Entities - Tuts+ Game Development Tutorial](http://gamedevelopment.tutsplus.com/tutorials/create-a-simple-asteroids-game-using-component-based-entities--gamedev-1324)
 - [データ指向設計 (または何故OOPで自爆してしまうのか) - 雑記帳](https://sites.google.com/site/shunichisnote/translations/data-oriented-design)
-- [Entity/Component Game Design That Works: The Artemis Framework | Piemaster.net](http://piemaster.net/2011/07/entity-component-artemis/)
 - [Games And Entity Systems | Shaun Smith](http://shaun.boyblack.co.za/blog/2012/08/04/games-and-entity-systems/)
-- [ebs - A component-based entity system framework — Python Utilities 0.0.0 documentation](http://python-utilities.readthedocs.org/en/latest/ebs.html)
 - [ゲーム パフォーマンス: データ指向プログラミング - Google Developer Japan Blog](http://googledevjp.blogspot.jp/2015/08/blog-post.html)
 - [Component basedgameenginedesign](http://www.slideshare.net/DADA246/component-basedgameenginedesign-23304862)
 - [Unity: Now You're Thinking With Components - Tuts+ Game Development Article](http://gamedevelopment.tutsplus.com/articles/unity-now-youre-thinking-with-components--gamedev-12492)
@@ -92,6 +90,17 @@ position: 2
 - [Overview of Entity Component System (ECS) variations with pseudo-code](https://gist.github.com/LearnCocos2D/77f0ced228292676689f)
 - [Entity Component System framework, redux | IceFall Games](https://mtnphil.wordpress.com/2013/03/23/entity-component-system-framework-redux/)
 - [より良いプログラムを書くための究極の奇策 – 「Data first, not code first」 | プログラミング | POSTD](http://postd.cc/one-weird-trick-to-write-better-code/)
+- [Gamasutra: Megan Fox's Blog - Game Engines 101: The Entity/Component Model](http://www.gamasutra.com/blogs/MeganFox/20101208/88590/Game_Engines_101_The_EntityComponent_Model.php)
+- [What is the role of "systems" in a component-based entity architecture? - Game Development Stack Exchange](http://gamedev.stackexchange.com/questions/31473/what-is-the-role-of-systems-in-a-component-based-entity-architecture/31491#31491)
+
+### ECS なフレームワーク関連
+
+- [Ashフレームワーク説明記事の勝手訳・その1 : ぐりぺん](http://miscellaneous.tokyo/archives/54652159.html)
+- [Entity/Component Game Design That Works: The Artemis Framework | Piemaster.net](http://piemaster.net/2011/07/entity-component-artemis/)
+- [Introduction to Entity Systems · junkdog/artemis-odb Wiki](https://github.com/junkdog/artemis-odb/wiki/Introduction-to-Entity-Systems)
+- [ebs - A component-based entity system framework — Python Utilities 0.0.0 documentation](http://python-utilities.readthedocs.org/en/latest/ebs.html)
+- [Entities and Components | Goo Learn](http://goocreate.com/learn/entities-and-components/)
+    - [Goo Engine Architecture Overview | Learn](http://goolabs.wpengine.com/learn/goo-engine-architecture-overview/)
 
 ## Paradigm / Convention / Languages
 

@@ -120,6 +120,7 @@ Updated at: 2015-09-06
 
 - [エンティティ・コンポーネント・システム - Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%B3%E3%83%86%E3%82%A3%E3%83%86%E3%82%A3%E3%83%BB%E3%82%B3%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%8D%E3%83%B3%E3%83%88%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0)
 - [階層構造を進化させる](http://qpp.bitbucket.org/translation/evolve_your_hierarchy/)
+    - [Cowboy Programming » Evolve Your Hierarchy](http://cowboyprogramming.com/2007/01/05/evolve-your-heirachy/)
 - [What is an entity system framework for game development? | Richard Lord](http://www.richardlord.net/blog/what-is-an-entity-framework)
 - [Why use an entity system framework for game development? | Richard Lord](http://www.richardlord.net/blog/why-use-an-entity-framework)
 - [Avoiding the Blob Antipattern: A Pragmatic Approach to Entity Composition - Tuts+ Game Development Tutorial](http://gamedevelopment.tutsplus.com/tutorials/avoiding-the-blob-antipattern-a-pragmatic-approach-to-entity-composition--gamedev-1113)
