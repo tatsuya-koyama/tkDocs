@@ -34,24 +34,28 @@
       <div class="grid1"><div class="grid_inner"></div></div>
       <div class="grid11"><div class="grid_inner">
 
-          <!-- Tweet Button -->
-          <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          <div class="ws2"></div>
+          <ul class="social-btns">
+            <!-- Tweet Button -->
+            <li>
+              <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+              <div class="ws2"></div>
+            </li>
 
-          <!-- Hatebu Button -->
-          <a href="http://b.hatena.ne.jp/entry/http://docs.tatsuya-koyama.com{{ page.url }}"
-             class="hatena-bookmark-button" data-hatena-bookmark-title="{{ page.title }}"
-             data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加">
-            <img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" />
-          </a>
-          <script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
-          <div class="ws4"></div>
-          <br/>
+            <!-- Hatebu Button -->
+            <li style="width: 84px;">
+              <a href="http://b.hatena.ne.jp/entry/http://docs.tatsuya-koyama.com{{ page.url }}"
+                 class="hatena-bookmark-button" data-hatena-bookmark-title="{{ page.title }}"
+                 data-hatena-bookmark-layout="standard" title="このエントリーをはてなブックマークに追加">
+                <img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" />
+              </a>
+              <script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+            </li>
+          </ul>
 
           <!-- Facebook Like button -->
           <div class="fb-like" data-href="http://docs.tatsuya-koyama.com{{ page.url }}"
-               data-send="true" data-width="450" data-show-faces="true"
+               data-send="true" data-width="240" data-show-faces="true"
                data-colorscheme="dark" data-font="verdana">
           </div><br/>
 
@@ -60,17 +64,17 @@
 
     <div class="copyright">Copyright © 2016 Tatsuya Koyama. All rights reserved.</div><br/>
 
-    <!-- <\!-- for Facebook comment box widget -\-> -->
-    <!-- <div id="fb-root"></div> -->
-    <!-- <script>(function(d, s, id) { -->
-    <!--   var js, fjs = d.getElementsByTagName(s)[0]; -->
-    <!--   if (d.getElementById(id)) return; -->
-    <!--   js = d.createElement(s); js.id = id; -->
-    <!--   js.src = "//connect.facebook.net/en_US/all.js#xfbml=1"; -->
-    <!--   fjs.parentNode.insertBefore(js, fjs); -->
-    <!--   }(document, 'script', 'facebook-jssdk'));</script> -->
-    <!-- <div id="contents_outer"><div id="contents_inner"> -->
-    <!--  -->
+    <!-- for Facebook comment box widget -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+
     <!-- <\!-- Facebook comment box widget -\-> -->
     <!-- <div class="grid_container clearfix" style="display: block;"> -->
     <!--   <div class="grid_start"></div> -->

@@ -207,6 +207,7 @@ div.footer{
 }
 
 div.copyright {
+    margin-top: 1.0em;
     margin-left: 0.5em;
 }
 
@@ -218,6 +219,13 @@ h4.footer_caption{
     margin: 0.5em 0 0.5em 0;
     background-color: transparent;
     padding: 0;
+}
+
+ul.social-btns {
+    margin: 0;
+}
+ul.social-btns li {
+    display: inline-block;
 }
 
 /*----- outline list ------------------------------------------------------*/
