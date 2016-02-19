@@ -130,13 +130,13 @@ h3{
     width: 90%;
     max-width: 42em;
     color: #494949;
-    background-color: #f7f7f7;
+    background-color: #f5f5f5;
     font-size  : 130%;
     line-height: 150%;
     font-weight: bold;
     text-align : left;
-    border-left  : 8px solid #8a3;
-    border-bottom: 1px solid #8a3;
+    border-left  : 8px solid #a0afa0;
+    border-bottom: 1px solid #a0afa0;
     margin: 2.5em 0 1.3em 0em;
     padding-left : 0.5em;
 }
