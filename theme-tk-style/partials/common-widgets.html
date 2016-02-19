@@ -14,6 +14,7 @@
   {{# javascripts.load }}
     https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js
     table-of-contents.js
+    open-current-accordion.js
     jquery.easing.1.3.js
     bootstrap.min.js
   {{/ javascripts.load }}
@@ -25,7 +26,11 @@
       });
 
       TocNew.init('#toc-container', '#novel');
-    })
+    });
+  </script>
+
+  <script>
+    AccordionOpener.openCurrent();
   </script>
 
 

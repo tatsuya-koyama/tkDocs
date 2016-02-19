@@ -26,6 +26,16 @@ position: 7
     $ date -r 1410416640
     2014年 9月11日 木曜日 15時24分00秒 JST
 
+## SSH の公開鍵の fingerprint 確認
+
+    $ ssh-keygen -l -E md5 -f ~/.ssh/id_rsa.pub
+
+- [SSH-KEYGEN (1)](http://euske.github.io/openssh-jman/ssh-keygen.html)
+    - l オプションで表示、f オプションでファイル指定
+    - 最近の表示形式は SHA256/base64 らしいので
+      MD5/hex で見たい場合は -E オプションでフォーマット指定
+
+
 ## 画像変換
 
 - Mac だと `sips` ってコマンドがあるらしい

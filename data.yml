@@ -77,31 +77,27 @@ study_guide_conclusion:
 # notes index list
 #---------------------------------------
 
-notes_top:
-  - about
-
-notes_engineering:
-  - software-engineering
-  - algorithm
-  - data-structure
-  - git
-  - command-line
-
-notes_teamplay:
-  - project-management
-
-notes_game:
-  - game-design
-  - design
-  - writing
-
-notes_phychology:
-  - phycology/see
-  - phycology/think
-  - phycology/motivation
-  - phycology/feeling
-  - phycology/error
-
-notes_misc:
-  - misc-tips
+notes:
+  top:
+    - about
+  engineering:
+    - software-engineering
+    - algorithm
+    - data-structure
+    - git
+    - command-line
+  teamplay:
+    - project-management
+  game:
+    - game-design
+    - design
+    - writing
+  phycology:
+    - phycology/see
+    - phycology/think
+    - phycology/motivation
+    - phycology/feeling
+    - phycology/error
+  misc:
+    - misc-tips
 

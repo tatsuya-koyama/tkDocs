@@ -532,5 +532,18 @@ ul.flash-modal {
     color: #888;
 }
 
-
+/*----- accordion menu ------------------------------------------*/
+div.accordion-group {
+    border: none;
+}
+div.accordion-heading {
+    font-size: 0.9em;
+    margin-right: 0.5em;
+}
+div.accordion-heading .accordion-toggle {
+    padding: 0.3em 0.8em;
+}
+div.accordion-inner {
+    border: none;
+}
 

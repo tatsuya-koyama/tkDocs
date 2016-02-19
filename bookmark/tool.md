@@ -27,6 +27,10 @@ position: 5
 
 - [HTML5 Apps on the Desktop in 2013 | Clint Berry](http://clintberry.com/2013/html5-apps-desktop-2013/)
 
+## Static Site Generator
+
+- [Top Open-Source Static Site Generators - StaticGen](https://www.staticgen.com/)
+
 ## Web Service
 
 - [GLSL Sandbox](http://glsl.heroku.com/)

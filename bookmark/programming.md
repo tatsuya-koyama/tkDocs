@@ -73,6 +73,8 @@ position: 2
     - コンポーネント間のメッセージングについての言及がある
 - [2015年に備えて知っておきたいリアクティブアーキテクチャの潮流 - Qiita](http://qiita.com/hirokidaichi/items/9c1d862099c2e12f5b0f)
 - [これからの Microservices](http://www.slideshare.net/zigorou/microservices-57643957)
+- [プログラミング :: 高速なプログラムを書く為に :: メモリ](http://myoga.web.fc2.com/prog/cpp/opti02.htm)
+- [CPU とキャッシュのはなし - graphics.hatenablog.com](http://graphics.hatenablog.com/entry/2012/03/23/175113)
 
 ### Entity-Component System / Data-Oriented
 
@@ -89,9 +91,13 @@ position: 2
 - [Entity Systems in game development | rokatainment](http://www.rokatainment.de/2014/08/16/entity-systems-in-game-development/)
 - [Overview of Entity Component System (ECS) variations with pseudo-code](https://gist.github.com/LearnCocos2D/77f0ced228292676689f)
 - [Entity Component System framework, redux | IceFall Games](https://mtnphil.wordpress.com/2013/03/23/entity-component-system-framework-redux/)
+- [Managing game object hierarchy in an entity component system | IceFall Games](https://mtnphil.wordpress.com/2014/06/09/managing-game-object-hierarchy-in-an-entity-component-system/)
 - [より良いプログラムを書くための究極の奇策 – 「Data first, not code first」 | プログラミング | POSTD](http://postd.cc/one-weird-trick-to-write-better-code/)
 - [Gamasutra: Megan Fox's Blog - Game Engines 101: The Entity/Component Model](http://www.gamasutra.com/blogs/MeganFox/20101208/88590/Game_Engines_101_The_EntityComponent_Model.php)
 - [What is the role of "systems" in a component-based entity architecture? - Game Development Stack Exchange](http://gamedev.stackexchange.com/questions/31473/what-is-the-role-of-systems-in-a-component-based-entity-architecture/31491#31491)
+- [From Game Objects to Entities | John Payne's Code Blog](http://codeblog.paynedesign.co.uk/2012/06/from-game-objects-to-entities/)
+- [GameplayKit Programming Guide: Entities and Components](https://developer.apple.com/library/ios/documentation/General/Conceptual/GameplayKit_Guide/EntityComponent.html)
+- [Entity Systems — Entity Systems 2014.02.22 documentation](http://defenestrate.eu/_static/entity-systems-presentation/build/slides/index.html#1)
 
 ### ECS なフレームワーク関連
 
@@ -262,6 +268,7 @@ Adobe AIR 関連メモは[これ](/dev-log/adobe-air-dev-note)
 
 - [ラムダ式をC++で実現する](http://www.sun-inet.or.jp/~yaneurao/intensive/spt1.html)
 - [More C++ Idioms - Wikibooks](http://ja.wikibooks.org/wiki/More_C%2B%2B_Idioms)
+- [ゲーム開発者のための C++11/C++14](http://www.slideshare.net/Reputeless/c11c14)
 
 ### Ruby
 

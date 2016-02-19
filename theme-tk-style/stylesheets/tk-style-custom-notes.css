@@ -30,3 +30,7 @@ h4.notes-index {
     padding-left: 0em;
 }
 
+div.accordion-heading {
+    background-color: #1e4e6d;
+}
+

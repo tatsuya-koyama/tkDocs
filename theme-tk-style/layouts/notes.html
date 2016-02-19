@@ -34,45 +34,30 @@
     <ul id="toc">
 
       <ul>
-        {{#data.notes_top?to_notes}}
+        {{#data.notes.top?to_notes}}
           {{> page-list.html }}
-        {{/data.notes_top?to_notes}}
+        {{/data.notes.top?to_notes}}
       </ul>
 
-      <h4 class="notes-index">Enginnering</h4>
-      <ul>
-        {{#data.notes_engineering?to_notes}}
-          {{> page-list.html }}
-        {{/data.notes_engineering?to_notes}}
-      </ul>
-
-      <h4 class="notes-index">Team Play</h4>
-      <ul>
-        {{#data.notes_teamplay?to_notes}}
-          {{> page-list.html }}
-        {{/data.notes_teamplay?to_notes}}
-      </ul>
-
-      <h4 class="notes-index">Game Dev.</h4>
-      <ul>
-        {{#data.notes_game?to_notes}}
-          {{> page-list.html }}
-        {{/data.notes_game?to_notes}}
-      </ul>
-
-      <h4 class="notes-index">Phychology</h4>
-      <ul>
-        {{#data.notes_phychology?to_notes}}
-          {{> page-list.html }}
-        {{/data.notes_phychology?to_notes}}
-      </ul>
-
-      <h4 class="notes-index">Misc.</h4>
-      <ul>
-        {{#data.notes_misc?to_notes}}
-          {{> page-list.html }}
-        {{/data.notes_misc?to_notes}}
-      </ul>
+      {{# layout_index }}
+        collection: notes
+        indices:
+          -
+            - engineering
+            - エンジニアリング
+          -
+            - teamplay
+            - チーム開発
+          -
+            - game
+            - ゲーム開発
+          -
+            - phycology
+            - ユーザ心理
+          -
+            - misc
+            - その他
+      {{/ layout_index }}
 
     </ul>
     <br/><br/>
