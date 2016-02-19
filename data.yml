@@ -16,34 +16,30 @@ navigation :
 #---------------------------------------
 # krew-framework index list
 #---------------------------------------
-krew_index_top:
-  - top
-  - laboratory
-  - what_is
-
-krew_index_philosophy:
-  - philosophy/why
-  - philosophy/concept
-
-krew_index_manual:
-  - instllation
-  - krew-skeleton
-  - manual/system-overview
-  - manual/process-sequence
-#  - manual/resource-management
-
-krew_index_samples:
-  - samples/cookbook
-  - samples/global-layer
-  - samples/krewasync
-
-krew_index_todo:
-  - todo/known_issues
-
-krew_index_draft:
-  - draft/draft
-  - draft/thinking
-  - draft/todo
+krew_index:
+  top:
+    - top
+    - laboratory
+    - what_is
+  philosophy:
+    - philosophy/why
+    - philosophy/concept
+  manual:
+    - instllation
+    - krew-skeleton
+    - manual/system-overview
+    - manual/process-sequence
+#    - manual/resource-management
+  samples:
+    - samples/cookbook
+    - samples/global-layer
+    - samples/krewasync
+  todo:
+    - todo/known_issues
+  draft:
+    - draft/draft
+    - draft/thinking
+    - draft/todo
 
 #---------------------------------------
 # game-dev-study-guide index list

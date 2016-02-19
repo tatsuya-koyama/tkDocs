@@ -3,7 +3,7 @@ require 'yaml'
 
 # 書き方
 # * data.yaml に以下のようなデータを記述しておく：
-# notes:
+# notes_index:
 #   engineering:
 #     - software-engineering
 #     - algorithm
@@ -21,6 +21,7 @@ require 'yaml'
 # * notes/ 以下が対象であれば、
 # {{# layout_index }}
 #   collection: notes
+#   index_key: notes_index
 #   indices:
 #     -
 #       - engineering
@@ -40,7 +41,9 @@ module LayoutIndexHelper
     data['indices'].each{|index_data|
       tag     = index_data[0]
       caption = index_data[1]
-      result_html += _get_accordion_item(data['collection'], tag, caption, row_count)
+      result_html += _get_accordion_item(
+        data['collection'], data['index_key'], tag, caption, row_count
+      )
       row_count += 1
     }
 
@@ -48,7 +51,7 @@ module LayoutIndexHelper
     result_html
   end
 
-  def _get_accordion_item(collection_name, tag, caption, row_count)
+  def _get_accordion_item(collection_name, index_key, tag, caption, row_count)
     <<"EOS"
     <div class="accordion-group">
 
@@ -60,9 +63,9 @@ module LayoutIndexHelper
         <div id="collapse_#{row_count}" class="accordion-body collapse">
             <div class="accordion-inner">
                 <ul>
-                  {{#data.#{collection_name}.#{tag}?to_notes}}
+                  {{#data.#{index_key}.#{tag}?to_#{collection_name}}}
                     {{> page-list.html }}
-                  {{/data.#{collection_name}.#{tag}?to_notes}}
+                  {{/data.#{index_key}.#{tag}?to_#{collection_name}}}
                 </ul>
             </div>
         </div>

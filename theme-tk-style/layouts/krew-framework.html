@@ -33,52 +33,29 @@
   <div id="left-pane">
     <ul id="toc">
 
-      <h4 class="krew-index">Overview</h4>
-      <ul>
-        {{#data.krew_index_top?to_krew-framework}}
-          {{> page-list.html }}
-        {{/data.krew_index_top?to_krew-framework}}
-      </ul>
-
-      <br/>
-      <h4 class="krew-index">Philosophy</h4>
-      <ul>
-        {{#data.krew_index_philosophy?to_krew-framework}}
-          {{> page-list.html }}
-        {{/data.krew_index_philosophy?to_krew-framework}}
-      </ul>
-
-      <br/>
-      <h4 class="krew-index">Manual</h4>
-      <ul>
-        {{#data.krew_index_manual?to_krew-framework}}
-          {{> page-list.html }}
-        {{/data.krew_index_manual?to_krew-framework}}
-      </ul>
-
-      <br/>
-      <h4 class="krew-index">Sample Codes</h4>
-      <ul>
-        {{#data.krew_index_samples?to_krew-framework}}
-          {{> page-list.html }}
-        {{/data.krew_index_samples?to_krew-framework}}
-      </ul>
-
-      <br/>
-      <h4 class="krew-index">ToDo</h4>
-      <ul>
-        {{#data.krew_index_todo?to_krew-framework}}
-          {{> page-list.html }}
-        {{/data.krew_index_todo?to_krew-framework}}
-      </ul>
-
-      <br/>
-      <h4 class="krew-index">Developer Note</h4>
-      <ul>
-        {{#data.krew_index_draft?to_krew-framework}}
-          {{> page-list.html }}
-        {{/data.krew_index_draft?to_krew-framework}}
-      </ul>
+      {{# layout_index }}
+        collection: krew-framework
+        index_key: krew_index
+        indices:
+          -
+            - top
+            - Overview
+          -
+            - philosophy
+            - Philosophy
+          -
+            - manual
+            - Manual
+          -
+            - samples
+            - Sample Codes
+          -
+            - todo
+            - ToDo
+          -
+            - draft
+            - Developer Note
+      {{/ layout_index }}
 
     </ul>
     <br/><br/>
