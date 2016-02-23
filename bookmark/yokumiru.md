@@ -14,11 +14,11 @@ position: 99
 ### とりあえず
 
 - [はてなブックマーク - 人気エントリー](http://b.hatena.ne.jp/hotentry)
-- [Gunosy](http://gunosy.com/tatsuya_koyama/)
 
 ### ゲーム系
 
 - [IndieGames.com](http://indiegames.com/index.html)
+- [Indie Game Enthusiast: An Indie Site for Indie Games](http://indiegameenthusiast.blogspot.jp/)
 - [Gamasutra - The Art &amp; Business of Making Games](http://www.gamasutra.com/)
 - [4Gamer](http://www.4gamer.net/)
 - [AUTOMATON](http://jp.automaton.am/)

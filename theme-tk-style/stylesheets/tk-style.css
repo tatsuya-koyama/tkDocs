@@ -144,12 +144,12 @@ h3{
 h4{
     width: 70%;
     max-width: 40em;
-    color: #333;
+    color: #555;
     font-size  : 115%;
     line-height: 150%;
     font-weight: bold;
     text-align : left;
-    border-bottom: 1px solid #8a3;
+    border-bottom: 1px solid #aaa;
     margin: 2.5em 0 1.5em 0em;
     padding-left : 0.5em;
 }
@@ -162,7 +162,7 @@ h4.flash-modal {
 h5{
     width: 70%;
     max-width: 40em;
-    color: #462;
+    color: #572;
     font-size  : 108%;
     line-height: 150%;
     font-weight: bold;
@@ -319,7 +319,9 @@ blockquote {
 blockquote p { line-height: 150%; }
 
 strong {
-    color: #822;
+    /* color: #822; */
+    /* color: #cd442c; */
+    color: #3b9e6f;
 }
 
 /*----- code ------------------------------------------------------*/
@@ -328,10 +330,10 @@ pre {
 }
 
 code {
-    font-size: 100%;
-    color: #5a3e20;
-    background-color: #edc;
-    border: 1px solid #dcb;
+    font-size: 90%;
+    color: #b06168;
+    background-color: #e5e5e5;
+    border: 1px solid #d2d2d2;
     padding: 0.1em 0.3em 0.1em 0.3em;
 }
 
@@ -477,7 +479,7 @@ table.mystyle{
 }
 
 table.mystyle tr.color1{ background-color: #f7f7f7; }
-table.mystyle tr.color2{ background-color: #e7f3e7; }
+table.mystyle tr.color2{ background-color: #e8f2e6; }
 table.mystyle tr.color1 td.left{ font-weight: bold; color: 444; }
 table.mystyle tr.color2 td.left{ font-weight: bold; color: 444; }
 

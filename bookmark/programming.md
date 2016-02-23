@@ -165,6 +165,7 @@ position: 2
 
 - [開発者はインデックスを知る必要がある](http://use-the-index-luke.com/ja/sql/preface)
 - [リレーショナルデータベースの仕組み (1/3) | コンピュータサイエンス | POSTD](http://postd.cc/how-does-a-rdb-work-1/)
+- [ヤフー社内でやってるMySQLチューニングセミナー大公開](http://www.slideshare.net/techblogyahoo/mysql-58540246)
 
 ## 情報科学
 
