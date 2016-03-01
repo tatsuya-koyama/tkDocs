@@ -33,11 +33,26 @@
   <div id="left-pane">
     <ul id="toc">
 
-      <ul>
-        {{# dev-log.all }}
-          {{> page-list.html }}
-        {{/ dev-log.all }}
-      </ul>
+      {{# layout_index }}
+        collection: dev-log
+        index_key: dev-log
+        indices:
+          -
+            - about
+            - About
+          -
+            - adobe-air
+            - Adobe AIR
+          -
+            - coding
+            - 設計実装
+          -
+            - tart
+            - tart framework
+          -
+            - misc
+            - その他
+      {{/ layout_index }}
 
     </ul>
     <br/><br/>

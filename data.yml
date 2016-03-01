@@ -97,3 +97,50 @@ notes:
   misc:
     - misc-tips
 
+#---------------------------------------
+# dev-log index list
+#---------------------------------------
+
+dev-log:
+  about:
+    - about
+    - how-to-make-tkdocs
+  adobe-air:
+    - adobe-air-dev-note
+    - adobe-air-tools
+    - adobe-air-dev-summary
+    - flash-builder-dev-note
+  coding:
+    - krewasync
+  tart:
+    - entity-component
+    - entity-component-2
+    - tart-framework
+  misc:
+    - markdown-sandbox
+    - my-tools
+
+#---------------------------------------
+# mind-log index list
+#---------------------------------------
+
+mind-log:
+  about:
+    - about
+  game-design:
+    - game-design
+    - game-mechanics
+    - character-design
+  game-dev:
+    - game-dev-todo
+    - game-algorithm
+    - bug-pattern
+    - game-team-dev-flow
+    - game-team-ope-flow
+    - game-dev-tool
+  study:
+    - programming
+    - design-pattern
+    - ui-design
+
+

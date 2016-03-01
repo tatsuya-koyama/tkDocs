@@ -21,3 +21,6 @@
 
 #left-pane li.active-page { background-color: #323756; }
 
+div.accordion-heading {
+    background-color: #303660;
+}

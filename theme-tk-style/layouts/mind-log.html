@@ -34,10 +34,25 @@
     <ul id="toc">
 
       <ul>
-        {{# mind-log.all }}
+        {{#data.mind-log.about?to_mind-log}}
           {{> page-list.html }}
-        {{/ mind-log.all }}
+        {{/data.mind-log.about?to_mind-log}}
       </ul>
+
+      {{# layout_index }}
+        collection: mind-log
+        index_key: mind-log
+        indices:
+          -
+            - game-design
+            - ゲームデザイン
+          -
+            - game-dev
+            - ゲーム開発
+          -
+            - study
+            - 一般教養
+      {{/ layout_index }}
 
     </ul>
     <br/><br/>
