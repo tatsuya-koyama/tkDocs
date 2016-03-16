@@ -91,6 +91,13 @@ position: 1
 - [【CEDEC 2013】勝つべくして勝つ企画書を作る方法を伝授！アシスタントからディレクターになるために](http://www.inside-games.jp/article/2013/08/25/69774.html)
 - [ゲーム開発者の生活と仕事に関するアンケート調査2014](http://cedec.cesa.or.jp/2014/outline/enquete.html)
 
+## Development Process
+
+- [inlusio | game development process](http://www.slideshare.net/ttwijnstra/inlusio-game-development-process?qid=62e8a58f-1f02-4bb3-ab9f-af7ddb5d3d48&v=&b=&from_search=1)
+- [ゲームを作るときの流れ | Mask de Patrasche](http://gancoukeikei.jugem.jp/?eid=628)
+- [Vertical Slice - Video Game Buzzwords Wiki - Wikia](http://videogamebuzzwords.wikia.com/wiki/Vertical_Slice)
+- [Digibury: Sony Game developement process - Mark Linott](http://www.slideshare.net/Lizziehodgson01/digibury-sony-game-developemen-porcess-mark-linott)
+
 ## Project Management
 
 - [［SQEXOC］プロジェクトを失敗させないためには？　スクウェア・エニックスで実施されているプロジェクト管理術公開](http://www.4gamer.net/games/032/G003263/20111016007/)

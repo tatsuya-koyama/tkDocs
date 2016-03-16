@@ -101,6 +101,7 @@ position: 3
 - [【翻訳】ポール・グレアムによる「経験することと自覚について」 | POSTD](http://postd.cc/how-you-know/)
 - [能力の低い人ほど根拠のない自信に満ちあふれている。「ダニング＝クルーガー効果」とは？ : カラパイア](http://karapaia.livedoor.biz/archives/52191924.html)
 - [日常生活で使える心理学テクニックのまとめ | 心理学 | Ofee](http://ofee.tank.jp/life-psychology/)
+- [「人生というゲーム」を最高に楽しむために知っておくべきルール7つ | TABI LABO](http://tabi-labo.com/177447/dragonquest03/)
 
 ## Statistics / Numbers
 
