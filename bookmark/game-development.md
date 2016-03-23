@@ -49,6 +49,7 @@ position: 1
 - [CPU とキャッシュのはなし](http://graphics.hatenablog.com/entry/2012/03/23/175113)
 - [jMonkeyEngine 3.0 - Java OpenGL Game Engine](http://jmonkeyengine.org/)
     - [ソースコード](https://github.com/jMonkeyEngine/jmonkeyengine)
+- [［GDC 2016］「キャンディークラッシュ」のKingが公開した完全無料のゲームエンジン「Defold」とは？ - 4Gamer.net](http://www.4gamer.net/games/032/G003263/20160317081/)
 
 
 ## Game Design
@@ -75,12 +76,7 @@ position: 1
 
 - [Stylization in Game Art](http://lucas.hardi.org/stylization-in-game-art/)
 - [5 tips for making great animations for 2D games](http://www.gamasutra.com/view/news/176663/5_tips_for_making_great_animations_for_2D_games.php#.UEdDAaQe7ZT)
-
-
-## 開発あるある
-
-- [ソーシャルゲーム系フロントエンドを作る際に殴り合いにならないようエンジニアが確認すべきこと](https://github.com/beinteractive/social-game-check-list)
-
+- [次世代アクション「For Honor」のアニメーション技術が次世代すぎる！ - GAME Watch](http://game.watch.impress.co.jp/docs/news/20160319_749136.html)
 
 ## Job / Working
 
@@ -93,10 +89,12 @@ position: 1
 
 ## Development Process
 
+- [ソーシャルゲーム系フロントエンドを作る際に殴り合いにならないようエンジニアが確認すべきこと](https://github.com/beinteractive/social-game-check-list)
 - [inlusio | game development process](http://www.slideshare.net/ttwijnstra/inlusio-game-development-process?qid=62e8a58f-1f02-4bb3-ab9f-af7ddb5d3d48&v=&b=&from_search=1)
 - [ゲームを作るときの流れ | Mask de Patrasche](http://gancoukeikei.jugem.jp/?eid=628)
 - [Vertical Slice - Video Game Buzzwords Wiki - Wikia](http://videogamebuzzwords.wikia.com/wiki/Vertical_Slice)
 - [Digibury: Sony Game developement process - Mark Linott](http://www.slideshare.net/Lizziehodgson01/digibury-sony-game-developemen-porcess-mark-linott)
+- [［GDC 2016］競争が激化し続ける中で，どんなゲームを作るべきか。リスクを最小限に抑え，完成させる手法をインディーズゲームの先駆者が語る - 4Gamer.net](http://www.4gamer.net/games/999/G999901/20160317106/)
 
 ## Project Management
 
