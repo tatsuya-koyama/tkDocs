@@ -70,6 +70,7 @@ position: 1
 - [I was game — ボードゲームにおけるランダム性と公平性](http://iwasgame.tumblr.com/post/104067391536)
 - ["ドア"から見通すゲームデザイナーの仕事 米国開発者による「ドア問題」 | AUTOMATON](http://jp.automaton.am/articles/newsjp/the-door-problems/)
 - [ゲームにおける「運」の要素と「運ゲー」の違い | YASAIBOWL](http://yasaibowl.com/blog/566)
+- [［GDC 2016］「Magic: The Gathering」を20年間デザインしてきたMark Rosewater氏が，自身の経験から得た“20の教訓”を語る - 4Gamer.net](http://www.4gamer.net/games/136/G013687/20160318166/)
 
 
 ## Game Art / Animation

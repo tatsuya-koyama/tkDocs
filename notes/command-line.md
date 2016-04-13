@@ -47,6 +47,15 @@ position: 7
     networksetup -setairportpower en1 off
     networksetup -setairportpower en1 on
 
+## Human readable を sort したいとき
+2009 年以降の Linux の sort には `-h` オプションという素敵なものがあるらしいが
+Mac でやるなら
+
+    brew install coreutils
+    du -hs * | gsort -h
+
+- [linux - How can I sort du -h output by size - Server Fault](http://serverfault.com/questions/62411/how-can-i-sort-du-h-output-by-size)
+
 
 <br/><br/><br/>
 

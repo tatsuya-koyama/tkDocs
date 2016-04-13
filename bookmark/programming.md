@@ -54,6 +54,7 @@ position: 2
 - [メソッド名をシンプルにするために、知っておくと便利な英語のprefixとsuffix - Ph by codic team](http://blog.codic.jp/2014/12/22/shoud-know-prefix-suffix-for-naming/)
 - [Code Review Best Practices](http://kevinlondon.com/2015/05/05/code-review-best-practices.html)
 - [良いコードとは](http://www.slideshare.net/nbykmatsui/ss-55961899)
+- [ソシャゲエンジニアの自分がコードレビュー時に重視する箇所32選 - Qiita](http://qiita.com/west-hiroaki/items/569a6cd22470954028bb)
 
 ## Development / Practice
 
@@ -147,15 +148,18 @@ position: 2
 - [TCPを（少しは）理解しておくべきその理由 | コンピュータサイエンス | POSTD](http://postd.cc/why-you-should-understand-a-little-about-tcp/)
     - 遅延ACKの話
 
-## Security
+## Security / Cheat 対策
 
 - [ブラウザゲーム時代のチートとセキュリティ](http://wate.jp/wordpress/?p=262)
+- [スマートフォンゲームのチート事情](http://www.slideshare.net/ssuser8200d3/ss-59926328)
 
 ## Web Architecture / Web App
 
 - [2015年Webサーバアーキテクチャ序論 - ゆううきブログ](http://yuuki.hatenablog.com/entry/2015-webserver-architecture)
 - [Webシステムにおけるデータベース接続アーキテクチャ概論 - ゆううきブログ](http://yuuki.hatenablog.com/entry/architecture-of-database-connection)
 - [Web開発の未来 – React、FalcorおよびES6 | プログラミング | POSTD](http://postd.cc/future-of-the-web-react-falcor/)
+- [Rails - 中規模Web開発のためのMVC分割とレイヤアーキテクチャ - Qiita](http://qiita.com/yuku_t/items/961194a5443b618a4cac)
+- [Scalaコードでわかった気になるDDD | GREE Engineers' Blog](http://labs.gree.jp/blog/2013/12/9354/)
 
 ## リアルタイム通信
 
@@ -186,7 +190,6 @@ position: 2
 - [再考: GoF デザインパターン](http://qiita.com/irxground/items/d1f9cc447bafa8db2388)
 - [シングルトンについて思うこと](http://beinteractive.jp/shingurutonnitsuitesi-ukoto)
 - [ソフトウェア設計とは何か 〜 設計にはプログラミング経験が必要か否か](http://kuranuki.sonicgarden.jp/2013/01/post-109.html)
-- [Rails - 中規模Web開発のためのMVC分割とレイヤアーキテクチャ - Qiita](http://qiita.com/yuku_t/items/961194a5443b618a4cac)
 - [デザインパターン紹介 (GoF 以外)](http://www.hyuki.com/dp/dpinfo.html)
 
 ## Algorithm

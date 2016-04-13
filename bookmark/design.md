@@ -109,6 +109,7 @@ position: 7
 - [• concept art Character Design official You Yoshinari studio trigger Sushio kill la kill...](http://rebloggy.com/post/concept-art-character-design-official-you-yoshinari-studio-trigger-sushio-kill-l/108027216425)
 - [portfolio | gomnaga.org](http://gomnaga.org/portfolio/)
 - [お絵かき講座 カテゴリーの記事一覧 - 洞田創研究室](http://todahajime.hatenablog.com/archive/category/%E3%81%8A%E7%B5%B5%E3%81%8B%E3%81%8D%E8%AC%9B%E5%BA%A7)
+- [いちあっぷ講座](https://ichi-up.net/)
 
 ## 素材集 / ライブラリ / サービス
 
