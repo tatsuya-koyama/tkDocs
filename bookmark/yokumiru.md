@@ -20,6 +20,7 @@ position: 99
 - [IndieGames.com](http://indiegames.com/index.html)
 - [Indie Game Enthusiast: An Indie Site for Indie Games](http://indiegameenthusiast.blogspot.jp/)
 - [Gamasutra - The Art &amp; Business of Making Games](http://www.gamasutra.com/)
+- [GamesIndustry.biz Japan Edition](http://jp.gamesindustry.biz/)
 - [4Gamer](http://www.4gamer.net/)
 - [AUTOMATON](http://jp.automaton.am/)
 - [Ludum Dare](http://ludumdare.com/compo/)

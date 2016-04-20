@@ -25,6 +25,7 @@ position: 8
 
 - [ビジネス英語メール](http://eigo-reibun.com/)
 - [センスがグッとアップする。そのまま使える英語メール書き出し80選](http://www.berlitz-blog.com/englishmail)
+- [会社でネイティブが使ってるメール英語表現11選 - Outward Matrix](http://www.outward-matrix.com/entry/2016/04/17/093000)
 
 ## プログラマ向け
 

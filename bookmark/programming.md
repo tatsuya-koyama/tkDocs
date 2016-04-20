@@ -171,6 +171,10 @@ position: 2
 - [リレーショナルデータベースの仕組み (1/3) | コンピュータサイエンス | POSTD](http://postd.cc/how-does-a-rdb-work-1/)
 - [ヤフー社内でやってるMySQLチューニングセミナー大公開](http://www.slideshare.net/techblogyahoo/mysql-58540246)
 
+### Google App Engine / Datastore
+- [Datastoreの仕組み 〜Consistencyについて〜 - apps-gcp](http://www.apps-gcp.com/consistency-of-datastore/)
+- [Google Cloud Platform Japan 公式ブログ: Google Cloud Datastoreでのデータ整理の考え方](http://googlecloudplatform-japan.blogspot.jp/2015/08/google-cloud-datastore.html)
+
 ## 情報科学
 
 - [情報科学における18のメタテクニック](http://www.slideshare.net/nakano_lab/cs-metatechniques)
