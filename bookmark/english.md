@@ -37,6 +37,7 @@ position: 8
 - [提言: コミットメッセージの一行目には要求仕様を書け](http://qiita.com/magicant/items/882b5142c4d5064933bc)
 - [エンジニアのための英語 - Tumblr](http://englishforengineers.tumblr.com/)
 - [エンジニアが0から英語を勉強する為にした事 - ギークに憧れて](http://hotchemi.hateblo.jp/entry/2015/12/31/091301)
+- [いまさら聞けない「コードの英語」超入門 - クックパッド開発者ブログ](http://techlife.cookpad.com/entry/2015/08/31/140749)
 
 ## 雑多
 

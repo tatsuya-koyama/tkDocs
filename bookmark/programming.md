@@ -123,6 +123,7 @@ position: 2
 ## Framework / SDK
 
 - [Electron(旧atom shell)基礎+入門](http://www.slideshare.net/mainya/electronatom-shell)
+    - [Electron App の作り方 // Speaker Deck](https://speakerdeck.com/yosuke_furukawa/electron-app-falsezuo-rifang)
 - [Flambe](http://getflambe.com/)
 
 ### Newral Network
