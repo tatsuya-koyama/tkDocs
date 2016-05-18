@@ -55,6 +55,8 @@ ___
         - 2D の shadow casting の demo と extension のソースがある
     - [Digging more into the Molehill APIs](http://www.bytearray.org/?p=2555)
         - AGAL の記事
+    - [nekobit.eu](http://www.nekobit.eu/)
+        - おもしろい Demo が色々
 
 ___
 

@@ -110,6 +110,7 @@ position: 7
 - [portfolio | gomnaga.org](http://gomnaga.org/portfolio/)
 - [お絵かき講座 カテゴリーの記事一覧 - 洞田創研究室](http://todahajime.hatenablog.com/archive/category/%E3%81%8A%E7%B5%B5%E3%81%8B%E3%81%8D%E8%AC%9B%E5%BA%A7)
 - [いちあっぷ講座](https://ichi-up.net/)
+- [プロによる『ここだけ注意すれば下手には見えない男性と女性の身体の描き方』がとても参考になる - Togetterまとめ](http://togetter.com/li/969596)
 
 ## 素材集 / ライブラリ / サービス
 

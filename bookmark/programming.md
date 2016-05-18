@@ -120,6 +120,10 @@ position: 2
 - [Less is more：プログラミング言語設計の進歩史 | POSTD](http://postd.cc/less-is-more/)
 - [「なぜ関数プログラミングは重要か」を要約してみた（その１） - Okapies' Archive](http://okapies.hateblo.jp/entry/2015/12/07/022915)
 
+## 規格 / ガイドライン
+
+- [セマンティック バージョニング 2.0.0](http://semver.org/lang/ja/)
+
 ## Framework / SDK
 
 - [Electron(旧atom shell)基礎+入門](http://www.slideshare.net/mainya/electronatom-shell)
@@ -175,6 +179,7 @@ position: 2
 ### Google App Engine / Datastore
 - [Datastoreの仕組み 〜Consistencyについて〜 - apps-gcp](http://www.apps-gcp.com/consistency-of-datastore/)
 - [Google Cloud Platform Japan 公式ブログ: Google Cloud Datastoreでのデータ整理の考え方](http://googlecloudplatform-japan.blogspot.jp/2015/08/google-cloud-datastore.html)
+- [GAE/Go Ancestorクエリについて - The Round](http://knightso.hateblo.jp/entry/2014/08/28/083545)
 
 ## 情報科学
 
@@ -213,6 +218,7 @@ position: 2
 - [人工知能が急に進化し始めた！ | TheWave](http://thewave.jp/archives/1985)
 - [Is Google a Step Away from Developing a Computer that Can "Program Itself"? - Evolution News & Views](http://www.evolutionnews.org/2014/10/is_google_a_ste090771.html)
 - [二次元画像を拡大したいと思ったことはありませんか？ - デー](http://ultraist.hatenablog.com/entry/2015/05/17/183436)
+- [ゲームの中の人工知能](http://www.slideshare.net/youichiromiyake/y-miyake-tgu2014626)
 
 ## Git
 

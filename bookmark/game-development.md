@@ -121,6 +121,10 @@ position: 1
     - [quad とか cubic とか quintic とか](http://mathforum.org/library/drmath/view/56413.html)
 - [Hexagonal Grids](http://www.redblobgames.com/grids/hexagons/)
 
+### AI
+
+- [ゲームの中の人工知能](http://www.slideshare.net/youichiromiyake/y-miyake-tgu2014626)
+
 ## フレームワーク設計
 
 - [What is an entity system framework for game development?](http://www.richardlord.net/blog/what-is-an-entity-framework)

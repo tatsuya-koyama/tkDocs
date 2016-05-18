@@ -35,6 +35,11 @@ position: 6
 - [65536進法 - アンサイクロペディア](http://ja.uncyclopedia.info/wiki/65536%E9%80%B2%E6%B3%95)
 - [4分33秒 - アンサイクロペディア](http://ja.uncyclopedia.info/wiki/4%E5%88%8633%E7%A7%92)
 
+## 秀逸な画像
+
+- [この写真すごい好きなんだけどなぁ、、](https://twitter.com/20151201215math/status/729988863569985536/photo/1)
+    - 進捗のイメージの仕方
+
 ## 良記事 / 名言
 
 - [山内語録（任天堂の社長）](http://crossing.blog.eonet.jp/blog/yamauchi.html)
