@@ -62,7 +62,7 @@ ___
     - もともとの意味は「開発者はシステムの慣例に従わない部分だけを指定する」
         - こうすれば柔軟性も損なわれない
 
-### オブジェクト指向
+### SOLID原則
 
 - [Single responsibility principle](http://en.wikipedia.org/wiki/Single_responsibility_principle)
     - 単一責任の原則
@@ -73,12 +73,17 @@ ___
 - [リスコフの置換原則](http://ja.wikipedia.org/wiki/%E3%83%AA%E3%82%B9%E3%82%B3%E3%83%95%E3%81%AE%E7%BD%AE%E6%8F%9B%E5%8E%9F%E5%89%87)
     - LSP : Liskov Substitution Principle
     - コード中である基本クラスが使われている場所は、そのどんな派生クラスでも置換可能であるべき
+- [インターフェイス分離の原則（ISP）](http://d.hatena.ne.jp/asakichy/20090129/1233236193)
 - [Dependency inversion principle](http://en.wikipedia.org/wiki/Dependency_inversion_principle)
     - 依存関係逆転の法則
     - 上位モジュールは下位モジュールに依存してはならない。どちらも抽象に依存すべき
         - 参照を抽象クラス / インタフェースで持つ（具象クラスを参照しない）
         - 具象クラスを継承しない
         - 基本クラスで実装済みのメソッドをオーバライドしない
+
+#### 参考
+
+- [DIP は間違っている - tech.cm55.com](http://tech.cm55.com/wiki/Designs/DIP)
 
 ### 性質
 

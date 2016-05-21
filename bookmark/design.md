@@ -43,6 +43,7 @@ position: 7
 - [shimage.net](http://shimage.net/)
 - [LOL の絵とか](http://instantip.deviantart.com/gallery/?catpath=%2F&offset=0)
 - [Lifetime Clock](http://lifetime-clock.com/)
+- [盆栽模型とジオラマを組み合わせた「盆栽ツリーハウス」が話題に - ライブドアニュース](http://news.livedoor.com/article/detail/11542890/)
 
 ## Movie / Animation
 

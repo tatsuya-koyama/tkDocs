@@ -28,6 +28,7 @@ position: 6
 - [90対90の法則 - Wikipedia](http://ja.wikipedia.org/wiki/90%E5%AF%BE90%E3%81%AE%E6%B3%95%E5%89%87)
 - [Twitter: "イグノーベル賞受賞者Len Fisher氏（@LenFisherScienc）が発見？した美しい関係式"](https://twitter.com/morikuni_net/status/596357173002698752)
 - [ブーバ/キキ効果 - Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%BC%E3%83%90/%E3%82%AD%E3%82%AD%E5%8A%B9%E6%9E%9C)
+- [「2次元小説」の衝撃。約180文字で70通りの読み方](http://www.huffingtonpost.jp/2016/05/05/two-dimensional-story_n_9853720.html)
 
 ## 秀逸な記事
 
