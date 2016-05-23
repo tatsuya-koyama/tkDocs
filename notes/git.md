@@ -9,11 +9,25 @@ position: 6
 
 # Git Memo
 
-## Tips
+## リファレンス
+
+### よい資料
+
+- [Git - Book](https://git-scm.com/book/ja/v2)
+- [こわくない Git](http://www.slideshare.net/kotas/git-15276118)
+
+### ブランチ運用モデル
+
+- [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
+- [GitHub Flow – Scott Chacon](http://scottchacon.com/2011/08/31/github-flow.html)
+    - [日本語訳](https://gist.github.com/Gab-km/3705015)
+    - [Understanding the GitHub Flow · GitHub Guides](https://guides.github.com/introduction/flow/)
+
+### Tips
 
 - [巨大なリポジトリを Git で上手く扱う方法 - Atlassian Japan](http://japan.blogs.atlassian.com/2014/05/handle-big-repositories-git/)
 
-## コミットメッセージ系
+### コミットメッセージ系
 
 - [GIT Commit Good Practice - OpenStack](https://wiki.openstack.org/wiki/GitCommitMessages)
 - [英語コミットコメントに使えるオシャレフレーズ集](http://qiita.com/ken_c_lo/items/4cb49f0fb74e8778804d)
@@ -23,7 +37,7 @@ position: 6
 - [Git - 英語のコメントや issue で頻出する略語の意味 (FYI, AFAIK, ...) - Qiita](http://qiita.com/uasi/items/86c3a09d17792ab62dfe)
 - [commit-m: GitHubコミットメッセージの文例が検索できるサービス](http://commit-m.minamijoyo.com/commits/search?keyword=fix+bug)
 
-## プルリク開発
+### プルリク開発
 
 業務の開発も OSS 開発のように行おう
 
@@ -35,9 +49,9 @@ position: 6
 - [ピクセルグリッドの仕事術 技術編 - コードレビューのフロー | CodeGrid](https://app.codegrid.net/entry/code-review)
     - こちらはレビュー待ちを無くすためにすぐ merge して後からレビュー、というやり方
 
-### プルリクの差分を手元で見る
+## プルリクの差分を手元で見る
 
-でかい差分とか GitHub だと truncate されちゃうからね
+でかい差分とか GitHub だと truncate されちゃうので
 
     # feature -> master のプルリクの差分を見たいとき
     # （トリプルドットを使う）
@@ -124,14 +138,13 @@ ___
 
 【補足】
 
-    git push origin master
-    は
-    git push origin master:master
-    の略。
+> `git push origin master` は<br/>
+> `git push origin master:master`
+> の略。
+>
+> ローカルブランチの `master` をリモートブランチの `master` に push するという意味。
+>
+> 上記の消すやつは空 branch を push してる感じ
 
-    ローカルブランチの master をリモートブランチの master に push するという意味。
 
-
-
-<br/><br/><br/>
 
