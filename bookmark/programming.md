@@ -55,6 +55,7 @@ position: 2
 - [Code Review Best Practices](http://kevinlondon.com/2015/05/05/code-review-best-practices.html)
 - [良いコードとは](http://www.slideshare.net/nbykmatsui/ss-55961899)
 - [ソシャゲエンジニアの自分がコードレビュー時に重視する箇所32選 - Qiita](http://qiita.com/west-hiroaki/items/569a6cd22470954028bb)
+- [CallbackとListenerとObserverの違い - 前人未踏の領域へ](http://d.hatena.ne.jp/takeR/20111225/1324833885)
 
 ## Development / Practice
 
@@ -169,6 +170,7 @@ position: 2
 ## リアルタイム通信
 
 - [年の瀬リアルタイム通信サーバ勉強会](http://www.slideshare.net/yhonjo/ss-56043422)
+- [リアルタイム通信ゲーム勉強会で発表してきた｜サイバーエージェント 公式エンジニアブログ](http://ameblo.jp/principia-ca/entry-12159623182.html)
 
 ## Database
 
