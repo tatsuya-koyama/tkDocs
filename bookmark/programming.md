@@ -130,6 +130,8 @@ position: 2
 - [Electron(旧atom shell)基礎+入門](http://www.slideshare.net/mainya/electronatom-shell)
     - [Electron App の作り方 // Speaker Deck](https://speakerdeck.com/yosuke_furukawa/electron-app-falsezuo-rifang)
 - [Flambe](http://getflambe.com/)
+- [RazorFlow - HTML5 Dashboard Framework](https://razorflow.com/)
+    - KPI とかグラフとか表示するのによさそう
 
 ### Newral Network
 
@@ -265,6 +267,10 @@ ___
 - [Python/Ruby基礎文法最速マスター](http://d.hatena.ne.jp/dplusplus/20100126/p1)
 - [Objective-C 最速基礎文法マスター](http://d.hatena.ne.jp/fn7/20100203/1265207098)
 
+### Golang
+
+- [6年間におけるGoのベストプラクティス | プログラミング | POSTD](http://postd.cc/go-best-practices-2016/)
+
 ### Flash / AS3
 
 Adobe AIR 関連メモは[これ](/dev-log/adobe-air-dev-note)
@@ -281,11 +287,13 @@ Adobe AIR 関連メモは[これ](/dev-log/adobe-air-dev-note)
 - [【翻訳】JavaScriptのデバッグ方法 – JSを嫌いにならないためのTips | POSTD](http://postd.cc/how-to-not-hate-javascript-tips-from-the-frontline/)
 - [Chrome DevToolsを使ってJavaScriptのメモリリークを検出し、解消する - 人生dat落ち](http://eiua-memo.tumblr.com/post/114307115793/chrome-devtools-javascript)
 
-### C++
+### C / C++
 
 - [ラムダ式をC++で実現する](http://www.sun-inet.or.jp/~yaneurao/intensive/spt1.html)
 - [More C++ Idioms - Wikibooks](http://ja.wikibooks.org/wiki/More_C%2B%2B_Idioms)
 - [ゲーム開発者のための C++11/C++14](http://www.slideshare.net/Reputeless/c11c14)
+- [2016年、C言語はどう書くべきか (前編) | プログラミング | POSTD](http://postd.cc/how-to-c-in-2016-1/)
+- [2016年、C言語はどう書くべきか (後編) | プログラミング | POSTD](http://postd.cc/how-to-c-in-2016-2/)
 
 ### Ruby
 
