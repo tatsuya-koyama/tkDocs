@@ -9,12 +9,60 @@ position: 6
 
 # Git Memo
 
+## Git の中身よく知らない人に説明するなら
+
+- 時間があるなら [Pro Git](https://git-scm.com/book/ja/v2) を読めばそれが全て
+
+____
+
+以下、要約：
+
+- Git は**分散型 VCS** です
+    - （SVN とか Perforce はみんなが中央サーバにアクセスする**集中型**）
+    - 各自のマシンにリポジトリのクローンが作られる
+- リポジトリとは `.git/` があるディレクトリのこと
+- 差分の蓄積ではなく**スナップショット**を保存して歴史を管理
+    - あらゆるスナップショットやコミットオブジェクトなどにダイジェスト**（SHA-1 ハッシュ）**がついてる
+
+____
+
+- ファイルのとりうる状態
+    - Untracked / Unmodified / Modified / Staged
+    - (Stash) / Workspace / Stage / Local Repo. / ……… / Remote Repo.
+
+____
+
+- master ブランチは `git init` した時のデフォルトのブランチ名
+- origin は `git clone` した時のデフォルトのリモート名
+- コミットは、その時の「ルートディレクトリのスナップショット」への参照を持つ
+    - コミットは「1 つ前のコミット」（親コミット）への参照を持つ。これにより歴史が辿れる
+    - Git のコミットグラフの図では、矢印は 1 つ前のコミットを指している。**時間軸の方向ではない**ので注意
+    - マージコミットは複数の親を持つコミット
+
+___
+
+- **ブランチとはコミットを指すポインタ**
+    - これが Git の優れた設計ポイント
+    - ブランチを作るのはポインタを 1 個作る程度のコストでしかない
+    - ブランチを切った時点では歴史は分岐していない。コミットして初めて分岐する
+- origin/master は**リモートブランチ**
+    - リモートにあるリポジトリ内の master ブランチが、どのコミットを指しているかを意味する
+    - `git fetch origin master` すると origin/master がリモートと同じ状態になる
+
+___
+
+- **`git pull` とは、`git fetch` して `git merge` しろという意味**
+    - `git fetch origin master` で origin/master が最新になる
+    - `git merge origin/master` でローカルブランチの master に
+      リモートブランチの origin/master がマージされる
+
 ## リファレンス
 
 ### よい資料
 
-- [Git - Book](https://git-scm.com/book/ja/v2)
+- [Pro Git](https://git-scm.com/book/ja/v2)
 - [こわくない Git](http://www.slideshare.net/kotas/git-15276118)
+    - リベースのこととか
 
 ### ブランチ運用モデル
 
@@ -49,6 +97,90 @@ position: 6
 - [ピクセルグリッドの仕事術 技術編 - コードレビューのフロー | CodeGrid](https://app.codegrid.net/entry/code-review)
     - こちらはレビュー待ちを無くすためにすぐ merge して後からレビュー、というやり方
 
+## よくやる
+
+### pull --rebase
+
+コミット後・push 前にリモートから差分取得する時にマージコミットができるとログが見づらくなる、
+という理由で merge の代わりに rebase をする以下のオプションがよく使われる：
+
+    git pull --rebase origin master
+
+> ※ リベースを理解してない人がやると、コンフリクト時に死ぬ
+
+### checkout -b
+
+    # ブランチを作ってそこに移動
+    git checkout -b new_branch
+
+    # ↑ は以下のコマンドのショートカット
+    git branch new_branch
+    git checkout new_branch
+
+<br/><br/>
+## git log
+
+### ログから対象文字列を含むコミットを検索
+
+    # --since は "2 days" みたいに柔軟な指定ができる
+    git log -S "target_word" --since="1 week"
+
+<br/><br/>
+## git branch
+
+### ブランチを消す
+
+    git branch -d branch_name     # ローカルのを消す
+    git push origin :branch_name  # リモートのを消す
+
+【補足】
+
+> `git push origin master` は<br/>
+> `git push origin master:master`
+> の略。
+>
+> ローカルブランチの `master` をリモートブランチの `master` に push するという意味。
+>
+> 上記の消すやつは空 branch を push してる感じ
+
+### 作成者を含めてブランチ一覧表示
+
+    git for-each-ref --format='%(authorname) %09 %(refname)' | grep 'refs/remotes/origin' | sort -k5n -k2M -k3n -k4n
+
+### 消されたブランチを手元でも消す
+誰かがリモートブランチを削除しても、ローカルでは残っている。
+以下のコマンドでそれを整理できる
+
+    git remote prune origin
+
+<br/><br/>
+## git diff
+
+### git diff で作ったパッチを当てる
+
+    git diff > patch.txt
+    patch -p1 < patch.txt
+
+<br/><br/>
+## git tag
+
+    # 一覧
+    git tag
+
+    # タグを打つ
+    git tag v1.0.0
+
+    # 特定コミットにタグを打つ
+    git tag v1.0.0 <commit_hash>
+
+    # リモートにタグ全部 push
+    git push origin --tags
+
+    # ログ見るとき、%d でタグ情報も表示できるよ
+    git log --pretty=format:"%C(yellow)%h%C(reset) %C(blue)%ad %C(reset)%C(red)%an%C(reset) - %s %C(green)%d%C(reset)" --graph --date-order -30 --date=iso
+
+
+<br/><br/>
 ## プルリクの差分を手元で見る
 
 でかい差分とか GitHub だと truncate されちゃうので
@@ -97,54 +229,17 @@ git rev-list --pretty HEAD -- 対象のファイルパス
 # 最後の commit だけ表示したいなら -n 1 を与えればよい
 ```
 
+## Untracked files を一瞬で消し去る
 
-## git tag
+    git clean -fdx
 
-- 一覧
+    # n をつけると dry-run
+    git clean -fdxn
 
-        git tag
+## ^M とかを無視する
 
-___
+    git config --global core.whitespace cr-at-eol
 
-- タグを打つ
-
-        git tag v1.0.0
-
-___
-
-- 特定コミットにタグを打つ
-
-        git tag v1.0.0 <commit_hash>
-
-___
-
-- リモートにタグ全部 push
-
-        git push origin --tags
-
-___
-
-- ログ見るとき、`%d` でタグ情報も表示できるよ
-
-        git log --pretty=format:"%C(yellow)%h%C(reset) %C(blue)%ad %C(reset)%C(red)%an%C(reset) - %s %C(green)%d%C(reset)" --graph --date-order -30 --date=iso
-
-
-## git branch
-
-- ブランチ消す
-
-        git branch -d branch_name     # ローカルのを消す
-        git push origin :branch_name  # リモートのを消す
-
-【補足】
-
-> `git push origin master` は<br/>
-> `git push origin master:master`
-> の略。
->
-> ローカルブランチの `master` をリモートブランチの `master` に push するという意味。
->
-> 上記の消すやつは空 branch を push してる感じ
 
 
 
