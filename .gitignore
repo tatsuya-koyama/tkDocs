@@ -2,3 +2,4 @@
 compiled/*
 publish.json
 Makefile
+crossdomain.xml

@@ -143,12 +143,19 @@ position: 2
 - [GreenSock | TweenMax](http://greensock.com/tweenmax)
 - [voxel.css](http://www.voxelcss.com/)
 
-## Programming - Technique
+## Programming Technique
 
 - [ngmoco直伝 OpenGL高速化テクニック](http://objective-audio.jp/2009/07/ngmoco-opengl.html)
 - [イージングの公式集](http://www.actionscript.org/forums/showthread.php3?t=42833)
 - [ブレンディングのファクター](http://fmworks.cocolog-nifty.com/blog/2009/06/d3d-f379.html)
 - [ブレンディング --- OpenGLとPhotoShop](http://tobysoft.net/wiki/index.php?PhotoShop%2F%A5%EC%A5%A4%A5%E4%A1%BC%A4%CE%B7%D7%BB%BB%CA%FD%CB%A1%A4%CB%A4%C4%A4%A4%A4%C6)
+
+## Debugging
+
+- LLDB
+    - [Dancing in the Debugger — A Waltz with LLDB · objc.io](https://www.objc.io/issues/19-debugging/lldb-debugging/)
+    - [入門LLDB - sleeping cat syndrome](http://sleepingcatsyndrome.com/post/107692770850)
+    - [LLDBコマンドのpとpoについて](http://www.minimalab.com/blog/2014/03/08/lldb-po/)
 
 ## Network
 
@@ -179,6 +186,7 @@ position: 2
 - [開発者はインデックスを知る必要がある](http://use-the-index-luke.com/ja/sql/preface)
 - [リレーショナルデータベースの仕組み (1/3) | コンピュータサイエンス | POSTD](http://postd.cc/how-does-a-rdb-work-1/)
 - [ヤフー社内でやってるMySQLチューニングセミナー大公開](http://www.slideshare.net/techblogyahoo/mysql-58540246)
+- [カーディナリティについてまとめてみた - Qiita](http://qiita.com/soyanchu/items/034be19a2e3cb87b2efb)
 
 ### Google App Engine / Datastore
 - [Datastoreの仕組み 〜Consistencyについて〜 - apps-gcp](http://www.apps-gcp.com/consistency-of-datastore/)
@@ -307,6 +315,10 @@ Adobe AIR 関連メモは[これ](/dev-log/adobe-air-dev-note)
 
 - [乱数と Perl5 にかんする蘊蓄の話](http://www.edita.jp/tokuhirom/one/tokuhirom162.html)
 - [Perl-DBIのTips](http://yanor.net/wiki/index.php?Perl-DBI%2FSELECT)
+
+### PHP
+
+- [PHPにPOSTでBase64の文字列を渡すときは注意 - フタなしカンヅメ](http://pontago.hatenablog.com/entry/20091028/1256743421)
 
 ### Java
 
