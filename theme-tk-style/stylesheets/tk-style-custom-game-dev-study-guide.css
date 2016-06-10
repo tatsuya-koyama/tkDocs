@@ -133,11 +133,6 @@ div.image-box img {
     margin: 0.5em 0.5em;
 }
 
-p.created-at {
-    color: #999;
-    font-family: monospace;
-}
-
 div.hint, div.key-idea, div.apology {
     width: 80%;
     max-width: 50em;

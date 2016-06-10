@@ -82,6 +82,9 @@ notes:
     - data-structure
     - git
     - command-line
+    - shell-script
+  language:
+    - language/php
   teamplay:
     - project-management
   game:
