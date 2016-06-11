@@ -193,6 +193,10 @@ position: 2
 - [Google Cloud Platform Japan 公式ブログ: Google Cloud Datastoreでのデータ整理の考え方](http://googlecloudplatform-japan.blogspot.jp/2015/08/google-cloud-datastore.html)
 - [GAE/Go Ancestorクエリについて - The Round](http://knightso.hateblo.jp/entry/2014/08/28/083545)
 
+## サーバ運用 / ロギング / 分析
+
+- [秒間数万のログをいい感じにするアーキテクチャ // Speaker Deck](https://speakerdeck.com/kanny/miao-jian-shu-mo-falseroguwoiigan-zinisuruakitekutiya)
+
 ## 情報科学
 
 - [情報科学における18のメタテクニック](http://www.slideshare.net/nakano_lab/cs-metatechniques)

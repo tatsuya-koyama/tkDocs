@@ -45,6 +45,10 @@ position: 7
 - [Lifetime Clock](http://lifetime-clock.com/)
 - [盆栽模型とジオラマを組み合わせた「盆栽ツリーハウス」が話題に - ライブドアニュース](http://news.livedoor.com/article/detail/11542890/)
 
+### Illustration
+
+- [Peaceful Rainy Day by miimork on DeviantArt](http://miimork.deviantart.com/art/Peaceful-Rainy-Day-311441570)
+
 ## Movie / Animation
 
 - [LifeVestInside（親切の連鎖）](http://www.youtube.com/watch?feature=player_embedded&v=nwAYpLVyeFU)
