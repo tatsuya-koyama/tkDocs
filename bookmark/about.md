@@ -1,5 +1,5 @@
 ---
-title: '- Bookmarks and References'
+title: 'about'
 date: '2013-12-04'
 description:
 categories: []
@@ -9,15 +9,12 @@ position: 0
 
 # Bookmarks and References
 
-## これは何
-
-日々生きていく中で出会う、
-技術情報のリファレンスや
-覚えておきたい価値あるサイトのリンクをまとめておくところ
+- 日々生きていく中で出会う、技術情報のリファレンスや<br/>
+  覚えておきたい価値あるサイトのリンクをまとめておくところ
 
 ## どう見る
 
-左のカラムからカテゴリを選ぶ
+- 左のカラムからカテゴリを選ぶ
 
 ## Pinterest もあるよ
 

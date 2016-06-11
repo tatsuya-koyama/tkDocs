@@ -7,16 +7,25 @@ tags: [anything, ruhoh]
 position: 1
 ---
 
-# About tkNotes
-
-## これは何
+# 勉強ノート
 
 - 勉強したことをメモっておくところ
 - 開発メモと違って、一般的な知識として世の中に知られているものを自分用にまとめるところ
 
-## どう見る
+## 更新履歴
 
-左のカラムにページ一覧があるのでそこから選ぶ
-
-<br/><br/><br/><br/><br/><br/><br/><br/>
+{{# notes.collated }}
+###{{year}}
+<ul>
+{{#months}}
+  {{#notes?to_notes}}
+  <li>
+    <span>{{date}}</span>
+    <span style="color: #aaa;">&raquo;</span>
+    <a href="{{url}}">{{title}}</a>
+  </li>
+  {{/notes?to_notes}}
+{{/months}}
+</ul>
+{{/ notes.collated }}
 

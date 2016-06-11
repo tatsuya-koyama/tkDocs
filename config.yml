@@ -58,22 +58,22 @@ posts:
 
 # Tatsuya Koyama added ----------
 notes:
-  sort: ["position", "asc"]
+  sort: ["date", "desc"]
 
 krew-framework:
   sort: ["position", "asc"]
 
 dev-log:
-  sort: ["position", "asc"]
+  sort: ["date", "desc"]
 
 mind-log:
-  sort: ["position", "asc"]
+  sort: ["date", "desc"]
 
 bookmark:
   sort: ["position", "asc"]
 
 english:
-  sort: ["position", "asc"]
+  sort: ["date", "desc"]
 
 issues:
   sort: ["date", "desc"]

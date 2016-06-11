@@ -1,6 +1,6 @@
 ---
 title: 'Git Memo'
-date: '2014-06-12'
+date: '2016-05-29'
 description:
 categories: []
 tags: [anything, Tips, Git]

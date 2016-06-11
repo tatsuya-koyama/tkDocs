@@ -1,6 +1,6 @@
 ---
 title: '7. Design / Art / Creative'
-date: '2013-12-13'
+date: '2016-04-25'
 description:
 categories: []
 tags: [anything, reference, Design]

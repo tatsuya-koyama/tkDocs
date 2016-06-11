@@ -9,19 +9,30 @@ position: 1
 
 # About
 
-## これは何
+- 特に英語関連で勉強したことをメモっておくところ
+- 主に技術英語やプログラマ向け
+- 自分でも使えるように世のドキュメンテーションのフレーズをメモったりとか
 
-特に英語関連で勉強したことをメモっておくところ。
-主に技術英語やプログラマ向け。
-自分でも使えるように世のドキュメンテーションのフレーズをメモったりとか。
-
-## どう見る
-
-左のカラムにページ一覧があるのでそこから選ぶ
-
-## リファレンス
+## 関連リンク
 
 - [英語関連のブックマーク](/bookmark/english)
 
-<br/><br/><br/><br/><br/><br/><br/><br/>
+
+## 更新履歴
+
+{{# english.collated }}
+###{{year}}
+<ul>
+{{#months}}
+  {{#english?to_english}}
+  <li>
+    <span>{{date}}</span>
+    <span style="color: #aaa;">&raquo;</span>
+    <a href="{{url}}">{{title}}</a>
+  </li>
+  {{/english?to_english}}
+{{/months}}
+</ul>
+{{/ english.collated }}
+
 

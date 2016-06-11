@@ -1,5 +1,5 @@
 ---
-title: 'PHP'
+title: 'PHP 7'
 date: '2016-06-10'
 description:
 categories: []
@@ -8,7 +8,8 @@ position: 1
 ---
 
 # PHP 備忘録（PHP7 対応）
-{{> updated_at.html }}
+
+※ まだ WIP
 
 ## 他の言語から来た人向け要約
 - セミコロンは要る
@@ -194,5 +195,3 @@ ____
 - for, foreach
   - 値変数の参照渡し（& つけるやつ）
 
-
-<br/><br/><br/>

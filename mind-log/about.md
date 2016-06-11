@@ -1,18 +1,31 @@
 ---
-title: 'tkDocs 思考ログ'
-date: '2015-02-14'
+title: 'about'
+date: '2013-12-06'
 description:
 categories: []
 tags: [anything, ruhoh]
 position: 1
 ---
 
-# tkDocs 思考ログ
+# 思考ログ
 
-## これは何
+- 何かを作る時の思考の過程とか
+- 考えるべきことの洗い出しとか
 
-何かを作る時の思考の過程とか
+## 更新履歴
 
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+{{# mind-log.collated }}
+###{{year}}
+<ul>
+{{#months}}
+  {{#mind-log?to_mind-log}}
+  <li>
+    <span>{{date}}</span>
+    <span style="color: #aaa;">&raquo;</span>
+    <a href="{{url}}">{{title}}</a>
+  </li>
+  {{/mind-log?to_mind-log}}
+{{/months}}
+</ul>
+{{/ mind-log.collated }}
 

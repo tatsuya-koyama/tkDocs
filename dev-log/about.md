@@ -1,5 +1,5 @@
 ---
-title: 'tkDocs 開発ログ'
+title: 'about'
 date: '2013-12-01'
 description:
 categories: []
@@ -7,12 +7,25 @@ tags: [anything, ruhoh]
 position: 1
 ---
 
-# tkDocs 開発ログ
+# 開発ログ
 
-## これは何
+- 何かを作った時の作業ログとか
+- 開発で得た個人的な知見のメモ
 
-何かを作った時の作業ログとか
+## 更新履歴
 
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+{{# dev-log.collated }}
+###{{year}}
+<ul>
+{{#months}}
+  {{#dev-log?to_dev-log}}
+  <li>
+    <span>{{date}}</span>
+    <span style="color: #aaa;">&raquo;</span>
+    <a href="{{url}}">{{title}}</a>
+  </li>
+  {{/dev-log?to_dev-log}}
+{{/months}}
+</ul>
+{{/ dev-log.collated }}
 

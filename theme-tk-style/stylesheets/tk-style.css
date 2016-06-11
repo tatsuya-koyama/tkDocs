@@ -9,7 +9,7 @@ body{
 }
 
 #left-pane {
-    padding-top: 50px;
+    padding-top: 40px;
     position: fixed;
     top: 0;
     width: 16%;
@@ -20,7 +20,7 @@ body{
 }
 
 #outline-pane {
-    padding-top: 50px;
+    padding-top: 40px;
     position: fixed;
     top: 0;
     left: 16%;
@@ -39,7 +39,8 @@ body{
     width:68%;
     background:#ececec;
 }
-#novel > .inner {padding:15px 30px}
+/* #novel > .inner {padding:25px 30px} */
+#novel > .inner {padding:50px 30px}
 
 #nav-toggle{
   z-index:10000000;
@@ -67,7 +68,7 @@ body{
   #novel { left:0; width:100% }
   #novel > .inner { padding:15px }
   #left-pane {
-    width:100%; 
+    width:100%;
     display:none;
     height:100%;
     position:relative;
@@ -98,7 +99,7 @@ h1{
     font-size: 220%;
     line-height: 120%;
     color: #444;
-    margin: 1.3em 0 0.3em 0;
+    margin: 0em 0 0.5em 0;
 }
 
 h2{
@@ -144,7 +145,7 @@ h3{
 h4{
     width: 70%;
     max-width: 40em;
-    color: #555;
+    color: #9d385e;
     font-size  : 115%;
     line-height: 150%;
     font-weight: bold;
@@ -327,6 +328,7 @@ strong {
 p.created-at {
     color: #999;
     font-family: monospace;
+    margin: 0.0em 0 0.3em 0.2em;
 }
 
 /*----- code ------------------------------------------------------*/
