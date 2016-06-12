@@ -9,8 +9,6 @@ position: 113.3
 
 # tart framework
 
-Updated at: 2016-02-25
-
 krewFramework の反省を活かした新しい俺俺フレームワークの設計について考える際のメモ
 
 ## スコープの管理
