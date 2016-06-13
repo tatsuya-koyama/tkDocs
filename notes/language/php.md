@@ -1,6 +1,6 @@
 ---
 title: 'PHP 7'
-date: '2016-06-12'
+date: '2016-06-13'
 description:
 categories: []
 tags: [anything, Language, PHP]
@@ -68,10 +68,68 @@ ____
 - 変数名や関数名はキャメルケース（camelCase）が多そう
     - スネークケース（snake_case）はあまり使われないっぽい
 
+## PHP 慣れてない人がハマりそうなポイント
+
+- `==` 使ったときの数値と文字列の比較がわりとキモい
+- （基本的に `===` を使った方がいいだろう）
+
+        // '0x10' は 0 とみなされる
+        var_dump('0x10' == 16);     // -> bool (false)
+
+        // '010' は 10 とみなされる
+        var_dump('010' == 10);      // -> bool (true)
+
+        // 文字列の場合、先頭の数値だけが認識される。
+        // 数値が無い場合 0 になるのでこれが true になる！
+        var_dump('hoge' == 0);      // -> bool (true)
+
+        var_dump('13xyz' == 13);    // -> bool (true)
+        var_dump('13xyz' == '13');  // -> bool (false)
+
+____
+
+- 細かいところが知りたくなったら：
+    - [PHP: PHP 型の比較表 - Manual](http://php.net/manual/ja/types.comparisons.php)
+- 配列どうしの比較も演算子でできたりするけど、わりと特殊
+    - [PHP: 配列演算子 - Manual](http://php.net/manual/ja/language.operators.array.php)
+
+____
+
+- **三項演算子 `?:` が左結合** なのはビビる（多くの言語では右結合）
+- PHP では三項演算子を重ねる書き方はしないのが得策
+- （括弧をつければどうにかできるが読みにくくなる）
+
+        // 例えば以下のような三項演算子を重ねる書き方があるが
+        $score = 70;
+        $rank =
+            ($score >= 80) ? 'A' :
+            ($score >= 60) ? 'B' :
+            ($score >= 40) ? 'C' : 'D';
+        print($rank);
+        // 多くの言語では 'B' になるが、PHP だと 'C' になる
+
+        //----------
+        // こういう式に対して
+        $a = $expr1 ? 'val_1' : $expr2 ? 'val_2' : 'val_3';
+
+        // 右結合だとこう解釈されるが
+        $a = $expr1 ? 'val_1' : ($expr2 ? 'val_2' : 'val_3');
+
+        // 左結合だとこう
+        $a = ($expr1 ? 'val_1' : $expr2) ? 'val_2' : 'val_3';
+
+____
+
+- switch は `===` ではなく `==` で比較される
+- switch 内での continue は break と同様の挙動
+    - continue 書いても switch を抜けるだけで外側の for を continue とかしないので注意
+
+
 ## 文字列
 
 - シングルクォートかダブルクォート
 - シングルクォートは `\'` と `\\` だけエスケープする
+- ダブルクォートは一通りエスケープする
 - ダブルクォートは変数展開する
 
         // 他の言語と同様、変数展開時の変数を明確にするために { } が使える。
@@ -102,21 +160,19 @@ ____
 
 - 変数に入れた文字列を変数名として指定したり、関数名として指定したりできる
 
-____
-
-    $a = 'b';
-    $b = 'c';
-    $c = 'd';
-
-    // 可変変数
-    $$a;    // c  ($b と同義)
-    ${$a};  // c  (同上)
-
-    $$$a;   // d  ($$b すなわち $c と同義)
-
-    // 可変関数
-    $command = 'printf';
-    $command('hoge');  // printf('hoge') と同義
+        $a = 'b';
+        $b = 'c';
+        $c = 'd';
+    
+        // 可変変数
+        $$a;    // c  ($b と同義)
+        ${$a};  // c  (同上)
+    
+        $$$a;   // d  ($$b すなわち $c と同義)
+    
+        // 可変関数
+        $command = 'printf';
+        $command('hoge');  // printf('hoge') と同義
 
 ## 参照（リファレンス）
 
@@ -187,75 +243,6 @@ ____
     array_unshift($list, 0);       // [0, 1, 2, 3, 4]
     $popped  = array_pop($list);   // [0, 1, 2, 3]
     $shifted = array_shift($list); // [1, 2, 3]
-
-## PHP 慣れてない人がハマりそうなポイント
-
-- `==` 使ったときの数値と文字列の比較がわりとキモい
-- （基本的に `===` を使った方がいいだろう）
-
-        // '0x10' は 0 とみなされる
-        var_dump('0x10' == 16);     // -> bool (false)
-
-        // '010' は 10 とみなされる
-        var_dump('010' == 10);      // -> bool (true)
-
-        // 文字列の場合、先頭の数値だけが認識される。
-        // 数値が無い場合 0 になるのでこれが true になる！
-        var_dump('hoge' == 0);      // -> bool (true)
-
-        var_dump('13xyz' == 13);    // -> bool (true)
-        var_dump('13xyz' == '13');  // -> bool (false)
-
-____
-
-- 細かいところが知りたくなったら：
-    - [PHP: PHP 型の比較表 - Manual](http://php.net/manual/ja/types.comparisons.php)
-- 配列どうしの比較も演算子でできたりするけど、わりと特殊
-    - [PHP: 配列演算子 - Manual](http://php.net/manual/ja/language.operators.array.php)
-
-____
-
-- **三項演算子 `?:` が左結合** なのはビビる（多くの言語では右結合）
-- PHP では三項演算子を重ねる書き方はしないのが得策
-- （括弧をつければどうにかできるが読みにくくなる）
-
-        // 例えば以下のような三項演算子を重ねる書き方があるが
-        $score = 70;
-        $rank =
-            ($score >= 80) ? 'A' :
-            ($score >= 60) ? 'B' :
-            ($score >= 40) ? 'C' : 'D';
-        print($rank);
-        // 多くの言語では 'B' になるが、PHP だと 'C' になる
-
-        //----------
-        // こういう式に対して
-        $a = $expr1 ? 'val_1' : $expr2 ? 'val_2' : 'val_3';
-
-        // 右結合だとこう解釈されるが
-        $a = $expr1 ? 'val_1' : ($expr2 ? 'val_2' : 'val_3');
-
-        // 左結合だとこう
-        $a = ($expr1 ? 'val_1' : $expr2) ? 'val_2' : 'val_3';
-
-____
-
-- switch は `===` ではなく `==` で比較される
-- switch 内での continue は break と同様の挙動
-    - continue 書いても switch を抜けるだけで外側の for を continue とかしないので注意
-
-
-## 小ネタ
-
-- 三項演算子の省略構文がある
-    - `$foo = $bar ?: 'default-value';`
-- エラー制御演算子
-    - @ を式の先頭につけるとその命令で発生するエラーメッセージを抑制する
-    - エラーを抑制すべきではないので使いどころは少ない
-- 制御命令に別構文がある
-    - [PHP: 制御構造に関する別の構文 - Manual](http://php.net/manual/ja/control-structures.alternative-syntax.php)
-    - まあ使いどころは無いと思う
-- require_once などで読み込んだものはスコープを継承する
 
 ## 関数
 
@@ -342,6 +329,18 @@ ____
 
 ## 小ネタ
 
+### 豆知識
+
+- 三項演算子の省略構文がある
+    - `$foo = $bar ?: 'default-value';`
+- エラー制御演算子
+    - @ を式の先頭につけるとその命令で発生するエラーメッセージを抑制する
+    - エラーを抑制すべきではないので使いどころは少ない
+- 制御命令に別構文がある
+    - [PHP: 制御構造に関する別の構文 - Manual](http://php.net/manual/ja/control-structures.alternative-syntax.php)
+    - まあ使いどころは無いと思う
+- require_once などで読み込んだものはスコープを継承する
+
 ### マジカルインクリメント
 
     $i = 'Z';
@@ -359,10 +358,54 @@ ____
 - [PHP: 下位互換性のない変更点 - Manual](http://php.net/manual/ja/migration70.incompatible.php)
 - 引数・戻り値の型宣言ができる
     - PHP5 ではタイプヒンティングと呼ばれていた
-    - double や boolean のようなスカラー型のエイリアスは利用できない
-    - （double という名前のクラス / インターフェースであるとみなされる）
+    - でも double や boolean のような **スカラー型のエイリアスは利用できない**
+        - （double という名前のクラス / インターフェースであるとみなされる）
 - null 合体演算子 : `$foo = $bar ?? 'default-value';`
 - foreach ブロック内での要素追加の挙動が違う
 - 無名クラスをサポート
 
+## PHP の複数バージョン管理
+- phpenv ってのがある
+    - [phpenv/phpenv: Simple PHP version management](https://github.com/phpenv/phpenv)
+- この辺を参考にしてインストールしよう
+    - [phpenvの導入して複数バージョンのPHPを管理する - Qiita](http://qiita.com/uchiko/items/5f1843d3d848de619fdf)
+    - [phpenvで複数のPHPのバージョンを管理する - Qiita](http://qiita.com/toshiro3/items/2ca2765c1a5fee78d504)
+    - [phpenv+php-build環境によるphpバージョン管理~Mac（Yosemite）編~ - Qiita](http://qiita.com/omega999/items/c5b1c177331f8d342efd)
+
+#### 使い方
+
+    # インストール可能な PHP のバージョンを一覧
+    $ phpenv install --list
+
+    # 特定のバージョンをインストール
+    $ phpenv install 5.6.22
+
+    # インストール済みのバージョンを一覧
+    $ phpenv versions
+
+    # バージョン切り替え
+    $ phpenv global 5.6.22  # 全環境に反映
+    $ phpenv local  5.6.22  # カレントディレクトリのみ
+                            # （.php-version が作成される）
+
+#### 【2016 年頃の Mac でありそうなトラブルシュート】
+
+- `phpenv install` はわりと待たされるが、**わりと BUILD ERROR になる**ので注意
+    - 依存パッケージが足りないのが原因。
+      あと OpenSSL のリンクまわりでエラーが出たりもする。
+    - 以下を参考にするとよい
+        - [Mac OS X El Capitan上でphp-buildするメモ - Qiita](http://qiita.com/hnw/items/62380e713d318906f0cd)
+        - [MacOSX に PHP 5.4.29 を install したい - あいつの日誌β](http://okamuuu.hatenablog.com/entry/2015/07/08/143411)
+
+____
+
+    # 最終的に Mac (OSX 10.11.1) で PHP 5.6.22 を入れるのには以下が必要だった
+    $ brew install re2c
+    $ brew install autoconf
+    $ brew link openssl --force
+
+    $ PHP_BUILD_CONFIGURE_OPTS="--with-openssl=$(brew --prefix openssl) \
+          --with-libxml-dir=$(brew --prefix libxml2)" \
+          PHP_BUILD_EXTRA_MAKE_ARGUMENTS=-j4 \
+          phpenv install 5.6.22
 
