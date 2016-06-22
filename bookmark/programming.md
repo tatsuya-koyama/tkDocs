@@ -197,6 +197,10 @@ position: 2
 
 - [秒間数万のログをいい感じにするアーキテクチャ // Speaker Deck](https://speakerdeck.com/kanny/miao-jian-shu-mo-falseroguwoiigan-zinisuruakitekutiya)
 
+## i18n (Internationalization)
+
+- [iOSアプリケーションの国際化と地域化 - クックパッド開発者ブログ](http://techlife.cookpad.com/entry/internationalization-and-localization-of-ios-apps)
+
 ## 情報科学
 
 - [情報科学における18のメタテクニック](http://www.slideshare.net/nakano_lab/cs-metatechniques)

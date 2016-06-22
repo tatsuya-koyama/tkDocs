@@ -179,6 +179,7 @@ ___
     # ログ見るとき、%d でタグ情報も表示できるよ
     git log --pretty=format:"%C(yellow)%h%C(reset) %C(blue)%ad %C(reset)%C(red)%an%C(reset) - %s %C(green)%d%C(reset)" --graph --date-order -30 --date=iso
 
+- [Gitでタグの名前を変更（編集）する方法](http://blog.nambo.jp/2014/06/24/git-tag-rename/)
 
 <br/><br/>
 ## プルリクの差分を手元で見る
