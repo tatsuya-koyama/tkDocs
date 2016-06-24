@@ -39,6 +39,10 @@ position: 8
 - [エンジニアが0から英語を勉強する為にした事 - ギークに憧れて](http://hotchemi.hateblo.jp/entry/2015/12/31/091301)
 - [いまさら聞けない「コードの英語」超入門 - クックパッド開発者ブログ](http://techlife.cookpad.com/entry/2015/08/31/140749)
 
+## 書籍
+
+- [英語学習最強の参考書English Grammar in Useのエッセンス - Life is colourful.](http://lifeiscolourful.hatenablog.com/entry/2016/06/23/191148)
+
 ## 雑多
 
 - [海外で撮影！現地スタッフと意思疎通するための映画監督英語](http://www.berlitz-blog.com/filming)

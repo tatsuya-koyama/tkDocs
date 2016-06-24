@@ -33,6 +33,7 @@ position: 2
 - [Yakst - プログラミング初心者に言ってはいけないこと](http://yakst.com/ja/posts/1373)
 - [プログラマ能力指標表 | コンピュータサイエンス | POSTD](http://postd.cc/programmer-competency-matrix/)
 - [Webサービス - プログラマ向けニュースキュレーションサービスを作ってみた話 - Qiita](http://qiita.com/ytanaka/items/a0144b623a8dd7fcdbbe)
+- [The Little Printf : 「我々はなぜプログラミングをするのか？」を追う寓話 | キャリア・働き方 | POSTD](http://postd.cc/the-little-printf/)
 
 ## eBook
 
