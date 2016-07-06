@@ -188,6 +188,7 @@ position: 2
 - [リレーショナルデータベースの仕組み (1/3) | コンピュータサイエンス | POSTD](http://postd.cc/how-does-a-rdb-work-1/)
 - [ヤフー社内でやってるMySQLチューニングセミナー大公開](http://www.slideshare.net/techblogyahoo/mysql-58540246)
 - [カーディナリティについてまとめてみた - Qiita](http://qiita.com/soyanchu/items/034be19a2e3cb87b2efb)
+- [Webサービスにおける キャッシュ戦略 // Speaker Deck](https://speakerdeck.com/yusukebe/websabisuniokeru-kiyatusiyuzhan-lue)
 
 ### Google App Engine / Datastore
 - [Datastoreの仕組み 〜Consistencyについて〜 - apps-gcp](http://www.apps-gcp.com/consistency-of-datastore/)
