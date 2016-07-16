@@ -195,6 +195,11 @@ position: 2
 - [Google Cloud Platform Japan 公式ブログ: Google Cloud Datastoreでのデータ整理の考え方](http://googlecloudplatform-japan.blogspot.jp/2015/08/google-cloud-datastore.html)
 - [GAE/Go Ancestorクエリについて - The Round](http://knightso.hateblo.jp/entry/2014/08/28/083545)
 
+## AWS
+
+- [「AWS is 何」を3行でまとめてみるよ - Qiita](http://qiita.com/kohashi/items/1bb952313fb695f12577)
+- [ElasticBeanstalk .ebextensions 逆引き辞典 - Qiita](http://qiita.com/inouet/items/e8b39962c0de0f866531)
+
 ## サーバ運用 / ロギング / 分析
 
 - [秒間数万のログをいい感じにするアーキテクチャ // Speaker Deck](https://speakerdeck.com/kanny/miao-jian-shu-mo-falseroguwoiigan-zinisuruakitekutiya)

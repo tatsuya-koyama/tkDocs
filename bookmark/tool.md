@@ -9,6 +9,11 @@ position: 5
 
 # References of Tools / Lib / Service
 
+## Mac
+
+- [toland/qlmarkdown: QuickLook generator for Markdown files.](https://github.com/toland/qlmarkdown/)
+    - QuickLook で Markdown をプレビューできるようにするやつ
+
 ## Library
 
 - [AS3用のライブラリ集](http://phpspot.org/blog/archives/2008/08/3dactionscript3.html)
