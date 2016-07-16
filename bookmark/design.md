@@ -55,14 +55,13 @@ position: 7
 - [Sight](http://vimeo.com/46304267)
 - [feely.jp](http://feely.jp/)
 
+## Motion Graphics
+
+- [Motion Periodic Table | モーショングラフィックスの周期表](http://foxcodex.html.xdomain.jp/)
+
 ## Music
 
 - [第99回：2010年代に聴くべき、新しいピアノ・ミュージック](http://www.drillspin.com/articles/view/680)
-
-## Stylish Website
-
-- [julienlavallee](http://www.julienlavallee.com/)
-- [tauadesign.com](http://tauadesign.com/)
 
 ## Design / UI / UX
 
@@ -116,6 +115,11 @@ position: 7
 - [お絵かき講座 カテゴリーの記事一覧 - 洞田創研究室](http://todahajime.hatenablog.com/archive/category/%E3%81%8A%E7%B5%B5%E3%81%8B%E3%81%8D%E8%AC%9B%E5%BA%A7)
 - [いちあっぷ講座](https://ichi-up.net/)
 - [プロによる『ここだけ注意すれば下手には見えない男性と女性の身体の描き方』がとても参考になる - Togetterまとめ](http://togetter.com/li/969596)
+
+## Stylish Website
+
+- [julienlavallee](http://www.julienlavallee.com/)
+- [tauadesign.com](http://tauadesign.com/)
 
 ## 素材集 / ライブラリ / サービス
 

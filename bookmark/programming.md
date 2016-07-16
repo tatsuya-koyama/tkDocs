@@ -1,6 +1,6 @@
 ---
 title: '2. Programming / Engineering'
-date: '2016-06-11'
+date: '2016-07-02'
 description:
 categories: []
 tags: [anything, reference, Programming]
@@ -289,6 +289,7 @@ ___
 
 - [Python/Ruby基礎文法最速マスター](http://d.hatena.ne.jp/dplusplus/20100126/p1)
 - [Objective-C 最速基礎文法マスター](http://d.hatena.ne.jp/fn7/20100203/1265207098)
+- [主要でもないプログラミング言語200種を一行で解説 - Qiita](http://qiita.com/make_now_just/items/b2ab19f954417c71848d)
 
 ### Golang
 

@@ -18,11 +18,39 @@ position: 5
 
 - [AS3用のライブラリ集](http://phpspot.org/blog/archives/2008/08/3dactionscript3.html)
 
+### Web Frontend
+
+- GitHub によるまとめ
+    - [Front-end JavaScript frameworks](https://github.com/showcases/front-end-javascript-frameworks)
+- [ianstormtaylor/slate: A completely customizable framework for building rich text editors.](https://github.com/ianstormtaylor/slate)
+- [Underscore.js](http://underscorejs.org/)
+- [Backbone.js](http://backbonejs.org/)
+- [Sugar: A Javascript library for working with native objects.](http://sugarjs.com/)
+
 ## Framework / SDK
 
 - [Apache Cordova](https://cordova.apache.org/)
 - [Electron(旧atom shell)基礎+入門](http://www.slideshare.net/mainya/electronatom-shell)
     - [sindresorhus/awesome-electron · GitHub](https://github.com/sindresorhus/awesome-electron)
+
+### Web Framework
+
+- GitHub によるまとめ
+    - [Web application frameworks](https://github.com/showcases/web-application-frameworks)
+
+### Game Framework / Game Engine
+
+- AS3
+    - [Starling - The Cross Platform Game Engine](http://gamua.com/starling/)
+        - [Extensions - Starling Wiki](http://wiki.starling-framework.org/extensions/start)
+    - [Away3D](http://away3d.com/)
+    - [Citrus | Game Engine for iOS, Android, BlackBerry, Windows, Mac and Linux](http://citrusengine.com/)
+    - [Ash entity system framework](http://www.ashframework.org/)
+- Haxe
+    - [aduros/flambe: Rapidly cook up games for HTML5, Flash, Android, and iOS.](https://github.com/aduros/flambe)
+- Java
+    - [Artemis Entity System Framework](https://thelinuxlich.github.io/artemis_CSharp/)
+    - [jMonkeyEngine](http://jmonkeyengine.org/)
 
 ## Task Runner / Build System
 
@@ -43,9 +71,15 @@ position: 5
 - [commit-m: GitHubコミットメッセージの文例が検索できるサービス](http://commit-m.minamijoyo.com/commits/search?keyword=fix+bug)
 - [musicForProgramming("38: J.S. Aurelius");](http://musicforprogramming.net/)
 
+## Task Management Tools
+
+- [Trello](https://trello.com/)
+    - [Ganttify - Gantt charts for Basecamp, Google Calendar and Trello](https://www.gantt-chart.com/)
+- [Waffle.io · Work Better on GitHub Issues](https://waffle.io/)
+
 ## Misc
 
-- [ULTIMATE CHART](http://www.ultimatechart.com/)
+- [Ultimate Chart powered by BigChampagne](http://www.ultimatechart.com/)
 
 <br/><br/><br/>
 

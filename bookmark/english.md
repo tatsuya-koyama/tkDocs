@@ -38,6 +38,7 @@ position: 8
 - [エンジニアのための英語 - Tumblr](http://englishforengineers.tumblr.com/)
 - [エンジニアが0から英語を勉強する為にした事 - ギークに憧れて](http://hotchemi.hateblo.jp/entry/2015/12/31/091301)
 - [いまさら聞けない「コードの英語」超入門 - クックパッド開発者ブログ](http://techlife.cookpad.com/entry/2015/08/31/140749)
+- [オフショア開発を3年やってわかった、簡単にIT英語を学ぶ方法と重要性 | 作ってみた | 俺日記](http://blog.shinji.asia/english-engineer/)
 
 ## 書籍
 
