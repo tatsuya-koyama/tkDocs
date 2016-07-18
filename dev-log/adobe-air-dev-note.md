@@ -163,7 +163,7 @@ ____
 
 こんな書き方をする
 
-    var vector:Vecotr.<String> = new <String>["a", "b", "c"];
+    var vector:Vector.<String> = new <String>["a", "b", "c"];
 
 またはビルトインの Vector のグローバル関数を使う。
 これは Vector から型の違う Vector への変換にも使える。

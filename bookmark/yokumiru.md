@@ -14,6 +14,8 @@ position: 99
 ### とりあえず
 
 - [はてなブックマーク - 人気エントリー](http://b.hatena.ne.jp/hotentry)
+- [GIGAZINE](http://gigazine.net/)
+- [Hacker News](https://news.ycombinator.com/news)
 
 ### ゲーム系
 
@@ -30,6 +32,9 @@ position: 99
 
 - [POSTD](http://postd.cc/)
 - [エンジニアのための英語](http://englishforengineers.tumblr.com/)
+- GitHub 探検
+    - [GitHub | Showcases](https://github.com/showcases)
+    - [Trending repositories on GitHub today](https://github.com/trending)
 
 ### たのしい
 
@@ -50,11 +55,17 @@ position: 99
 - [Hack Design](https://hackdesign.org/lessons)
 - [Skillshare](http://www.skillshare.com/)
 
+## Podcast
+
+- [Rebuild.fm](https://rebuild.fm/)
+
 ## たまにみる
 
 - [Ph by codic team](http://blog.codic.jp/)
 - [sugi.cc](http://sugi.cc/)
 - [WirelessWire News（ワイヤレスワイヤーニュース）- The Technology and Ecosystem of the IoT](https://wirelesswire.jp/)
 - [UX MILK | クリエイターのためのUXメディア](http://uxmilk.jp/)
+- [ITmedia Mobile](http://www.itmedia.co.jp/mobile/)
+- [roomie](http://www.roomie.jp/)
 
 
