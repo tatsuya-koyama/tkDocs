@@ -244,6 +244,20 @@ ____
     $popped  = array_pop($list);   // [0, 1, 2, 3]
     $shifted = array_shift($list); // [1, 2, 3]
 
+### key の存在チェック
+存在しない key にアクセスしただけで Notice エラーが出る。
+他の言語のノリで null チェックみたいなのを書くと怒られるので注意：
+
+    // こういう書き方をすると key が無いときに Notice: Undefined index と言われる
+    if ($hash['key']) { ... }
+
+    // isset() などでチェックしてあげないとダメ
+    if (isset($hash['key'])) { ... }
+
+- `isset()` は key があっても null だと false を返す
+- key の存在確認を厳密にやるなら `array_key_exsists()`
+    - 参考 : [isset, in\_array, array\_key\_exsistsの使い分け - Qiita](http://qiita.com/is0me/items/e0154b4c2bc6195607f5)
+
 ## 関数
 
     function foo($arg) { ... }

@@ -1,6 +1,6 @@
 ---
 title: 'Git Memo'
-date: '2016-05-29'
+date: '2016-07-31'
 description:
 categories: []
 tags: [anything, Tips, Git]
@@ -84,6 +84,9 @@ ___
 - [ネイティブと働いて分かった英語コミットメッセージの頻出動詞10つ - Qiita](http://qiita.com/gogotanaka/items/b65e1b081fa976e5d754)
 - [Git - 英語のコメントや issue で頻出する略語の意味 (FYI, AFAIK, ...) - Qiita](http://qiita.com/uasi/items/86c3a09d17792ab62dfe)
 - [commit-m: GitHubコミットメッセージの文例が検索できるサービス](http://commit-m.minamijoyo.com/commits/search?keyword=fix+bug)
+- [gitにおけるコミットログ/メッセージ例文集100](http://anond.hatelabo.jp/20160725092419)
+- [Emojiで楽しく綺麗なコミットを手に入れる | MEMOPATCH](http://memo.goodpatch.co/2016/07/beautiful-commits-with-emojis/)
+    - Atom の絵文字ガイド : [atom/CONTRIBUTING.md at master · atom/atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#git-commit-messages)
 
 ### プルリク開発
 

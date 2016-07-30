@@ -1,6 +1,6 @@
 ---
 title: '2. Programming / Engineering'
-date: '2016-07-02'
+date: '2016-07-31'
 description:
 categories: []
 tags: [anything, reference, Programming]
@@ -168,6 +168,8 @@ position: 2
 
 - [ブラウザゲーム時代のチートとセキュリティ](http://wate.jp/wordpress/?p=262)
 - [スマートフォンゲームのチート事情](http://www.slideshare.net/ssuser8200d3/ss-59926328)
+- [スマホネイティブゲームのチート対策 - nao-bambooの日記](http://nao-bamboo.hatenablog.com/entry/2015/11/21/164417)
+- [チート対策について | 株式会社オーツー｜スタッフブログ](http://www.otwo.jp/blog/server/cheat_measures/)
 
 ## Web Architecture / Web App
 
@@ -249,6 +251,8 @@ position: 2
 
 ## Git
 
+個人的な勉強メモは [こちら](/notes/git)
+
 - [Webサイトをgithubで管理してpush時に自動的に同期する方法](http://d.hatena.ne.jp/viver/20110402/p1)
 - [やる夫で学ぶ gitcore-tutorial](http://motememo.g.hatena.ne.jp/keyword/%E3%82%84%E3%82%8B%E5%A4%AB%E3%81%A7%E5%AD%A6%E3%81%B6%20gitcore-tutorial)
 - [Pro Git](http://progit.org/book/ja/)
@@ -260,6 +264,7 @@ position: 2
 - [巨大なリポジトリを Git で上手く扱う方法](http://japan.blogs.atlassian.com/2014/05/handle-big-repositories-git/)
 - [Yakst - より良いプルリクエストのための10のヒント](http://yakst.com/ja/posts/1625)
 - [「Git補完をしらない」「git statusを1日100回は使う」そんなあなたに朗報【git-completionとgit-prompt】 - Qiita](http://qiita.com/varmil/items/9b0aeafa85975474e9b6)
+- [巨大なリポジトリを Git で上手く扱う方法 - Atlassian Japan](http://japan.blogs.atlassian.com/2014/05/handle-big-repositories-git/)
 
 ___
 
@@ -269,7 +274,8 @@ ___
 - [Changelogのための英文テンプレート集](http://d.hatena.ne.jp/pyopyopyo/20070920/p1)
 - [ネイティブと働いて分かった英語コミットメッセージの頻出動詞10つ - Qiita](http://qiita.com/gogotanaka/items/b65e1b081fa976e5d754)
 - [Git - 英語のコメントや issue で頻出する略語の意味 (FYI, AFAIK, ...) - Qiita](http://qiita.com/uasi/items/86c3a09d17792ab62dfe)
-- [巨大なリポジトリを Git で上手く扱う方法 - Atlassian Japan](http://japan.blogs.atlassian.com/2014/05/handle-big-repositories-git/)
+- [Emojiで楽しく綺麗なコミットを手に入れる | MEMOPATCH](http://memo.goodpatch.co/2016/07/beautiful-commits-with-emojis/)
+    - Atom の絵文字ガイド : [atom/CONTRIBUTING.md at master · atom/atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#git-commit-messages)
 
 ___
 

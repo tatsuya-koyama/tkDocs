@@ -20,6 +20,11 @@ position: 1
 - [スプラトゥーンとかいうイカしたシューターの再発明の話をしたい - セラミックロケッツ！](http://cr.hatenablog.com/entry/2015/05/31/002059)
 - [I was game](http://iwasgame.tumblr.com/)
 
+## Movie
+
+- [angry video game nerd](http://cinemassacre.com/)
+- [Branching Paths : A journey in Japan’s independent game scene](http://branchingpaths.jp/)
+
 ## Wiki / Portal
 
 - [Game Design Wiki](http://www.ludism.org/gamedesign/HomePage)
@@ -187,10 +192,6 @@ position: 1
 
 - [iOS.zip （申請に必要な画像セット）](http://ioszip.mashroom.in/)
 - [App Store Review Guidelines](https://developer.apple.com/appstore/resources/approval/guidelines.html)
-
-## Movie
-
-- [angry video game nerd](http://cinemassacre.com/)
 
 ## Game Company
 
