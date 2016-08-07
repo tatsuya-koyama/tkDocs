@@ -43,6 +43,10 @@ position: 3
 - [人脈作りなんてやめちまえ！ ビジネスの基本は「人助け」だ ｜ ライフハッカー［日本版］](http://www.lifehacker.jp/2015/05/150506stopnetworking.html)
 - [DeNA南場智子氏が語った「経営会議より、UI/UXが大事」なぜ今デザインなのか？ - リクナビNEXTジャーナル](http://next.rikunabi.com/journal/entry/20151130_1?vos=drnnrag00002)
 
+## Money
+
+- [スタートアップに転職する時に最低限知っておくべき株の話](http://nmi.jp/2016-07-23-stock-strategy-for-early-startup-employee)
+
 ## Web Service
 
 - [なぜ「Turntable.fm」はユーザーを夢中にさせるのか](http://www.assioma.jp/?p=382)
