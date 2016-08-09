@@ -170,6 +170,7 @@ position: 2
 - [スマートフォンゲームのチート事情](http://www.slideshare.net/ssuser8200d3/ss-59926328)
 - [スマホネイティブゲームのチート対策 - nao-bambooの日記](http://nao-bamboo.hatenablog.com/entry/2015/11/21/164417)
 - [チート対策について | 株式会社オーツー｜スタッフブログ](http://www.otwo.jp/blog/server/cheat_measures/)
+- [エンジニアなら知っておきたい、絵で見てわかるセキュア通信の基本 - Qiita](http://qiita.com/t_nakayama0714/items/83ac0b12ced9e7083927)
 
 ## Web Architecture / Web App
 
