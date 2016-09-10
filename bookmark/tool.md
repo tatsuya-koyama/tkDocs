@@ -70,6 +70,9 @@ position: 5
 - [Coolors](http://coolors.co/)
 - [commit-m: GitHubコミットメッセージの文例が検索できるサービス](http://commit-m.minamijoyo.com/commits/search?keyword=fix+bug)
 - [musicForProgramming("38: J.S. Aurelius");](http://musicforprogramming.net/)
+- ランダムな画像返してくれる API
+    - [lorempixel - placeholder images for every case](http://lorempixel.com/)
+    - [PlaceIMG | Easy FPO and Dummy Images for Any Project](http://placeimg.com/)
 
 ## Task Management Tools
 
