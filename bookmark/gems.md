@@ -30,6 +30,13 @@ position: 6
 - [ブーバ/キキ効果 - Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%BC%E3%83%90/%E3%82%AD%E3%82%AD%E5%8A%B9%E6%9E%9C)
 - [「2次元小説」の衝撃。約180文字で70通りの読み方](http://www.huffingtonpost.jp/2016/05/05/two-dimensional-story_n_9853720.html)
 
+### エンジニア的おもしろさ
+
+- [言語女子会: undefとnullは両方必要？](http://d.hatena.ne.jp/nishiohirokazu/20120316/1331906887)
+- [プログラマのジョーク](http://cpplover.blogspot.jp/2014/01/blog-post_13.html)
+- [API名最長選手権 - Qiita](http://qiita.com/yohhoy/items/b61d175e161ce3493096)
+    - [InternalFrameInternalFrameTitlePaneInternalFrameTitlePaneMaximizeButtonWindowNotFocusedState](http://www.javafind.net/gate.jsp?q=/library/36/java6_full_apidocs/com/sun/java/swing/plaf/nimbus/InternalFrameInternalFrameTitlePaneInternalFrameTitlePaneMaximizeButtonWindowNotFocusedState.html)
+
 ## 秀逸な記事
 
 - [料理のさしすせそ - アンサイクロペディア](http://ansaikuropedia.org/wiki/%E3%81%95%E3%81%97%E3%81%99%E3%81%9B%E3%81%9D)
@@ -80,8 +87,6 @@ position: 6
 
 - [Twitterには25種類の「ふぁぼ」があるって知ってた？](http://d.hatena.ne.jp/ncat3/20111001/1317459977)
 - [１行ポエムツイッタラーのふぁぼられ](http://favotter.net/user/1linepoet&mode=best)
-- [言語女子会: undefとnullは両方必要？](http://d.hatena.ne.jp/nishiohirokazu/20120316/1331906887)
-- [プログラマのジョーク](http://cpplover.blogspot.jp/2014/01/blog-post_13.html)
 
 ## Goods
 

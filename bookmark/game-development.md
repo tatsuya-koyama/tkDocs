@@ -159,9 +159,11 @@ position: 1
 
 - [Unityの新GUI、uGUIはどうなる？こうなる！](http://terasur.blog.fc2.com/blog-entry-813.html)
 
-## 3D
+## 3D / 描画系
 
 - [roxik さんの Flash スライド](http://temp.roxik.com/datas/max2007/index.html)
+- [Stroll on a VULKAN-o - 火山に散歩 : KLabGames Tech Blog](http://klabgames.tech.blog.jp.klab.com/archives/1060826686.html)
+    - 描画 API の歴史と Vulkan の話
 
 ## 音楽 / DTM
 

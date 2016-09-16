@@ -93,6 +93,15 @@ Mac でやるなら `gsort` を使う
 
 ### 画像変換
 
-- Mac だと `sips` ってコマンドがあるらしい
+- Mac だと `sips` ってコマンドが便利
+    - [sips(1) Mac OS X Manual Page](https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/sips.1.html)
 
+____
+
+    # 画像が置かれたディレクトリに移動して一括サイズ変換（横幅を揃える）
+    $ for file in *.jpg; do sips --resampleWidth 640 $file --out result/${file%.jpg}.jpg; done
+
+    # -Z オプションは縦横長い方を見てアスペクト比維持で縮小
+    # 縦向き・横向きの画像が混ざってるときに便利
+    $ sips -Z 640 *.jpg --out result/
 
