@@ -338,13 +338,16 @@ pre {
 
 code {
     font-size: 90%;
-    color: #b06168;
-    background-color: #e5e5e5;
-    border: 1px solid #d2d2d2;
-    padding: 0.1em 0.3em 0.1em 0.3em;
+    color: #bd4147;
+    background-color: #e6e6e4;
+    border: 1px solid #d9d9d5;
+    padding: 0.15em 0.3em 0.15em 0.3em;
 }
 
-blockquote code { font-size: 92%; }
+blockquote code {
+    font-size: 92%;
+    background-color: #efefec;
+}
 
 pre.prettyprint code {
     font-size: 120%;
