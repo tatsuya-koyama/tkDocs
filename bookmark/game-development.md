@@ -39,9 +39,11 @@ position: 1
     - [Blobs in Games (ブログ)](http://simblob.blogspot.jp/)
 
 
-## Nice Games
+## Nice Games / Inspirations
 
 - [インディーズゲームの小部屋：Room＃411（番外編）「2015年　人気タイトルベスト10」 - 4Gamer.net](http://www.4gamer.net/games/040/G004096/20151217086/)
+- [Best GBJAM 4 Games | Game Jolt Jams](http://jams.gamejolt.io/gbjam4/games)
+
 
 ## 参考になるソースとかゲーム
 

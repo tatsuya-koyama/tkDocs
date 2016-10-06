@@ -37,6 +37,11 @@ position: 6
 - [API名最長選手権 - Qiita](http://qiita.com/yohhoy/items/b61d175e161ce3493096)
     - [InternalFrameInternalFrameTitlePaneInternalFrameTitlePaneMaximizeButtonWindowNotFocusedState](http://www.javafind.net/gate.jsp?q=/library/36/java6_full_apidocs/com/sun/java/swing/plaf/nimbus/InternalFrameInternalFrameTitlePaneInternalFrameTitlePaneMaximizeButtonWindowNotFocusedState.html)
 
+## Goods / Products
+
+- [code:deck - playing cards for developers](http://varianto25.com/product/code-deck)
+- [ＬＥＤが明滅する「残像ドミノ」をご覧下さい](http://newswitch.jp/p/6275)
+
 ## 秀逸な記事
 
 - [料理のさしすせそ - アンサイクロペディア](http://ansaikuropedia.org/wiki/%E3%81%95%E3%81%97%E3%81%99%E3%81%9B%E3%81%9D)
@@ -87,10 +92,6 @@ position: 6
 
 - [Twitterには25種類の「ふぁぼ」があるって知ってた？](http://d.hatena.ne.jp/ncat3/20111001/1317459977)
 - [１行ポエムツイッタラーのふぁぼられ](http://favotter.net/user/1linepoet&mode=best)
-
-## Goods
-
-- [code:deck - playing cards for developers](http://varianto25.com/product/code-deck)
 
 
 <br/><br/><br/>

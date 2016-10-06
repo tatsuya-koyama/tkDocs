@@ -80,9 +80,11 @@ notes:
     - software-engineering
     - algorithm
     - data-structure
-    - git
     - command-line
     - shell-script
+  tools:
+    - git
+    - jenkins
   language:
     - language/php
   teamplay:

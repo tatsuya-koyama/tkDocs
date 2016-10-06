@@ -1,6 +1,6 @@
 ---
 title: '見た目のデザイン'
-date: '2013-12-01'
+date: '2016-09-23'
 description:
 categories: []
 tags: [anything, Design]
@@ -8,6 +8,10 @@ position: 4
 ---
 
 # 見た目のデザイン関連
+
+## 関連リンク
+
+- [デザイン関連のブックマーク](/bookmark/design)
 
 ## 用語
 

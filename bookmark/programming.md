@@ -180,10 +180,11 @@ position: 2
 - [Rails - 中規模Web開発のためのMVC分割とレイヤアーキテクチャ - Qiita](http://qiita.com/yuku_t/items/961194a5443b618a4cac)
 - [Scalaコードでわかった気になるDDD | GREE Engineers' Blog](http://labs.gree.jp/blog/2013/12/9354/)
 
-## リアルタイム通信
+## リアルタイム通信 / オンラインゲーム開発
 
 - [年の瀬リアルタイム通信サーバ勉強会](http://www.slideshare.net/yhonjo/ss-56043422)
 - [リアルタイム通信ゲーム勉強会で発表してきた｜サイバーエージェント 公式エンジニアブログ](http://ameblo.jp/principia-ca/entry-12159623182.html)
+- [Nianticの求人から推測する『Pokémon GO(ポケモンGO)』のサーバ構成 - Qiita](http://qiita.com/shibacow/items/1ac6f65100252b78a707)
 
 ## Database
 

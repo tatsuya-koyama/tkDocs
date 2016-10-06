@@ -80,6 +80,17 @@ $ date -v+9H
     - 最近の表示形式は SHA256/base64 らしいので
       MD5/hex で見たい場合は -E オプションでフォーマット指定
 
+## ファイルの MD5 をとる
+
+    # Mac なら標準で md5 コマンドがある
+    $ md5 hoge.txt
+    MD5 (hoge.txt) = d45ac056aeb47c6bcf5c56dc2b6d3d5c
+
+    # 上記の出力が気に入らないなら
+    $ brew install md5sha1sum
+    $ md5sum hoge.txt
+    d45ac056aeb47c6bcf5c56dc2b6d3d5c hoge.txt
+
 ## Human readable を sort したいとき
 2009 年以降の Linux の sort には `-h` オプションという素敵なものがあるらしいが
 Mac でやるなら `gsort` を使う
