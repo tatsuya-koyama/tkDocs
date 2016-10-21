@@ -177,6 +177,14 @@ ____
                              artifacts: "path/to/result"
 
 
+### シェルコマンドの出力を受け取りたい
+
+`sh()` に `returnStdout: true` というオプションを渡す
+
+    # ホームディレクトリを取得
+    def home_dir = sh(returnStdout: true, script: 'cd ~/; pwd').trim()
+
+
 ## トラブルシュート
 
 ### (2016-10-06) なんか Groovy で each したら変なエラー出る
