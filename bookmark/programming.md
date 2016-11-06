@@ -1,6 +1,6 @@
 ---
 title: '2. Programming / Engineering'
-date: '2016-07-31'
+date: '2016-10-25'
 description:
 categories: []
 tags: [anything, reference, Programming]
@@ -179,6 +179,9 @@ position: 2
 - [Web開発の未来 – React、FalcorおよびES6 | プログラミング | POSTD](http://postd.cc/future-of-the-web-react-falcor/)
 - [Rails - 中規模Web開発のためのMVC分割とレイヤアーキテクチャ - Qiita](http://qiita.com/yuku_t/items/961194a5443b618a4cac)
 - [Scalaコードでわかった気になるDDD | GREE Engineers' Blog](http://labs.gree.jp/blog/2013/12/9354/)
+- [コレオグラフィ vs オーケストレーション | フィオラノ ソフトウェア ジャパン ブログ](http://www.fiorano.com/jp/blog/integration/integration-architecture/%E3%82%B3%E3%83%AC%E3%82%AA%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3-vs-%E3%82%AA%E3%83%BC%E3%82%B1%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/)
+- [マイクロサービスアーキテクチャにおけるオーケストレーションとコレオグラフィ - Qiita](http://qiita.com/kawasima/items/17475a993e03f249a077)
+- [Serverless Architecture // Speaker Deck](https://speakerdeck.com/naoya/serverless-architecture)
 
 ## リアルタイム通信 / オンラインゲーム開発
 

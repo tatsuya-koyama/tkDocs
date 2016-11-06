@@ -133,6 +133,10 @@ position: 1
 
 - [ゲームの中の人工知能](http://www.slideshare.net/youichiromiyake/y-miyake-tgu2014626)
 
+### 数学
+
+- [ネイピア数 〜美しきムダな数〜 | Creators MeetUp vol. 30](http://www.fumiononaka.com/Sample/Creators_MeetUp/Creators_MeetUp_150718.html)
+
 ## フレームワーク設計
 
 - [What is an entity system framework for game development?](http://www.richardlord.net/blog/what-is-an-entity-framework)
@@ -176,6 +180,10 @@ position: 1
 - [今までにプレイしてきた中で面白かったiPhoneのゲームBEST5は？](http://iphonech.com/archives/53280305.html)
 - [【島国大和】「ゲームをするのが面倒くさい」について考えてみる](http://www.4gamer.net/games/000/G000000/20120925050/)
 
+## こまいテクニック
+
+- [乱数にコクを出す方法について - Togetterまとめ](http://togetter.com/li/1044668)
+    - [深津 貴之さんのツイート: "こっちが乱数にコクがないクラゲ https://t.co/Tbs5msWvfL こっちが乱数にコクを出したクラゲ https://t.co/tLtO8FkvGf"](https://twitter.com/fladdict/status/794049188757573632)
 
 ## 用語集
 
