@@ -196,6 +196,7 @@ position: 2
 - [ヤフー社内でやってるMySQLチューニングセミナー大公開](http://www.slideshare.net/techblogyahoo/mysql-58540246)
 - [カーディナリティについてまとめてみた - Qiita](http://qiita.com/soyanchu/items/034be19a2e3cb87b2efb)
 - [Webサービスにおける キャッシュ戦略 // Speaker Deck](https://speakerdeck.com/yusukebe/websabisuniokeru-kiyatusiyuzhan-lue)
+- [RDBアンチパターン // Speaker Deck](https://speakerdeck.com/soudai/rdbantipatan)
 
 ### Google App Engine / Datastore
 - [Datastoreの仕組み 〜Consistencyについて〜 - apps-gcp](http://www.apps-gcp.com/consistency-of-datastore/)
@@ -352,6 +353,9 @@ Adobe AIR 関連メモは[これ](/dev-log/adobe-air-dev-note)
 - [仮想パネル: JavaScriptで非同期プログラミングを乗り切る方法](http://www.infoq.com/jp/articles/surviving-asynchronous-programming-in-javascript)
 - [Javaのクラス宣言5種+α](http://d.hatena.ne.jp/Nagise/20120308/1331222011)
 
+### Shell Script
+
+- [これだけ覚えておけばOK！シェルスクリプトで冪等性を担保するためのTips集 - Qiita](http://qiita.com/yn-misaki/items/3ec0605cba228a7d5c9a)
 
 
 

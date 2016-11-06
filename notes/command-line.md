@@ -9,6 +9,10 @@ position: 7
 
 # UNIX 系コマンド Memo （Mac 向け）
 
+## 参考リンク
+
+- [これだけ覚えておけばOK！シェルスクリプトで冪等性を担保するためのTips集 - Qiita](http://qiita.com/yn-misaki/items/3ec0605cba228a7d5c9a)
+
 ## よくやる系
 
 ### プロセス確認
@@ -19,6 +23,32 @@ position: 7
     # ユーザで絞り込む（ww は改行して出力が切れないようにする）
     # * Mac の場合は -u でなくて -U
     $ ps uww -u user_name
+
+
+## sed : 文字列処理系
+
+    # Mac 版 sed は -i の後にバックアップファイルの拡張子指定が必須
+    # （Linux 版だとバックアップ不要の場合は省略できる）
+    $ sed -i '.bak' -e 's/OLD/NEW/g' path/to/input_file
+
+    # -e は -f を指定しない場合は省略可能。
+    # （-f は編集コマンドを記述したスクリプトファイルの指定）
+
+    # バックアップ作らなくていい場合はこんな感じでよい
+    $ sed -i '' 's/OLD/NEW/g' path/to/input_file
+
+- 参考
+    - [sedコマンドの備忘録 - Qiita](http://qiita.com/takech9203/items/b96eff5773ce9d9cc9b3)
+    - [Macの（BSD版）sed での上書き保存 - Qiita](http://qiita.com/catfist/items/1156ae0c7875f61417ee)
+
+### 複数ファイルの文字列一括置換
+
+    # find コマンドと連携
+    $ find ./ -name "*.cpp" | xargs sed -i '' 's/OLD/NEW/g'
+
+    # ag コマンドと連携
+    $ ag -l "Hoge" | xargs sed -i '' 's/OLD/NEW/g'
+
 
 ## ネットワーク系
 
