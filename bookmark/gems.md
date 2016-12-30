@@ -36,6 +36,7 @@ position: 6
 - [プログラマのジョーク](http://cpplover.blogspot.jp/2014/01/blog-post_13.html)
 - [API名最長選手権 - Qiita](http://qiita.com/yohhoy/items/b61d175e161ce3493096)
     - [InternalFrameInternalFrameTitlePaneInternalFrameTitlePaneMaximizeButtonWindowNotFocusedState](http://www.javafind.net/gate.jsp?q=/library/36/java6_full_apidocs/com/sun/java/swing/plaf/nimbus/InternalFrameInternalFrameTitlePaneInternalFrameTitlePaneMaximizeButtonWindowNotFocusedState.html)
+- [珍しいSHA1ハッシュを追い求めて - プログラムモグモグ](http://itchyny.hatenablog.com/entry/2016/12/04/120000)
 
 ## Goods / Products
 

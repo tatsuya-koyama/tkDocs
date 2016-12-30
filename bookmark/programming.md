@@ -68,6 +68,7 @@ position: 2
 - [Test Driven Development with Perl](http://assets.en.oreilly.com/1/event/12/Practical%20Test-driven%20Development%20Presentation.pdf)
 - [何かのときにすっと出したい、プログラミングに関する法則・原則一覧 - Qiita](http://qiita.com/hirokidaichi/items/d6c473d8011bd9330e63)
 - [Abstracting key and game controller inputs in Adobe AIR – Zeh Fernando](http://zehfernando.com/2013/abstracting-key-and-game-controller-inputs-in-adobe-air/)
+- [開発速度と品質のトレードオフの判断基準の合意 - Hatena Developer Blog](http://developer.hatenastaff.com/entry/2016/12/24/063000)
 
 ## Architecture / System
 
@@ -243,6 +244,7 @@ position: 2
 - [衝突判定](http://marupeke296.com/COL_main.html)
 - [Chromeのなかのコンピュータ・サイエンス - Google Slides](https://docs.google.com/presentation/d/1mAq5t8cxyyZyNC2MG3zJeQUaIrVAzYU3ZBuSOH1_RHc/preview?slide=id.g437b0e633_00)
     - GC の話
+- [文字列アルゴリズムの学びかた - Hatena Developer Blog](http://developer.hatenastaff.com/entry/2016/12/22/210006)
 
 ## 圧縮
 

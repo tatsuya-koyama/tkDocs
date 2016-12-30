@@ -184,6 +184,7 @@ position: 1
 
 - [乱数にコクを出す方法について - Togetterまとめ](http://togetter.com/li/1044668)
     - [深津 貴之さんのツイート: "こっちが乱数にコクがないクラゲ https://t.co/Tbs5msWvfL こっちが乱数にコクを出したクラゲ https://t.co/tLtO8FkvGf"](https://twitter.com/fladdict/status/794049188757573632)
+    - [「一様乱数の平均値を正規乱数として代用する」という話をゆるふわ統計的に検証する - k11i.biz](http://k11i.biz/blog/2016/11/05/approximate-gaussian-rng/)
 
 ## 用語集
 
