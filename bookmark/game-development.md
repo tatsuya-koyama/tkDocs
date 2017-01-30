@@ -81,6 +81,7 @@ position: 1
 - [I was game — デザインのための言葉](http://iwasgame.tumblr.com/post/80059856981/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E8%A8%80%E8%91%89)
   - [【TCG】マジック：ザ・ギャザリング 、デュエル・マスターズを開発したウィザーズ・オブ・ザ・コーストが想定するペルソナ「ティミー、ジョニー、スパイク」とは | アルファルファモザイク](http://alfalfalfa.com/articles/150324.html)
 - [ワンダールクス - 全てのゲームを照らし出す統一理論](http://gdgrimoire.tumblr.com/%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%AB%E3%82%AF%E3%82%B9)
+- [Micro vs. Macro Gameplay](http://quarterview.com/?p=434)
 
 ## Game Art / Animation
 

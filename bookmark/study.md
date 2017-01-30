@@ -90,6 +90,7 @@ position: 3
 - [開発組織のマネジメント // Speaker Deck](https://speakerdeck.com/naoya/kai-fa-zu-zhi-falsemanezimento)
 - [7年働いた時点での私の仕事の極意 - Kengo's blog](http://blog.kengo-toda.jp/entry/2015/03/22/215005)
 - [トランザクティブ・メモリー | transactive-memory.md](https://gist.github.com/naoya/f457b874a39b98bb0292)
+- [質問は恥ではないし役に立つ - Qiita](http://qiita.com/seki_uk/items/4001423b3cd3db0dada7)
 
 ## Study / Practice / LifeStyle / 人間心理
 
@@ -117,15 +118,24 @@ ____
     - 損得抜きに知識を尊重する / 理由が無ければ知識を得ようとしない
     - 相手の知恵を高めるための批判をする / 相手を貶める批判をする
 
+## 数学
+- [Google Chromeが採用した、擬似乱数生成アルゴリズム「xorshift」の数理 – びりあるの研究ノート](https://blog.visvirial.com/articles/575)
+- [「パッと見素数」に気をつけろ！ - アジマティクス](http://motcho.hateblo.jp/entry/2016/12/11/190626)
+
 ## Statistics / Numbers
 
 - [眠りについてあなたが知らない16の豆知識](http://gigazine.net/index.php?/news/comments/20101017_about_sleep/)
 - [テレビゲームの開発費](http://geimin.net/da/expense.php)
 
+## 科学
+
+- [科学道100冊一覧 - 科学道100冊](http://kagakudo100.jp/lineup/)
+
 ## Academic
 
 - [無限を最短で紹介するよ](http://www.gizmodo.jp/2011/07/post_8960.html)
 - [BitCoinの仕組みを紙とスタンプのごっこ遊びに例えてみる](http://kanasys.com/tech/91)
+
 
 
 <br/><br/><br/>

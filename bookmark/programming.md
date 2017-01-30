@@ -34,6 +34,7 @@ position: 2
 - [プログラマ能力指標表 | コンピュータサイエンス | POSTD](http://postd.cc/programmer-competency-matrix/)
 - [Webサービス - プログラマ向けニュースキュレーションサービスを作ってみた話 - Qiita](http://qiita.com/ytanaka/items/a0144b623a8dd7fcdbbe)
 - [The Little Printf : 「我々はなぜプログラミングをするのか？」を追う寓話 | キャリア・働き方 | POSTD](http://postd.cc/the-little-printf/)
+- [ソフトウェア例え話、格言、小噺 - from scratch](http://yosuke-furukawa.hatenablog.com/entry/2016/12/31/225913)
 
 ## eBook
 
@@ -122,6 +123,7 @@ position: 2
 - [elab » Webフロントエンドでリアクティブプログラミング](http://www.ediplex.com/blog/?p=830)
 - [Less is more：プログラミング言語設計の進歩史 | POSTD](http://postd.cc/less-is-more/)
 - [「なぜ関数プログラミングは重要か」を要約してみた（その１） - Okapies' Archive](http://okapies.hateblo.jp/entry/2015/12/07/022915)
+- [「関数型プログラミングって何？」日本語訳 - Okapies' Archive](http://okapies.hateblo.jp/entry/2016/12/15/021550)
 
 ## 規格 / ガイドライン
 
@@ -164,6 +166,7 @@ position: 2
 - [ネットワークの状況を確認するコマンド色々 ｜ Developers.IO](http://dev.classmethod.jp/etc/network-check-tools/)
 - [TCPを（少しは）理解しておくべきその理由 | コンピュータサイエンス | POSTD](http://postd.cc/why-you-should-understand-a-little-about-tcp/)
     - 遅延ACKの話
+- [ネットワークでなぜ遅延が生じるのか](http://www.slideshare.net/junkato1272/ss-70431661)
 
 ## Security / Cheat 対策
 
@@ -172,6 +175,8 @@ position: 2
 - [スマホネイティブゲームのチート対策 - nao-bambooの日記](http://nao-bamboo.hatenablog.com/entry/2015/11/21/164417)
 - [チート対策について | 株式会社オーツー｜スタッフブログ](http://www.otwo.jp/blog/server/cheat_measures/)
 - [エンジニアなら知っておきたい、絵で見てわかるセキュア通信の基本 - Qiita](http://qiita.com/t_nakayama0714/items/83ac0b12ced9e7083927)
+- [minimaxir/big-list-of-naughty-strings: The Big List of Naughty Strings is a list of strings which have a high probability of causing issues when used as user-input data.](https://github.com/minimaxir/big-list-of-naughty-strings)
+
 
 ## Web Architecture / Web App
 
@@ -198,6 +203,8 @@ position: 2
 - [カーディナリティについてまとめてみた - Qiita](http://qiita.com/soyanchu/items/034be19a2e3cb87b2efb)
 - [Webサービスにおける キャッシュ戦略 // Speaker Deck](https://speakerdeck.com/yusukebe/websabisuniokeru-kiyatusiyuzhan-lue)
 - [RDBアンチパターン // Speaker Deck](https://speakerdeck.com/soudai/rdbantipatan)
+- [N+1問題 / Eager Loading とは - Rails Webook](http://ruby-rails.hatenadiary.com/entry/20141108/1415418367)
+    - [» Railsライブラリ紹介: N+1問題を検出する「bullet」 TECHSCORE BLOG](http://www.techscore.com/blog/2012/12/25/rails%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E7%B4%B9%E4%BB%8B-n1%E5%95%8F%E9%A1%8C%E3%82%92%E6%A4%9C%E5%87%BA%E3%81%99%E3%82%8B%E3%80%8Cbullet%E3%80%8D/)
 
 ### Google App Engine / Datastore
 - [Datastoreの仕組み 〜Consistencyについて〜 - apps-gcp](http://www.apps-gcp.com/consistency-of-datastore/)
@@ -245,6 +252,7 @@ position: 2
 - [Chromeのなかのコンピュータ・サイエンス - Google Slides](https://docs.google.com/presentation/d/1mAq5t8cxyyZyNC2MG3zJeQUaIrVAzYU3ZBuSOH1_RHc/preview?slide=id.g437b0e633_00)
     - GC の話
 - [文字列アルゴリズムの学びかた - Hatena Developer Blog](http://developer.hatenastaff.com/entry/2016/12/22/210006)
+- [Google Chromeが採用した、擬似乱数生成アルゴリズム「xorshift」の数理 – びりあるの研究ノート](https://blog.visvirial.com/articles/575)
 
 ## 圧縮
 
@@ -304,6 +312,7 @@ ___
 - [Python/Ruby基礎文法最速マスター](http://d.hatena.ne.jp/dplusplus/20100126/p1)
 - [Objective-C 最速基礎文法マスター](http://d.hatena.ne.jp/fn7/20100203/1265207098)
 - [主要でもないプログラミング言語200種を一行で解説 - Qiita](http://qiita.com/make_now_just/items/b2ab19f954417c71848d)
+- [null安全でない言語は、もはやレガシー言語だ - Qiita](http://qiita.com/koher/items/e4835bd429b88809ab33)
 
 ### Golang
 

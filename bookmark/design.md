@@ -59,6 +59,7 @@ position: 7
 ## Motion Graphics
 
 - [Motion Periodic Table | モーショングラフィックスの周期表](http://foxcodex.html.xdomain.jp/)
+- [Everyday One Motion(@motions_work)さん | Twitter](https://twitter.com/motions_work)
 
 ## Music
 
@@ -100,6 +101,8 @@ position: 7
 - [闇雲にディズニー映画みたいなアニメーションを GUI に実装するのはもうやめよう - Qiita](http://qiita.com/usagimaru/items/aac9b33433686c00dcf8)
 - [デザイナーが考慮すべき「錯視」のあれこれ | SWINGS](http://bulan.co/swings/the_illusion_in_the_design/)
 - [全ての人が知っておくべきデザイン・レイアウトの基本ルールとテクニック15選 - Literally](http://tsukuruiroiro.hatenablog.com/entry/design-rule)
+- [UIデザインの引き出しを増やしたいときや悩んだときに参考になるデザインギャラリー 20 | NxWorld](http://www.nxworld.net/inspiration/20-ui-design-gallery.html)
+- [オインクゲームズのコンポーネントデザイン - Studio | Oink Games](http://studio.oinkgms.com/post/153628362942)
 
 ## Color
 
