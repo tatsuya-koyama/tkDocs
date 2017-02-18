@@ -103,6 +103,7 @@ position: 7
 - [全ての人が知っておくべきデザイン・レイアウトの基本ルールとテクニック15選 - Literally](http://tsukuruiroiro.hatenablog.com/entry/design-rule)
 - [UIデザインの引き出しを増やしたいときや悩んだときに参考になるデザインギャラリー 20 | NxWorld](http://www.nxworld.net/inspiration/20-ui-design-gallery.html)
 - [オインクゲームズのコンポーネントデザイン - Studio | Oink Games](http://studio.oinkgms.com/post/153628362942)
+- [これでもう悩まない！2017年のデザイントレンド完全ガイド - PhotoshopVIP](http://photoshopvip.net/98490)
 
 ## Color
 

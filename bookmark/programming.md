@@ -176,6 +176,8 @@ position: 2
 - [チート対策について | 株式会社オーツー｜スタッフブログ](http://www.otwo.jp/blog/server/cheat_measures/)
 - [エンジニアなら知っておきたい、絵で見てわかるセキュア通信の基本 - Qiita](http://qiita.com/t_nakayama0714/items/83ac0b12ced9e7083927)
 - [minimaxir/big-list-of-naughty-strings: The Big List of Naughty Strings is a list of strings which have a high probability of causing issues when used as user-input data.](https://github.com/minimaxir/big-list-of-naughty-strings)
+- [Gitのhashが衝突するのはどれくらいの確率か : mwSoft blog](http://blog.mwsoft.jp/article/173786778.html)
+    - [誕生日攻撃 - Wikipedia](https://ja.wikipedia.org/wiki/%E8%AA%95%E7%94%9F%E6%97%A5%E6%94%BB%E6%92%83)
 
 
 ## Web Architecture / Web App

@@ -1,6 +1,6 @@
 ---
 title: 'こまいメモ'
-date: '2014-05-09'
+date: '2017-02-19'
 description:
 categories: []
 tags: [anything, English]
@@ -20,6 +20,35 @@ position: 4
 - [pick upとpick outを解説。](http://i-eigo.net/cat_1/ent_50.html)
 
 ## 似てる単語どう違うのシリーズ
+
+### 「認証」っぽいやつ
+
+{{# table}}
+  -
+    - 英語
+    - 辞書
+    - 使う場面の例
+  -
+    - Authenticate
+    - ～が本物であることを証明［確認・認証］する
+    - 本人確認 / ID とパスワードでログイン
+  -
+    - Authorize
+    - ～に権限［権威］を与える、～を認可［許可］する
+    - リソースへのアクセス制御
+  -
+    - Certificate
+    - 証明書、～を認証する、～に証明書を与える
+    - 証明書、第三者を介した認証
+  -
+    - Verify
+    - 検証［立証・実証］する、点検する・照合する
+    - データが正しい形式か検証
+{{/ table}}
+
+- [【プログラマ英語】それ認証って意味じゃないですよ（厳密には） - Qiita](http://qiita.com/tienlen/items/9e1b58dd173472f071c0)
+- [認証 ≒ Authentication , Authorization, Certification の違い - end0tknrのkipple - web写経開発](http://d.hatena.ne.jp/end0tknr/20130127/1359283200)
+- [認証（Authentication） と 承認（Authorization） の違い - galife](https://garafu.blogspot.jp/2013/11/authentication-authorization.html)
 
 ### center と middle
 

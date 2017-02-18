@@ -91,6 +91,7 @@ position: 3
 - [7年働いた時点での私の仕事の極意 - Kengo's blog](http://blog.kengo-toda.jp/entry/2015/03/22/215005)
 - [トランザクティブ・メモリー | transactive-memory.md](https://gist.github.com/naoya/f457b874a39b98bb0292)
 - [質問は恥ではないし役に立つ - Qiita](http://qiita.com/seki_uk/items/4001423b3cd3db0dada7)
+- [面接の時に聞いてよかった質問と、意味がなかった質問をまとめてみた by 古川 健介 | Supership Tech Blog](https://www.wantedly.com/companies/Supership/post_articles/52240)
 
 ## Study / Practice / LifeStyle / 人間心理
 
