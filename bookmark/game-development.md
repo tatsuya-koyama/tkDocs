@@ -82,6 +82,8 @@ position: 1
   - [【TCG】マジック：ザ・ギャザリング 、デュエル・マスターズを開発したウィザーズ・オブ・ザ・コーストが想定するペルソナ「ティミー、ジョニー、スパイク」とは | アルファルファモザイク](http://alfalfalfa.com/articles/150324.html)
 - [ワンダールクス - 全てのゲームを照らし出す統一理論](http://gdgrimoire.tumblr.com/%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%AB%E3%82%AF%E3%82%B9)
 - [Micro vs. Macro Gameplay](http://quarterview.com/?p=434)
+- [ウメハラが語るゲーム作りとバランス調整の深い話『最も重視すべきなのは、操作していて気持ちいい部分があること』『ストVシーズン2は強キャラを据え置くべきだった』 : チゲ速](http://chigesoku3.doorblog.jp/archives/50360640.html)
+- [廃課金ソシャゲはもういやだ／2017年スマホゲーム業界の課題 - デマこい！](http://rootport.hateblo.jp/entry/2017/01/28/233000)
 
 ## Game Art / Animation
 

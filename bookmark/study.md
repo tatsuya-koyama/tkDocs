@@ -39,6 +39,7 @@ position: 3
 - [11の「やめたこと」で実現した1000万ダウンロード突破【スマホ2011冬】](http://trendy.nikkeibp.co.jp/article/column/20111215/1039018/?rt=nocnt)
 - [ソーシャルゲームの影。儲からないソーシャルゲームの一生とは - ソシャゲ業界の片隅で3](http://www.gamecast-blog.com/archives/65816413.html)
 - [現実を直視しながら理想を持ち続けることの難しさ、人生の「賞味期限」 | メタップス社長のブログ](http://katsuaki.co/?p=744)
+    - [偶然でも必然でもない世界を生きるということ、動き続けることの大事さ | 佐藤航陽のブログ](http://katsuaki.co/?p=932)
 - [なぜあなたはジョブズの名言を読んでも成功しないのか？ | ログミー](http://logmi.jp/37561)
 - [人脈作りなんてやめちまえ！ ビジネスの基本は「人助け」だ ｜ ライフハッカー［日本版］](http://www.lifehacker.jp/2015/05/150506stopnetworking.html)
 - [DeNA南場智子氏が語った「経営会議より、UI/UXが大事」なぜ今デザインなのか？ - リクナビNEXTジャーナル](http://next.rikunabi.com/journal/entry/20151130_1?vos=drnnrag00002)
@@ -60,9 +61,10 @@ position: 3
 - [【脚本術】会話とセリフの書き方 - Togetterまとめ](http://togetter.com/li/804384)
 - [誰にでも物語を作れる方法をアドバイスする番組がもの凄く良かったのでメモ!! - 強火で進め](http://d.hatena.ne.jp/nakamura001/20150429/1430327314)
 
-## 発想法
+## 発想法 / 思考法
 
 - [アイデア大全ー52の発想法／思いつくことに行き詰まった時に開く備忘録 読書猿Classic: between / beyond readers](http://readingmonkey.blog45.fc2.com/blog-entry-765.html)
+- [議論で「負け」が運命付けられている思考方法30パターン - GIGAZINE](http://gigazine.net/news/20150213-logical-fallacy-collection/)
 
 ## Game
 
@@ -109,6 +111,7 @@ position: 3
 - [日常生活で使える心理学テクニックのまとめ | 心理学 | Ofee](http://ofee.tank.jp/life-psychology/)
 - [「人生というゲーム」を最高に楽しむために知っておくべきルール7つ | TABI LABO](http://tabi-labo.com/177447/dragonquest03/)
 - [わかりやすさの技術 - やしお](http://d.hatena.ne.jp/Yashio/20160707/1467885231)
+- [相手の「事実」が間違っている時に争いを起こさず平和的に納得させるポイント - GIGAZINE](http://gigazine.net/news/20170112-how-to-convince-someone-fact-fail/)
 
 ____
 

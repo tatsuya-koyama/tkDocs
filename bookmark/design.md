@@ -104,6 +104,7 @@ position: 7
 - [UIデザインの引き出しを増やしたいときや悩んだときに参考になるデザインギャラリー 20 | NxWorld](http://www.nxworld.net/inspiration/20-ui-design-gallery.html)
 - [オインクゲームズのコンポーネントデザイン - Studio | Oink Games](http://studio.oinkgms.com/post/153628362942)
 - [これでもう悩まない！2017年のデザイントレンド完全ガイド - PhotoshopVIP](http://photoshopvip.net/98490)
+- [誰も教えてくれない「分かりやすく美しい図の作り方」超具体的な20のテクニック | TomoyukiArasuna.com](http://tomoyukiarasuna.com/make-images/)
 
 ## Color
 
@@ -123,6 +124,7 @@ position: 7
 - [いちあっぷ講座](https://ichi-up.net/)
 - [プロによる『ここだけ注意すれば下手には見えない男性と女性の身体の描き方』がとても参考になる - Togetterまとめ](http://togetter.com/li/969596)
 - [漫画家・吉村拓也先生の「ワンランク画力をUPさせる【手の描き方】」 - Togetterまとめ](http://togetter.com/li/1019226)
+- [10秒、1分、10分で描いた絵を見比べる、イラストレーターたちのスピードお絵かきチャレンジが面白い](http://www.kotaro269.com/articles/50217.html)
 
 ## Stylish Website
 

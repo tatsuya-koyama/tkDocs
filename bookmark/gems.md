@@ -43,6 +43,10 @@ position: 6
 - [code:deck - playing cards for developers](http://varianto25.com/product/code-deck)
 - [ＬＥＤが明滅する「残像ドミノ」をご覧下さい](http://newswitch.jp/p/6275)
 
+## すてき
+
+- [塗り絵とパズルを融合させた『Coloring』とかいうアプリが地味に面白いｗ全ステージ攻略のハードルは高いぞ - wepli.2](http://wepli-dot2.hatenablog.com/entry/nuriepuzzle-coloring)
+
 ## 秀逸な記事
 
 - [料理のさしすせそ - アンサイクロペディア](http://ansaikuropedia.org/wiki/%E3%81%95%E3%81%97%E3%81%99%E3%81%9B%E3%81%9D)
@@ -67,6 +71,7 @@ position: 6
 - [Super Mario Tutorial](http://www.youtube.com/watch?v=OFMbaNfqY6Y&feature=youtu.be&noredirect=1)
 - [外を走れるルームランナー](http://makezine.com/2008/11/17/treadmill-morphs-into-a-v/)
 - [形態素解析エンジンMeCabにて文章中から短歌を抽出 - inaniwa3's blog](http://inaniwa3.hatenablog.com/entry/2015/01/01/152927)
+- [初対面でも仲良くなれる！みんなで盛り上がるデスゲーム講座 | オモコロ](http://omocoro.jp/kiji/102686/)
 
 ## 技術的にすごい
 

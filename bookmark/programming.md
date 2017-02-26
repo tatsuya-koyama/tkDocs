@@ -161,6 +161,11 @@ position: 2
     - [入門LLDB - sleeping cat syndrome](http://sleepingcatsyndrome.com/post/107692770850)
     - [LLDBコマンドのpとpoについて](http://www.minimalab.com/blog/2014/03/08/lldb-po/)
 
+## Error Handling
+
+- [Swiftのエラー4分類が素晴らしすぎるのでみんなに知ってほしい - Qiita](http://qiita.com/koher/items/a7a12e7e18d2bb7d8c77)
+    - [swift/ErrorHandling.rst at master · apple/swift](https://github.com/apple/swift/blob/master/docs/ErrorHandling.rst)
+
 ## Network
 
 - [ネットワークの状況を確認するコマンド色々 ｜ Developers.IO](http://dev.classmethod.jp/etc/network-check-tools/)
@@ -190,6 +195,8 @@ position: 2
 - [コレオグラフィ vs オーケストレーション | フィオラノ ソフトウェア ジャパン ブログ](http://www.fiorano.com/jp/blog/integration/integration-architecture/%E3%82%B3%E3%83%AC%E3%82%AA%E3%82%B0%E3%83%A9%E3%83%95%E3%82%A3-vs-%E3%82%AA%E3%83%BC%E3%82%B1%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3/)
 - [マイクロサービスアーキテクチャにおけるオーケストレーションとコレオグラフィ - Qiita](http://qiita.com/kawasima/items/17475a993e03f249a077)
 - [Serverless Architecture // Speaker Deck](https://speakerdeck.com/naoya/serverless-architecture)
+- [Scala and Play for game servers // Speaker Deck](https://speakerdeck.com/h_kishi/scala-and-play-for-game-servers)
+    - Kishi さんのスライド
 
 ## リアルタイム通信 / オンラインゲーム開発
 
