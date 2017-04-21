@@ -35,6 +35,7 @@ position: 2
 - [Webサービス - プログラマ向けニュースキュレーションサービスを作ってみた話 - Qiita](http://qiita.com/ytanaka/items/a0144b623a8dd7fcdbbe)
 - [The Little Printf : 「我々はなぜプログラミングをするのか？」を追う寓話 | キャリア・働き方 | POSTD](http://postd.cc/the-little-printf/)
 - [ソフトウェア例え話、格言、小噺 - from scratch](http://yosuke-furukawa.hatenablog.com/entry/2016/12/31/225913)
+- [プログラマだけど異世界の開発会社に転生した - megamouthの葬列](http://www.megamouth.info/entry/2016/10/08/011446)
 
 ## eBook
 
@@ -58,6 +59,7 @@ position: 2
 - [良いコードとは](http://www.slideshare.net/nbykmatsui/ss-55961899)
 - [ソシャゲエンジニアの自分がコードレビュー時に重視する箇所32選 - Qiita](http://qiita.com/west-hiroaki/items/569a6cd22470954028bb)
 - [CallbackとListenerとObserverの違い - 前人未踏の領域へ](http://d.hatena.ne.jp/takeR/20111225/1324833885)
+- [プログラミングでよく使う英単語のまとめ【随時更新】 - Qiita](http://qiita.com/Ted-HM/items/7dde25dcffae4cdc7923)
 
 ## Development / Practice
 
@@ -166,6 +168,11 @@ position: 2
 - [Swiftのエラー4分類が素晴らしすぎるのでみんなに知ってほしい - Qiita](http://qiita.com/koher/items/a7a12e7e18d2bb7d8c77)
     - [swift/ErrorHandling.rst at master · apple/swift](https://github.com/apple/swift/blob/master/docs/ErrorHandling.rst)
 
+## Testing / Unit Test
+
+- [テストダブル - Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%86%E3%82%B9%E3%83%88%E3%83%80%E3%83%96%E3%83%AB)
+    - モック / スタブ / フェイク / ダミー / スパイ
+
 ## Network
 
 - [ネットワークの状況を確認するコマンド色々 ｜ Developers.IO](http://dev.classmethod.jp/etc/network-check-tools/)
@@ -183,7 +190,7 @@ position: 2
 - [minimaxir/big-list-of-naughty-strings: The Big List of Naughty Strings is a list of strings which have a high probability of causing issues when used as user-input data.](https://github.com/minimaxir/big-list-of-naughty-strings)
 - [Gitのhashが衝突するのはどれくらいの確率か : mwSoft blog](http://blog.mwsoft.jp/article/173786778.html)
     - [誕生日攻撃 - Wikipedia](https://ja.wikipedia.org/wiki/%E8%AA%95%E7%94%9F%E6%97%A5%E6%94%BB%E6%92%83)
-
+- [海外へのゲーム配信で注意すること - Qiita](http://qiita.com/SayakaIto/items/dd727064ad29266aae92)
 
 ## Web Architecture / Web App
 
@@ -214,6 +221,7 @@ position: 2
 - [RDBアンチパターン // Speaker Deck](https://speakerdeck.com/soudai/rdbantipatan)
 - [N+1問題 / Eager Loading とは - Rails Webook](http://ruby-rails.hatenadiary.com/entry/20141108/1415418367)
     - [» Railsライブラリ紹介: N+1問題を検出する「bullet」 TECHSCORE BLOG](http://www.techscore.com/blog/2012/12/25/rails%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E7%B4%B9%E4%BB%8B-n1%E5%95%8F%E9%A1%8C%E3%82%92%E6%A4%9C%E5%87%BA%E3%81%99%E3%82%8B%E3%80%8Cbullet%E3%80%8D/)
+- [MySQL with InnoDB のインデックスの基礎知識とありがちな間違い - クックパッド開発者ブログ](http://techlife.cookpad.com/entry/2017/04/18/092524)
 
 ### Google App Engine / Datastore
 - [Datastoreの仕組み 〜Consistencyについて〜 - apps-gcp](http://www.apps-gcp.com/consistency-of-datastore/)
@@ -262,6 +270,8 @@ position: 2
     - GC の話
 - [文字列アルゴリズムの学びかた - Hatena Developer Blog](http://developer.hatenastaff.com/entry/2016/12/22/210006)
 - [Google Chromeが採用した、擬似乱数生成アルゴリズム「xorshift」の数理 – びりあるの研究ノート](https://blog.visvirial.com/articles/575)
+- [効率的にゲームを更新する | コンピュータサイエンス | POSTD](http://postd.cc/efficient-game-updates/)
+    - [Things that can go wrong when downloading](https://amos.me/blog/2017/downloads-gone-wrong/)
 
 ## 圧縮
 
@@ -309,6 +319,7 @@ ___
     - [日本語訳](http://keijinsonyaban.blogspot.com/2010/10/successful-git-branching-model.html)
 
 ## Command line
+
 - [Bash: 標準出力・標準エラー出力の全て（1>&2とか）まとめ | Coffee Breakにプログラミング備忘録](http://to-developer.com/blog/?p=1001)
 
 ## Documentation

@@ -59,6 +59,11 @@ position: 1
 - [［GDC 2016］「キャンディークラッシュ」のKingが公開した完全無料のゲームエンジン「Defold」とは？ - 4Gamer.net](http://www.4gamer.net/games/032/G003263/20160317081/)
 
 
+## Game Development
+
+- [スマホ開発でも活きたこと、まだ活かせていないこと 170325 1043](https://www.slideshare.net/TakashiHirayama/170325-1043)
+
+
 ## Game Design
 
 - [ネットワークエンジニアから見たゲームデザインの大原則](http://www.4gamer.net/games/105/G010549/20100905002/)
@@ -108,6 +113,13 @@ position: 1
 - [Vertical Slice - Video Game Buzzwords Wiki - Wikia](http://videogamebuzzwords.wikia.com/wiki/Vertical_Slice)
 - [Digibury: Sony Game developement process - Mark Linott](http://www.slideshare.net/Lizziehodgson01/digibury-sony-game-developemen-porcess-mark-linott)
 - [［GDC 2016］競争が激化し続ける中で，どんなゲームを作るべきか。リスクを最小限に抑え，完成させる手法をインディーズゲームの先駆者が語る - 4Gamer.net](http://www.4gamer.net/games/999/G999901/20160317106/)
+- [『GRAVITY DAZE 2』手書きのようなグラフィックの制作工程、短期間でクオリティーを落とさず背景を制作するカギとなった“自動化”についてリポート【GCC’17】 - ファミ通.com](https://www.famitsu.com/news/201702/20127330.html)
+
+### Testing / Debug
+
+- [受け入れテストの自動化 ～ OpenCVの「眼」で捉え、Pythonの「脳」が思考し、Appiumの「指」で動かす // Speaker Deck](https://speakerdeck.com/cygames/shou-keru-retesutofalsezi-dong-hua-opencvfalse-yan-dezhuo-e-pythonfalse-noy-gasi-kao-si-appiumfalse-zhi-dedong-kasu)
+- [Sikuli Script - Home](http://www.sikuli.org/)
+    - 画像認識して自動操作させるやつ。DSL に画像が出てくるのが面白い
 
 ## Project Management
 

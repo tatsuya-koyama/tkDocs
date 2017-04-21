@@ -73,6 +73,10 @@ position: 6
 - [形態素解析エンジンMeCabにて文章中から短歌を抽出 - inaniwa3's blog](http://inaniwa3.hatenablog.com/entry/2015/01/01/152927)
 - [初対面でも仲良くなれる！みんなで盛り上がるデスゲーム講座 | オモコロ](http://omocoro.jp/kiji/102686/)
 
+## たのしい
+
+- [君の前で息を止めると呼吸ができなくなってしまうよ　すてき感を錯覚させる「あたりまえポエム」で脳が混乱する - ねとらぼ](http://nlab.itmedia.co.jp/nl/articles/1611/24/news084.html)
+
 ## 技術的にすごい
 
 - [JS1k.com - a fiery js code golfing competition](http://js1k.com/2014-dragons/demos)
