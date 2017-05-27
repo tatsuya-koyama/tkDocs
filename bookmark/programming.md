@@ -105,6 +105,7 @@ position: 2
 - [From Game Objects to Entities | John Payne's Code Blog](http://codeblog.paynedesign.co.uk/2012/06/from-game-objects-to-entities/)
 - [GameplayKit Programming Guide: Entities and Components](https://developer.apple.com/library/ios/documentation/General/Conceptual/GameplayKit_Guide/EntityComponent.html)
 - [Entity Systems — Entity Systems 2014.02.22 documentation](http://defenestrate.eu/_static/entity-systems-presentation/build/slides/index.html#1)
+- [データ指向設計 | Cygames Engineers' Blog](http://tech.cygames.co.jp/archives/2843/)
 
 ### ECS なフレームワーク関連
 

@@ -57,6 +57,7 @@ position: 1
 - [jMonkeyEngine 3.0 - Java OpenGL Game Engine](http://jmonkeyengine.org/)
     - [ソースコード](https://github.com/jMonkeyEngine/jmonkeyengine)
 - [［GDC 2016］「キャンディークラッシュ」のKingが公開した完全無料のゲームエンジン「Defold」とは？ - 4Gamer.net](http://www.4gamer.net/games/032/G003263/20160317081/)
+- [DeNA TechCon 2017 | DeNA内製ゲームエンジンの現状と目指す未来](http://recruit-games.dena.jp/techcon2017/d04/)
 
 
 ## Game Development
@@ -156,7 +157,9 @@ position: 1
 
 - [What is an entity system framework for game development?](http://www.richardlord.net/blog/what-is-an-entity-framework)
 - [Why use an entity system framework for game development?](http://www.richardlord.net/blog/why-use-an-entity-framework)
-
+- Cygames Engineers' Blog
+    - [メッセージベースによるゲーム駆動 | Cygames Engineers' Blog](http://tech.cygames.co.jp/archives/2820/)
+    - [階層構造によるゲーム内時間管理 | Cygames Engineers' Blog](http://tech.cygames.co.jp/archives/2961/)
 
 ## Game-Dev Tutorial
 
@@ -210,6 +213,8 @@ position: 1
 ### グラフィック
 
 - [The Spriters Resource](http://www.spriters-resource.com/)
+- [A fantasy themed font and CSS toolkit](http://nagoshiashumari.github.io/Rpg-Awesome/)
+    - ゲームっぽいピクトグラム
 
 ### サウンド
 

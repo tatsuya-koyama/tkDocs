@@ -112,6 +112,8 @@ position: 3
 - [「人生というゲーム」を最高に楽しむために知っておくべきルール7つ | TABI LABO](http://tabi-labo.com/177447/dragonquest03/)
 - [わかりやすさの技術 - やしお](http://d.hatena.ne.jp/Yashio/20160707/1467885231)
 - [相手の「事実」が間違っている時に争いを起こさず平和的に納得させるポイント - GIGAZINE](http://gigazine.net/news/20170112-how-to-convince-someone-fact-fail/)
+- [AWS事業部の採用方針について ｜ Developers.IO](http://dev.classmethod.jp/etc/aws-division-recruitment-policy/)
+    - 認知バイアスのまとめがある
 
 ____
 
