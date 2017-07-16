@@ -77,11 +77,27 @@ position: 6
 
 - [君の前で息を止めると呼吸ができなくなってしまうよ　すてき感を錯覚させる「あたりまえポエム」で脳が混乱する - ねとらぼ](http://nlab.itmedia.co.jp/nl/articles/1611/24/news084.html)
 
+## せつない
+
+- [まるで「人生」を表している様なgif画像がTwitterで話題に！！ | ゆるとれニュース](http://yurunew.com/life/4304/)
+
+## なんかいい
+
+- [スウェーデンにオープン「失敗博物館」 | TABI LABO](http://tabi-labo.com/282118/museumoffailure)
+
 ## 技術的にすごい
 
 - [JS1k.com - a fiery js code golfing competition](http://js1k.com/2014-dragons/demos)
 - [ライフゲームの世界８【複雑系】 - ニコニコ動画:GINZA](http://www.nicovideo.jp/watch/sm19509968)
     - ライフゲームでライフゲームつくってる
+- デモシーン
+    - [デモシーンにようこそ！超低容量プログラミングで遊ぶカルチャー - CEDEC 2016](http://jp.ign.com/cedec-2016/6411/news/)
+    - [わずか4KBで書かれたコードが織りなす驚愕のデモ・ムービー「Final Stage by 0x4015(Revision 2017)」 - GIGAZINE](http://gigazine.net/news/20170422-final-stage-by-0x4015/)
+
+## 学術的にすごい
+
+- [Kokichi Sugihara's Homepage (Japanese)](http://home.mims.meiji.ac.jp/~sugihara/Welcomej.html)
+    - 目の錯覚系の面白い動画がある
 
 ## シュールなゲーム
 

@@ -34,9 +34,10 @@ position: 9
 
 - [Bret Victor - Inventing on Principle（インタラクティブなエディタ出てくる）](http://vimeo.com/36579366)
 
-## デザイン系
+## デザイン / UI / UX 系
 
 - [UI & UX / 重要なのは、毎日さわって嬉しい UI UX! ](http://www.slideshare.net/ao_bascule/uiux-ui-ux)
+- [より多くの人へ届けるために　Webコンテンツで 「ちょっと」気をつけたいこと](https://www.slideshare.net/nozomisawada969/important04-sawada20170603)
 
 ## サイエンス / 心理学系
 

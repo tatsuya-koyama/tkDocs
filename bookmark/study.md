@@ -43,6 +43,8 @@ position: 3
 - [なぜあなたはジョブズの名言を読んでも成功しないのか？ | ログミー](http://logmi.jp/37561)
 - [人脈作りなんてやめちまえ！ ビジネスの基本は「人助け」だ ｜ ライフハッカー［日本版］](http://www.lifehacker.jp/2015/05/150506stopnetworking.html)
 - [DeNA南場智子氏が語った「経営会議より、UI/UXが大事」なぜ今デザインなのか？ - リクナビNEXTジャーナル](http://next.rikunabi.com/journal/entry/20151130_1?vos=drnnrag00002)
+- [なぜビジネスコンテストからビジネスが生まれないのか？ – ところてん – Medium](https://medium.com/@tokoroten/%E3%81%AA%E3%81%9C%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%82%B3%E3%83%B3%E3%83%86%E3%82%B9%E3%83%88%E3%81%8B%E3%82%89%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%81%8C%E7%94%9F%E3%81%BE%E3%82%8C%E3%81%AA%E3%81%84%E3%81%AE%E3%81%8B-54334d387de2)
+    - Will, Can, Must の話
 
 ## Money
 
@@ -60,6 +62,7 @@ position: 3
 - [文章を「書ける人」と「書けない人」のちがい（引用の藤子F不二雄の言葉がいい）](http://d.hatena.ne.jp/Rootport/20130505/1367763730)
 - [【脚本術】会話とセリフの書き方 - Togetterまとめ](http://togetter.com/li/804384)
 - [誰にでも物語を作れる方法をアドバイスする番組がもの凄く良かったのでメモ!! - 強火で進め](http://d.hatena.ne.jp/nakamura001/20150429/1430327314)
+- [電子版書き込み式ストーリーメーカー テンプレート - Google ドライブ](https://drive.google.com/file/d/0B3Q5hEpoY_PUaFF3X2ZDOGxjcUk/view)
 
 ## 発想法 / 思考法
 

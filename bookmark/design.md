@@ -56,10 +56,16 @@ position: 7
 - [Sight](http://vimeo.com/46304267)
 - [feely.jp](http://feely.jp/)
 
+### 動画技法
+
+- [用語だけでは解りにくかったので、アニメの撮影処理を実際の使用例を見せつつまとめてみた（GIFあり） - うさペンの館](http://usapen3.hatenablog.com/entry/2016/12/18/234110)
+
 ## Motion Graphics
 
 - [Motion Periodic Table | モーショングラフィックスの周期表](http://foxcodex.html.xdomain.jp/)
 - [Everyday One Motion(@motions_work)さん | Twitter](https://twitter.com/motions_work)
+- [Motion graphics GIFs - Find & Share on GIPHY](https://giphy.com/search/motion-graphics)
+- [(20) 25+ best ideas about Motion graphics on Pinterest](https://www.pinterest.jp/explore/motion-graphics/?lp=true)
 
 ## Music
 
@@ -105,6 +111,11 @@ position: 7
 - [オインクゲームズのコンポーネントデザイン - Studio | Oink Games](http://studio.oinkgms.com/post/153628362942)
 - [これでもう悩まない！2017年のデザイントレンド完全ガイド - PhotoshopVIP](http://photoshopvip.net/98490)
 - [誰も教えてくれない「分かりやすく美しい図の作り方」超具体的な20のテクニック | TomoyukiArasuna.com](http://tomoyukiarasuna.com/make-images/)
+
+## 事例集
+
+- [ゲームのUIデザインの参考にするときに見るサイト - NAVER まとめ](https://matome.naver.jp/odai/2147909332473910501)
+    - [ゲームUIブログ | ゲームUI画像の収集と考察 - Part 6](http://gameui.matme.info/blog/page/6)
 
 ## Color
 

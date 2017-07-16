@@ -124,6 +124,28 @@ ____
 - switch 内での continue は break と同様の挙動
     - continue 書いても switch を抜けるだけで外側の for を continue とかしないので注意
 
+### 配列の罠
+
+- 普通の配列も内部的には添字を key とした連想配列になってる
+- 配列に対して `array_filter` すると添字が維持されたままの結果が返る。他の言語と違う感覚なので注意
+
+        $list = [1, 2, 3, 4, 5];
+        $filtered = array_filter($list, function($item) {
+                return ($item % 2 == 0);
+        });
+        print_r($filtered);
+
+        /** 出力結果
+        Array
+        (
+            [1] => 2
+            [3] => 4
+        )
+        */
+
+        // - $filtered[0] とかでアクセスしてもとれない
+        // * array_shift($filtered) ならとれる
+
 
 ## 文字列
 

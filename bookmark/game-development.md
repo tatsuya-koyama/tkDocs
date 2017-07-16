@@ -60,9 +60,11 @@ position: 1
 - [DeNA TechCon 2017 | DeNA内製ゲームエンジンの現状と目指す未来](http://recruit-games.dena.jp/techcon2017/d04/)
 
 
-## Game Development
+## Game Development / Presentation
 
 - [スマホ開発でも活きたこと、まだ活かせていないこと 170325 1043](https://www.slideshare.net/TakashiHirayama/170325-1043)
+- [【Unite 2017 Tokyo】『Shadowverse』のカード制作におけるスキル構築の効率化やグラフィック演出の仕組みを紹介 | Social Game Info](http://gamebiz.jp/?p=184353)
+- [売り切りとF2pの話](https://www.slideshare.net/hiromasaiwasaki/f2p-54671169)
 
 
 ## Game Design
@@ -90,12 +92,25 @@ position: 1
 - [Micro vs. Macro Gameplay](http://quarterview.com/?p=434)
 - [ウメハラが語るゲーム作りとバランス調整の深い話『最も重視すべきなのは、操作していて気持ちいい部分があること』『ストVシーズン2は強キャラを据え置くべきだった』 : チゲ速](http://chigesoku3.doorblog.jp/archives/50360640.html)
 - [廃課金ソシャゲはもういやだ／2017年スマホゲーム業界の課題 - デマこい！](http://rootport.hateblo.jp/entry/2017/01/28/233000)
+  - 中盤から MtG のゲームデザインの話
+- [MMOに縦方向の成長が必要ではない10の理由 - Kultur](http://kultur2.blog.fc2.com/blog-entry-1450.html)
 
 ## Game Art / Animation
 
 - [Stylization in Game Art](http://lucas.hardi.org/stylization-in-game-art/)
 - [5 tips for making great animations for 2D games](http://www.gamasutra.com/view/news/176663/5_tips_for_making_great_animations_for_2D_games.php#.UEdDAaQe7ZT)
 - [次世代アクション「For Honor」のアニメーション技術が次世代すぎる！ - GAME Watch](http://game.watch.impress.co.jp/docs/news/20160319_749136.html)
+
+## UI / UX Design
+
+- [ゲームのUIデザインの参考にするときに見るサイト - NAVER まとめ](https://matome.naver.jp/odai/2147909332473910501)
+    - [ゲームUIブログ | ゲームUI画像の収集と考察 - Part 6](http://gameui.matme.info/blog/page/6)
+
+## Business Model / Monetize
+
+- [The five reasons freemium sucks](http://indiegames.com/2013/03/the_five_reasons_freemium_suck.html)
+- [売り切りとF2pの話](https://www.slideshare.net/hiromasaiwasaki/f2p-54671169)
+- [［gamescom］ガチャは日本だけのものじゃない。ヨーロッパ市場で受けるガチャの作り方とは - 4Gamer.net](http://www.4gamer.net/games/999/G999905/20160820019/?utm_content=buffer80de5&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 
 ## Job / Working
 
@@ -129,11 +144,6 @@ position: 1
 - [修羅場習慣](http://www.radiumsoftware.com/0502.html#050214)
 
 
-## Business Model
-
-- [The five reasons freemium sucks](http://indiegames.com/2013/03/the_five_reasons_freemium_suck.html)
-
-
 ## Algorithm
 
 - [ゲーマーでなくても仕組みぐらいは知っておきたいアルゴリズムx40](http://zapanet.info/blog/item/1145)
@@ -148,6 +158,7 @@ position: 1
 ### AI
 
 - [ゲームの中の人工知能](http://www.slideshare.net/youichiromiyake/y-miyake-tgu2014626)
+- [21世紀に“洋ゲー”でゲームAIが遂げた驚異の進化史。その「敗戦」から日本のゲーム業界が再び立ち上がるには？【AI開発者・三宅陽一郎氏インタビュー】](http://news.denfaminicogamer.jp/interview/gameai_miyake)
 
 ### 数学
 
@@ -204,17 +215,18 @@ position: 1
     - [深津 貴之さんのツイート: "こっちが乱数にコクがないクラゲ https://t.co/Tbs5msWvfL こっちが乱数にコクを出したクラゲ https://t.co/tLtO8FkvGf"](https://twitter.com/fladdict/status/794049188757573632)
     - [「一様乱数の平均値を正規乱数として代用する」という話をゆるふわ統計的に検証する - k11i.biz](http://k11i.biz/blog/2016/11/05/approximate-gaussian-rng/)
 
-## 用語集
+## 参考資料 / 用語集
 
 - [MMO用語集](http://lovelove.rabi-en-rose.net/blog.php?n=42#abbreviation)
+- [遊戯王ＴＣＧで学ぶ表現規制 記事一覧 - 鈴木君の海、その中](http://d.hatena.ne.jp/sudzuking/archive?word=%2A%5B%CD%B7%B5%BA%B2%A6%A3%D4%A3%C3%A3%C7%A4%C7%B3%D8%A4%D6%C9%BD%B8%BD%B5%AC%C0%A9%5D)
 
 ## 素材集
 
 ### グラフィック
 
 - [The Spriters Resource](http://www.spriters-resource.com/)
-- [A fantasy themed font and CSS toolkit](http://nagoshiashumari.github.io/Rpg-Awesome/)
-    - ゲームっぽいピクトグラム
+- [A fantasy themed font and CSS toolkit](https://nagoshiashumari.github.io/Rpg-Awesome/)
+    - ゲームっぽいピクトグラムのフォント
 
 ### サウンド
 

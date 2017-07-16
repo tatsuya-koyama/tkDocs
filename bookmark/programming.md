@@ -72,6 +72,7 @@ position: 2
 - [何かのときにすっと出したい、プログラミングに関する法則・原則一覧 - Qiita](http://qiita.com/hirokidaichi/items/d6c473d8011bd9330e63)
 - [Abstracting key and game controller inputs in Adobe AIR – Zeh Fernando](http://zehfernando.com/2013/abstracting-key-and-game-controller-inputs-in-adobe-air/)
 - [開発速度と品質のトレードオフの判断基準の合意 - Hatena Developer Blog](http://developer.hatenastaff.com/entry/2016/12/24/063000)
+- [Big Sky :: Rob Pike のプログラミングに関する5つの掟](http://mattn.kaoriya.net/software/rob-pike-s-5-rules-of-programming.htm)
 
 ## Architecture / System
 
@@ -192,6 +193,9 @@ position: 2
 - [Gitのhashが衝突するのはどれくらいの確率か : mwSoft blog](http://blog.mwsoft.jp/article/173786778.html)
     - [誕生日攻撃 - Wikipedia](https://ja.wikipedia.org/wiki/%E8%AA%95%E7%94%9F%E6%97%A5%E6%94%BB%E6%92%83)
 - [海外へのゲーム配信で注意すること - Qiita](http://qiita.com/SayakaIto/items/dd727064ad29266aae92)
+- [安全なウェブサイトの作り方：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/vuln/websecurity.html)
+- [スマホゲームセキュリティ - IL2CPPは本当に安全なの？](https://www.nevermoe.com/wp-content/uploads/2016/11/avtokyo_jp_re.pdf)
+- [セキュリティエンジニアからみたUnityのこと : LINE Engineering Blog](https://engineering.linecorp.com/ja/blog/detail/110)
 
 ## Web Architecture / Web App
 
@@ -273,6 +277,7 @@ position: 2
 - [Google Chromeが採用した、擬似乱数生成アルゴリズム「xorshift」の数理 – びりあるの研究ノート](https://blog.visvirial.com/articles/575)
 - [効率的にゲームを更新する | コンピュータサイエンス | POSTD](http://postd.cc/efficient-game-updates/)
     - [Things that can go wrong when downloading](https://amos.me/blog/2017/downloads-gone-wrong/)
+- [【Unity】ソートアルゴリズム12種を可視化してみた - Qiita](http://qiita.com/r-ngtm/items/f4fa55c77459f63a5228)
 
 ## 圧縮
 
@@ -284,6 +289,7 @@ position: 2
 - [Is Google a Step Away from Developing a Computer that Can "Program Itself"? - Evolution News & Views](http://www.evolutionnews.org/2014/10/is_google_a_ste090771.html)
 - [二次元画像を拡大したいと思ったことはありませんか？ - デー](http://ultraist.hatenablog.com/entry/2015/05/17/183436)
 - [ゲームの中の人工知能](http://www.slideshare.net/youichiromiyake/y-miyake-tgu2014626)
+- [21世紀に“洋ゲー”でゲームAIが遂げた驚異の進化史。その「敗戦」から日本のゲーム業界が再び立ち上がるには？【AI開発者・三宅陽一郎氏インタビュー】](http://news.denfaminicogamer.jp/interview/gameai_miyake)
 
 ## Git
 
@@ -301,6 +307,7 @@ position: 2
 - [Yakst - より良いプルリクエストのための10のヒント](http://yakst.com/ja/posts/1625)
 - [「Git補完をしらない」「git statusを1日100回は使う」そんなあなたに朗報【git-completionとgit-prompt】 - Qiita](http://qiita.com/varmil/items/9b0aeafa85975474e9b6)
 - [巨大なリポジトリを Git で上手く扱う方法 - Atlassian Japan](http://japan.blogs.atlassian.com/2014/05/handle-big-repositories-git/)
+- [GitHub で使われる慣習的なリポジトリについてまとめてみた - Qiita](http://qiita.com/sta/items/c69d73fb1bb781fe6b9c)
 
 ___
 
