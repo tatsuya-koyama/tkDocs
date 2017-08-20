@@ -130,6 +130,7 @@ position: 1
 - [Digibury: Sony Game developement process - Mark Linott](http://www.slideshare.net/Lizziehodgson01/digibury-sony-game-developemen-porcess-mark-linott)
 - [［GDC 2016］競争が激化し続ける中で，どんなゲームを作るべきか。リスクを最小限に抑え，完成させる手法をインディーズゲームの先駆者が語る - 4Gamer.net](http://www.4gamer.net/games/999/G999901/20160317106/)
 - [『GRAVITY DAZE 2』手書きのようなグラフィックの制作工程、短期間でクオリティーを落とさず背景を制作するカギとなった“自動化”についてリポート【GCC’17】 - ファミ通.com](https://www.famitsu.com/news/201702/20127330.html)
+- [ゲームサーバ開発現場の考え方](https://www.slideshare.net/DaisakuMochizuki/ss-31061902)
 
 ### Testing / Debug
 
@@ -194,11 +195,12 @@ position: 1
 
 - [Unityの新GUI、uGUIはどうなる？こうなる！](http://terasur.blog.fc2.com/blog-entry-813.html)
 
-## 3D / 描画系
+## 3D / Rendering
 
 - [roxik さんの Flash スライド](http://temp.roxik.com/datas/max2007/index.html)
 - [Stroll on a VULKAN-o - 火山に散歩 : KLabGames Tech Blog](http://klabgames.tech.blog.jp.klab.com/archives/1060826686.html)
     - 描画 API の歴史と Vulkan の話
+- [Constructive Solid Geometry - Wikipedia](https://ja.wikipedia.org/wiki/Constructive_Solid_Geometry)
 
 ## 音楽 / DTM
 
