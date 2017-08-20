@@ -27,6 +27,7 @@ position: 99
 - [AUTOMATON](http://jp.automaton.am/)
 - [Ludum Dare](http://ludumdare.com/compo/)
 - [もぐらゲームス](http://www.moguragames.com/)
+- [Gaming Blog - Online and Download Games | Big Fish](http://www.bigfishgames.com/blog/)
 
 ### プログラマ系
 
@@ -54,6 +55,11 @@ position: 99
 - [iKnow!](http://iknow.jp/home)
 - [Hack Design](https://hackdesign.org/lessons)
 - [Skillshare](http://www.skillshare.com/)
+
+#### ゲーム開発系
+
+- [How To Make and Design Computer Games by Envato Tuts+](https://gamedevelopment.tutsplus.com/)
+- [Home - GameDev.net](https://www.gamedev.net/page/index.html)
 
 ## Podcast
 

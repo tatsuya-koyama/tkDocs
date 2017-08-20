@@ -139,10 +139,21 @@ position: 7
 - [10秒、1分、10分で描いた絵を見比べる、イラストレーターたちのスピードお絵かきチャレンジが面白い](http://www.kotaro269.com/articles/50217.html)
 - [クロッキーポーズ 多分4,000ポーズ以上！270本以上のモデル動画がアップされているYoutubeチャンネル『CroquisCafe』 | CGトラッキング 世界のCGニュースを集めてみる](http://cgtracking.net/archives/41733)
 
-## Stylish Website
+## シュッとしてる
+
+### アーティスト系
 
 - [julienlavallee](http://www.julienlavallee.com/)
 - [tauadesign.com](http://tauadesign.com/)
+
+### エンジニア系
+
+- [Atom](https://atom.io/)
+- [Use V8 and Chromium Features in Electron | Electron](https://electron.atom.io/blog/2016/01/07/latest-v8-chromium-features)
+
+### 情報サイト系
+
+- [Game Jolt - Indie games for the love of it](https://gamejolt.com/)
 
 ## 素材集 / ライブラリ / サービス
 
