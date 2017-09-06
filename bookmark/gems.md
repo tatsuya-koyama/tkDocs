@@ -58,6 +58,9 @@ position: 6
 - [この写真すごい好きなんだけどなぁ、、](https://twitter.com/20151201215math/status/729988863569985536/photo/1)
     - 進捗のイメージの仕方
 
+### 秀逸な GIF
+- [これは世の中に起きているほとんどのことを解明する記事です](https://www.buzzfeed.com/jp/bfjapan/19gif?utm_term=.fw1dzvowoj#.xdpXogjPj5)
+
 ## 良記事 / 名言
 
 - [山内語録（任天堂の社長）](http://crossing.blog.eonet.jp/blog/yamauchi.html)

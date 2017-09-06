@@ -210,11 +210,13 @@ position: 2
 - [Scala and Play for game servers // Speaker Deck](https://speakerdeck.com/h_kishi/scala-and-play-for-game-servers)
     - Kishi さんのスライド
 
-## リアルタイム通信 / オンラインゲーム開発
+## リアルタイム通信 / オンラインゲーム開発 / Server - Client
 
 - [年の瀬リアルタイム通信サーバ勉強会](http://www.slideshare.net/yhonjo/ss-56043422)
 - [リアルタイム通信ゲーム勉強会で発表してきた｜サイバーエージェント 公式エンジニアブログ](http://ameblo.jp/principia-ca/entry-12159623182.html)
 - [Nianticの求人から推測する『Pokémon GO(ポケモンGO)』のサーバ構成 - Qiita](http://qiita.com/shibacow/items/1ac6f65100252b78a707)
+- [【CEDEC2017】人気タイトル『アナザーエデン』になぜ通信待ちストレスがないか。その理由は非同期オートセーブにあった | Social Game Info](http://gamebiz.jp/?p=192603)
+    - わかる / でもガチャがどれだけセキュアか怪しい / あと障害調査がやりづらそう
 
 ## Database
 

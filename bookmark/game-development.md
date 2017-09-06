@@ -59,13 +59,16 @@ position: 1
 - [［GDC 2016］「キャンディークラッシュ」のKingが公開した完全無料のゲームエンジン「Defold」とは？ - 4Gamer.net](http://www.4gamer.net/games/032/G003263/20160317081/)
 - [DeNA TechCon 2017 | DeNA内製ゲームエンジンの現状と目指す未来](http://recruit-games.dena.jp/techcon2017/d04/)
 
+## Game Architecture
+
+- [【CEDEC2017】人気タイトル『アナザーエデン』になぜ通信待ちストレスがないか。その理由は非同期オートセーブにあった | Social Game Info](http://gamebiz.jp/?p=192603)
+    - わかる / でもガチャがどれだけセキュアか怪しい / あと障害調査がやりづらそう
 
 ## Game Development / Presentation
 
 - [スマホ開発でも活きたこと、まだ活かせていないこと 170325 1043](https://www.slideshare.net/TakashiHirayama/170325-1043)
 - [【Unite 2017 Tokyo】『Shadowverse』のカード制作におけるスキル構築の効率化やグラフィック演出の仕組みを紹介 | Social Game Info](http://gamebiz.jp/?p=184353)
 - [売り切りとF2pの話](https://www.slideshare.net/hiromasaiwasaki/f2p-54671169)
-
 
 ## Game Design
 
@@ -131,6 +134,14 @@ position: 1
 - [［GDC 2016］競争が激化し続ける中で，どんなゲームを作るべきか。リスクを最小限に抑え，完成させる手法をインディーズゲームの先駆者が語る - 4Gamer.net](http://www.4gamer.net/games/999/G999901/20160317106/)
 - [『GRAVITY DAZE 2』手書きのようなグラフィックの制作工程、短期間でクオリティーを落とさず背景を制作するカギとなった“自動化”についてリポート【GCC’17】 - ファミ通.com](https://www.famitsu.com/news/201702/20127330.html)
 - [ゲームサーバ開発現場の考え方](https://www.slideshare.net/DaisakuMochizuki/ss-31061902)
+
+### 任天堂のセッション
+
+- フィールドのレベルデザインの話
+    - [【CEDEC 2017】「オープンエア」の世界はこうして作られた―「ゼルダの伝説　ブレス オブ ザ ワイルド」におけるフィールドレベルデザインの講演をレポート｜Gamer](https://www.gamer.ne.jp/news/201709010048/)
+    - [［CEDEC 2017］「ゼルダの伝説BotW」の完璧なゲーム世界は，任天堂の開発スタイルが変わったからこそ生まれた - 4Gamer.net](http://www.4gamer.net/games/341/G034168/20170901120/)
+    - [【CEDEC2017】「ゼルダ」のマップは京都から始まった！？ - GAME Watch](http://game.watch.impress.co.jp/docs/news/1078569.html)
+- [「ゼルダの伝説 BotW」にバグが少ない理由 - CEDEC 2017](http://jp.ign.com/cedec-2017/16963/news/botw)
 
 ### Testing / Debug
 

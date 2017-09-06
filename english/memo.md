@@ -1,6 +1,6 @@
 ---
 title: 'こまいメモ'
-date: '2017-02-19'
+date: '2017-08-24'
 description:
 categories: []
 tags: [anything, English]
@@ -21,7 +21,7 @@ position: 4
 
 ## 似てる単語どう違うのシリーズ
 
-### 「認証」っぽいやつ
+### 「認証」「検証」っぽいやつ
 
 {{# table}}
   -
@@ -31,7 +31,7 @@ position: 4
   -
     - Authenticate
     - ～が本物であることを証明［確認・認証］する
-    - 本人確認 / ID とパスワードでログイン
+    - 本人確認、<br/>ID とパスワードでログイン
   -
     - Authorize
     - ～に権限［権威］を与える、～を認可［許可］する
@@ -43,12 +43,25 @@ position: 4
   -
     - Verify
     - 検証［立証・実証］する、点検する・照合する
-    - データが正しい形式か検証
+    - データが正しい形式か検証、<br/>偽装されていないことの立証
+  -
+    - Validate
+    - 〜を（法的に）有効にする、～の正当性を立証する
+    - 入力データの妥当性チェック
 {{/ table}}
+
+- Verify
+    - 正しく作られているか検証
+- Validate
+    - 正しいもの、実用上有効なものを作っているか妥当性確認
+
+____
 
 - [【プログラマ英語】それ認証って意味じゃないですよ（厳密には） - Qiita](http://qiita.com/tienlen/items/9e1b58dd173472f071c0)
 - [認証 ≒ Authentication , Authorization, Certification の違い - end0tknrのkipple - web写経開発](http://d.hatena.ne.jp/end0tknr/20130127/1359283200)
 - [認証（Authentication） と 承認（Authorization） の違い - galife](https://garafu.blogspot.jp/2013/11/authentication-authorization.html)
+- [Verify と Validate の違い ある翻訳者のつぶやき/ウェブリブログ](http://jun5.at.webry.info/201204/article_4.html)
+- [情報システム用語事典：V&V（ぶいあんどぶい） - ITmedia エンタープライズ](http://www.itmedia.co.jp/im/articles/1111/07/news153.html)
 
 ### center と middle
 
