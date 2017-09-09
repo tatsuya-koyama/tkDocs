@@ -256,22 +256,32 @@ position: 2
 
 - [情報科学における18のメタテクニック](http://www.slideshare.net/nakano_lab/cs-metatechniques)
 
-## Design Pattern / 設計思想
+## 設計思想
+
+- [手続き - 構造化 - オブジェクト指向 - 宣言的記述](http://iwatam-server.sakura.ne.jp/software/devintro/oo/oo/x47.html)
+- [Composition over inheritance](http://en.wikipedia.org/wiki/Composition_over_inheritance)
+- [伽藍とバザール](http://www.atmarkit.co.jp/aig/03linux/candb.html)
+- [【翻訳】クラスの「継承」より「合成」がよい理由とは？ゲーム開発におけるコードのフレキシビリティと可読性の向上](http://postd.cc/why-composition-is-often-better-than-inheritance/)
+- [ソフトウェア設計とは何か 〜 設計にはプログラミング経験が必要か否か](http://kuranuki.sonicgarden.jp/2013/01/post-109.html)
+- [Rule of thee – 汎用化のタイミング – Morizotter Blog](http://blog.morizotter.com/2015/03/15/rule-of-thee-%E6%B1%8E%E7%94%A8%E5%8C%96%E3%81%AE%E3%82%BF%E3%82%A4%E3%83%9F%E3%83%B3%E3%82%B0/)
+
+## Design Pattern
 
 - [やっと理解できた！JSオブジェクト指向プログラミング再入門](http://tokkono.cute.coocan.jp/blog/slow/index.php/programming/re-introduction-to-object-oriented-js/)
 - [デザインパターンを読み解く](http://www.happiese.com/system/dpattern.html)
 - [Pythonによるデザインパターン](http://d.hatena.ne.jp/doloopwhile/20110207/1297068455)
-- [手続き - 構造化 - オブジェクト指向 - 宣言的記述](http://iwatam-server.sakura.ne.jp/software/devintro/oo/oo/x47.html)
 - [デザインパターンのメタパターン](http://vox.nishimotz.com/design-pattern.html)
 - [ユニットテストのアンチパターン](http://devtesting.jp/pekema/?0004%2FTopics)
 - [Inversion of Control コンテナと Dependency Injection パターン](http://kakutani.com/trans/fowler/injection.html)
-- [Composition over inheritance](http://en.wikipedia.org/wiki/Composition_over_inheritance)
-- [伽藍とバザール](http://www.atmarkit.co.jp/aig/03linux/candb.html)
-- [【翻訳】クラスの「継承」より「合成」がよい理由とは？ゲーム開発におけるコードのフレキシビリティと可読性の向上](http://postd.cc/why-composition-is-often-better-than-inheritance/)
-- [再考: GoF デザインパターン](http://qiita.com/irxground/items/d1f9cc447bafa8db2388)
-- [シングルトンについて思うこと](http://beinteractive.jp/shingurutonnitsuitesi-ukoto)
-- [ソフトウェア設計とは何か 〜 設計にはプログラミング経験が必要か否か](http://kuranuki.sonicgarden.jp/2013/01/post-109.html)
 - [デザインパターン紹介 (GoF 以外)](http://www.hyuki.com/dp/dpinfo.html)
+
+### デザインパターン再考
+- [Design Patterns 15 Years Later: An Interview with Erich Gamma, Richard Helm, and Ralph Johnson | Design Patterns 15 Years Later: An Interview with Erich Gamma, Richard Helm, and Ralph Johnson | InformIT](http://www.informit.com/articles/article.aspx?p=1404056)
+- [再考: GoF デザインパターン](http://qiita.com/irxground/items/d1f9cc447bafa8db2388)
+    - [encapsulation - Using a strategy pattern and a command pattern - Stack Overflow](https://stackoverflow.com/questions/3883692/using-a-strategy-pattern-and-a-command-pattern/3896839#3896839)
+        - カプセル化の階層構造の図、参考になる
+- [ふと GoF のデザインパターンを再考しておく | Moonmile Solutions Blog](http://www.moonmile.net/blog/archives/7678)
+- [シングルトンについて思うこと](http://beinteractive.jp/shingurutonnitsuitesi-ukoto)
 
 ## Algorithm
 
