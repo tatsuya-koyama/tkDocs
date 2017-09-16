@@ -1,6 +1,6 @@
 ---
 title: '3. Study'
-date: '2016-04-25'
+date: '2017-09-17'
 description:
 categories: []
 tags: [anything, reference, Study]
@@ -69,6 +69,11 @@ position: 3
 - [アイデア大全ー52の発想法／思いつくことに行き詰まった時に開く備忘録 読書猿Classic: between / beyond readers](http://readingmonkey.blog45.fc2.com/blog-entry-765.html)
 - [議論で「負け」が運命付けられている思考方法30パターン - GIGAZINE](http://gigazine.net/news/20150213-logical-fallacy-collection/)
 
+## 漫画
+
+- [近未来や宇宙に思いを馳せるおすすめSF漫画 - 心に火を、指先にペンを](http://www.kokoro-fire.com/entry/sf-manga)
+- [ファッションがよくわからない男性必見の漫画『服を着るならこんなふうに』が有用性高くて話題に - Togetterまとめ](https://togetter.com/li/1142386)
+
 ## Game
 
 - [Why Games Are the Killer App for Social Networks](http://mashable.com/2010/08/11/social-gaming-business/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Mashable+%28Mashable%29&utm_content=Google+Reader)
@@ -130,6 +135,7 @@ ____
 ## 数学
 - [Google Chromeが採用した、擬似乱数生成アルゴリズム「xorshift」の数理 – びりあるの研究ノート](https://blog.visvirial.com/articles/575)
 - [「パッと見素数」に気をつけろ！ - アジマティクス](http://motcho.hateblo.jp/entry/2016/12/11/190626)
+- [やたらすごい素数 - インテジャーズ](http://integers.hatenablog.com/entry/2017/05/31/212451)
 
 ## Statistics / Numbers
 

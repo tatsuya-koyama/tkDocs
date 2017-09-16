@@ -122,6 +122,10 @@ position: 6
 - [Twitterには25種類の「ふぁぼ」があるって知ってた？](http://d.hatena.ne.jp/ncat3/20111001/1317459977)
 - [１行ポエムツイッタラーのふぁぼられ](http://favotter.net/user/1linepoet&mode=best)
 
+## 作品紹介
+
+- [近未来や宇宙に思いを馳せるおすすめSF漫画 - 心に火を、指先にペンを](http://www.kokoro-fire.com/entry/sf-manga)
+
 
 <br/><br/><br/>
 

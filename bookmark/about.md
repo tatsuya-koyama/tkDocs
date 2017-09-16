@@ -16,11 +16,9 @@ position: 0
 
 - 左のカラムからカテゴリを選ぶ
 
-## Pinterest もあるよ
+## これもある
 
-- 最近は [Pinterest](https://pinterest.com/honyapeke/)
-  にまとめてる
-- 技術系リンクや、画像がとれないやつは tkDocs にメモってる
+- [Pinterest](https://pinterest.com/honyapeke/)
 
 <br/><br/><br/><br/><br/>
 

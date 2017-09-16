@@ -45,6 +45,8 @@ position: 7
 - [LOL の絵とか](http://instantip.deviantart.com/gallery/?catpath=%2F&offset=0)
 - [Lifetime Clock](http://lifetime-clock.com/)
 - [盆栽模型とジオラマを組み合わせた「盆栽ツリーハウス」が話題に - ライブドアニュース](http://news.livedoor.com/article/detail/11542890/)
+- [こんな風に見えるんだ！イギリスの観光客が日本での体験をアニメに](https://www.buzzfeed.com/jp/eimiyamamitsu/tokyo-gifathon-james-curran?utm_term=.rbPv4Bo0G4#.oh17Ewa3yE)
+- [自作のアニメ制作ツールで作った超絶アクションを決めまくる自主制作アニメ「影と魔女 / THE SHADOW AND THE WITCH」がスゴい - GIGAZINE](http://gigazine.net/news/20170907-the-shadow-and-the-witch/)
 
 ### Illustration
 
@@ -112,6 +114,8 @@ position: 7
 - [オインクゲームズのコンポーネントデザイン - Studio | Oink Games](http://studio.oinkgms.com/post/153628362942)
 - [これでもう悩まない！2017年のデザイントレンド完全ガイド - PhotoshopVIP](http://photoshopvip.net/98490)
 - [誰も教えてくれない「分かりやすく美しい図の作り方」超具体的な20のテクニック | TomoyukiArasuna.com](http://tomoyukiarasuna.com/make-images/)
+- [UIのビジュアルデザインにおけるちょっとしたコツをまとめた「Little UI Details」 - GIGAZINE](http://gigazine.net/news/20170911-little-ui-details/)
+- [最近のWebサイトで使われてる、UI要素をデザインするテクニックのまとめ -Little UI Details by Steve Schoger | コリス](http://coliss.com/articles/build-websites/operation/design/little-ui-details-by-steve-schoger.html)
 
 ## 事例集
 
@@ -123,6 +127,7 @@ position: 7
 - [ノンデザイナーのための配色理論](http://www.slideshare.net/saucerjp/ss-14902681)
 - [色彩心理学：マーケティング担当者のための完全ガイド | デザイン | POSTD](http://postd.cc/color-psychology/)
 - [Web制作で配色に迷わない！美しすぎるカラーパレット50個まとめ - PhotoshopVIP](http://photoshopvip.net/archives/86191)
+- [デザインシステムに採用する色を決める5つのルール : could](http://www.yasuhisa.com/could/article/design-system-colors/)
 
 ## Drawing
 
@@ -138,6 +143,7 @@ position: 7
 - [漫画家・吉村拓也先生の「ワンランク画力をUPさせる【手の描き方】」 - Togetterまとめ](http://togetter.com/li/1019226)
 - [10秒、1分、10分で描いた絵を見比べる、イラストレーターたちのスピードお絵かきチャレンジが面白い](http://www.kotaro269.com/articles/50217.html)
 - [クロッキーポーズ 多分4,000ポーズ以上！270本以上のモデル動画がアップされているYoutubeチャンネル『CroquisCafe』 | CGトラッキング 世界のCGニュースを集めてみる](http://cgtracking.net/archives/41733)
+- [あなたが神か・・・！！マンガ・イラスト講師である長世氏のツイートが超わかりやすくて素晴らしい！！ – CG GEEKS](http://cg-geeks.com/archives/11474)
 
 ## シュッとしてる
 
@@ -150,6 +156,8 @@ position: 7
 
 - [Atom](https://atom.io/)
 - [Use V8 and Chromium Features in Electron | Electron](https://electron.atom.io/blog/2016/01/07/latest-v8-chromium-features)
+- [Design Patterns & Refactoring](https://sourcemaking.com/)
+- [Swagger – The World's Most Popular Framework for APIs.](https://swagger.io/)
 
 ### 情報サイト系
 

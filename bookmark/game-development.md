@@ -1,6 +1,6 @@
 ---
 title: '1. Game Development'
-date: '2016-05-21'
+date: '2017-09-17'
 description:
 categories: []
 tags: [anything, reference, Game-Development]
@@ -19,6 +19,7 @@ position: 1
 
 - [スプラトゥーンとかいうイカしたシューターの再発明の話をしたい - セラミックロケッツ！](http://cr.hatenablog.com/entry/2015/05/31/002059)
 - [I was game](http://iwasgame.tumblr.com/)
+- [プレイヤーのゲーム体験は、知らないうちに高められていた？ゲーム開発者らがこっそり加えた「工夫」を語り合う | AUTOMATON](http://jp.automaton.am/articles/newsjp/20170905-53893/)
 
 ## Movie
 

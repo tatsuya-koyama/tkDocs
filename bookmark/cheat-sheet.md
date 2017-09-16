@@ -1,6 +1,6 @@
 ---
 title: '4. Cheat Sheet / Pattern'
-date: '2016-01-09'
+date: '2017-09-17'
 description:
 categories: []
 tags: [anything, reference, Cheat-Sheet]
@@ -18,6 +18,11 @@ position: 4
 
 - [Gof以外のデザインパターン](http://www.tom.sfc.keio.ac.jp/~fjedi/wiki/index.php?%A4%BD%A4%CE%C2%BE%A4%CE%A5%C7%A5%B6%A5%A4%A5%F3%A5%D1%A5%BF%A1%BC%A5%F3)
 - [AWS クラウドデザインパターン](http://aws.clouddesignpattern.org/index.php/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8)
+
+## アルゴリズム系
+
+- [kdn251/interviews: Everything you need to know to get the job.](https://github.com/kdn251/interviews)
+    - 採用面接向けのアルゴリズム知識まとめ
 
 ## Git 系
 

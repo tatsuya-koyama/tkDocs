@@ -1,6 +1,6 @@
 ---
 title: '2. Programming / Engineering'
-date: '2016-10-25'
+date: '2017-09-17'
 description:
 categories: []
 tags: [anything, reference, Programming]
@@ -36,6 +36,18 @@ position: 2
 - [The Little Printf : 「我々はなぜプログラミングをするのか？」を追う寓話 | キャリア・働き方 | POSTD](http://postd.cc/the-little-printf/)
 - [ソフトウェア例え話、格言、小噺 - from scratch](http://yosuke-furukawa.hatenablog.com/entry/2016/12/31/225913)
 - [プログラマだけど異世界の開発会社に転生した - megamouthの葬列](http://www.megamouth.info/entry/2016/10/08/011446)
+- [もう見た？GitHub最新人気リポジトリTop25総覧【2017年9月版】 - エンジニアHub｜若手Webエンジニアのキャリアを考える！](https://employment.en-japan.com/engineerhub/entry/2017/09/14/110000)
+- [40 Key Computer Science Concepts Explained In Layman’s Terms](http://carlcheo.com/compsci)
+    - プログラマ必読感
+- [mr-mig/every-programmer-should-know: A collection of (mostly) technical things every software developer should know](https://github.com/mr-mig/every-programmer-should-know)
+- [LEARN REGEX THE EASY WAY](https://github.com/zeeshanu/learn-regex/blob/master/README-ja.md)
+- [kdn251/interviews: Everything you need to know to get the job.](https://github.com/kdn251/interviews)
+    - 採用面接向けのアルゴリズム知識まとめ
+
+____
+
+- [sdmg15/Best-websites-a-programmer-should-visit: Some useful websites for programmers.](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
+    - プログラマ向け Web サイト集
 
 ## eBook
 
@@ -196,6 +208,7 @@ position: 2
 - [安全なウェブサイトの作り方：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/vuln/websecurity.html)
 - [スマホゲームセキュリティ - IL2CPPは本当に安全なの？](https://www.nevermoe.com/wp-content/uploads/2016/11/avtokyo_jp_re.pdf)
 - [セキュリティエンジニアからみたUnityのこと : LINE Engineering Blog](https://engineering.linecorp.com/ja/blog/detail/110)
+- [【CEDEC 2017】Wright Flyer Studiosの不正アクセスによる影響とその対処法…実際にBANシステムを作ってみて苦労した点とは | Social Game Info](http://gamebiz.jp/?p=192726)
 
 ## Web Architecture / Web App
 
@@ -274,6 +287,7 @@ position: 2
 - [ユニットテストのアンチパターン](http://devtesting.jp/pekema/?0004%2FTopics)
 - [Inversion of Control コンテナと Dependency Injection パターン](http://kakutani.com/trans/fowler/injection.html)
 - [デザインパターン紹介 (GoF 以外)](http://www.hyuki.com/dp/dpinfo.html)
+- [kamranahmedse/design-patterns-for-humans: Design Patterns for Humans™ - An ultra-simplified explanation](https://github.com/kamranahmedse/design-patterns-for-humans)
 
 ### デザインパターン再考
 - [Design Patterns 15 Years Later: An Interview with Erich Gamma, Richard Helm, and Ralph Johnson | Design Patterns 15 Years Later: An Interview with Erich Gamma, Richard Helm, and Ralph Johnson | InformIT](http://www.informit.com/articles/article.aspx?p=1404056)
@@ -306,6 +320,8 @@ position: 2
 - [二次元画像を拡大したいと思ったことはありませんか？ - デー](http://ultraist.hatenablog.com/entry/2015/05/17/183436)
 - [ゲームの中の人工知能](http://www.slideshare.net/youichiromiyake/y-miyake-tgu2014626)
 - [21世紀に“洋ゲー”でゲームAIが遂げた驚異の進化史。その「敗戦」から日本のゲーム業界が再び立ち上がるには？【AI開発者・三宅陽一郎氏インタビュー】](http://news.denfaminicogamer.jp/interview/gameai_miyake)
+- [Deep Learning](http://www.deeplearningbook.me/)
+    - Goodfellow著「Deep Learning」の日本語翻訳
 
 ## Git
 

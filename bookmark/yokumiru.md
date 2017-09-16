@@ -1,6 +1,6 @@
 ---
 title: 'よくみる'
-date: '2016-04-25'
+date: '2017-09-17'
 description:
 categories: []
 tags: [anything, reference]
@@ -31,6 +31,7 @@ position: 99
 
 ### プログラマ系
 
+- [sdmg15/Best-websites-a-programmer-should-visit: Some useful websites for programmers.](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
 - [POSTD](http://postd.cc/)
 - [エンジニアのための英語](http://englishforengineers.tumblr.com/)
 - GitHub 探検
@@ -73,5 +74,6 @@ position: 99
 - [UX MILK | クリエイターのためのUXメディア](http://uxmilk.jp/)
 - [ITmedia Mobile](http://www.itmedia.co.jp/mobile/)
 - [roomie](http://www.roomie.jp/)
+- [xkcd: Ringer Volume/Media Volume](https://xkcd.com/)
 
 
