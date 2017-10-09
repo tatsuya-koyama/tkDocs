@@ -135,6 +135,8 @@ position: 1
 - [［GDC 2016］競争が激化し続ける中で，どんなゲームを作るべきか。リスクを最小限に抑え，完成させる手法をインディーズゲームの先駆者が語る - 4Gamer.net](http://www.4gamer.net/games/999/G999901/20160317106/)
 - [『GRAVITY DAZE 2』手書きのようなグラフィックの制作工程、短期間でクオリティーを落とさず背景を制作するカギとなった“自動化”についてリポート【GCC’17】 - ファミ通.com](https://www.famitsu.com/news/201702/20127330.html)
 - [ゲームサーバ開発現場の考え方](https://www.slideshare.net/DaisakuMochizuki/ss-31061902)
+- [【CEDEC2017】開発初期から振り返る『アナザーエデン』のマル秘話…「イベントやマップの作り方」や「バトルを5回作り直した理由」を明かす | Social Game Info](http://gamebiz.jp/?p=192924)
+    - Excel くん
 
 ### 任天堂のセッション
 

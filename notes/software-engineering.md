@@ -1,6 +1,6 @@
 ---
 title: 'ソフトウェア一般'
-date: '2014-01-16'
+date: '2017-09-19'
 description:
 categories: []
 tags: [anything, Programming, Software]
@@ -123,10 +123,53 @@ ___
 - [Boilerplate code](http://en.wikipedia.org/wiki/Boilerplate_code)
     - 自明だが省略できないお決まりのコード片
 
-### 教訓系読み物
+## 教訓系読み物
 
 - [ArticleS.TimOttinger.ApologizeIncode](http://butunclebob.com/ArticleS.TimOttinger.ApologizeIncode)
     - コードのコメントは謝罪である
+
+## あれ何だっけシリーズ
+
+### 配列の操作
+
+```
+ unshift -> [][][] <- push  // 足すやつ
+   shift <- [][][] -> pop   // 出すやつ
+```
+
+### 何とか互換
+
+- [互換性 - Wikipedia](https://ja.wikipedia.org/wiki/%E4%BA%92%E6%8F%9B%E6%80%A7)
+
+{{# table}}
+  -
+    - 用語
+    - 英語
+    - 意味
+    - 例
+  -
+    - 上位互換
+    - Upper compatibility
+    - 上位グレードの製品が下位の機能も有する
+    - Pro 版は Lite 版の全ての機能を含む
+  -
+    - 下位互換
+    - Lower compatibility
+    - 下位グレードの製品でも上位機能（の一部）を有する
+    - ゲームボーイカラーのゲームは GB でも（色は出ないが）動く
+  -
+    - 前方互換
+    - Forward compatibility
+    - 新しいシステムの規格を古いシステムでも使える
+    - Excel 2016 で作成したデータが昔の Excel 2013 でも開ける
+  -
+    - 後方互換
+    - Backward compatibility
+    - 古いシステムの規格を新しいシステムが使える
+    - ・Excel 2013 のデータは Excel 2016 でも開ける<br>・PS のゲームが PS2 で動く
+{{/ table}}
+
+- 一般的なのは上位互換と後方互換
 
 <br/>
 

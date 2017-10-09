@@ -145,6 +145,7 @@ ____
 ## 科学
 
 - [科学道100冊一覧 - 科学道100冊](http://kagakudo100.jp/lineup/)
+- [［CEDEC 2017］参加者を魅了する謎の砂場「流動床インタフェース」とは？ - 4Gamer.net](http://www.4gamer.net/games/999/G999905/20170830127/)
 
 ## Academic
 
