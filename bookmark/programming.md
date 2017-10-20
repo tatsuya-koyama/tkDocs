@@ -310,6 +310,7 @@ ____
 - [効率的にゲームを更新する | コンピュータサイエンス | POSTD](http://postd.cc/efficient-game-updates/)
     - [Things that can go wrong when downloading](https://amos.me/blog/2017/downloads-gone-wrong/)
 - [【Unity】ソートアルゴリズム12種を可視化してみた - Qiita](http://qiita.com/r-ngtm/items/f4fa55c77459f63a5228)
+- [初期化配列の実装 - Qiita](https://qiita.com/kgoto/items/0251e442292d8ebc1f3d)
 
 ## 圧縮
 

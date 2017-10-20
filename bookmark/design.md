@@ -158,8 +158,15 @@ position: 7
 - [Use V8 and Chromium Features in Electron | Electron](https://electron.atom.io/blog/2016/01/07/latest-v8-chromium-features)
 - [Design Patterns & Refactoring](https://sourcemaking.com/)
 - [Swagger – The World's Most Popular Framework for APIs.](https://swagger.io/)
+- [Rocket - Simple, Fast, Type-Safe Web Framework for Rust](https://rocket.rs/)
 - [Docker - Build, Ship, and Run Any App, Anywhere](https://www.docker.com/)
     - 全体的にクリーンな感じでかっこいい
+
+### デザイン / ガイドライン系
+
+- [Shopify Polaris - Principles](https://polaris.shopify.com/principles/principles)
+- [Home - Office UI Fabric](https://developer.microsoft.com/en-us/fabric)
+- [Introduction - Material Design](https://material.io/guidelines/)
 
 ### 情報サイト系
 
