@@ -209,6 +209,8 @@ ____
 - [スマホゲームセキュリティ - IL2CPPは本当に安全なの？](https://www.nevermoe.com/wp-content/uploads/2016/11/avtokyo_jp_re.pdf)
 - [セキュリティエンジニアからみたUnityのこと : LINE Engineering Blog](https://engineering.linecorp.com/ja/blog/detail/110)
 - [【CEDEC 2017】Wright Flyer Studiosの不正アクセスによる影響とその対処法…実際にBANシステムを作ってみて苦労した点とは | Social Game Info](http://gamebiz.jp/?p=192726)
+- [文字列（ハッシュ）の安全な比較方法 – hash_equals | yohgaki's blog](https://blog.ohgaki.net/hash-string-safe-comparison)
+    - タイミング攻撃への対策
 
 ## Web Architecture / Web App
 

@@ -204,6 +204,7 @@ position: 1
 - [Unity のシェーダの基礎を勉強してみたのでやる気出してまとめてみた - 凹みTips](http://tips.hecomi.com/entry/2014/03/16/233943)
 - [Unity 5.1 から導入された新しいネットワーク機能の UNET について詳しく調べてみた - 凹みTips](http://tips.hecomi.com/entry/2015/08/14/220030)
 - [Unity - マニュアル: イベント関数の実行順](http://docs.unity3d.com/ja/current/Manual/ExecutionOrder.html)
+- [伝統的なゲームデザインをUnityで表現する | Made with Unity](https://madewithunity.jp/stories/aka-to-blue/)
 
 ## Game Dev. Tool
 
