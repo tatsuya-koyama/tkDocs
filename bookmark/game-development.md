@@ -59,6 +59,7 @@ position: 1
     - [ソースコード](https://github.com/jMonkeyEngine/jmonkeyengine)
 - [［GDC 2016］「キャンディークラッシュ」のKingが公開した完全無料のゲームエンジン「Defold」とは？ - 4Gamer.net](http://www.4gamer.net/games/032/G003263/20160317081/)
 - [DeNA TechCon 2017 | DeNA内製ゲームエンジンの現状と目指す未来](http://recruit-games.dena.jp/techcon2017/d04/)
+- [Godot Engine - Free and open source 2D and 3D game engine](https://godotengine.org/)
 
 ## Game Architecture
 
@@ -98,6 +99,7 @@ position: 1
 - [廃課金ソシャゲはもういやだ／2017年スマホゲーム業界の課題 - デマこい！](http://rootport.hateblo.jp/entry/2017/01/28/233000)
   - 中盤から MtG のゲームデザインの話
 - [MMOに縦方向の成長が必要ではない10の理由 - Kultur](http://kultur2.blog.fc2.com/blog-entry-1450.html)
+- [ゲームデザイン カテゴリーの記事一覧 - ゲーマー日日新聞](http://arcadia11.hatenablog.com/archive/category/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3)
 
 ## Game Art / Animation
 
@@ -158,6 +160,9 @@ position: 1
 - [How to write a 48-hour game in just 2 years](http://pixelated.postagon.com/5g437329d)
 - [修羅場習慣](http://www.radiumsoftware.com/0502.html#050214)
 
+## 運用 / 分析 / マネタイズ
+
+- [DAUを評価指標から捨てた会社の話 #tokyowebmining](https://www.slideshare.net/TokorotenNakayama/dau-21559783)
 
 ## Algorithm
 
@@ -178,6 +183,10 @@ position: 1
 ### 数学
 
 - [ネイピア数 〜美しきムダな数〜 | Creators MeetUp vol. 30](http://www.fumiononaka.com/Sample/Creators_MeetUp/Creators_MeetUp_150718.html)
+
+## Architecture
+
+- [ゲームエンジンを使わずにC++とOpenGLでゲームを作った話 - Flat Leon Works](http://flat-leon.hatenablog.com/entry/making_game_with_cpp_and_opengl)
 
 ## フレームワーク設計
 

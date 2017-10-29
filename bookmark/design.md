@@ -147,10 +147,11 @@ position: 7
 
 ## シュッとしてる
 
-### アーティスト系
+### アーティスト / 個人系
 
 - [julienlavallee](http://www.julienlavallee.com/)
 - [tauadesign.com](http://tauadesign.com/)
+- [feb19.jp - Nobuhiro Takahashi [ Designer / Engineer ]](http://feb19.jp/)
 
 ### エンジニア系
 
@@ -170,6 +171,7 @@ position: 7
 
 ### 情報サイト系
 
+- [WIRED.jp](https://wired.jp/)
 - [Game Jolt - Indie games for the love of it](https://gamejolt.com/)
 
 ## 素材集 / ライブラリ / サービス
@@ -180,6 +182,8 @@ position: 7
 - [PhotoShop Brush](http://fbrushes.com/)
 - [DESK](http://desk.cmiscm.com/#)
 - [英語圏のかぶらない無料写真サイト10選](http://kyouki.hatenablog.com/entry/2014/02/16/091153)
+- [ColorSpace - Color Palettes Generator and Color Gradient Tool](https://mycolor.space/)
+- [非デザイナーがナメられないための、おすすめデザインツール12選 – ASENAVI BLOG – Medium](https://medium.com/%E3%82%A2%E3%82%BB%E3%83%8A%E3%83%93/for-nondesigner-8ae99fa16919)
 
 
 <br/><br/><br/>

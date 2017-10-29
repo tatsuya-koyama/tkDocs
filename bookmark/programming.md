@@ -404,6 +404,7 @@ Adobe AIR 関連メモは[これ](/dev-log/adobe-air-dev-note)
 - [ゲーム開発者のための C++11/C++14](http://www.slideshare.net/Reputeless/c11c14)
 - [2016年、C言語はどう書くべきか (前編) | プログラミング | POSTD](http://postd.cc/how-to-c-in-2016-1/)
 - [2016年、C言語はどう書くべきか (後編) | プログラミング | POSTD](http://postd.cc/how-to-c-in-2016-2/)
+- [本の虫: Old New Thing: 未定義動作はタイムトラベルを引き起こす（他にもいろいろあるけど、タイムトラベルが一番ぶっ飛んでる）](https://cpplover.blogspot.jp/2014/06/old-new-thing.html)
 
 ### Ruby
 
