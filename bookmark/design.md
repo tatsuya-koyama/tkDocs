@@ -116,6 +116,7 @@ position: 7
 - [誰も教えてくれない「分かりやすく美しい図の作り方」超具体的な20のテクニック | TomoyukiArasuna.com](http://tomoyukiarasuna.com/make-images/)
 - [UIのビジュアルデザインにおけるちょっとしたコツをまとめた「Little UI Details」 - GIGAZINE](http://gigazine.net/news/20170911-little-ui-details/)
 - [最近のWebサイトで使われてる、UI要素をデザインするテクニックのまとめ -Little UI Details by Steve Schoger | コリス](http://coliss.com/articles/build-websites/operation/design/little-ui-details-by-steve-schoger.html)
+- [【保存版】プレゼン上手なデザイナーが徹底している「美しい図解」13＋αの黄金ルール | Career Panda](http://career-panda.com/illustration-techniques-for-presentation)
 
 ## 事例集
 

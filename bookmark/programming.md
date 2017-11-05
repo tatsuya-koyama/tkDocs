@@ -85,6 +85,7 @@ ____
 - [Abstracting key and game controller inputs in Adobe AIR – Zeh Fernando](http://zehfernando.com/2013/abstracting-key-and-game-controller-inputs-in-adobe-air/)
 - [開発速度と品質のトレードオフの判断基準の合意 - Hatena Developer Blog](http://developer.hatenastaff.com/entry/2016/12/24/063000)
 - [Big Sky :: Rob Pike のプログラミングに関する5つの掟](http://mattn.kaoriya.net/software/rob-pike-s-5-rules-of-programming.htm)
+- [モノリシックなバージョン管理の利点 | プログラミング | POSTD](http://postd.cc/monorepo/)
 
 ## Architecture / System
 
@@ -95,6 +96,7 @@ ____
 - [これからの Microservices](http://www.slideshare.net/zigorou/microservices-57643957)
 - [プログラミング :: 高速なプログラムを書く為に :: メモリ](http://myoga.web.fc2.com/prog/cpp/opti02.htm)
 - [CPU とキャッシュのはなし - graphics.hatenablog.com](http://graphics.hatenablog.com/entry/2012/03/23/175113)
+- [本当は恐ろしい分散システムの話](https://www.slideshare.net/kumagi/ss-81368169)
 
 ### Entity-Component System / Data-Oriented
 
@@ -140,6 +142,8 @@ ____
 - [Less is more：プログラミング言語設計の進歩史 | POSTD](http://postd.cc/less-is-more/)
 - [「なぜ関数プログラミングは重要か」を要約してみた（その１） - Okapies' Archive](http://okapies.hateblo.jp/entry/2015/12/07/022915)
 - [「関数型プログラミングって何？」日本語訳 - Okapies' Archive](http://okapies.hateblo.jp/entry/2016/12/15/021550)
+- [「プログラミングの常識」を時々見直す必要性について｜Rui Ueyama｜note](https://note.mu/ruiu/n/n3378b4169ad8)
+    - HDD が SSD になったり、CPU よりメモリの方がずっと遅かったり
 
 ## 規格 / ガイドライン
 
@@ -193,6 +197,8 @@ ____
 - [TCPを（少しは）理解しておくべきその理由 | コンピュータサイエンス | POSTD](http://postd.cc/why-you-should-understand-a-little-about-tcp/)
     - 遅延ACKの話
 - [ネットワークでなぜ遅延が生じるのか](http://www.slideshare.net/junkato1272/ss-70431661)
+- [ネットワークゲームにおけるTCPとUDPの使い分け](https://www.slideshare.net/yhonjo/tcpudp-81497235)
+    - モノビット 中嶋謙互さんのスライド
 
 ## Security / Cheat 対策
 
@@ -212,7 +218,7 @@ ____
 - [文字列（ハッシュ）の安全な比較方法 – hash_equals | yohgaki's blog](https://blog.ohgaki.net/hash-string-safe-comparison)
     - タイミング攻撃への対策
 
-## Web Architecture / Web App
+## Web Architecture / Web Programming
 
 - [2015年Webサーバアーキテクチャ序論 - ゆううきブログ](http://yuuki.hatenablog.com/entry/2015-webserver-architecture)
 - [Webシステムにおけるデータベース接続アーキテクチャ概論 - ゆううきブログ](http://yuuki.hatenablog.com/entry/architecture-of-database-connection)
@@ -224,6 +230,7 @@ ____
 - [Serverless Architecture // Speaker Deck](https://speakerdeck.com/naoya/serverless-architecture)
 - [Scala and Play for game servers // Speaker Deck](https://speakerdeck.com/h_kishi/scala-and-play-for-game-servers)
     - Kishi さんのスライド
+- [Web サービスにパスワードは必要ない - Frasco](https://frasco.io/your-users-dont-need-a-password-8527a891e224)
 
 ## リアルタイム通信 / オンラインゲーム開発 / Server - Client
 

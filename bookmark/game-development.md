@@ -20,6 +20,7 @@ position: 1
 - [スプラトゥーンとかいうイカしたシューターの再発明の話をしたい - セラミックロケッツ！](http://cr.hatenablog.com/entry/2015/05/31/002059)
 - [I was game](http://iwasgame.tumblr.com/)
 - [プレイヤーのゲーム体験は、知らないうちに高められていた？ゲーム開発者らがこっそり加えた「工夫」を語り合う | AUTOMATON](http://jp.automaton.am/articles/newsjp/20170905-53893/)
+- [終わりと向き合うソーシャルゲーム。2017年終了のゲームたちが「終わった後に楽しむ」アプリを出し始める](http://www.gamecast-blog.com/archives/65905310.html)
 
 ## Movie
 
@@ -87,10 +88,10 @@ position: 1
 - [【島国大和】ゲームを作る立場で，どうやって落とし穴を回避するかを考えるよ。](http://www.4gamer.net/games/999/G999903/20131127076/)
 - [ドロッセルマイヤーズが考える，ゲームシステムと世界観の理想の関係とは？ ボードゲーム制作の視点からメカニクス構築を紐解く講演会レポート](http://www.4gamer.net/games/999/G999905/20140219131/)
 - [「ゲーム性」とは何か？ アナログゲームから紐解く、ゲームの真髄](http://japan.internet.com/busnews/20121031/3.html)
-- [I was game — ボードゲームにおけるランダム性と公平性](http://iwasgame.tumblr.com/post/104067391536)
 - ["ドア"から見通すゲームデザイナーの仕事 米国開発者による「ドア問題」 | AUTOMATON](http://jp.automaton.am/articles/newsjp/the-door-problems/)
 - [ゲームにおける「運」の要素と「運ゲー」の違い | YASAIBOWL](http://yasaibowl.com/blog/566)
 - [［GDC 2016］「Magic: The Gathering」を20年間デザインしてきたMark Rosewater氏が，自身の経験から得た“20の教訓”を語る - 4Gamer.net](http://www.4gamer.net/games/136/G013687/20160318166/)
+- [I was game — ボードゲームにおけるランダム性と公平性](http://iwasgame.tumblr.com/post/104067391536)
 - [I was game — デザインのための言葉](http://iwasgame.tumblr.com/post/80059856981/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E8%A8%80%E8%91%89)
   - [【TCG】マジック：ザ・ギャザリング 、デュエル・マスターズを開発したウィザーズ・オブ・ザ・コーストが想定するペルソナ「ティミー、ジョニー、スパイク」とは | アルファルファモザイク](http://alfalfalfa.com/articles/150324.html)
 - [ワンダールクス - 全てのゲームを照らし出す統一理論](http://gdgrimoire.tumblr.com/%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%AB%E3%82%AF%E3%82%B9)
@@ -100,6 +101,14 @@ position: 1
   - 中盤から MtG のゲームデザインの話
 - [MMOに縦方向の成長が必要ではない10の理由 - Kultur](http://kultur2.blog.fc2.com/blog-entry-1450.html)
 - [ゲームデザイン カテゴリーの記事一覧 - ゲーマー日日新聞](http://arcadia11.hatenablog.com/archive/category/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3)
+- [ゲームをおもしろくするコツ：連載｜gihyo.jp … 技術評論社](http://gihyo.jp/lifestyle/serial/01/game-interesting-knack)
+  - 遠藤さんの連載
+
+### レベルデザイン / 難易度調整
+
+- [第5回　「ちょうどいい」と感じる難易度調整：ゲームをおもしろくするコツ｜gihyo.jp … 技術評論社](http://gihyo.jp/lifestyle/serial/01/game-interesting-knack/0005)
+- [カジュアルゲーマーに対する救済措置がゲームに必要な理由 – DAMONGE](https://damonge.com/p=15347)
+- [スーパーマリオ３Dランドが素晴らしいわけ - はてなポイント３万を使い切るまで死なない日記](http://d.hatena.ne.jp/kawango/20120105)
 
 ## Game Art / Animation
 

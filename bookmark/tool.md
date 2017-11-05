@@ -74,6 +74,8 @@ position: 5
 - ランダムな画像返してくれる API
     - [lorempixel - placeholder images for every case](http://lorempixel.com/)
     - [PlaceIMG | Easy FPO and Dummy Images for Any Project](http://placeimg.com/)
+- [Poly](https://poly.google.com/)
+    - [Google Polyは3Dオブジェクトを多数掲載したサイト――CCライセンスで自由に使える | TechCrunch Japan](http://jp.techcrunch.com/2017/11/02/20171101google-launches-poly-a-home-for-the-worlds-3d-objects-built-for-creators/)
 
 ## Task Management Tools
 
