@@ -372,6 +372,11 @@ ___
 
 - [Bash: 標準出力・標準エラー出力の全て（1>&2とか）まとめ | Coffee Breakにプログラミング備忘録](http://to-developer.com/blog/?p=1001)
 
+### Makefile
+
+- [Makfile基本的書き方まとめ - KZKY memo](http://kzky.hatenablog.com/entry/2014/12/21/Makfile%E5%9F%BA%E6%9C%AC%E7%9A%84%E6%9B%B8%E3%81%8D%E6%96%B9%E3%81%BE%E3%81%A8%E3%82%81)
+- [Makefileを自己文書化する | プログラミング | POSTD](http://postd.cc/auto-documented-makefile/)
+
 ## Documentation
 
 - [PharkMillups/beautiful-docs](https://github.com/PharkMillups/beautiful-docs)

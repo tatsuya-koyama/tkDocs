@@ -46,9 +46,10 @@ position: 3
 - [なぜビジネスコンテストからビジネスが生まれないのか？ – ところてん – Medium](https://medium.com/@tokoroten/%E3%81%AA%E3%81%9C%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%82%B3%E3%83%B3%E3%83%86%E3%82%B9%E3%83%88%E3%81%8B%E3%82%89%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%81%8C%E7%94%9F%E3%81%BE%E3%82%8C%E3%81%AA%E3%81%84%E3%81%AE%E3%81%8B-54334d387de2)
     - Will, Can, Must の話
 
-## Money
+## お金とか法律
 
 - [スタートアップに転職する時に最低限知っておくべき株の話](http://nmi.jp/2016-07-23-stock-strategy-for-early-startup-employee)
+- [資金決済法/サービス終了時の払い戻しに関する法律](http://www.entame.work/shikin_kessai/)
 
 ## Web Service
 
