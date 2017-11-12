@@ -19,6 +19,55 @@ ___
 
 - [ACID 特性](http://ja.wikipedia.org/wiki/ACID_(%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E7%A7%91%E5%AD%A6)
     - トランザクション処理の信頼性を保証する 4 つの性質
+        - 原子性 (Atomicity) : 処理が一部分だけ実行されたりしない
+        - 一貫性 (Consistency) : 整合性。処理前後でデータが矛盾のある状態にならない
+        - 独立性 (Isolation) : 処理の途中の状態を外部から観測できない
+        - 永続性 (Durability) : 処理完了時点でデータが保存され、障害時でも失われないこと
+
+____
+
+- [トランザクション分離レベル - Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B6%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E5%88%86%E9%9B%A2%E3%83%AC%E3%83%99%E3%83%AB)
+
+{{# table }}
+  -
+    - 分離レベル
+    - Dirty Read
+    - Fuzzy Read
+    - Phantom Read
+    - Lost Update
+    - 処理速度
+  -
+    - Read Uncommitted
+    - 発生
+    - 発生
+    - 発生
+    - 発生
+    - 速い
+  -
+    - Read Committed
+    - 起きない
+    - 発生
+    - 発生
+    - 発生
+    - ↓
+  -
+    - Repeatable Read
+    - 起きない
+    - 起きない
+    - 発生
+    - 発生
+    - ↓
+  -
+    - Serializable
+    - 起きない
+    - 起きない
+    - 起きない
+    - 起きない
+    - 遅い
+{{/ table }}
+
+> ※ Fuzzy Read は Nonrepeatable Read とも
+
 - [CRUD](http://ja.wikipedia.org/wiki/CRUD)
     - Create, Read, Update, Delete
 
@@ -87,6 +136,16 @@ ___
 #### 参考
 
 - [DIP は間違っている - tech.cm55.com](http://tech.cm55.com/wiki/Designs/DIP)
+
+### 定理
+
+- [CAP定理 - Wikipedia](https://ja.wikipedia.org/wiki/CAP%E5%AE%9A%E7%90%86)
+    - 分散システムでは以下の 2 つしか同時に満たせないという性質：
+        - C : Consistency （一貫性 / 整合性）
+        - A : Availability （可用性）
+        - P : Partition-tolerance （ネットワーク分断への耐性）
+    - ※ 実際には CAP はどれか 2 つと言うより、細かい粒度で様々な度合いを選べる：
+        - [CAP定理を見直す。“CAPの3つから2つを選ぶ”という説明はミスリーディングだった － Publickey](http://www.publickey1.jp/blog/13/capcap32.html)
 
 ### 性質
 

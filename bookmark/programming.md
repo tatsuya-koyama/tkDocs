@@ -244,6 +244,9 @@ ____
 
 ## Database
 
+- [ACID 特性](http://ja.wikipedia.org/wiki/ACID_(%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E7%A7%91%E5%AD%A6)
+- [トランザクション分離レベル - Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B6%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E5%88%86%E9%9B%A2%E3%83%AC%E3%83%99%E3%83%AB)
+    - [トランザクション分離レベルについて極力分かりやすく解説 - Qiita](https://qiita.com/PruneMazui/items/4135fcf7621869726b4b)
 - [開発者はインデックスを知る必要がある](http://use-the-index-luke.com/ja/sql/preface)
 - [リレーショナルデータベースの仕組み (1/3) | コンピュータサイエンス | POSTD](http://postd.cc/how-does-a-rdb-work-1/)
 - [カーディナリティについてまとめてみた - Qiita](http://qiita.com/soyanchu/items/034be19a2e3cb87b2efb)
@@ -251,6 +254,13 @@ ____
 - [RDBアンチパターン // Speaker Deck](https://speakerdeck.com/soudai/rdbantipatan)
 - [N+1問題 / Eager Loading とは - Rails Webook](http://ruby-rails.hatenadiary.com/entry/20141108/1415418367)
     - [» Railsライブラリ紹介: N+1問題を検出する「bullet」 TECHSCORE BLOG](http://www.techscore.com/blog/2012/12/25/rails%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E7%B4%B9%E4%BB%8B-n1%E5%95%8F%E9%A1%8C%E3%82%92%E6%A4%9C%E5%87%BA%E3%81%99%E3%82%8B%E3%80%8Cbullet%E3%80%8D/)
+
+## 分散システム
+
+- CAP定理
+    - [CAP定理 - Wikipedia](https://ja.wikipedia.org/wiki/CAP%E5%AE%9A%E7%90%86)
+    - [CAP定理 - なみひらブログ](http://namihira.hatenablog.com/entry/2013/12/19/233853)
+    - [CAP定理を見直す。“CAPの3つから2つを選ぶ”という説明はミスリーディングだった － Publickey](http://www.publickey1.jp/blog/13/capcap32.html)
 
 ### MySQL
 

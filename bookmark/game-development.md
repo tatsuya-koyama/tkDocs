@@ -116,6 +116,11 @@ position: 1
 - [5 tips for making great animations for 2D games](http://www.gamasutra.com/view/news/176663/5_tips_for_making_great_animations_for_2D_games.php#.UEdDAaQe7ZT)
 - [次世代アクション「For Honor」のアニメーション技術が次世代すぎる！ - GAME Watch](http://game.watch.impress.co.jp/docs/news/20160319_749136.html)
 
+## Game Graphics / Rendering
+
+- [マシな画面を作る](https://www.slideshare.net/okumasama/ss-38532931?ref=http://chy72.hatenablog.com/entry/2015/11/08/001413)
+- [iPhone5SでSSAOを実装してみる。 - WonderPlanet DEVELOPER BLOG](http://developer.wonderpla.net/entry/blog/engineer/iPhone5S_SSAO/)
+
 ## UI / UX Design
 
 - [ゲームのUIデザインの参考にするときに見るサイト - NAVER まとめ](https://matome.naver.jp/odai/2147909332473910501)

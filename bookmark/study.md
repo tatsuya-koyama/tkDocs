@@ -26,7 +26,7 @@ position: 3
 - [Games.com](http://blog.games.com/)
 - [Pocket Gamer](http://www.pocketgamer.co.uk/)
 
-## Business
+## Business / Monetize
 
 - [海外ディベロッパーの売上比較（Inside Mobile App）](http://www.insidemobileapps.com/2012/02/22/a-review-of-annual-quarterly-earnings-for-android-ios-gaming-companies/)
 - [海外サイトGamesRadarが『歴代ベストゲーム』TOP100を発表](http://gs.inside-games.jp/news/331/33129.html)
@@ -45,6 +45,7 @@ position: 3
 - [DeNA南場智子氏が語った「経営会議より、UI/UXが大事」なぜ今デザインなのか？ - リクナビNEXTジャーナル](http://next.rikunabi.com/journal/entry/20151130_1?vos=drnnrag00002)
 - [なぜビジネスコンテストからビジネスが生まれないのか？ – ところてん – Medium](https://medium.com/@tokoroten/%E3%81%AA%E3%81%9C%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%82%B3%E3%83%B3%E3%83%86%E3%82%B9%E3%83%88%E3%81%8B%E3%82%89%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%81%8C%E7%94%9F%E3%81%BE%E3%82%8C%E3%81%AA%E3%81%84%E3%81%AE%E3%81%8B-54334d387de2)
     - Will, Can, Must の話
+- [2017年後半に感動したビジネスモデルまとめ10個 #ビジネスモデル図解シリーズ｜チャーリー｜note](https://note.mu/tck/n/n527f9f2244b4)
 
 ## お金とか法律
 
