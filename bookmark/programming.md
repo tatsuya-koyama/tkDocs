@@ -231,6 +231,8 @@ ____
 - [Scala and Play for game servers // Speaker Deck](https://speakerdeck.com/h_kishi/scala-and-play-for-game-servers)
     - Kishi さんのスライド
 - [Web サービスにパスワードは必要ない - Frasco](https://frasco.io/your-users-dont-need-a-password-8527a891e224)
+- [伊藤直也氏が語る、サーバーレスアーキテクチャの性質を解剖する（前編）。QCon Tokyo 2016 － Publickey](http://www.publickey1.jp/blog/16/qcon_tokyo_2016.html)
+- [真のサーバレスアーキテクトとサーバレス時代のゲーム開発・運用 // Speaker Deck](https://speakerdeck.com/kazutomo/zhen-falsesabaresuakitekutotosabaresushi-dai-falsegemukai-fa-yun-yong)
 
 ## リアルタイム通信 / オンラインゲーム開発 / Server - Client
 
