@@ -146,6 +146,11 @@ ____
         // - $filtered[0] とかでアクセスしてもとれない
         // * array_shift($filtered) ならとれる
 
+### Copy on Write
+
+- 配列の代入は参照を渡すのではなく値のコピーになる。ただし実際のコピーは初めて値が変更される時に行われる
+    - [PHP5 のオブジェクトに関するよくある間違いとメモリ管理 (コピーオンライト) とオブジェクトの取り扱い - Web/DB プログラミング徹底解説](http://keicode.com/cgi/object-in-php-5.php)
+    - [PHPの「参照」と配列の組み合わせに潜む罠 - Intelligent Technology's Technical Blog](http://iti.hatenablog.jp/entry/2014/01/23/090750)
 
 ## 文字列
 

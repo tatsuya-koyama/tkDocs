@@ -47,7 +47,7 @@ position: 3
     - Will, Can, Must の話
 - [2017年後半に感動したビジネスモデルまとめ10個 #ビジネスモデル図解シリーズ｜チャーリー｜note](https://note.mu/tck/n/n527f9f2244b4)
 
-## お金とか法律
+### お金とか法律
 
 - [スタートアップに転職する時に最低限知っておくべき株の話](http://nmi.jp/2016-07-23-stock-strategy-for-early-startup-employee)
 - [資金決済法/サービス終了時の払い戻しに関する法律](http://www.entame.work/shikin_kessai/)
@@ -55,6 +55,10 @@ position: 3
 ## Web Service
 
 - [なぜ「Turntable.fm」はユーザーを夢中にさせるのか](http://www.assioma.jp/?p=382)
+
+## 雑学
+
+- [【必見】生きる上でマジで役立つ画像を貼ってくぞｗｗｗｗｗｗｗｗｗｗPart２】 : 【2ch】ニュー速クオリティ](http://news4vip.livedoor.biz/archives/52253249.html)
 
 ## 文章 / シナリオ
 

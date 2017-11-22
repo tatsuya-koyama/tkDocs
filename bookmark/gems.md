@@ -37,6 +37,7 @@ position: 6
 - [API名最長選手権 - Qiita](http://qiita.com/yohhoy/items/b61d175e161ce3493096)
     - [InternalFrameInternalFrameTitlePaneInternalFrameTitlePaneMaximizeButtonWindowNotFocusedState](http://www.javafind.net/gate.jsp?q=/library/36/java6_full_apidocs/com/sun/java/swing/plaf/nimbus/InternalFrameInternalFrameTitlePaneInternalFrameTitlePaneMaximizeButtonWindowNotFocusedState.html)
 - [珍しいSHA1ハッシュを追い求めて - プログラムモグモグ](http://itchyny.hatenablog.com/entry/2016/12/04/120000)
+- [服部平次歓喜　人前でコナンを「工藤」と言ってしまったときごまかしに使える単語を論理的に算出した一覧が完成 - ねとらぼ](http://nlab.itmedia.co.jp/nl/articles/1711/15/news143.html)
 
 ## Goods / Products
 

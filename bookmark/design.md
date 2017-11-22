@@ -163,6 +163,8 @@ position: 7
 - [Rocket - Simple, Fast, Type-Safe Web Framework for Rust](https://rocket.rs/)
 - [Docker - Build, Ship, and Run Any App, Anywhere](https://www.docker.com/)
     - 全体的にクリーンな感じでかっこいい
+- [The DEV Community](https://dev.to/)
+    - 表示速度速すぎて笑う
 
 ### デザイン / ガイドライン系
 

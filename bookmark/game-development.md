@@ -67,11 +67,13 @@ position: 1
 - [【CEDEC2017】人気タイトル『アナザーエデン』になぜ通信待ちストレスがないか。その理由は非同期オートセーブにあった | Social Game Info](http://gamebiz.jp/?p=192603)
     - わかる / でもガチャがどれだけセキュアか怪しい / あと障害調査がやりづらそう
 
-## Game Development / Presentation
+## Game Development / 対談 / Presentation
 
 - [スマホ開発でも活きたこと、まだ活かせていないこと 170325 1043](https://www.slideshare.net/TakashiHirayama/170325-1043)
 - [【Unite 2017 Tokyo】『Shadowverse』のカード制作におけるスキル構築の効率化やグラフィック演出の仕組みを紹介 | Social Game Info](http://gamebiz.jp/?p=184353)
 - [売り切りとF2pの話](https://www.slideshare.net/hiromasaiwasaki/f2p-54671169)
+- [『ドラゴンクエストXI』×「Unreal Engine 4」、Epic Games河崎氏がスクエニに訊く（前編） | AUTOMATON](http://jp.automaton.am/articles/interviewsjp/20171111-57381/)
+    - [『ドラゴンクエストXI』×「Unreal Engine 4」、Epic Games河崎氏がスクエニに訊く（後編） | AUTOMATON](http://jp.automaton.am/articles/interviewsjp/20171111-57495/)
 
 ## Game Design
 

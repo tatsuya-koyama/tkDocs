@@ -37,6 +37,7 @@ position: 99
 - GitHub 探検
     - [GitHub | Showcases](https://github.com/showcases)
     - [Trending repositories on GitHub today](https://github.com/trending)
+- [dev.to](https://dev.to/)
 
 ### たのしい
 

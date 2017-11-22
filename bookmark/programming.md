@@ -233,14 +233,28 @@ ____
 - [Web サービスにパスワードは必要ない - Frasco](https://frasco.io/your-users-dont-need-a-password-8527a891e224)
 - [伊藤直也氏が語る、サーバーレスアーキテクチャの性質を解剖する（前編）。QCon Tokyo 2016 － Publickey](http://www.publickey1.jp/blog/16/qcon_tokyo_2016.html)
 - [真のサーバレスアーキテクトとサーバレス時代のゲーム開発・運用 // Speaker Deck](https://speakerdeck.com/kazutomo/zhen-falsesabaresuakitekutotosabaresushi-dai-falsegemukai-fa-yun-yong)
+- [RESTful API のおさらい - onk.ninja](https://blog.onk.ninja/2017/09/21/review_of_restful_api)
 
-## リアルタイム通信 / オンラインゲーム開発 / Server - Client
+### Frontend
 
-- [年の瀬リアルタイム通信サーバ勉強会](http://www.slideshare.net/yhonjo/ss-56043422)
-- [リアルタイム通信ゲーム勉強会で発表してきた｜サイバーエージェント 公式エンジニアブログ](http://ameblo.jp/principia-ca/entry-12159623182.html)
+- [なぜ dev.to がこんなにも速く、こんなにも自分にとって感動的なのか](https://dev.to/mizchi/-devto--b5)
+    - [PRPL パターン | Web | Google Developers](https://developers.google.com/web/fundamentals/performance/prpl-pattern/?hl=ja)
+
+## Server-Client / オンラインゲーム開発 / リアルタイム通信
+
 - [Nianticの求人から推測する『Pokémon GO(ポケモンGO)』のサーバ構成 - Qiita](http://qiita.com/shibacow/items/1ac6f65100252b78a707)
 - [【CEDEC2017】人気タイトル『アナザーエデン』になぜ通信待ちストレスがないか。その理由は非同期オートセーブにあった | Social Game Info](http://gamebiz.jp/?p=192603)
     - わかる / でもガチャがどれだけセキュアか怪しい / あと障害調査がやりづらそう
+- [G-MODE Engineers' Blog — 通信が途切れてしまった場合の対応について](http://tech.gmodecorp.com/post/97297831581/%E9%80%9A%E4%BF%A1%E3%81%8C%E9%80%94%E5%88%87%E3%82%8C%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F%E5%A0%B4%E5%90%88%E3%81%AE%E5%AF%BE%E5%BF%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
+    - トランザクション ID の話
+- [アイテム課金を実装する - Smartphone App - Mobage Developers Documentation Center](https://docs.mobage.com/display/JPSA/Native+Tutorial+Chapter+5+Item+Charging)
+- [マイクロトランザクション（ゲーム内購入）実装ガイド (Steamworks ドキュメント)](https://partner.steamgames.com/doc/features/microtransactions/implementation#3)
+- [ドリコムを支える中間ポイントシステム - くりにっき](http://sue445.hatenablog.com/entry/2014/12/01/000000)
+
+### リアルタイム通信
+
+- [年の瀬リアルタイム通信サーバ勉強会](http://www.slideshare.net/yhonjo/ss-56043422)
+- [リアルタイム通信ゲーム勉強会で発表してきた｜サイバーエージェント 公式エンジニアブログ](http://ameblo.jp/principia-ca/entry-12159623182.html)
 
 ## Database
 
@@ -255,23 +269,24 @@ ____
 - [N+1問題 / Eager Loading とは - Rails Webook](http://ruby-rails.hatenadiary.com/entry/20141108/1415418367)
     - [» Railsライブラリ紹介: N+1問題を検出する「bullet」 TECHSCORE BLOG](http://www.techscore.com/blog/2012/12/25/rails%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E7%B4%B9%E4%BB%8B-n1%E5%95%8F%E9%A1%8C%E3%82%92%E6%A4%9C%E5%87%BA%E3%81%99%E3%82%8B%E3%80%8Cbullet%E3%80%8D/)
 
+### MySQL
+
+- [ヤフー社内でやってるMySQLチューニングセミナー大公開](http://www.slideshare.net/techblogyahoo/mysql-58540246)
+- [MySQL with InnoDB のインデックスの基礎知識とありがちな間違い - クックパッド開発者ブログ](http://techlife.cookpad.com/entry/2017/04/18/092524)
+- [MySQLのIndexをはるコツ - Qiita](http://qiita.com/katsukii/items/3409e3c3c96580d37c2b)
+- [Top 20+ MySQL Best Practices](https://code.tutsplus.com/tutorials/top-20-mysql-best-practices--net-7855)
+
+### Google App Engine / Datastore
+- [Datastoreの仕組み 〜Consistencyについて〜 - apps-gcp](http://www.apps-gcp.com/consistency-of-datastore/)
+- [Google Cloud Platform Japan 公式ブログ: Google Cloud Datastoreでのデータ整理の考え方](http://googlecloudplatform-japan.blogspot.jp/2015/08/google-cloud-datastore.html)
+- [GAE/Go Ancestorクエリについて - The Round](http://knightso.hateblo.jp/entry/2014/08/28/083545)
+
 ## 分散システム
 
 - CAP定理
     - [CAP定理 - Wikipedia](https://ja.wikipedia.org/wiki/CAP%E5%AE%9A%E7%90%86)
     - [CAP定理 - なみひらブログ](http://namihira.hatenablog.com/entry/2013/12/19/233853)
     - [CAP定理を見直す。“CAPの3つから2つを選ぶ”という説明はミスリーディングだった － Publickey](http://www.publickey1.jp/blog/13/capcap32.html)
-
-### MySQL
-
-- [ヤフー社内でやってるMySQLチューニングセミナー大公開](http://www.slideshare.net/techblogyahoo/mysql-58540246)
-- [MySQL with InnoDB のインデックスの基礎知識とありがちな間違い - クックパッド開発者ブログ](http://techlife.cookpad.com/entry/2017/04/18/092524)
-- [MySQLのIndexをはるコツ - Qiita](http://qiita.com/katsukii/items/3409e3c3c96580d37c2b)
-
-### Google App Engine / Datastore
-- [Datastoreの仕組み 〜Consistencyについて〜 - apps-gcp](http://www.apps-gcp.com/consistency-of-datastore/)
-- [Google Cloud Platform Japan 公式ブログ: Google Cloud Datastoreでのデータ整理の考え方](http://googlecloudplatform-japan.blogspot.jp/2015/08/google-cloud-datastore.html)
-- [GAE/Go Ancestorクエリについて - The Round](http://knightso.hateblo.jp/entry/2014/08/28/083545)
 
 ## AWS
 
