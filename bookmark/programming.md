@@ -43,6 +43,7 @@ position: 2
 - [LEARN REGEX THE EASY WAY](https://github.com/zeeshanu/learn-regex/blob/master/README-ja.md)
 - [kdn251/interviews: Everything you need to know to get the job.](https://github.com/kdn251/interviews)
     - 採用面接向けのアルゴリズム知識まとめ
+- [「元グーグル」という肩書はいつか外したい――及川卓也さんが考える、日本の「残念なIT」からの脱出法 | HRナビ by リクルート](http://hrnabi.com/2017/11/22/15669/)
 
 ____
 
@@ -268,6 +269,7 @@ ____
 - [RDBアンチパターン // Speaker Deck](https://speakerdeck.com/soudai/rdbantipatan)
 - [N+1問題 / Eager Loading とは - Rails Webook](http://ruby-rails.hatenadiary.com/entry/20141108/1415418367)
     - [» Railsライブラリ紹介: N+1問題を検出する「bullet」 TECHSCORE BLOG](http://www.techscore.com/blog/2012/12/25/rails%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E7%B4%B9%E4%BB%8B-n1%E5%95%8F%E9%A1%8C%E3%82%92%E6%A4%9C%E5%87%BA%E3%81%99%E3%82%8B%E3%80%8Cbullet%E3%80%8D/)
+- [【決定版】RDBMSとNoSQLにみるDB近現代史 〜データベースに破壊的イノベーションは二度起きるか？〜 - エンジニアHub｜若手Webエンジニアのキャリアを考える！](https://employment.en-japan.com/engineerhub/entry/2017/11/22/110000)
 
 ### MySQL
 
@@ -461,6 +463,7 @@ Adobe AIR 関連メモは[これ](/dev-log/adobe-air-dev-note)
 ### PHP
 
 - [PHPにPOSTでBase64の文字列を渡すときは注意 - フタなしカンヅメ](http://pontago.hatenablog.com/entry/20091028/1256743421)
+- [PHP - The Wrong Way](http://www.phpthewrongway.com/ja/)
 
 ### Java
 
