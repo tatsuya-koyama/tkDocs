@@ -76,6 +76,10 @@ position: 5
     - [PlaceIMG | Easy FPO and Dummy Images for Any Project](http://placeimg.com/)
 - [Poly](https://poly.google.com/)
     - [Google Polyは3Dオブジェクトを多数掲載したサイト――CCライセンスで自由に使える | TechCrunch Japan](http://jp.techcrunch.com/2017/11/02/20171101google-launches-poly-a-home-for-the-worlds-3d-objects-built-for-creators/)
+- [連想類語辞典: 日本語シソーラス](http://renso-ruigo.com/)
+    - 日本語の類語検索
+- [Thesaurus.com | Synonyms and Antonyms of Words at Thesaurus.com](http://www.thesaurus.com/)
+    - 英語の類語検索
 
 ## Task Management Tools
 

@@ -105,6 +105,7 @@ position: 1
 - [ゲームデザイン カテゴリーの記事一覧 - ゲーマー日日新聞](http://arcadia11.hatenablog.com/archive/category/%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3)
 - [ゲームをおもしろくするコツ：連載｜gihyo.jp … 技術評論社](http://gihyo.jp/lifestyle/serial/01/game-interesting-knack)
   - 遠藤さんの連載
+- [ゲームの面白さを生み、より高めるための法則とは？──『カービィ』『スマブラ』の生みの親・桜井政博氏による研究の集大成となる講演をWeb上に再現【若ゲのいたり・特別編】](http://news.denfaminicogamer.jp/kikakuthetower/171130b)
 
 ### レベルデザイン / 難易度調整
 
@@ -133,6 +134,7 @@ position: 1
 - [The five reasons freemium sucks](http://indiegames.com/2013/03/the_five_reasons_freemium_suck.html)
 - [売り切りとF2pの話](https://www.slideshare.net/hiromasaiwasaki/f2p-54671169)
 - [［gamescom］ガチャは日本だけのものじゃない。ヨーロッパ市場で受けるガチャの作り方とは - 4Gamer.net](http://www.4gamer.net/games/999/G999905/20160820019/?utm_content=buffer80de5&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+- [ガチャサイクルと海外課金](https://www.slideshare.net/hiromasaiwasaki/ss-85538212)
 
 ## Job / Working
 

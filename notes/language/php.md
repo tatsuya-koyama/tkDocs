@@ -152,6 +152,14 @@ ____
     - [PHP5 のオブジェクトに関するよくある間違いとメモリ管理 (コピーオンライト) とオブジェクトの取り扱い - Web/DB プログラミング徹底解説](http://keicode.com/cgi/object-in-php-5.php)
     - [PHPの「参照」と配列の組み合わせに潜む罠 - Intelligent Technology's Technical Blog](http://iti.hatenablog.jp/entry/2014/01/23/090750)
 
+### 二重ループの break / continue
+
+- デフォルトだと直近のループだけ抜ける
+    - [PHP: break - Manual](http://php.net/manual/ja/control-structures.break.php)
+    - 抜ける数を指定する `break 2;` みたいな書き方ができる（デフォルトが 1）
+- `continue` も同様
+
+
 ## 文字列
 
 - シングルクォートかダブルクォート
@@ -284,6 +292,10 @@ ____
 - `isset()` は key があっても null だと false を返す
 - key の存在確認を厳密にやるなら `array_key_exsists()`
     - 参考 : [isset, in\_array, array\_key\_exsistsの使い分け - Qiita](http://qiita.com/is0me/items/e0154b4c2bc6195607f5)
+
+### 配列の参考リンク
+- [ちゃんと理解しておきたい、PHPには純粋な配列がなく連想配列しかないという事実。 | 三度の飯とエレクトロン](http://blog.katty.in/3794)
+    - PHP の配列は順序付きマップ
 
 ## 関数
 

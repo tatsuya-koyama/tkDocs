@@ -93,7 +93,6 @@ position: 3
 
 ## Development / Programming / Management / Working
 
-- [エンジニアのためのUX入門](http://www.slideshare.net/ckazu/ux-10671865)
 - [（ソフトウェア開発）５つの世界](http://japanese.joelonsoftware.com/Articles/FiveWorlds.html)
 - [モダンミーティング](http://d.hatena.ne.jp/Sean_SF/20120706/1341553457)
 - [プログラミングに関するあまり知られていない７つの真実](http://www.tommyjp.com/programing/blog-post_1710/)
@@ -108,6 +107,8 @@ position: 3
 - [トランザクティブ・メモリー | transactive-memory.md](https://gist.github.com/naoya/f457b874a39b98bb0292)
 - [質問は恥ではないし役に立つ - Qiita](http://qiita.com/seki_uk/items/4001423b3cd3db0dada7)
 - [面接の時に聞いてよかった質問と、意味がなかった質問をまとめてみた by 古川 健介 | Supership Tech Blog](https://www.wantedly.com/companies/Supership/post_articles/52240)
+- [個人開発で得たスピード仕事術 – 週休７日で働きたい](https://blog.craftz.dog/how-to-improve-your-work-speed-with-toc-169d60277bd1)
+- [ダメなリーダーは現場に「要求」し、優れたリーダーは現場を「○○」する。 | 優れたリーダーはみな小心者である。 | ダイヤモンド・オンライン](http://diamond.jp/articles/-/151181)
 
 ## Study / Practice / LifeStyle / 人間心理
 

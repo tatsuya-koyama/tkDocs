@@ -145,6 +145,8 @@ ____
 - [「関数型プログラミングって何？」日本語訳 - Okapies' Archive](http://okapies.hateblo.jp/entry/2016/12/15/021550)
 - [「プログラミングの常識」を時々見直す必要性について｜Rui Ueyama｜note](https://note.mu/ruiu/n/n3378b4169ad8)
     - HDD が SSD になったり、CPU よりメモリの方がずっと遅かったり
+- [Elixir から Elm の流れで、いよいよオブジェクト指向に対する懐疑心が無視できないレベルに達した2017年冬。 – ゆびてく](https://ubiteku.oinker.me/2017/12/02/skepticism-about-oo/)
+    - はてブコメント : http://b.hatena.ne.jp/entry/s/ubiteku.oinker.me/2017/12/02/skepticism-about-oo/
 
 ## 規格 / ガイドライン
 
@@ -270,6 +272,8 @@ ____
 - [N+1問題 / Eager Loading とは - Rails Webook](http://ruby-rails.hatenadiary.com/entry/20141108/1415418367)
     - [» Railsライブラリ紹介: N+1問題を検出する「bullet」 TECHSCORE BLOG](http://www.techscore.com/blog/2012/12/25/rails%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E7%B4%B9%E4%BB%8B-n1%E5%95%8F%E9%A1%8C%E3%82%92%E6%A4%9C%E5%87%BA%E3%81%99%E3%82%8B%E3%80%8Cbullet%E3%80%8D/)
 - [【決定版】RDBMSとNoSQLにみるDB近現代史 〜データベースに破壊的イノベーションは二度起きるか？〜 - エンジニアHub｜若手Webエンジニアのキャリアを考える！](https://employment.en-japan.com/engineerhub/entry/2017/11/22/110000)
+- [SQLアンチパターン - 開発者を待ち受ける25の落とし穴 (拡大版)](https://www.slideshare.net/t_wada/sql-antipatterns-digest)
+- [なぜ、SQLは重たくなるのか？──『SQLパフォーマンス詳解』の翻訳者が教える原因と対策 - エンジニアHub｜若手Webエンジニアのキャリアを考える！](https://employment.en-japan.com/engineerhub/entry/2017/06/26/110000)
 
 ### MySQL
 

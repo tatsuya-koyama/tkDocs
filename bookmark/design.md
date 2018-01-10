@@ -47,6 +47,7 @@ position: 7
 - [盆栽模型とジオラマを組み合わせた「盆栽ツリーハウス」が話題に - ライブドアニュース](http://news.livedoor.com/article/detail/11542890/)
 - [こんな風に見えるんだ！イギリスの観光客が日本での体験をアニメに](https://www.buzzfeed.com/jp/eimiyamamitsu/tokyo-gifathon-james-curran?utm_term=.rbPv4Bo0G4#.oh17Ewa3yE)
 - [自作のアニメ制作ツールで作った超絶アクションを決めまくる自主制作アニメ「影と魔女 / THE SHADOW AND THE WITCH」がスゴい - GIGAZINE](http://gigazine.net/news/20170907-the-shadow-and-the-witch/)
+- [“Blizzard”から“CD Projekt Red”まで、クリスマスの到来を祝うホリデーカード/映像まとめ « doope! 国内外のゲーム情報サイト](https://doope.jp/2017/1272412.html)
 
 ### Illustration
 
@@ -82,6 +83,7 @@ position: 7
 - [40 Detailed Examples of User Interface Design](http://inspirationfeed.com/2011/01/40-detailed-examples-of-user-interface-design/)
 - [ここ1年くらいで見られた素晴らしいインターフェイスデザイン 12選(2011)](http://kenichinishimura.blogspot.com/2011/07/1-12.html)
 - [UIがすばらしいのウェブデザイン](http://www.zzrock.net/archives/category/sort/ui)
+- [エンジニアのためのUX入門](http://www.slideshare.net/ckazu/ux-10671865)
 - [情報デザイン考察備忘録 Liner Note](http://note.openvista.jp/)
 - [The real design trends for 2011](http://www.webdesignshock.com/design-trends-for-2011/)
 - [アニメのエフェクト、ゲームのエフェクト](http://gigazine.net/news/20111019_anime_effect_cedec2011/?utm_source=dlvr.it&utm_medium=twitter)
