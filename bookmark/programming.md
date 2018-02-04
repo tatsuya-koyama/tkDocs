@@ -237,6 +237,7 @@ ____
 - [伊藤直也氏が語る、サーバーレスアーキテクチャの性質を解剖する（前編）。QCon Tokyo 2016 － Publickey](http://www.publickey1.jp/blog/16/qcon_tokyo_2016.html)
 - [真のサーバレスアーキテクトとサーバレス時代のゲーム開発・運用 // Speaker Deck](https://speakerdeck.com/kazutomo/zhen-falsesabaresuakitekutotosabaresushi-dai-falsegemukai-fa-yun-yong)
 - [RESTful API のおさらい - onk.ninja](https://blog.onk.ninja/2017/09/21/review_of_restful_api)
+- [マイクロサービスはもう十分 – プログラミング](http://itwork.s178.xrea.com/programming/2017/07/04/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AF%E3%82%82%E3%81%86%E5%8D%81%E5%88%86/)
 
 ### Frontend
 
@@ -302,6 +303,7 @@ ____
 ## サーバ運用 / ロギング / 分析
 
 - [秒間数万のログをいい感じにするアーキテクチャ // Speaker Deck](https://speakerdeck.com/kanny/miao-jian-shu-mo-falseroguwoiigan-zinisuruakitekutiya)
+- [AWS最先進ユーザーNetflix - 「サル軍団」にシステム障害を起こさせる、Netflixの驚異的なトラブル撲滅法：ITpro](http://itpro.nikkeibp.co.jp/atcl/column/17/122800596/010500003/?rt=nocnt)
 
 ## i18n (Internationalization)
 
