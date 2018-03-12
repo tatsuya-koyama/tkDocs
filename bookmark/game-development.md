@@ -27,6 +27,10 @@ position: 1
 - [angry video game nerd](http://cinemassacre.com/)
 - [Branching Paths : A journey in Japan’s independent game scene](http://branchingpaths.jp/)
 
+## Creators / Interviews
+
+- [【UNDERTALE含む外国人クリエイター6人の証言】海外大ヒットインディーゲーム開発者は“和ゲー”を心底愛している──影響を受けた日本のゲーム、尊敬する人は？](http://news.denfaminicogamer.jp/interview/180213)
+
 ## Wiki / Portal
 
 - [Game Design Wiki](http://www.ludism.org/gamedesign/HomePage)

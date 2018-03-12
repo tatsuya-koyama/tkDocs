@@ -202,6 +202,7 @@ ____
 - [ネットワークでなぜ遅延が生じるのか](http://www.slideshare.net/junkato1272/ss-70431661)
 - [ネットワークゲームにおけるTCPとUDPの使い分け](https://www.slideshare.net/yhonjo/tcpudp-81497235)
     - モノビット 中嶋謙互さんのスライド
+- [いまなぜHTTPS化なのか？ 技術者が知っておきたいSEOよりずっと大切なこと ― TLSの歴史と技術背景 - エンジニアHub｜若手Webエンジニアのキャリアを考える！](https://employment.en-japan.com/engineerhub/entry/2018/02/14/110000)
 
 ## Security / Cheat 対策
 
@@ -238,6 +239,7 @@ ____
 - [真のサーバレスアーキテクトとサーバレス時代のゲーム開発・運用 // Speaker Deck](https://speakerdeck.com/kazutomo/zhen-falsesabaresuakitekutotosabaresushi-dai-falsegemukai-fa-yun-yong)
 - [RESTful API のおさらい - onk.ninja](https://blog.onk.ninja/2017/09/21/review_of_restful_api)
 - [マイクロサービスはもう十分 – プログラミング](http://itwork.s178.xrea.com/programming/2017/07/04/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%AF%E3%82%82%E3%81%86%E5%8D%81%E5%88%86/)
+- [2.4. アプリケーションのレイヤ化 — TERASOLUNA Global Framework Development Guideline 1.0.0.publicreview documentation](https://terasolunaorg.github.io/guideline/public_review/Overview/ApplicationLayering.html)
 
 ### Frontend
 
@@ -411,6 +413,7 @@ ___
 
 - [Makfile基本的書き方まとめ - KZKY memo](http://kzky.hatenablog.com/entry/2014/12/21/Makfile%E5%9F%BA%E6%9C%AC%E7%9A%84%E6%9B%B8%E3%81%8D%E6%96%B9%E3%81%BE%E3%81%A8%E3%82%81)
 - [Makefileを自己文書化する | プログラミング | POSTD](http://postd.cc/auto-documented-makefile/)
+- [makefileわりと便利だよという話 - podhmo's diary](http://pod.hatenablog.com/entry/2016/09/24/200620)
 
 ## Documentation
 
