@@ -127,6 +127,7 @@ position: 1
 
 - [マシな画面を作る](https://www.slideshare.net/okumasama/ss-38532931?ref=http://chy72.hatenablog.com/entry/2015/11/08/001413)
 - [iPhone5SでSSAOを実装してみる。 - WonderPlanet DEVELOPER BLOG](http://developer.wonderpla.net/entry/blog/engineer/iPhone5S_SSAO/)
+- [西川善司の「試験に出るゲームグラフィックス」（9）「ストリートファイターV」における高密度なノンフォトリアル表現，そのレシピを探る・前編 - 4Gamer.net](http://www.4gamer.net/games/283/G028398/20180130049/)
 
 ## UI / UX Design
 
@@ -236,10 +237,12 @@ position: 1
 - [Unity 5.1 から導入された新しいネットワーク機能の UNET について詳しく調べてみた - 凹みTips](http://tips.hecomi.com/entry/2015/08/14/220030)
 - [Unity - マニュアル: イベント関数の実行順](http://docs.unity3d.com/ja/current/Manual/ExecutionOrder.html)
 - [伝統的なゲームデザインをUnityで表現する | Made with Unity](https://madewithunity.jp/stories/aka-to-blue/)
-
-## Game Dev. Tool
-
 - [Unityの新GUI、uGUIはどうなる？こうなる！](http://terasur.blog.fc2.com/blog-entry-813.html)
+
+### Unity シェーダ
+
+- [楽しい！Unityシェーダー お絵描き入門！ - Google スライド](https://docs.google.com/presentation/d/1NMhx4HWuNZsjNRRlaFOu2ysjo04NgcpFlEhzodE8Rlg/edit#slide=id.p)
+- [Unity のシェーダの基礎を勉強してみたのでやる気出してまとめてみた - 凹みTips](http://tips.hecomi.com/entry/2014/03/16/233943)
 
 ## 3D / Rendering
 

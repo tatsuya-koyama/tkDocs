@@ -14,6 +14,10 @@ position: 5
 - [toland/qlmarkdown: QuickLook generator for Markdown files.](https://github.com/toland/qlmarkdown/)
     - QuickLook で Markdown をプレビューできるようにするやつ
 
+## IDE / GUI Tools
+
+- [Vim Awesome](https://vimawesome.com/)
+
 ## Library
 
 - [AS3用のライブラリ集](http://phpspot.org/blog/archives/2008/08/3dactionscript3.html)
@@ -26,6 +30,10 @@ position: 5
 - [Underscore.js](http://underscorejs.org/)
 - [Backbone.js](http://backbonejs.org/)
 - [Sugar: A Javascript library for working with native objects.](http://sugarjs.com/)
+
+### HTML / CSS
+
+- [CSS SANS](https://yusugomori.com/projects/css-sans/)
 
 ## Framework / SDK
 
