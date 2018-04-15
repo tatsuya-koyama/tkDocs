@@ -1,6 +1,6 @@
 ---
 title: 'よくみる'
-date: '2017-09-17'
+date: '2018-04-15'
 description:
 categories: []
 tags: [anything, reference]
@@ -9,31 +9,29 @@ position: 99
 
 # 僕がよくみるやつ
 
-## よくみるよ
+## よくみる
 
 ### とりあえず
 
-- [はてなブックマーク - 人気エントリー](http://b.hatena.ne.jp/hotentry)
-- [GIGAZINE](http://gigazine.net/)
+- [はてなブックマーク](http://b.hatena.ne.jp/hotentry)
+- [Reddit](https://www.reddit.com/r/popular/?geo_filter=GLOBAL)
 - [Hacker News](https://news.ycombinator.com/news)
+- [GIGAZINE](http://gigazine.net/)
 
 ### ゲーム系
 
 - [IndieGames.com](http://indiegames.com/index.html)
-- [Indie Game Enthusiast: An Indie Site for Indie Games](http://indiegameenthusiast.blogspot.jp/)
 - [Gamasutra - The Art &amp; Business of Making Games](http://www.gamasutra.com/)
-- [GamesIndustry.biz Japan Edition](http://jp.gamesindustry.biz/)
 - [4Gamer](http://www.4gamer.net/)
 - [AUTOMATON](http://jp.automaton.am/)
-- [Ludum Dare](http://ludumdare.com/compo/)
 - [もぐらゲームス](http://www.moguragames.com/)
 - [Gaming Blog - Online and Download Games | Big Fish](http://www.bigfishgames.com/blog/)
 
 ### プログラマ系
 
-- [sdmg15/Best-websites-a-programmer-should-visit: Some useful websites for programmers.](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
+- [Publickey](http://www.publickey1.jp/)
 - [POSTD](http://postd.cc/)
-- [エンジニアのための英語](http://englishforengineers.tumblr.com/)
+- [sdmg15/Best-websites-a-programmer-should-visit: Some useful websites for programmers.](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
 - GitHub 探検
     - [GitHub | Showcases](https://github.com/showcases)
     - [Trending repositories on GitHub today](https://github.com/trending)
@@ -46,7 +44,22 @@ position: 99
 - [EffectHub](http://www.effecthub.com/)
 - [Animated Algorithms](http://www.algomation.com/)
 
-### シュッとしてる
+## よくきく
+
+- [Rebuild.fm](https://rebuild.fm/)
+
+## たまにみる
+
+### ゲーム開発者向け
+
+- [Indie Game Enthusiast: An Indie Site for Indie Games](http://indiegameenthusiast.blogspot.jp/)
+- [GamesIndustry.biz Japan Edition](http://jp.gamesindustry.biz/)
+- [Ludum Dare](http://ludumdare.com/compo/)
+- [エンジニアのための英語](http://englishforengineers.tumblr.com/)
+- [How To Make and Design Computer Games by Envato Tuts+](https://gamedevelopment.tutsplus.com/)
+- [Home - GameDev.net](https://www.gamedev.net/page/index.html)
+
+### 人
 
 - [ほぼ日刊イトイ新聞](http://www.1101.com/home.html)
 - [Motohiro Takayama](http://blog.mootoh.net/)
@@ -58,16 +71,7 @@ position: 99
 - [Hack Design](https://hackdesign.org/lessons)
 - [Skillshare](http://www.skillshare.com/)
 
-#### ゲーム開発系
-
-- [How To Make and Design Computer Games by Envato Tuts+](https://gamedevelopment.tutsplus.com/)
-- [Home - GameDev.net](https://www.gamedev.net/page/index.html)
-
-## Podcast
-
-- [Rebuild.fm](https://rebuild.fm/)
-
-## たまにみる
+### その他
 
 - [Ph by codic team](http://blog.codic.jp/)
 - [sugi.cc](http://sugi.cc/)

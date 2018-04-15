@@ -9,6 +9,10 @@ position: 7
 
 # シェルスクリプト Memo
 
+## 参考リンク
+
+- [これだけ覚えておけばOK！シェルスクリプトで冪等性を担保するためのTips集 - Qiita](http://qiita.com/yn-misaki/items/3ec0605cba228a7d5c9a)
+
 ## 変数のデフォルト値（空だったらデフォルト値を入れる）
 
     # VAR が空なら "default value" をセット

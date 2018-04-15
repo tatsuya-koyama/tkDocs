@@ -15,7 +15,7 @@ position: 2
 - [アンチパターン](http://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%B3%E3%83%81%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3#.E3.82.BD.E3.83.95.E3.83.88.E3.82.A6.E3.82.A7.E3.82.A2.E8.A8.AD.E8.A8.88.E3.81.AE.E3.82.A2.E3.83.B3.E3.83.81.E3.83.91.E3.82.BF.E3.83.BC.E3.83.B3)
 - [アクターモデル](http://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%AF%E3%82%BF%E3%83%BC%E3%83%A2%E3%83%87%E3%83%AB)
 
-## 読み物
+## 読み物 / 特集
 
 - [技術的負債](http://d.hatena.ne.jp/asakichy/20101210/1291936604)
 - [Radium Software](http://www.radiumsoftware.com/)
@@ -44,6 +44,7 @@ position: 2
 - [kdn251/interviews: Everything you need to know to get the job.](https://github.com/kdn251/interviews)
     - 採用面接向けのアルゴリズム知識まとめ
 - [「元グーグル」という肩書はいつか外したい――及川卓也さんが考える、日本の「残念なIT」からの脱出法 | HRナビ by リクルート](http://hrnabi.com/2017/11/22/15669/)
+- [Thank you for making 10 years of GitHub possible](https://github.com/ten)
 
 ____
 
@@ -194,7 +195,11 @@ ____
 - [テストダブル - Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%86%E3%82%B9%E3%83%88%E3%83%80%E3%83%96%E3%83%AB)
     - モック / スタブ / フェイク / ダミー / スパイ
 
-## Network
+## Profiling
+
+- [Macで貧弱なネットワーク回線を再現してスマホアプリをテストするTips - 怠惰を求めて勤勉に行き着く](http://fushiroyama.hatenablog.com/entry/2018/02/21/120937)
+
+## Network / 通信
 
 - [ネットワークの状況を確認するコマンド色々 ｜ Developers.IO](http://dev.classmethod.jp/etc/network-check-tools/)
 - [TCPを（少しは）理解しておくべきその理由 | コンピュータサイエンス | POSTD](http://postd.cc/why-you-should-understand-a-little-about-tcp/)
@@ -202,7 +207,8 @@ ____
 - [ネットワークでなぜ遅延が生じるのか](http://www.slideshare.net/junkato1272/ss-70431661)
 - [ネットワークゲームにおけるTCPとUDPの使い分け](https://www.slideshare.net/yhonjo/tcpudp-81497235)
     - モノビット 中嶋謙互さんのスライド
-- [いまなぜHTTPS化なのか？ 技術者が知っておきたいSEOよりずっと大切なこと ― TLSの歴史と技術背景 - エンジニアHub｜若手Webエンジニアのキャリアを考える！](https://employment.en-japan.com/engineerhub/entry/2018/02/14/110000)
+- [今なぜHTTPS化なのか？インターネットの信頼性のために、技術者が知っておきたいTLSの歴史と技術背景 - エンジニアHub｜若手Webエンジニアのキャリアを考える！](https://employment.en-japan.com/engineerhub/entry/2018/02/14/110000)
+- [Wi-Fi再入門〜見えない電波を知識で見抜く // Speaker Deck](https://speakerdeck.com/tinbotu/wi-fizai-ru-men-jian-enaidian-bo-wozhi-shi-dejian-ba-ku)
 
 ## Security / Cheat 対策
 
@@ -245,6 +251,10 @@ ____
 
 - [なぜ dev.to がこんなにも速く、こんなにも自分にとって感動的なのか](https://dev.to/mizchi/-devto--b5)
     - [PRPL パターン | Web | Google Developers](https://developers.google.com/web/fundamentals/performance/prpl-pattern/?hl=ja)
+
+## Web Framework
+
+- [やわらかVue.js - Scrapbox](https://scrapbox.io/vue-yawaraka)
 
 ## Server-Client / オンラインゲーム開発 / リアルタイム通信
 
@@ -355,12 +365,14 @@ ____
     - [Things that can go wrong when downloading](https://amos.me/blog/2017/downloads-gone-wrong/)
 - [【Unity】ソートアルゴリズム12種を可視化してみた - Qiita](http://qiita.com/r-ngtm/items/f4fa55c77459f63a5228)
 - [初期化配列の実装 - Qiita](https://qiita.com/kgoto/items/0251e442292d8ebc1f3d)
+- [「ソート」を極める！ 〜 なぜソートを学ぶのか 〜 - Qiita](https://qiita.com/drken/items/44c60118ab3703f7727f)
+- [ビット演算 (bit 演算) の使い方を総特集！ 〜 マスクビットから bit DP まで 〜 - Qiita](https://qiita.com/drken/items/7c6ff2aa4d8fce1c9361)
 
-## 圧縮
+### 圧縮
 
 - [コルモゴロフ複雑性 - Wikipedia](http://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%AB%E3%83%A2%E3%82%B4%E3%83%AD%E3%83%95%E8%A4%87%E9%9B%91%E6%80%A7)
 
-## 人工知能
+## 人工知能 / AI / 機械学習
 
 - [人工知能が急に進化し始めた！ | TheWave](http://thewave.jp/archives/1985)
 - [Is Google a Step Away from Developing a Computer that Can "Program Itself"? - Evolution News & Views](http://www.evolutionnews.org/2014/10/is_google_a_ste090771.html)
@@ -369,6 +381,7 @@ ____
 - [21世紀に“洋ゲー”でゲームAIが遂げた驚異の進化史。その「敗戦」から日本のゲーム業界が再び立ち上がるには？【AI開発者・三宅陽一郎氏インタビュー】](http://news.denfaminicogamer.jp/interview/gameai_miyake)
 - [Deep Learning](http://www.deeplearningbook.me/)
     - Goodfellow著「Deep Learning」の日本語翻訳
+- [ディープラーニングの限界 | POSTD](https://postd.cc/the-limitations-of-deep-learning/)
 
 ## Git
 
@@ -398,6 +411,7 @@ ___
 - [Git - 英語のコメントや issue で頻出する略語の意味 (FYI, AFAIK, ...) - Qiita](http://qiita.com/uasi/items/86c3a09d17792ab62dfe)
 - [Emojiで楽しく綺麗なコミットを手に入れる | MEMOPATCH](http://memo.goodpatch.co/2016/07/beautiful-commits-with-emojis/)
     - Atom の絵文字ガイド : [atom/CONTRIBUTING.md at master · atom/atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#git-commit-messages)
+- [Gitのコミットメッセージの書き方 | POSTD](https://postd.cc/how-to-write-a-git-commit-message/)
 
 ___
 

@@ -18,6 +18,43 @@ position: 5
 
 - [Vim Awesome](https://vimawesome.com/)
 
+## Web Service
+
+- [GLSL Sandbox](http://glsl.heroku.com/)
+- [Coolors](http://coolors.co/)
+- [ColorSpace - Color Palettes Generator and Color Gradient Tool](https://mycolor.space/)
+- [commit-m: GitHubコミットメッセージの文例が検索できるサービス](http://commit-m.minamijoyo.com/commits/search?keyword=fix+bug)
+- [musicForProgramming("38: J.S. Aurelius");](http://musicforprogramming.net/)
+- ランダムな画像返してくれる API
+    - [lorempixel - placeholder images for every case](http://lorempixel.com/)
+    - [PlaceIMG | Easy FPO and Dummy Images for Any Project](http://placeimg.com/)
+- [Poly](https://poly.google.com/)
+    - [Google Polyは3Dオブジェクトを多数掲載したサイト――CCライセンスで自由に使える | TechCrunch Japan](http://jp.techcrunch.com/2017/11/02/20171101google-launches-poly-a-home-for-the-worlds-3d-objects-built-for-creators/)
+- [連想類語辞典: 日本語シソーラス](http://renso-ruigo.com/)
+    - 日本語の類語検索
+- [Thesaurus.com | Synonyms and Antonyms of Words at Thesaurus.com](http://www.thesaurus.com/)
+    - 英語の類語検索
+- [1.1.1.1 — the Internet’s Fastest, Privacy-First DNS Resolver](https://1.1.1.1/ja-jp/)
+    - [Announcing 1.1.1.1: the fastest, privacy-first consumer DNS service](https://blog.cloudflare.com/announcing-1111/)
+
+## 素材集
+
+### グラフィック
+
+- [The Spriters Resource](http://www.spriters-resource.com/)
+- [A fantasy themed font and CSS toolkit](https://nagoshiashumari.github.io/Rpg-Awesome/)
+    - ゲームっぽいピクトグラムのフォント
+
+### サウンド
+
+- [ロイヤリティフリーで300種類のUIの動きに合わせて使える効果音源キット「SoundKit」 - GIGAZINE](http://gigazine.net/news/20141213-soundkit/)
+- [A Sound Effect](http://www.asoundeffect.com/)
+- [Sound Effects Download | Soundsnap.com](http://www.soundsnap.com/)
+
+### フォント
+
+- [mojimo-manga - あのマンガの、あのアニメの、あのフォントが使える！](https://mojimo.jp/manga/)
+
 ## Library
 
 - [AS3用のライブラリ集](http://phpspot.org/blog/archives/2008/08/3dactionscript3.html)
@@ -30,6 +67,7 @@ position: 5
 - [Underscore.js](http://underscorejs.org/)
 - [Backbone.js](http://backbonejs.org/)
 - [Sugar: A Javascript library for working with native objects.](http://sugarjs.com/)
+- [もう管理画面のフロントコードを書く必要はありません、そう Viron ならね。 - Qiita](https://qiita.com/tosaka07/items/87ef283db4b2ee19b636)
 
 ### HTML / CSS
 
@@ -63,31 +101,11 @@ position: 5
 ## Task Runner / Build System
 
 - [現場で使えるgulp入門 - gulpとは何か | CodeGrid](https://app.codegrid.net/entry/gulp-1)
-
-### Article
-
 - [HTML5 Apps on the Desktop in 2013 | Clint Berry](http://clintberry.com/2013/html5-apps-desktop-2013/)
 
 ## Static Site Generator
 
 - [Top Open-Source Static Site Generators - StaticGen](https://www.staticgen.com/)
-
-## Web Service
-
-- [GLSL Sandbox](http://glsl.heroku.com/)
-- [Coolors](http://coolors.co/)
-- [ColorSpace - Color Palettes Generator and Color Gradient Tool](https://mycolor.space/)
-- [commit-m: GitHubコミットメッセージの文例が検索できるサービス](http://commit-m.minamijoyo.com/commits/search?keyword=fix+bug)
-- [musicForProgramming("38: J.S. Aurelius");](http://musicforprogramming.net/)
-- ランダムな画像返してくれる API
-    - [lorempixel - placeholder images for every case](http://lorempixel.com/)
-    - [PlaceIMG | Easy FPO and Dummy Images for Any Project](http://placeimg.com/)
-- [Poly](https://poly.google.com/)
-    - [Google Polyは3Dオブジェクトを多数掲載したサイト――CCライセンスで自由に使える | TechCrunch Japan](http://jp.techcrunch.com/2017/11/02/20171101google-launches-poly-a-home-for-the-worlds-3d-objects-built-for-creators/)
-- [連想類語辞典: 日本語シソーラス](http://renso-ruigo.com/)
-    - 日本語の類語検索
-- [Thesaurus.com | Synonyms and Antonyms of Words at Thesaurus.com](http://www.thesaurus.com/)
-    - 英語の類語検索
 
 ## Task Management Tools
 

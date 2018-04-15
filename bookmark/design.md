@@ -21,6 +21,11 @@ position: 7
 - [ÉKRITS / エクリ | design / experience / architecture](http://ekrits.jp/)
 - [デザイナーのイラストノート](http://in.spicagraph.com/)
 - [SWINGS | Designers Online Magazine by BULANCO](http://bulan.co/swings/)
+- [Design Beginner｜note](https://note.mu/begin_design)
+
+### 書籍
+
+- [デザイナー向け認知科学／認知心理学の入門書｜yoshi_design｜note](https://note.mu/akio_yoshihashi/n/n0050f5a353b4)
 
 ## Creative / Artwork
 
@@ -48,6 +53,10 @@ position: 7
 - [こんな風に見えるんだ！イギリスの観光客が日本での体験をアニメに](https://www.buzzfeed.com/jp/eimiyamamitsu/tokyo-gifathon-james-curran?utm_term=.rbPv4Bo0G4#.oh17Ewa3yE)
 - [自作のアニメ制作ツールで作った超絶アクションを決めまくる自主制作アニメ「影と魔女 / THE SHADOW AND THE WITCH」がスゴい - GIGAZINE](http://gigazine.net/news/20170907-the-shadow-and-the-witch/)
 - [“Blizzard”から“CD Projekt Red”まで、クリスマスの到来を祝うホリデーカード/映像まとめ « doope! 国内外のゲーム情報サイト](https://doope.jp/2017/1272412.html)
+
+### Portfolio
+
+- [Googleのデザイナーなどのポートフォリオを300件以上閲覧できるサイト Bestfolios - LOGzeudon](http://blog.rokuzeudon.com/entry/bestfolios)
 
 ### Illustration
 
@@ -119,6 +128,7 @@ position: 7
 - [UIのビジュアルデザインにおけるちょっとしたコツをまとめた「Little UI Details」 - GIGAZINE](http://gigazine.net/news/20170911-little-ui-details/)
 - [最近のWebサイトで使われてる、UI要素をデザインするテクニックのまとめ -Little UI Details by Steve Schoger | コリス](http://coliss.com/articles/build-websites/operation/design/little-ui-details-by-steve-schoger.html)
 - [【保存版】プレゼン上手なデザイナーが徹底している「美しい図解」13＋αの黄金ルール | Career Panda](http://career-panda.com/illustration-techniques-for-presentation)
+- [ユーザーインターフェイス解剖学・改訂版（公開版） // Speaker Deck](https://speakerdeck.com/usagimaru/yuzaintahueisujie-pou-xue-gai-ding-ban-gong-kai-ban)
 
 ## 事例集
 
@@ -147,6 +157,8 @@ position: 7
 - [10秒、1分、10分で描いた絵を見比べる、イラストレーターたちのスピードお絵かきチャレンジが面白い](http://www.kotaro269.com/articles/50217.html)
 - [クロッキーポーズ 多分4,000ポーズ以上！270本以上のモデル動画がアップされているYoutubeチャンネル『CroquisCafe』 | CGトラッキング 世界のCGニュースを集めてみる](http://cgtracking.net/archives/41733)
 - [あなたが神か・・・！！マンガ・イラスト講師である長世氏のツイートが超わかりやすくて素晴らしい！！ – CG GEEKS](http://cg-geeks.com/archives/11474)
+- [イラスト初心者が絵の練習して3ヶ月でかなり上達したサイト教える](https://www.buzzfeed.com/jp/hikaruyoza/irasuto-syoshinsya-rensyu?utm_term=.bjRXVKqw5V#.jakQ9MdJa9)
+- [漫画家さんによる様々な光の描き分け方についての解説がとても勉強になると話題に「面白いなぁこれ」 - Togetter](https://togetter.com/li/1183608)
 
 ## シュッとしてる
 
@@ -167,6 +179,16 @@ position: 7
     - 全体的にクリーンな感じでかっこいい
 - [The DEV Community](https://dev.to/)
     - 表示速度速すぎて笑う
+
+#### 美しいドキュメント
+
+- [Principles - Shopify Polaris](https://polaris.shopify.com/principles/principles)
+- [Home - Office UI Fabric](https://developer.microsoft.com/en-us/fabric)
+- [Introduction - Material Design](https://material.io/guidelines/)
+
+#### エンジニアのポートフォリオ
+
+- [Matt Farley | Full Stack Designer & Maker of Digital Things](http://mattfarley.ca/#)
 
 ### デザイン / ガイドライン系
 

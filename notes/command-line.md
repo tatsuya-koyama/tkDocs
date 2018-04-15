@@ -9,10 +9,6 @@ position: 7
 
 # UNIX 系コマンド Memo （Mac 向け）
 
-## 参考リンク
-
-- [これだけ覚えておけばOK！シェルスクリプトで冪等性を担保するためのTips集 - Qiita](http://qiita.com/yn-misaki/items/3ec0605cba228a7d5c9a)
-
 ## よくやる系
 
 ### プロセス確認

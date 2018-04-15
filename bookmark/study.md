@@ -26,7 +26,7 @@ position: 3
 - [Games.com](http://blog.games.com/)
 - [Pocket Gamer](http://www.pocketgamer.co.uk/)
 
-## Business / Monetize
+## Business / Money / Monetize
 
 - [海外ディベロッパーの売上比較（Inside Mobile App）](http://www.insidemobileapps.com/2012/02/22/a-review-of-annual-quarterly-earnings-for-android-ios-gaming-companies/)
 - [海外サイトGamesRadarが『歴代ベストゲーム』TOP100を発表](http://gs.inside-games.jp/news/331/33129.html)
@@ -52,13 +52,13 @@ position: 3
 - [スタートアップに転職する時に最低限知っておくべき株の話](http://nmi.jp/2016-07-23-stock-strategy-for-early-startup-employee)
 - [資金決済法/サービス終了時の払い戻しに関する法律](http://www.entame.work/shikin_kessai/)
 
-## Web Service
+### 仮想通貨
 
-- [なぜ「Turntable.fm」はユーザーを夢中にさせるのか](http://www.assioma.jp/?p=382)
+- [10分でわかるビットコインの本質 | KOMUGI](http://komugi.jp/?p=780)
 
-## 雑学
+### 世の KPI
 
-- [【必見】生きる上でマジで役立つ画像を貼ってくぞｗｗｗｗｗｗｗｗｗｗPart２】 : 【2ch】ニュー速クオリティ](http://news4vip.livedoor.biz/archives/52253249.html)
+- [モンスト1,300億円、FGO 982億円、ポケGO 890億円。2017年のアプリ収益データとツイートまとめ。｜アプリマーケティング研究所｜note](https://note.mu/marketing/n/nbb76740eb6ac)
 
 ## 文章 / シナリオ
 
@@ -75,6 +75,14 @@ position: 3
 - [アイデア大全ー52の発想法／思いつくことに行き詰まった時に開く備忘録 読書猿Classic: between / beyond readers](http://readingmonkey.blog45.fc2.com/blog-entry-765.html)
 - [議論で「負け」が運命付けられている思考方法30パターン - GIGAZINE](http://gigazine.net/news/20150213-logical-fallacy-collection/)
 
+## 雑学
+
+- [【必見】生きる上でマジで役立つ画像を貼ってくぞｗｗｗｗｗｗｗｗｗｗPart２】 : 【2ch】ニュー速クオリティ](http://news4vip.livedoor.biz/archives/52253249.html)
+
+## 書籍
+
+- [起業家けんすうさんが質問箱でオススメされた本24冊+αを意地でまとめてみた - 読書熊録](http://www.dokushok.com/entry/2018/03/31/143000)
+
 ## 漫画
 
 - [近未来や宇宙に思いを馳せるおすすめSF漫画 - 心に火を、指先にペンを](http://www.kokoro-fire.com/entry/sf-manga)
@@ -90,6 +98,10 @@ position: 3
 - [オンラインゲームを「オカンでも説明無しで楽しめる」ように作るためにすべきこと](http://gigazine.net/news/20110920_dropwave_game_planner_cedec2011/)
 - [「良い企画」の条件　または「良い斬新」とはなにか](http://d.hatena.ne.jp/shi3z/20111112/1321057463)
 - [ソーシャルゲームと従来型ゲームは何が違うのか](http://d.hatena.ne.jp/GiGir/20120118/1326854977)
+
+## Web Service
+
+- [なぜ「Turntable.fm」はユーザーを夢中にさせるのか](http://www.assioma.jp/?p=382)
 
 ## Development / Programming / Management / Working
 
@@ -109,6 +121,8 @@ position: 3
 - [面接の時に聞いてよかった質問と、意味がなかった質問をまとめてみた by 古川 健介 | Supership Tech Blog](https://www.wantedly.com/companies/Supership/post_articles/52240)
 - [個人開発で得たスピード仕事術 – 週休７日で働きたい](https://blog.craftz.dog/how-to-improve-your-work-speed-with-toc-169d60277bd1)
 - [ダメなリーダーは現場に「要求」し、優れたリーダーは現場を「○○」する。 | 優れたリーダーはみな小心者である。 | ダイヤモンド・オンライン](http://diamond.jp/articles/-/151181)
+- [米海兵隊が"PDCA"より"OODA"を使うワケ | プレジデントオンライン](http://president.jp/articles/-/24000)
+- [良いテックリード、悪いテックリード - 小さなごちそう](http://tannomizuki.hatenablog.com/entry/2018/02/22/180410)
 
 ## Study / Practice / LifeStyle / 人間心理
 
@@ -153,6 +167,7 @@ ____
 
 - [科学道100冊一覧 - 科学道100冊](http://kagakudo100.jp/lineup/)
 - [［CEDEC 2017］参加者を魅了する謎の砂場「流動床インタフェース」とは？ - 4Gamer.net](http://www.4gamer.net/games/999/G999905/20170830127/)
+- [猫でもわかる宇宙の秘密 | nomura_space.pdf - Google ドライブ](https://drive.google.com/file/d/133deD8C2MSJNTOy_5aPfHzIeS2Bx6Ztd/view)
 
 ## Academic
 

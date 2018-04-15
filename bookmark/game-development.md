@@ -30,6 +30,7 @@ position: 1
 ## Creators / Interviews
 
 - [【UNDERTALE含む外国人クリエイター6人の証言】海外大ヒットインディーゲーム開発者は“和ゲー”を心底愛している──影響を受けた日本のゲーム、尊敬する人は？](http://news.denfaminicogamer.jp/interview/180213)
+- [WORKS｜『アイドルマスター ミリオンライブ！シアターデイズ』ができるまで（前編）](https://www.bandainamcostudios.com/works/marche/mirishita_part1.html)
 
 ## Wiki / Portal
 
@@ -44,6 +45,9 @@ position: 1
 - [Red Blob Games](http://www.redblobgames.com/)
     - [Blobs in Games (ブログ)](http://simblob.blogspot.jp/)
 
+## 書籍
+
+- [エンジンに頼らないゲームプログラマになるためのおすすめ本まとめ](https://freelifetech.com/recommended-books-for-game-programmer/)
 
 ## Nice Games / Inspirations
 
@@ -110,6 +114,7 @@ position: 1
 - [ゲームをおもしろくするコツ：連載｜gihyo.jp … 技術評論社](http://gihyo.jp/lifestyle/serial/01/game-interesting-knack)
   - 遠藤さんの連載
 - [ゲームの面白さを生み、より高めるための法則とは？──『カービィ』『スマブラ』の生みの親・桜井政博氏による研究の集大成となる講演をWeb上に再現【若ゲのいたり・特別編】](http://news.denfaminicogamer.jp/kikakuthetower/171130b)
+- [“中毒性の魔術師”はいかにして「あと1回」のストラテジーゲームを作るのか？『FTL』、『Into the Breach』で高評価を得たSubset Gamesに聞く「足すのではなく引く開発」の極意](http://news.denfaminicogamer.jp/gamenewsplus/180326)
 
 ### レベルデザイン / 難易度調整
 
@@ -128,6 +133,10 @@ position: 1
 - [マシな画面を作る](https://www.slideshare.net/okumasama/ss-38532931?ref=http://chy72.hatenablog.com/entry/2015/11/08/001413)
 - [iPhone5SでSSAOを実装してみる。 - WonderPlanet DEVELOPER BLOG](http://developer.wonderpla.net/entry/blog/engineer/iPhone5S_SSAO/)
 - [西川善司の「試験に出るゲームグラフィックス」（9）「ストリートファイターV」における高密度なノンフォトリアル表現，そのレシピを探る・前編 - 4Gamer.net](http://www.4gamer.net/games/283/G028398/20180130049/)
+
+## Game Sound / Music
+
+- [ゼルダの伝説ブレスオブザワイルドのサントラを買う人が知らないゼルダBGMの裏側｜じーくどらむす｜note](https://note.mu/geekdrums/n/naeac6465b1a5)
 
 ## UI / UX Design
 
@@ -186,6 +195,7 @@ position: 1
 ## 運用 / 分析 / マネタイズ
 
 - [DAUを評価指標から捨てた会社の話 #tokyowebmining](https://www.slideshare.net/TokorotenNakayama/dau-21559783)
+- [『ZOZOTOWN おまかせ定期便』の仕組みを抽象化して、ゲームのガチャに応用してみた｜山田裕希 / ふんどしパレード｜note](https://note.mu/yhiroki/n/n01ac153656cf)
 
 ## Algorithm
 
@@ -238,6 +248,7 @@ position: 1
 - [Unity - マニュアル: イベント関数の実行順](http://docs.unity3d.com/ja/current/Manual/ExecutionOrder.html)
 - [伝統的なゲームデザインをUnityで表現する | Made with Unity](https://madewithunity.jp/stories/aka-to-blue/)
 - [Unityの新GUI、uGUIはどうなる？こうなる！](http://terasur.blog.fc2.com/blog-entry-813.html)
+- [Unityでマリオっぽいゲームを作るのに必要な５つのこと - おもちゃラボ](http://nn-hokuson.hatenablog.com/entry/2017/11/29/192514)
 
 ### Unity シェーダ
 
@@ -270,20 +281,6 @@ position: 1
 
 - [MMO用語集](http://lovelove.rabi-en-rose.net/blog.php?n=42#abbreviation)
 - [遊戯王ＴＣＧで学ぶ表現規制 記事一覧 - 鈴木君の海、その中](http://d.hatena.ne.jp/sudzuking/archive?word=%2A%5B%CD%B7%B5%BA%B2%A6%A3%D4%A3%C3%A3%C7%A4%C7%B3%D8%A4%D6%C9%BD%B8%BD%B5%AC%C0%A9%5D)
-
-## 素材集
-
-### グラフィック
-
-- [The Spriters Resource](http://www.spriters-resource.com/)
-- [A fantasy themed font and CSS toolkit](https://nagoshiashumari.github.io/Rpg-Awesome/)
-    - ゲームっぽいピクトグラムのフォント
-
-### サウンド
-
-- [ロイヤリティフリーで300種類のUIの動きに合わせて使える効果音源キット「SoundKit」 - GIGAZINE](http://gigazine.net/news/20141213-soundkit/)
-- [A Sound Effect](http://www.asoundeffect.com/)
-- [Sound Effects Download | Soundsnap.com](http://www.soundsnap.com/)
 
 ## iOS
 
