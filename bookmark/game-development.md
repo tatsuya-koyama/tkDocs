@@ -192,6 +192,10 @@ position: 1
 - [How to write a 48-hour game in just 2 years](http://pixelated.postagon.com/5g437329d)
 - [修羅場習慣](http://www.radiumsoftware.com/0502.html#050214)
 
+### Agile
+
+- [【翻訳】ストーリーポイントを使うのをやめよう - PoohSunny's blog](http://poohsunny.hatenablog.com/entry/2017/12/18/235235)
+
 ## 運用 / 分析 / マネタイズ
 
 - [DAUを評価指標から捨てた会社の話 #tokyowebmining](https://www.slideshare.net/TokorotenNakayama/dau-21559783)
