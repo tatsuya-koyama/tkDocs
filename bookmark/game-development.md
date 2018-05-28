@@ -194,7 +194,16 @@ position: 1
 
 ### Agile
 
+- [プロダクトバックログ | Ryuzee.com](http://www.ryuzee.com/tags/%E3%83%97%E3%83%AD%E3%83%80%E3%82%AF%E3%83%88%E3%83%90%E3%83%83%E3%82%AF%E3%83%AD%E3%82%B0/)
+  - [プロダクトバックログにおけるよくある質問と答え | Ryuzee.com](http://www.ryuzee.com/contents/blog/5614)
+- [ストーリーポイントに関する15個のよくある質問と答え | Ryuzee.com](http://www.ryuzee.com/contents/blog/3716)
+
+____
+
 - [【翻訳】ストーリーポイントを使うのをやめよう - PoohSunny's blog](http://poohsunny.hatenablog.com/entry/2017/12/18/235235)
+- [【スクラム入門】認定スクラムマスターの俺が正しいスクラムの理論をまとめる](https://qiita.com/gold-kou/items/90ba982a14ca79d843c9)
+- [簡単！楽しい！5分でわかるユーザーストーリーマッピング(User Story Mapping)](https://qiita.com/Koki_jp/items/6aebc73bedd0a932dcb8)
+  - バックログの整理とか分解の仕方とか
 
 ## 運用 / 分析 / マネタイズ
 
@@ -258,6 +267,8 @@ position: 1
 
 - [楽しい！Unityシェーダー お絵描き入門！ - Google スライド](https://docs.google.com/presentation/d/1NMhx4HWuNZsjNRRlaFOu2ysjo04NgcpFlEhzodE8Rlg/edit#slide=id.p)
 - [Unity のシェーダの基礎を勉強してみたのでやる気出してまとめてみた - 凹みTips](http://tips.hecomi.com/entry/2014/03/16/233943)
+- [Unityでシェーダを学ぶ時に参考した本とか](https://qiita.com/n0mimono/items/dee06a94dc298cdb70f0)
+  - 本と言いつつ本はほとんどなく有用なリンク集といったところ
 
 ## 3D / Rendering
 
