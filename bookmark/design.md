@@ -141,6 +141,7 @@ position: 7
 - [色彩心理学：マーケティング担当者のための完全ガイド | デザイン | POSTD](http://postd.cc/color-psychology/)
 - [Web制作で配色に迷わない！美しすぎるカラーパレット50個まとめ - PhotoshopVIP](http://photoshopvip.net/archives/86191)
 - [デザインシステムに採用する色を決める5つのルール : could](http://www.yasuhisa.com/could/article/design-system-colors/)
+- [エンジニアのための配色まとめ - Qiita](https://qiita.com/maccotsan/items/d51c992a20385427e689)
 
 ## Drawing
 
@@ -179,6 +180,7 @@ position: 7
     - 全体的にクリーンな感じでかっこいい
 - [The DEV Community](https://dev.to/)
     - 表示速度速すぎて笑う
+- [MoonScript, a language that compiles to Lua](http://moonscript.org/)
 
 #### 美しいドキュメント
 

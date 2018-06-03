@@ -48,6 +48,10 @@ position: 6
 
 - [塗り絵とパズルを融合させた『Coloring』とかいうアプリが地味に面白いｗ全ステージ攻略のハードルは高いぞ - wepli.2](http://wepli-dot2.hatenablog.com/entry/nuriepuzzle-coloring)
 
+## ナイスアイディア
+
+- [ボツになったアイディアを捨てるため“オクラ入りゴミ箱”が面白い「お蔵とオクラをかけたのか」「粘っていいアイディアが出そう」 - Togetter](https://togetter.com/li/1226920)
+
 ## 秀逸な記事
 
 - [料理のさしすせそ - アンサイクロペディア](http://ansaikuropedia.org/wiki/%E3%81%95%E3%81%97%E3%81%99%E3%81%9B%E3%81%9D)
