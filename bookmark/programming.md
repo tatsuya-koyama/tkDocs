@@ -220,6 +220,8 @@ ____
 - [minimaxir/big-list-of-naughty-strings: The Big List of Naughty Strings is a list of strings which have a high probability of causing issues when used as user-input data.](https://github.com/minimaxir/big-list-of-naughty-strings)
 - [Gitのhashが衝突するのはどれくらいの確率か : mwSoft blog](http://blog.mwsoft.jp/article/173786778.html)
     - [誕生日攻撃 - Wikipedia](https://ja.wikipedia.org/wiki/%E8%AA%95%E7%94%9F%E6%97%A5%E6%94%BB%E6%92%83)
+    - 以下にも SHA-1 ハッシュ衝突可能性についての言及がある：
+        - [Git - リビジョンの選択](https://git-scm.com/book/ja/v1/Git-%E3%81%AE%E3%81%95%E3%81%BE%E3%81%96%E3%81%BE%E3%81%AA%E3%83%84%E3%83%BC%E3%83%AB-%E3%83%AA%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3%E3%81%AE%E9%81%B8%E6%8A%9E)
 - [海外へのゲーム配信で注意すること - Qiita](http://qiita.com/SayakaIto/items/dd727064ad29266aae92)
 - [安全なウェブサイトの作り方：IPA 独立行政法人 情報処理推進機構](https://www.ipa.go.jp/security/vuln/websecurity.html)
 - [スマホゲームセキュリティ - IL2CPPは本当に安全なの？](https://www.nevermoe.com/wp-content/uploads/2016/11/avtokyo_jp_re.pdf)
