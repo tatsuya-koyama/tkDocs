@@ -82,6 +82,20 @@ ____
     - 増設、展開
     - 多方面に大きくなる感じ
 
+### state と status
+- [「status vs state」論争に終止符を打つ](https://qiita.com/ysn551/items/01c1f849d801fab54956)
+    - status は状態の集合で、state は個別の状態（status に入りうる状態の 1 つ）みたいな感覚が多そう
+
+### defense と defence
+- s の方が American, c の方が British
+
+### amount と quantity
+- amount は抽象的な量、かさ
+- quantity は具体的な物の数量
+
+### number と count, あと total とか
+- [モノの数を数える変数名の命名 は fooCount の形式が良いみたい](https://qiita.com/naqtn/items/54457666316461d098a4)
+- number もよく見るが何の数字か曖昧になってしまうよな（数量なのか index なのか）
 
 <br/><br/><br/>
 
