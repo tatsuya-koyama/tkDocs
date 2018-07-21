@@ -129,6 +129,8 @@ position: 7
 - [最近のWebサイトで使われてる、UI要素をデザインするテクニックのまとめ -Little UI Details by Steve Schoger | コリス](http://coliss.com/articles/build-websites/operation/design/little-ui-details-by-steve-schoger.html)
 - [【保存版】プレゼン上手なデザイナーが徹底している「美しい図解」13＋αの黄金ルール | Career Panda](http://career-panda.com/illustration-techniques-for-presentation)
 - [ユーザーインターフェイス解剖学・改訂版（公開版） // Speaker Deck](https://speakerdeck.com/usagimaru/yuzaintahueisujie-pou-xue-gai-ding-ban-gong-kai-ban)
+- [UI Sources | Mobile Design Patterns and Interactions](https://www.uisources.com/)
+- [人はなぜ「分かりやすいデザイン」でも失敗するのか｜Tsutomu Sogitani｜note](https://note.mu/sogitani/n/n1bba171f11e0)
 
 ## 事例集
 
@@ -168,6 +170,7 @@ position: 7
 - [julienlavallee](http://www.julienlavallee.com/)
 - [tauadesign.com](http://tauadesign.com/)
 - [feb19.jp - Nobuhiro Takahashi [ Designer / Engineer ]](http://feb19.jp/)
+- [Seán Halpin - a web designer & developer - Notes](http://seanhalpin.io/notes)
 
 ### エンジニア系
 
@@ -197,6 +200,7 @@ position: 7
 - [Shopify Polaris - Principles](https://polaris.shopify.com/principles/principles)
 - [Home - Office UI Fabric](https://developer.microsoft.com/en-us/fabric)
 - [Introduction - Material Design](https://material.io/guidelines/)
+- [Find Designers - Dribbble](https://dribbble.com/designers)
 
 ### 情報サイト系
 

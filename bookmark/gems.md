@@ -48,6 +48,10 @@ position: 6
 
 - [塗り絵とパズルを融合させた『Coloring』とかいうアプリが地味に面白いｗ全ステージ攻略のハードルは高いぞ - wepli.2](http://wepli-dot2.hatenablog.com/entry/nuriepuzzle-coloring)
 
+## なるほど
+
+- [寄り目を利用した「目diff」および「立体インデント」の考案](https://qiita.com/set0gut1/items/be9247910eb7c155d592)
+
 ## ナイスアイディア
 
 - [ボツになったアイディアを捨てるため“オクラ入りゴミ箱”が面白い「お蔵とオクラをかけたのか」「粘っていいアイディアが出そう」 - Togetter](https://togetter.com/li/1226920)

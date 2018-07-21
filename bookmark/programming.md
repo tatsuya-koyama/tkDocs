@@ -88,6 +88,7 @@ ____
 - [開発速度と品質のトレードオフの判断基準の合意 - Hatena Developer Blog](http://developer.hatenastaff.com/entry/2016/12/24/063000)
 - [Big Sky :: Rob Pike のプログラミングに関する5つの掟](http://mattn.kaoriya.net/software/rob-pike-s-5-rules-of-programming.htm)
 - [モノリシックなバージョン管理の利点 | プログラミング | POSTD](http://postd.cc/monorepo/)
+- [初心者プログラマが犯しがちな過ち25選](https://qiita.com/rana_kualu/items/379eefb3a40c6b44cb92)
 
 ## Architecture / System
 
@@ -230,6 +231,10 @@ ____
 - [文字列（ハッシュ）の安全な比較方法 – hash_equals | yohgaki's blog](https://blog.ohgaki.net/hash-string-safe-comparison)
     - タイミング攻撃への対策
 
+## インフラ / Server Architecture
+
+- [ソーシャルゲーム サーバーアーキテクチャ選定 | GREE Engineers' Blog](http://labs.gree.jp/blog/2018/05/16861/)
+
 ## Web Architecture / Web Programming
 
 - [2015年Webサーバアーキテクチャ序論 - ゆううきブログ](http://yuuki.hatenablog.com/entry/2015-webserver-architecture)
@@ -257,6 +262,10 @@ ____
 ## Web Framework
 
 - [やわらかVue.js - Scrapbox](https://scrapbox.io/vue-yawaraka)
+
+### Rails
+
+- [大きな Rails アプリケーションをなんとかしよう。まずは計測と可視化からはじめよう。 - クックパッド開発者ブログ](https://techlife.cookpad.com/entry/2018/06/08/080000)
 
 ## Server-Client / オンラインゲーム開発 / リアルタイム通信
 
@@ -369,6 +378,7 @@ ____
 - [初期化配列の実装 - Qiita](https://qiita.com/kgoto/items/0251e442292d8ebc1f3d)
 - [「ソート」を極める！ 〜 なぜソートを学ぶのか 〜 - Qiita](https://qiita.com/drken/items/44c60118ab3703f7727f)
 - [ビット演算 (bit 演算) の使い方を総特集！ 〜 マスクビットから bit DP まで 〜 - Qiita](https://qiita.com/drken/items/7c6ff2aa4d8fce1c9361)
+- [ブロックチェーンを10分で理解するための資料 - メルミライ - 未来を見るメディア](http://www.mermirai.com/entry/0409_blockchain)
 
 ### 圧縮
 

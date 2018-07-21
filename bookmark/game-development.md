@@ -21,6 +21,7 @@ position: 1
 - [I was game](http://iwasgame.tumblr.com/)
 - [プレイヤーのゲーム体験は、知らないうちに高められていた？ゲーム開発者らがこっそり加えた「工夫」を語り合う | AUTOMATON](http://jp.automaton.am/articles/newsjp/20170905-53893/)
 - [終わりと向き合うソーシャルゲーム。2017年終了のゲームたちが「終わった後に楽しむ」アプリを出し始める](http://www.gamecast-blog.com/archives/65905310.html)
+- [ゲームとは何か｜読み物｜マジック：ザ・ギャザリング 日本公式ウェブサイト](https://mtg-jp.com/reading/mm/0030677/)
 
 ## Movie
 
@@ -31,6 +32,7 @@ position: 1
 
 - [【UNDERTALE含む外国人クリエイター6人の証言】海外大ヒットインディーゲーム開発者は“和ゲー”を心底愛している──影響を受けた日本のゲーム、尊敬する人は？](http://news.denfaminicogamer.jp/interview/180213)
 - [WORKS｜『アイドルマスター ミリオンライブ！シアターデイズ』ができるまで（前編）](https://www.bandainamcostudios.com/works/marche/mirishita_part1.html)
+- [ロックマン11 ゲームのつくりかた。 - YouTube](https://www.youtube.com/playlist?list=PLG9Vclgo7ASJlyuzCLZSLNeWweQQGPxmT)
 
 ## Wiki / Portal
 
@@ -55,10 +57,10 @@ position: 1
 - [Best GBJAM 4 Games | Game Jolt Jams](http://jams.gamejolt.io/gbjam4/games)
 
 
-## 参考になるソースとかゲーム
+## 参考になるソースとかゲーム / 世のおすすめゲーム
 
 - [ABA の日誌：2013年作ったゲーム遊んだゲーム](http://d.hatena.ne.jp/ABA/20131227#p1)
-
+- [【セール】Steamで800本遊んだゲーマーが、絶対ハマるとオススメする50本の名作ゲーム - ゲーマー日日新聞](http://arcadia11.hatenablog.com/entry/2018/06/03/Steam%E3%81%A7800%E6%9C%AC%E9%81%8A%E3%82%93%E3%81%A0%E3%82%B2%E3%83%BC%E3%83%9E%E3%83%BC%E3%81%8C%E3%80%81%E7%B5%B6%E5%AF%BE%E3%83%8F%E3%83%9E%E3%82%8B%E3%81%A8%E3%82%AA%E3%82%B9%E3%82%B9%E3%83%A1)
 
 ## Game Engine / 低レイヤー
 
@@ -142,6 +144,7 @@ position: 1
 
 - [ゲームのUIデザインの参考にするときに見るサイト - NAVER まとめ](https://matome.naver.jp/odai/2147909332473910501)
     - [ゲームUIブログ | ゲームUI画像の収集と考察 - Part 6](http://gameui.matme.info/blog/page/6)
+- [マリオメーカーのUI/UXデザイナーが語る「弱点を克服する娯楽UI」の原点とは | 超ゲームウォーカー!](http://gamewalker.link/column/ui-crunch-nintendo-mariomaker/)
 
 ## Business Model / Monetize
 
@@ -262,6 +265,8 @@ ____
 - [伝統的なゲームデザインをUnityで表現する | Made with Unity](https://madewithunity.jp/stories/aka-to-blue/)
 - [Unityの新GUI、uGUIはどうなる？こうなる！](http://terasur.blog.fc2.com/blog-entry-813.html)
 - [Unityでマリオっぽいゲームを作るのに必要な５つのこと - おもちゃラボ](http://nn-hokuson.hatenablog.com/entry/2017/11/29/192514)
+- [Get Started with the Unity* Entity Component System (ECS), C# Job System, and Burst Compiler | Intel® Software](https://software.intel.com/en-us/articles/get-started-with-the-unity-entity-component-system-ecs-c-sharp-job-system-and-burst-compiler)
+- [「いけにえと雪のセツナ」グラフィック解説（第1回・フロー編） – 株式会社ロジカルビート](http://logicalbeat.jp/blog/dev-case/311/)
 
 ### Unity シェーダ
 

@@ -46,6 +46,7 @@ position: 3
 - [なぜビジネスコンテストからビジネスが生まれないのか？ – ところてん – Medium](https://medium.com/@tokoroten/%E3%81%AA%E3%81%9C%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%82%B3%E3%83%B3%E3%83%86%E3%82%B9%E3%83%88%E3%81%8B%E3%82%89%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%81%8C%E7%94%9F%E3%81%BE%E3%82%8C%E3%81%AA%E3%81%84%E3%81%AE%E3%81%8B-54334d387de2)
     - Will, Can, Must の話
 - [2017年後半に感動したビジネスモデルまとめ10個 #ビジネスモデル図解シリーズ｜チャーリー｜note](https://note.mu/tck/n/n527f9f2244b4)
+- [専門学校の授業『お金持ちになるゲーム』がシンプルなのに大きな衝撃と影響を受けた人の話 - Togetter](https://togetter.com/li/1246452)
 
 ### お金とか法律
 
@@ -123,6 +124,7 @@ position: 3
 - [ダメなリーダーは現場に「要求」し、優れたリーダーは現場を「○○」する。 | 優れたリーダーはみな小心者である。 | ダイヤモンド・オンライン](http://diamond.jp/articles/-/151181)
 - [米海兵隊が"PDCA"より"OODA"を使うワケ | プレジデントオンライン](http://president.jp/articles/-/24000)
 - [良いテックリード、悪いテックリード - 小さなごちそう](http://tannomizuki.hatenablog.com/entry/2018/02/22/180410)
+- [30歳を迎えたソフトウェア開発者である私が、20代のころに聴いておきたかったアドバイス | ライフハッカー［日本版］](https://www.lifehacker.jp/2015/03/150305software_developer.html)
 
 ## Study / Practice / LifeStyle / 人間心理
 
@@ -143,6 +145,9 @@ position: 3
 - [相手の「事実」が間違っている時に争いを起こさず平和的に納得させるポイント - GIGAZINE](http://gigazine.net/news/20170112-how-to-convince-someone-fact-fail/)
 - [AWS事業部の採用方針について ｜ Developers.IO](http://dev.classmethod.jp/etc/aws-division-recruitment-policy/)
     - 認知バイアスのまとめがある
+- [おっさんから若者に贈る「経験を買う」6冊: わたしが知らないスゴ本は、きっとあなたが読んでいる](http://dain.cocolog-nifty.com/myblog/2018/07/6-f810.html)
+    - 怒らないこととか、問題解決の本とか
+- [土日の体感時間を“1週間”に延ばせる!? 目からウロコの「時間の長さコントロール法」｜新R25 - 世の中がわかるジブンもいい。](https://r25.jp/article/561114081475273212)
 
 ____
 
@@ -157,6 +162,9 @@ ____
 - [Google Chromeが採用した、擬似乱数生成アルゴリズム「xorshift」の数理 – びりあるの研究ノート](https://blog.visvirial.com/articles/575)
 - [「パッと見素数」に気をつけろ！ - アジマティクス](http://motcho.hateblo.jp/entry/2016/12/11/190626)
 - [やたらすごい素数 - インテジャーズ](http://integers.hatenablog.com/entry/2017/05/31/212451)
+- [とある517桁の素数 - INTEGERS](http://integers.hatenablog.com/entry/2018/07/18/201758)
+    - 四角に並べると文字が浮かび上がる
+- [ある数が「○の倍数か」を見分けるための“万能”な方法 - ねとらぼ](http://nlab.itmedia.co.jp/nl/articles/1805/04/news002.html)
 
 ## Statistics / Numbers
 
